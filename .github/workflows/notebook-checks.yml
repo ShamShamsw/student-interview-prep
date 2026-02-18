@@ -1,6 +1,6 @@
 name: Notebook Checks
 
-on:
+'on':
   push:
     paths:
       - "**/*.ipynb"

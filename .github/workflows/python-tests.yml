@@ -1,6 +1,5 @@
 name: Python Tests
-
-'on':
+on:
   push:
     paths:
       - "languages/python/**"
@@ -34,7 +33,7 @@ jobs:
       - name: Run pytest (if tests exist)
         shell: bash
         run: |
-          if [ -d "languages/python/tests" ] && find languages/python/tests -type f \( -name "test_*.py" -o -name "*_test.py" \) | grep -q .; then
+          if [ -d "languages/python/tests" ] && (find languages/python/tests -type f -name "test_*.py" | grep -q . || find languages/python/tests -type f -name "*_test.py" | grep -q .); then
             pytest -q languages/python/tests
           else
             echo "No Python tests found in languages/python/tests. Skipping pytest."
