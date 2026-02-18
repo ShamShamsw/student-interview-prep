@@ -2,6 +2,8 @@
 
 This guide tells you exactly what to do next in this repository, week by week.
 
+Companion tracker: [LEARNING_PATH_CHECKLIST.md](LEARNING_PATH_CHECKLIST.md)
+
 ## How to use this path
 
 - Pick **one** track: 8-week (faster) or 12-week (steadier).
@@ -181,6 +183,59 @@ This is the same progression with more spacing, review, and recovery room.
 2. Prioritize weak topics over random variety.
 3. Use the AI playbook: isolate bug, create failing test, ask focused questions.
 4. Recover by adding one extra focused session in the next week.
+
+---
+
+## Stuck? Troubleshoot and Re-approach
+
+Use this sequence anytime you feel blocked on a problem or project task.
+
+### 1) Diagnose the block type
+
+- **Concept block**: you do not know which pattern applies.
+- **Implementation block**: you know the pattern but code keeps failing.
+- **Debug block**: code mostly works but edge cases break it.
+- **Scope block**: task became too large and unclear.
+
+### 2) 20-minute reset protocol
+
+1. Write the exact goal in one sentence.
+2. Write expected input/output for one small example.
+3. Shrink to the smallest failing case.
+4. Add a quick test or assert for that case.
+5. Try one small change only.
+
+If still blocked after 20 focused minutes, escalate.
+
+### 3) Re-approach patterns
+
+- **For problems**: switch to template thinking (two pointers, sliding window, stack, binary search, DFS/BFS, DP).
+- **For APIs/projects**: move logic out of endpoints into one small helper/service function and test it directly.
+- **For failing tests**: rerun a single test first, then broaden once fixed.
+
+### 4) Safe escalation ladder
+
+1. Read your own failing code out loud.
+2. Compare with one known-good solution in this repo.
+3. Check official docs for the exact library behavior.
+4. Ask AI with full context (goal, code, error, expected output).
+5. Apply smallest fix and re-run tests.
+
+### 5) Rules that prevent panic loops
+
+- Do not rewrite everything at once.
+- Do not skip tests just to "move on".
+- Do not add new tools/frameworks while blocked.
+- Always capture what failed and what changed.
+
+### 6) When to move on
+
+Move on and schedule a revisit if:
+- you spent >90 minutes with no measurable progress,
+- core weekly milestones are at risk,
+- you can clearly document what remains unclear.
+
+Use the next session to return with a fresh, smaller test case.
 
 ---
 
