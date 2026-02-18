@@ -1,6 +1,7 @@
 name: YAML Lint
 
 'on':
+  workflow_dispatch:
   push:
     paths:
       - ".github/workflows/*.yml"
@@ -14,9 +15,17 @@ name: YAML Lint
       - ".yamllint"
       - ".yamllint.yml"
 
+permissions:
+  contents: read
+
+concurrency:
+  group: yaml-lint-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   yamllint:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout

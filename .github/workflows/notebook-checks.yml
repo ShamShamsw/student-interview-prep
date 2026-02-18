@@ -1,6 +1,7 @@
 name: Notebook Checks
 
 'on':
+  workflow_dispatch:
   push:
     paths:
       - "**/*.ipynb"
@@ -12,9 +13,17 @@ name: Notebook Checks
       - ".github/workflows/notebook-checks.yml"
       - ".github/scripts/check_notebooks.py"
 
+permissions:
+  contents: read
+
+concurrency:
+  group: notebook-checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   notebooks:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
@@ -24,11 +33,16 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Install notebook check deps
         run: |
           python -m pip install --upgrade pip
-          pip install nbformat
+          python -m pip install nbformat
+
+      - name: Show notebook count
+        run: |
+          find . -type f -name "*.ipynb" | wc -l
 
       - name: Validate notebooks
         run: python .github/scripts/check_notebooks.py

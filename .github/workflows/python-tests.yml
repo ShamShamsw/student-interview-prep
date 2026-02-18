@@ -1,5 +1,6 @@
 name: Python Tests
 on:
+  workflow_dispatch:
   push:
     paths:
       - "languages/python/**"
@@ -9,12 +10,25 @@ on:
       - "languages/python/**"
       - ".github/workflows/python-tests.yml"
 
+permissions:
+  contents: read
+
+concurrency:
+  group: python-tests-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  test:
+  problems-tests:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     strategy:
+      fail-fast: false
       matrix:
         python-version: ["3.10", "3.11", "3.12"]
+
+    defaults:
+      run:
+        shell: bash
 
     steps:
       - name: Checkout
@@ -24,50 +38,152 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: |
+            .github/workflows/python-tests.yml
+
+      - name: Show Python version
+        run: |
+          python --version
+          python -m pip --version
 
       - name: Install test dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytest
-          if [ -f "languages/python/projects/interview-patterns-api/requirements.txt" ]; then
-            pip install -r languages/python/projects/interview-patterns-api/requirements.txt
-          fi
-          if [ -f "languages/python/projects/interview-prep-capstone/requirements.txt" ]; then
-            pip install -r languages/python/projects/interview-prep-capstone/requirements.txt
-          fi
+          python -m pip install pytest
 
-      - name: Run problem harness tests (if present)
-        shell: bash
+      - name: Run problem harness tests
         run: |
           if [ -d "languages/python/problems/tests" ] && (find languages/python/problems/tests -type f -name "test_*.py" | grep -q . || find languages/python/problems/tests -type f -name "*_test.py" | grep -q .); then
-            pytest -q languages/python/problems/tests
+            pytest -q -ra languages/python/problems/tests
           else
             echo "No tests found in languages/python/problems/tests. Skipping."
           fi
 
-      - name: Run API endpoint tests (if present)
+  interview-patterns-api-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    defaults:
+      run:
         shell: bash
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: |
+            languages/python/projects/interview-patterns-api/requirements.txt
+
+      - name: Show Python version
+        run: |
+          python --version
+          python -m pip --version
+
+      - name: Install API test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest
+          python -m pip install -r languages/python/projects/interview-patterns-api/requirements.txt
+
+      - name: Run API endpoint tests
         run: |
           if [ -d "languages/python/projects/interview-patterns-api/tests" ] && (find languages/python/projects/interview-patterns-api/tests -type f -name "test_*.py" | grep -q . || find languages/python/projects/interview-patterns-api/tests -type f -name "*_test.py" | grep -q .); then
-            pytest -q languages/python/projects/interview-patterns-api/tests
+            pytest -q -ra languages/python/projects/interview-patterns-api/tests
           else
             echo "No tests found in interview-patterns-api/tests. Skipping."
           fi
 
-      - name: Run capstone endpoint tests (if present)
+  interview-prep-capstone-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    defaults:
+      run:
         shell: bash
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: |
+            languages/python/projects/interview-prep-capstone/requirements.txt
+
+      - name: Show Python version
+        run: |
+          python --version
+          python -m pip --version
+
+      - name: Install capstone test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest
+          python -m pip install -r languages/python/projects/interview-prep-capstone/requirements.txt
+
+      - name: Run capstone endpoint tests
         run: |
           if [ -d "languages/python/projects/interview-prep-capstone/tests" ] && (find languages/python/projects/interview-prep-capstone/tests -type f -name "test_*.py" | grep -q . || find languages/python/projects/interview-prep-capstone/tests -type f -name "*_test.py" | grep -q .); then
-            pytest -q languages/python/projects/interview-prep-capstone/tests
+            pytest -q -ra languages/python/projects/interview-prep-capstone/tests
           else
             echo "No tests found in interview-prep-capstone/tests. Skipping."
           fi
 
-      - name: Run root Python tests (if present)
+  root-python-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    defaults:
+      run:
         shell: bash
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: |
+            .github/workflows/python-tests.yml
+
+      - name: Show Python version
+        run: |
+          python --version
+          python -m pip --version
+
+      - name: Install root test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest
+
+      - name: Run root Python tests
         run: |
           if [ -d "languages/python/tests" ] && (find languages/python/tests -type f -name "test_*.py" | grep -q . || find languages/python/tests -type f -name "*_test.py" | grep -q .); then
-            pytest -q languages/python/tests
+            pytest -q -ra languages/python/tests
           else
             echo "No Python tests found in languages/python/tests. Skipping."
           fi
