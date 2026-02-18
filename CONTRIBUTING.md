@@ -58,6 +58,19 @@ Jupyter notebooks (Python)
 - Short examples and walkthroughs may be provided as notebooks.
 - Keep notebooks focused and small (few cells).
 - Remove large datasets; use small sample data or link to external datasets.
+- Notebook file should be valid `.ipynb` JSON with:
+  - top-level `cells` array
+  - each cell containing `cell_type`, `metadata`, and `source`
+  - `source` as a string or list of strings
+- Preferred cell metadata:
+  - `metadata.language` set to `markdown` or `python` when applicable
+  - `metadata.id` preserved for existing cells when editing notebooks
+- Keep notebooks deterministic for CI:
+  - avoid environment-specific absolute paths in code cells
+  - avoid large binary outputs and clear unnecessary execution output
+  - keep walkthrough notebooks mostly markdown unless code execution is required
+- Notebook checks run in CI via `.github/workflows/notebook-checks.yml` and `.github/scripts/check_notebooks.py`.
+  - If checks fail, validate JSON structure first, then cell shape (`cell_type`, `metadata`, `source`).
 
 Pull request process
 - Fork the repo (or branch from main if you have access).

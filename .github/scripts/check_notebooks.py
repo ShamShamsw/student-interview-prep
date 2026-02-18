@@ -30,16 +30,25 @@ def validate_notebook(path: Path):
             errors.append(f"{path}: cell {index} is not an object")
             continue
 
+        cell_type = cell.get("cell_type")
+        if not isinstance(cell_type, str):
+            errors.append(f"{path}: cell {index} missing or invalid cell_type")
+        elif cell_type not in {"markdown", "code", "raw"}:
+            errors.append(f"{path}: cell {index} has unsupported cell_type '{cell_type}'")
+
         metadata = cell.get("metadata", {})
         if not isinstance(metadata, dict):
             errors.append(f"{path}: cell {index} has invalid metadata")
             continue
 
-        if "language" not in metadata:
-            errors.append(f"{path}: cell {index} missing metadata.language")
+        language = metadata.get("language")
+        if language is not None and not isinstance(language, str):
+            errors.append(f"{path}: cell {index} metadata.language must be a string when provided")
 
         if "source" not in cell:
             errors.append(f"{path}: cell {index} missing source")
+        elif not isinstance(cell.get("source"), (list, str)):
+            errors.append(f"{path}: cell {index} source must be a string or list")
 
     return errors
 
