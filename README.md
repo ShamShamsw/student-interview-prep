@@ -7,3 +7,4 @@
 - Beginner onboarding: [BEGINNER_START_HERE.md](BEGINNER_START_HERE.md)
 - Weekly confidence check: [WEEKLY_CONFIDENCE_CHECK.md](WEEKLY_CONFIDENCE_CHECK.md)
 - Glossary: [GLOSSARY.md](GLOSSARY.md)
+- External free resources (no affiliation): [EXTERNAL_RESOURCES.md](EXTERNAL_RESOURCES.md)
