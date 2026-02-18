@@ -14,6 +14,7 @@ Running examples
 Structure for this language
 - /languages/python/problems — problem statements and canonical solutions
 - /languages/python/projects — guided projects with starter/ and final/ folders and an optional notebook walkthrough
+- /languages/python/problems/tests — reusable pytest harness for validating canonical solutions
 - /languages/python/cheatsheet.md (optional)
 
 Contributing Python content

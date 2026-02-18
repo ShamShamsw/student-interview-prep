@@ -20,3 +20,7 @@ Sample project skeleton: sample-todo-app
 Project: study-session-tracker
 - Purpose: command-line study log app to practice JSON persistence, aggregation, and CLI subcommands.
 - Includes: starter implementation with TODOs, final reference implementation, and a complete walkthrough notebook.
+
+Project: interview-patterns-api
+- Purpose: FastAPI service that applies interview algorithms to real API endpoints and practice insights.
+- Includes: starter TODO API, final reference API, requirements file, and walkthrough notebook.

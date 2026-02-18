@@ -25,16 +25,37 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Install pytest
+      - name: Install test dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pytest
+          if [ -f "languages/python/projects/interview-patterns-api/requirements.txt" ]; then
+            pip install -r languages/python/projects/interview-patterns-api/requirements.txt
+          fi
 
-      - name: Run pytest (if tests exist)
+      - name: Run problem harness tests (if present)
+        shell: bash
+        run: |
+          if [ -d "languages/python/problems/tests" ] && (find languages/python/problems/tests -type f -name "test_*.py" | grep -q . || find languages/python/problems/tests -type f -name "*_test.py" | grep -q .); then
+            pytest -q languages/python/problems/tests
+          else
+            echo "No tests found in languages/python/problems/tests. Skipping."
+          fi
+
+      - name: Run API endpoint tests (if present)
+        shell: bash
+        run: |
+          if [ -d "languages/python/projects/interview-patterns-api/tests" ] && (find languages/python/projects/interview-patterns-api/tests -type f -name "test_*.py" | grep -q . || find languages/python/projects/interview-patterns-api/tests -type f -name "*_test.py" | grep -q .); then
+            pytest -q languages/python/projects/interview-patterns-api/tests
+          else
+            echo "No tests found in interview-patterns-api/tests. Skipping."
+          fi
+
+      - name: Run root Python tests (if present)
         shell: bash
         run: |
           if [ -d "languages/python/tests" ] && (find languages/python/tests -type f -name "test_*.py" | grep -q . || find languages/python/tests -type f -name "*_test.py" | grep -q .); then
             pytest -q languages/python/tests
           else
-            echo "No Python tests found in languages/python/tests. Skipping pytest."
+            echo "No Python tests found in languages/python/tests. Skipping."
           fi

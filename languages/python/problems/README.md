@@ -41,3 +41,12 @@ This folder contains starter interview-style Python problems.
 35. [35-coin-change](35-coin-change.md)
 
 Each problem includes a prompt, constraints, examples, and a canonical solution reference.
+
+## Testing solutions
+
+- Reusable pytest harness lives in `languages/python/problems/tests/`.
+- Run all problem tests from repo root:
+
+```bash
+python -m pytest languages/python/problems/tests -q
+```
