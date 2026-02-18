@@ -16,3 +16,7 @@ Project expectations
 Sample project skeleton: sample-todo-app
 - Purpose: small command-line TODO app to learn file I/O and basic data modeling.
 - Included below is the skeleton folder structure and a placeholder notebook walkthrough.
+
+Project: study-session-tracker
+- Purpose: command-line study log app to practice JSON persistence, aggregation, and CLI subcommands.
+- Includes: starter implementation with TODOs, final reference implementation, and a complete walkthrough notebook.
