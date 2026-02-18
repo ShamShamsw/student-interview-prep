@@ -1,5 +1,5 @@
 name: Python Tests
-'on':
+on:
   workflow_dispatch:
   push:
     paths:
