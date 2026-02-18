@@ -66,6 +66,27 @@ python app.py remove 2
 python app.py clear
 ```
 
+## One-command PowerShell launcher (Windows)
+
+From `sample-to-do-app/`:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\run.ps1 list
+.\run.ps1 add "Prepare interview notes"
+```
+
+If your PowerShell execution policy already allows scripts, you can skip the first command.
+
+## One-command CMD launcher (Windows, no policy changes)
+
+From `sample-to-do-app/` in Command Prompt or PowerShell:
+
+```bat
+run.bat list
+run.bat add "Prepare interview notes"
+```
+
 ## Common pitfalls
 
 - Forgetting to handle a missing `todos.json` file.
