@@ -4,6 +4,11 @@ This guide tells you exactly what to do next in this repository, week by week.
 
 Companion tracker: [LEARNING_PATH_CHECKLIST.md](LEARNING_PATH_CHECKLIST.md)
 
+Beginner resources:
+- [BEGINNER_START_HERE.md](BEGINNER_START_HERE.md)
+- [WEEKLY_CONFIDENCE_CHECK.md](WEEKLY_CONFIDENCE_CHECK.md)
+- [GLOSSARY.md](GLOSSARY.md)
+
 ## How to use this path
 
 - Pick **one** track: 8-week (faster) or 12-week (steadier).

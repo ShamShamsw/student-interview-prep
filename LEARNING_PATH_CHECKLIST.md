@@ -2,6 +2,10 @@
 
 Use this as your weekly tracker while following [LEARNING_PATH.md](LEARNING_PATH.md).
 
+Support docs:
+- [WEEKLY_CONFIDENCE_CHECK.md](WEEKLY_CONFIDENCE_CHECK.md)
+- [GLOSSARY.md](GLOSSARY.md)
+
 ## Choose your track
 
 - [ ] I am following the **8-week** track
