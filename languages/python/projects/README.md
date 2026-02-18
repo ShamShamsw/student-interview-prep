@@ -24,3 +24,7 @@ Project: study-session-tracker
 Project: interview-patterns-api
 - Purpose: FastAPI service that applies interview algorithms to real API endpoints and practice insights.
 - Includes: starter TODO API, final reference API, requirements file, and walkthrough notebook.
+
+Project: interview-prep-capstone
+- Purpose: 8-12 week production-style capstone focused on architecture, Agile execution, and AI-assisted problem solving.
+- Includes: pre-build design docs, sprint plan, AI/resource playbook, starter API scaffold, final reference API, and walkthrough notebook.

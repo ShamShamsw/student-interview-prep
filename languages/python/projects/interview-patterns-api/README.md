@@ -53,6 +53,32 @@ Run tests:
 python -m pytest tests -q
 ```
 
+## Debug failing CI tests
+
+When GitHub Actions fails on tests, use this checklist:
+
+1. Re-run locally from `interview-patterns-api/`:
+
+	```bash
+	python -m pytest tests -vv
+	```
+
+2. Compare local Python version with CI matrix (`3.10`, `3.11`, `3.12`).
+3. Refresh dependencies:
+
+	```bash
+	python -m pip install -r requirements.txt
+	```
+
+4. Reproduce the exact failing test by node id (from CI logs), for example:
+
+	```bash
+	python -m pytest tests/test_endpoints.py::test_minutes_pair_success -vv
+	```
+
+5. Check shared mutable state reset between tests (`EVENTS`).
+6. Commit only after local tests pass and behavior is understood.
+
 ## Suggested workflow
 
 1. Start from `starter/README.md`.

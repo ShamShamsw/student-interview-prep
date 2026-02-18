@@ -32,6 +32,9 @@ jobs:
           if [ -f "languages/python/projects/interview-patterns-api/requirements.txt" ]; then
             pip install -r languages/python/projects/interview-patterns-api/requirements.txt
           fi
+          if [ -f "languages/python/projects/interview-prep-capstone/requirements.txt" ]; then
+            pip install -r languages/python/projects/interview-prep-capstone/requirements.txt
+          fi
 
       - name: Run problem harness tests (if present)
         shell: bash
@@ -49,6 +52,15 @@ jobs:
             pytest -q languages/python/projects/interview-patterns-api/tests
           else
             echo "No tests found in interview-patterns-api/tests. Skipping."
+          fi
+
+      - name: Run capstone endpoint tests (if present)
+        shell: bash
+        run: |
+          if [ -d "languages/python/projects/interview-prep-capstone/tests" ] && (find languages/python/projects/interview-prep-capstone/tests -type f -name "test_*.py" | grep -q . || find languages/python/projects/interview-prep-capstone/tests -type f -name "*_test.py" | grep -q .); then
+            pytest -q languages/python/projects/interview-prep-capstone/tests
+          else
+            echo "No tests found in interview-prep-capstone/tests. Skipping."
           fi
 
       - name: Run root Python tests (if present)
