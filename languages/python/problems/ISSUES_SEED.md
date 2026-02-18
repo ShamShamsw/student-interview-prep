@@ -27,3 +27,13 @@ Use this as a source of issue titles and links.
 23. [Python Starter Problem] time based key-value store — `languages/python/problems/23-time-based-key-value-store.md`
 24. [Python Starter Problem] merge intervals — `languages/python/problems/24-merge-intervals.md`
 25. [Python Starter Problem] insert interval — `languages/python/problems/25-insert-interval.md`
+26. [Python Starter Problem] reverse linked list — `languages/python/problems/26-reverse-linked-list.md`
+27. [Python Starter Problem] linked list cycle — `languages/python/problems/27-linked-list-cycle.md`
+28. [Python Starter Problem] merge two sorted lists — `languages/python/problems/28-merge-two-sorted-lists.md`
+29. [Python Starter Problem] valid binary search tree — `languages/python/problems/29-valid-binary-search-tree.md`
+30. [Python Starter Problem] binary tree level order traversal — `languages/python/problems/30-binary-tree-level-order-traversal.md`
+31. [Python Starter Problem] lowest common ancestor of a binary search tree — `languages/python/problems/31-lowest-common-ancestor-of-a-binary-search-tree.md`
+32. [Python Starter Problem] number of islands — `languages/python/problems/32-number-of-islands.md`
+33. [Python Starter Problem] clone graph — `languages/python/problems/33-clone-graph.md`
+34. [Python Starter Problem] kth largest element in an array — `languages/python/problems/34-kth-largest-element-in-an-array.md`
+35. [Python Starter Problem] coin change — `languages/python/problems/35-coin-change.md`

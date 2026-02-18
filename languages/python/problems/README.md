@@ -29,5 +29,15 @@ This folder contains starter interview-style Python problems.
 23. [23-time-based-key-value-store](23-time-based-key-value-store.md)
 24. [24-merge-intervals](24-merge-intervals.md)
 25. [25-insert-interval](25-insert-interval.md)
+26. [26-reverse-linked-list](26-reverse-linked-list.md)
+27. [27-linked-list-cycle](27-linked-list-cycle.md)
+28. [28-merge-two-sorted-lists](28-merge-two-sorted-lists.md)
+29. [29-valid-binary-search-tree](29-valid-binary-search-tree.md)
+30. [30-binary-tree-level-order-traversal](30-binary-tree-level-order-traversal.md)
+31. [31-lowest-common-ancestor-of-a-binary-search-tree](31-lowest-common-ancestor-of-a-binary-search-tree.md)
+32. [32-number-of-islands](32-number-of-islands.md)
+33. [33-clone-graph](33-clone-graph.md)
+34. [34-kth-largest-element-in-an-array](34-kth-largest-element-in-an-array.md)
+35. [35-coin-change](35-coin-change.md)
 
 Each problem includes a prompt, constraints, examples, and a canonical solution reference.
