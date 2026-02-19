@@ -46,7 +46,6 @@ jobs:
           python -m pip install pyyaml
           python - <<'PY'
           import glob
-          import os
           import sys
 
           import yaml
@@ -70,10 +69,12 @@ jobs:
                   failures.append(f'{path}: top-level YAML must be a mapping')
                   continue
 
-              if 'name' not in data:
+                normalized_keys = {str(key).lower() for key in data.keys()}
+
+                if 'name' not in normalized_keys:
                   failures.append(f'{path}: missing top-level key "name"')
 
-              if 'on' not in data:
+                if 'on' not in normalized_keys and 'true' not in normalized_keys:
                   failures.append(f'{path}: missing top-level key "on"')
 
           if failures:
