@@ -56,6 +56,11 @@ If you are new to IT, open source, and coding projects, use this file first.
 - Run tests once at end of week.
 - Complete one weekly confidence check from [WEEKLY_CONFIDENCE_CHECK.md](WEEKLY_CONFIDENCE_CHECK.md).
 
+## Interview questions (start here)
+
+- Use [INTERVIEW_QUESTIONS.md](INTERVIEW_QUESTIONS.md) for beginner-friendly interview practice.
+- Practice answering 2 questions out loud after each coding session.
+
 ## Beginner rules (anti-overwhelm)
 
 - One active goal per session.
