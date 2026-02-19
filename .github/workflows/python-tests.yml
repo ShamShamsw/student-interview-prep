@@ -98,7 +98,8 @@ jobs:
       - name: Run API endpoint tests
         run: |
           if [ -d "languages/python/projects/interview-patterns-api/tests" ] && (find languages/python/projects/interview-patterns-api/tests -type f -name "test_*.py" | grep -q . || find languages/python/projects/interview-patterns-api/tests -type f -name "*_test.py" | grep -q .); then
-            pytest -q -ra languages/python/projects/interview-patterns-api/tests
+            cd languages/python/projects/interview-patterns-api
+            pytest -q -ra tests
           else
             echo "No tests found in interview-patterns-api/tests. Skipping."
           fi
@@ -141,7 +142,8 @@ jobs:
       - name: Run capstone endpoint tests
         run: |
           if [ -d "languages/python/projects/interview-prep-capstone/tests" ] && (find languages/python/projects/interview-prep-capstone/tests -type f -name "test_*.py" | grep -q . || find languages/python/projects/interview-prep-capstone/tests -type f -name "*_test.py" | grep -q .); then
-            pytest -q -ra languages/python/projects/interview-prep-capstone/tests
+            cd languages/python/projects/interview-prep-capstone
+            pytest -q -ra tests
           else
             echo "No tests found in interview-prep-capstone/tests. Skipping."
           fi
