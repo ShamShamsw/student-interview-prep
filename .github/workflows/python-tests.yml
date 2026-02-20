@@ -1,5 +1,5 @@
 name: Python Tests
-on:
+'on':
   workflow_dispatch:
   push:
     paths:
@@ -54,10 +54,13 @@ jobs:
 
       - name: Run problem harness tests
         run: |
-          if [ -d "languages/python/problems/tests" ] && (find languages/python/problems/tests -type f -name "test_*.py" | grep -q . || find languages/python/problems/tests -type f -name "*_test.py" | grep -q .); then
-            pytest -q -ra languages/python/problems/tests
+          test_dir="languages/python/problems/tests"
+          if [ -d "$test_dir" ] && \
+             (find "$test_dir" -type f -name "test_*.py" | grep -q . || \
+              find "$test_dir" -type f -name "*_test.py" | grep -q .); then
+            pytest -q -ra "$test_dir"
           else
-            echo "No tests found in languages/python/problems/tests. Skipping."
+            echo "No tests found in $test_dir. Skipping."
           fi
 
   interview-patterns-api-tests:
@@ -81,7 +84,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
           cache: pip
-          cache-dependency-path: |
+          cache-dependency-path:
             languages/python/projects/interview-patterns-api/requirements.txt
 
       - name: Show Python version
@@ -93,15 +96,19 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install pytest
-          python -m pip install -r languages/python/projects/interview-patterns-api/requirements.txt
+          req_file="languages/python/projects/interview-patterns-api/requirements.txt"
+          python -m pip install -r "$req_file"
 
       - name: Run API endpoint tests
         run: |
-          if [ -d "languages/python/projects/interview-patterns-api/tests" ] && (find languages/python/projects/interview-patterns-api/tests -type f -name "test_*.py" | grep -q . || find languages/python/projects/interview-patterns-api/tests -type f -name "*_test.py" | grep -q .); then
-            cd languages/python/projects/interview-patterns-api
+          project_dir="languages/python/projects/interview-patterns-api"
+          if [ -d "$project_dir/tests" ] && \
+             (find "$project_dir/tests" -type f -name "test_*.py" | grep -q . || \
+              find "$project_dir/tests" -type f -name "*_test.py" | grep -q .); then
+            cd "$project_dir"
             pytest -q -ra tests
           else
-            echo "No tests found in interview-patterns-api/tests. Skipping."
+            echo "No tests found in $project_dir/tests. Skipping."
           fi
 
   interview-prep-capstone-tests:
@@ -125,7 +132,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
           cache: pip
-          cache-dependency-path: |
+          cache-dependency-path:
             languages/python/projects/interview-prep-capstone/requirements.txt
 
       - name: Show Python version
@@ -137,15 +144,19 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install pytest
-          python -m pip install -r languages/python/projects/interview-prep-capstone/requirements.txt
+          req_file="languages/python/projects/interview-prep-capstone/requirements.txt"
+          python -m pip install -r "$req_file"
 
       - name: Run capstone endpoint tests
         run: |
-          if [ -d "languages/python/projects/interview-prep-capstone/tests" ] && (find languages/python/projects/interview-prep-capstone/tests -type f -name "test_*.py" | grep -q . || find languages/python/projects/interview-prep-capstone/tests -type f -name "*_test.py" | grep -q .); then
-            cd languages/python/projects/interview-prep-capstone
+          project_dir="languages/python/projects/interview-prep-capstone"
+          if [ -d "$project_dir/tests" ] && \
+             (find "$project_dir/tests" -type f -name "test_*.py" | grep -q . || \
+              find "$project_dir/tests" -type f -name "*_test.py" | grep -q .); then
+            cd "$project_dir"
             pytest -q -ra tests
           else
-            echo "No tests found in interview-prep-capstone/tests. Skipping."
+            echo "No tests found in $project_dir/tests. Skipping."
           fi
 
   root-python-tests:
@@ -184,8 +195,11 @@ jobs:
 
       - name: Run root Python tests
         run: |
-          if [ -d "languages/python/tests" ] && (find languages/python/tests -type f -name "test_*.py" | grep -q . || find languages/python/tests -type f -name "*_test.py" | grep -q .); then
-            pytest -q -ra languages/python/tests
+          test_dir="languages/python/tests"
+          if [ -d "$test_dir" ] && \
+             (find "$test_dir" -type f -name "test_*.py" | grep -q . || \
+              find "$test_dir" -type f -name "*_test.py" | grep -q .); then
+            pytest -q -ra "$test_dir"
           else
-            echo "No Python tests found in languages/python/tests. Skipping."
+            echo "No Python tests found in $test_dir. Skipping."
           fi

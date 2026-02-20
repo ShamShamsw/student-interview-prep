@@ -31,7 +31,7 @@ jobs:
 
       - name: Install actionlint
         run: |
-          curl -sSfL https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash | bash -s -- latest
+          base_url=\"https://raw.githubusercontent.com/rhysd/actionlint\"\n          curl -sSfL \"$base_url/main/scripts/download-actionlint.bash\" | \\\n            bash -s -- latest
 
       - name: Run actionlint
         run: |
