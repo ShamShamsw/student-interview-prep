@@ -1,3 +1,4 @@
+```markdown
 # ROADMAP
 
 This roadmap focuses on product and technical milestones. Marketing/outreach will be kept separate.
@@ -27,3 +28,5 @@ Phase 3 — Scaling (Months 4–12)
 Notes
 - Owner will manage GitHub Pages separately.
 - This document is iterative — update as the project evolves.
+
+```

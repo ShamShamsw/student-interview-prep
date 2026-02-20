@@ -1,3 +1,4 @@
+```markdown
 # Glossary (Beginner-Friendly)
 
 ## Core coding terms
@@ -27,17 +28,4 @@
 - **Issue**: A tracked task, bug, or feature request.
 - **Maintainer**: Person responsible for reviewing and managing project contributions.
 
-## CI/CD terms
-
-- **CI (Continuous Integration)**: Automated checks/tests on push/PR.
-- **GitHub Actions**: CI system used in this repo.
-- **Workflow**: YAML file defining automated checks.
-- **Lint**: Style/quality checks for code or files.
-- **Test harness**: Reusable setup used to run many tests consistently.
-
-## Agile terms
-
-- **Sprint**: Time-boxed work period (often 1-2 weeks).
-- **Backlog**: Prioritized list of tasks.
-- **Definition of Done**: Clear criteria for when work is complete.
-- **Retrospective**: Review of what worked and what to improve.
+```

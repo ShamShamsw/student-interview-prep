@@ -1,10 +1,11 @@
+```markdown
 # Learning Path Checklist
 
-Use this as your weekly tracker while following [LEARNING_PATH.md](LEARNING_PATH.md).
+Use this as your weekly tracker while following [../paths/LEARNING_PATH.md](LEARNING_PATH.md).
 
 Support docs:
-- [WEEKLY_CONFIDENCE_CHECK.md](WEEKLY_CONFIDENCE_CHECK.md)
-- [GLOSSARY.md](GLOSSARY.md)
+- [../checklists/WEEKLY_CONFIDENCE_CHECK.md](../checklists/WEEKLY_CONFIDENCE_CHECK.md)
+- [../resources/GLOSSARY.md](../resources/GLOSSARY.md)
 
 ## Choose your track
 
@@ -15,7 +16,7 @@ Support docs:
 
 ## Global setup (one-time)
 
-- [ ] I reviewed [LEARNING_PATH.md](LEARNING_PATH.md)
+- [ ] I reviewed [../paths/LEARNING_PATH.md](LEARNING_PATH.md)
 - [ ] I can run problem harness tests
 - [ ] I can run API endpoint tests
 - [ ] I confirmed GitHub Actions is running on push/PR
@@ -135,3 +136,5 @@ Support docs:
 - [ ] Completed capstone with passing endpoint tests
 - [ ] Can explain 3 architecture tradeoffs from capstone
 - [ ] Can solve medium problems under time pressure with clear communication
+
+```

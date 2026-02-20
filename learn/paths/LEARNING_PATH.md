@@ -1,14 +1,15 @@
+```markdown
 # Learning Path (8-Week and 12-Week Tracks)
 
 This guide tells you exactly what to do next in this repository, week by week.
 
-Companion tracker: [LEARNING_PATH_CHECKLIST.md](LEARNING_PATH_CHECKLIST.md)
+Companion tracker: [LEARNING_PATH_CHECKLIST.md](../paths/LEARNING_PATH_CHECKLIST.md)
 
 Beginner resources:
-- [BEGINNER_START_HERE.md](BEGINNER_START_HERE.md)
-- [WEEKLY_CONFIDENCE_CHECK.md](WEEKLY_CONFIDENCE_CHECK.md)
-- [GLOSSARY.md](GLOSSARY.md)
-- [EXTERNAL_RESOURCES.md](EXTERNAL_RESOURCES.md)
+- [BEGINNER_START_HERE.md](../guides/BEGINNER_START_HERE.md)
+- [WEEKLY_CONFIDENCE_CHECK.md](../checklists/WEEKLY_CONFIDENCE_CHECK.md)
+- [GLOSSARY.md](../resources/GLOSSARY.md)
+- [EXTERNAL_RESOURCES.md](../resources/EXTERNAL_RESOURCES.md)
 
 ## How to use this path
 
@@ -205,7 +206,7 @@ Use this sequence anytime you feel blocked on a problem or project task.
 
 ### 2) 20-minute reset protocol
 
-1. Write the exact goal in one sentence.
+1. Write the exact goal in one sentence
 2. Write expected input/output for one small example.
 3. Shrink to the smallest failing case.
 4. Add a quick test or assert for that case.
@@ -253,3 +254,5 @@ You are "repo complete" when:
 - You completed the capstone and passed endpoint tests.
 - You can explain 3 architecture tradeoffs from your capstone.
 - You can complete medium-level problems under time pressure with clear reasoning.
+
+```

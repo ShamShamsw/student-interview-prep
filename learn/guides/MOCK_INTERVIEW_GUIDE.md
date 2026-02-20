@@ -1,3 +1,4 @@
+````markdown
 # Mock Interview Guide
 
 Practice realistic interview sessions to build confidence and identify gaps before real interviews.
@@ -112,7 +113,7 @@ Thanks,
 ### After the session
 - Write down all feedback immediately
 - Solve the same problems again 3 days later
-- Track improvement in your [WEEKLY_CONFIDENCE_CHECK.md](WEEKLY_CONFIDENCE_CHECK.md)
+- Track improvement in your [../checklists/WEEKLY_CONFIDENCE_CHECK.md](../checklists/WEEKLY_CONFIDENCE_CHECK.md)
 
 ---
 
@@ -154,7 +155,7 @@ Rate yourself 1-5 on each dimension after every mock session.
 **Weeks 5-8**: Peer mode, 1x per week  
 **Weeks 9-12**: Mentor mode, 1x every 2 weeks + solo practice
 
-Log every session in your [LEARNING_PATH_CHECKLIST.md](LEARNING_PATH_CHECKLIST.md).
+Log every session in your [../paths/LEARNING_PATH_CHECKLIST.md](../paths/LEARNING_PATH_CHECKLIST.md).
 
 ---
 
@@ -174,3 +175,5 @@ Log every session in your [LEARNING_PATH_CHECKLIST.md](LEARNING_PATH_CHECKLIST.m
 3. Identify your weakest scoring dimension
 4. Practice that specific skill in your next 3 study sessions
 5. Run another mock and measure improvement
+
+````

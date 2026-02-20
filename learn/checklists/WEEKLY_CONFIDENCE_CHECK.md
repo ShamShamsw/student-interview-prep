@@ -1,3 +1,4 @@
+```markdown
 # Weekly Confidence Check
 
 Use this every week to avoid overload and adapt your plan.
@@ -43,3 +44,5 @@ Total score: ____ / 25
 - One thing to repeat:
 - One thing to stop doing:
 - Exact first task for next week:
+
+```

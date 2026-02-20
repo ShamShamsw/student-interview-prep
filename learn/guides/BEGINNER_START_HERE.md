@@ -1,3 +1,4 @@
+```markdown
 # Beginner Start Here
 
 If you are new to IT, open source, and coding projects, use this file first.
@@ -23,8 +24,8 @@ If you are new to IT, open source, and coding projects, use this file first.
 ## Week 1 (daily plan)
 
 ### Day 1
-- Read [LEARNING_PATH.md](LEARNING_PATH.md) and pick the 12-week track.
-- Open [LEARNING_PATH_CHECKLIST.md](LEARNING_PATH_CHECKLIST.md) and check your track.
+- Read [LEARNING_PATH.md](../paths/LEARNING_PATH.md) and pick the 12-week track.
+- Open [LEARNING_PATH_CHECKLIST.md](../paths/LEARNING_PATH_CHECKLIST.md) and check your track.
 
 ### Day 2
 - Solve problem 01 (`two-sum`) with notes.
@@ -54,11 +55,11 @@ If you are new to IT, open source, and coding projects, use this file first.
 - Continue `sample-to-do-app/starter/app.py` TODOs.
 - Solve 2-3 additional easy problems from Week 1 list.
 - Run tests once at end of week.
-- Complete one weekly confidence check from [WEEKLY_CONFIDENCE_CHECK.md](WEEKLY_CONFIDENCE_CHECK.md).
+- Complete one weekly confidence check from [../checklists/WEEKLY_CONFIDENCE_CHECK.md](../checklists/WEEKLY_CONFIDENCE_CHECK.md).
 
 ## Interview questions (start here)
 
-- Use [INTERVIEW_QUESTIONS.md](INTERVIEW_QUESTIONS.md) for beginner-friendly interview practice.
+- Use [../guides/INTERVIEW_QUESTIONS.md](../guides/INTERVIEW_QUESTIONS.md) for beginner-friendly interview practice.
 - Practice answering 2 questions out loud after each coding session.
 
 ## Beginner rules (anti-overwhelm)
@@ -70,8 +71,10 @@ If you are new to IT, open source, and coding projects, use this file first.
 
 ## If you are stuck
 
-Use [LEARNING_PATH.md](LEARNING_PATH.md) section **"Stuck? Troubleshoot and Re-approach"**.
+Use [../paths/LEARNING_PATH.md](../paths/LEARNING_PATH.md) section **"Stuck? Troubleshoot and Re-approach"**.
 
 ## Next after week 2
 
-Move into the 12-week track milestones in [LEARNING_PATH.md](LEARNING_PATH.md).
+Move into the 12-week track milestones in [../paths/LEARNING_PATH.md](../paths/LEARNING_PATH.md).
+
+```

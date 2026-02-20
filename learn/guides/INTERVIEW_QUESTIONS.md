@@ -1,3 +1,4 @@
+```markdown
 # Interview Questions (Beginner-Friendly)
 
 Use this page to practice common interview questions in simple, clear language.
@@ -34,3 +35,5 @@ Use this page to practice common interview questions in simple, clear language.
 - Use one real example per answer.
 - Focus on impact: time saved, quality improved, users helped.
 - End with what you learned and how you apply it now.
+
+```
