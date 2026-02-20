@@ -1,0 +1,83 @@
+name: Problem Suggestion
+description: Suggest a new coding problem to add to the repository
+title: "[Problem]: "
+labels: ["problem-suggestion", "content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a problem! This helps us build a better problem set.
+
+  - type: input
+    id: problem-name
+    attributes:
+      label: Problem Name
+      description: What's the name of the problem?
+      placeholder: "Example: Two Sum, Binary Tree Level Order Traversal"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - Easy
+        - Medium
+        - Hard
+    validations:
+      required: true
+
+  - type: input
+    id: topics
+    attributes:
+      label: Topics/Tags
+      description: What topics does this cover?
+      placeholder: "Example: array, hash-table, two-pointers"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description
+      description: Describe the problem or link to it
+      placeholder: "Provide a brief description, or link to LeetCode/similar platforms."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why This Problem?
+      description: Why should this be added? What gap does it fill?
+      placeholder: "Example: This is a common interview question at top tech companies. It teaches sliding window pattern well."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: Which language should this be added for?
+      options:
+        - Python
+        - Java
+        - C++
+        - JavaScript
+        - Multiple languages
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I can write the problem statement
+          required: false
+        - label: I can provide a solution
+          required: false
+        - label: I can create test cases
+          required: false

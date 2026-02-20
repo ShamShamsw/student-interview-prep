@@ -1,0 +1,64 @@
+name: Bug Report
+description: Report a bug in code, tests, or documentation
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the sections below.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Where did you find the bug?
+      options:
+        - Python problems/solutions
+        - Python projects
+        - Tests/CI workflows
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: What happened? What did you expect to happen?
+      placeholder: "Example: The solution for problem 05-contains-duplicate.py fails when input list has None values."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Run `pytest languages/python/problems/tests/test_core_algorithms.py`
+        2. See error on line 42
+        3. Error message: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: What environment are you using?
+      value: |
+        - OS: [e.g., Windows 11, macOS 14, Ubuntu 22.04]
+        - Python version: [e.g., 3.11.5]
+        - How you're running: [e.g., VS Code, command line, GitHub Actions]
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other details, screenshots, or logs?
+    validations:
+      required: false
