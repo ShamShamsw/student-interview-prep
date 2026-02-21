@@ -50,7 +50,7 @@ jobs:
       - name: Install test dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pytest
+          python -m pip install pytest pytest-cov
 
       - name: Run problem harness tests
         run: |
@@ -95,7 +95,7 @@ jobs:
       - name: Install API test dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pytest
+          python -m pip install pytest pytest-cov
           req_file="languages/python/projects/interview-patterns-api/requirements.txt"
           python -m pip install -r "$req_file"
 
@@ -143,7 +143,7 @@ jobs:
       - name: Install capstone test dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pytest
+          python -m pip install pytest pytest-cov
           req_file="languages/python/projects/interview-prep-capstone/requirements.txt"
           python -m pip install -r "$req_file"
 
@@ -191,7 +191,7 @@ jobs:
       - name: Install root test dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pytest
+          python -m pip install pytest pytest-cov
 
       - name: Run root Python tests
         run: |
