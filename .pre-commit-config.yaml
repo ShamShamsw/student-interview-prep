@@ -1,0 +1,40 @@
+# Pre-commit hooks configuration
+# These hooks run automatically before each commit to ensure code quality
+# Install: pre-commit install
+# Run manually: pre-commit run --all-files
+# Update versions: pre-commit autoupdate
+
+repos:
+  # Black: Python code formatter (opinionated, consistent style)
+  - repo: https://github.com/psf/black
+    rev: 23.9.1
+    hooks:
+      - id: black
+        language_version: python3
+        description: "Format Python code with Black"
+  
+  # Flake8: Python linter (catches style violations and potential bugs)
+  - repo: https://github.com/pycqa/flake8
+    rev: 6.1.0
+    hooks:
+      - id: flake8
+        args: ['--max-line-length=100', '--extend-ignore=E203,W503']
+        description: "Lint Python code with Flake8"
+  
+  # General pre-commit hooks for file hygiene
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+        description: "Remove trailing whitespace"
+      - id: end-of-file-fixer
+        description: "Ensure files end with newline"
+      - id: check-yaml
+        description: "Validate YAML files"
+      - id: check-added-large-files
+        description: "Prevent committing large files"
+      - id: check-json
+        description: "Validate JSON files"
+      - id: pretty-format-json
+        args: ['--autofix', '--no-sort-keys']
+        description: "Format JSON files"

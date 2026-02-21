@@ -1,0 +1,29 @@
+version: 2
+updates:
+  # Root-level pip dependencies
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+  
+  # Interview patterns API project
+  - package-ecosystem: "pip"
+    directory: "/languages/python/projects/interview-patterns-api"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+  
+  # Interview prep capstone project
+  - package-ecosystem: "pip"
+    directory: "/languages/python/projects/interview-prep-capstone"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+  
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
