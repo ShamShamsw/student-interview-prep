@@ -5,7 +5,7 @@ class Solution:
 
         need = [0] * 26
         have = [0] * 26
-        offset = ord('a')
+        offset = ord("a")
 
         for char in s1:
             need[ord(char) - offset] += 1

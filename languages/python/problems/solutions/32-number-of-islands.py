@@ -13,10 +13,10 @@ class Solution:
         def dfs(row: int, col: int) -> None:
             if row < 0 or row >= rows or col < 0 or col >= cols:
                 return
-            if grid[row][col] != '1':
+            if grid[row][col] != "1":
                 return
 
-            grid[row][col] = '0'
+            grid[row][col] = "0"
             dfs(row + 1, col)
             dfs(row - 1, col)
             dfs(row, col + 1)
@@ -24,7 +24,7 @@ class Solution:
 
         for row in range(rows):
             for col in range(cols):
-                if grid[row][col] == '1':
+                if grid[row][col] == "1":
                     count += 1
                     dfs(row, col)
 

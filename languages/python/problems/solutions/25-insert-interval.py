@@ -2,7 +2,9 @@ from typing import List
 
 
 class Solution:
-    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+    def insert(
+        self, intervals: List[List[int]], newInterval: List[int]
+    ) -> List[List[int]]:
         result = []
         index = 0
         total = len(intervals)

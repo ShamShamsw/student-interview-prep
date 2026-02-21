@@ -95,4 +95,6 @@ def test_33_clone_graph() -> None:
     clone = module.Solution().cloneGraph(source)
 
     assert clone is not source
-    assert normalize_nested_lists(graph_to_adj_list(clone)) == normalize_nested_lists(graph_to_adj_list(source))
+    assert normalize_nested_lists(graph_to_adj_list(clone)) == normalize_nested_lists(
+        graph_to_adj_list(source)
+    )

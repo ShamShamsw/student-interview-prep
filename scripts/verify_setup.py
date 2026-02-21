@@ -38,13 +38,10 @@ def check_precommit():
     print("\n🔧 Checking pre-commit setup...")
     try:
         result = subprocess.run(
-            ["pre-commit", "--version"],
-            capture_output=True,
-            text=True,
-            check=True
+            ["pre-commit", "--version"], capture_output=True, text=True, check=True
         )
         print(f"   ✓ pre-commit installed: {result.stdout.strip()}")
-        
+
         # Check if hooks are installed
         git_hooks = Path(".git/hooks/pre-commit")
         if git_hooks.exists():
@@ -72,7 +69,7 @@ def check_files():
         "docker-compose.yml",
         "Makefile",
     ]
-    
+
     all_exist = True
     for file in files:
         if Path(file).exists():
@@ -80,7 +77,7 @@ def check_files():
         else:
             print(f"   ✗ {file} missing")
             all_exist = False
-    
+
     return all_exist
 
 
@@ -88,12 +85,12 @@ def main():
     print("=" * 60)
     print("🚀 Student Interview Prep - Setup Verification")
     print("=" * 60)
-    
+
     checks = []
-    
+
     # Check Python version
     checks.append(check_python_version())
-    
+
     # Check essential packages
     print("\n📦 Checking core packages...")
     checks.append(check_package("pytest"))
@@ -101,13 +98,13 @@ def main():
     checks.append(check_package("black"))
     checks.append(check_package("ruff"))
     checks.append(check_package("flake8"))
-    
+
     # Check pre-commit
     checks.append(check_precommit())
-    
+
     # Check configuration files
     checks.append(check_files())
-    
+
     # Summary
     print("\n" + "=" * 60)
     if all(checks):

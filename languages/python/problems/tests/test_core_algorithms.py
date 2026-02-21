@@ -77,7 +77,9 @@ def test_16_two_sum_ii() -> None:
 
 def test_17_three_sum() -> None:
     result = run_method(17, "threeSum", [-1, 0, 1, 2, -1, -4])
-    assert normalize_nested_lists(result) == normalize_nested_lists([[-1, -1, 2], [-1, 0, 1]])
+    assert normalize_nested_lists(result) == normalize_nested_lists(
+        [[-1, -1, 2], [-1, 0, 1]]
+    )
 
 
 def test_18_container_with_most_water() -> None:
@@ -103,7 +105,11 @@ def test_22_koko_eating_bananas() -> None:
 
 
 def test_24_merge_intervals() -> None:
-    assert run_method(24, "merge", [[1, 3], [2, 6], [8, 10], [15, 18]]) == [[1, 6], [8, 10], [15, 18]]
+    assert run_method(24, "merge", [[1, 3], [2, 6], [8, 10], [15, 18]]) == [
+        [1, 6],
+        [8, 10],
+        [15, 18],
+    ]
 
 
 def test_25_insert_interval() -> None:

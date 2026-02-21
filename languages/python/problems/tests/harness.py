@@ -6,7 +6,6 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any, Iterable
 
-
 PROBLEMS_DIR = Path(__file__).resolve().parents[1]
 SOLUTIONS_DIR = PROBLEMS_DIR / "solutions"
 
@@ -16,7 +15,9 @@ def _load_module(problem_number: int):
     pattern = f"{problem_number:02d}-*.py"
     matches = sorted(SOLUTIONS_DIR.glob(pattern))
     if not matches:
-        raise FileNotFoundError(f"No solution file found for problem {problem_number:02d}")
+        raise FileNotFoundError(
+            f"No solution file found for problem {problem_number:02d}"
+        )
 
     file_path = matches[0]
     module_name = f"solution_{problem_number:02d}"
@@ -51,14 +52,21 @@ class ListNode:
 
 
 class TreeNode:
-    def __init__(self, val: int = 0, left: "TreeNode | None" = None, right: "TreeNode | None" = None) -> None:
+    def __init__(
+        self,
+        val: int = 0,
+        left: "TreeNode | None" = None,
+        right: "TreeNode | None" = None,
+    ) -> None:
         self.val = val
         self.left = left
         self.right = right
 
 
 class GraphNode:
-    def __init__(self, val: int = 0, neighbors: list["GraphNode"] | None = None) -> None:
+    def __init__(
+        self, val: int = 0, neighbors: list["GraphNode"] | None = None
+    ) -> None:
         self.val = val
         self.neighbors = neighbors if neighbors is not None else []
 

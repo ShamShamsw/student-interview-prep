@@ -34,4 +34,4 @@ class Solution:
         if result_right == float("inf"):
             return ""
 
-        return s[result_left: result_right + 1]
+        return s[result_left : result_right + 1]

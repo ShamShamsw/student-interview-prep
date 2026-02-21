@@ -1,4 +1,5 @@
 """Pytest configuration for interview-prep-capstone tests."""
+
 import sys
 from pathlib import Path
 

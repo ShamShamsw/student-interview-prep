@@ -14,7 +14,7 @@ class Codec:
 
         while index < len(s):
             separator = index
-            while s[separator] != '#':
+            while s[separator] != "#":
                 separator += 1
 
             size = int(s[index:separator])

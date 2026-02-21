@@ -2,7 +2,6 @@ from fastapi.testclient import TestClient
 
 import final.app as api
 
-
 client = TestClient(api.app)
 
 
@@ -77,8 +76,14 @@ def test_practice_events_and_top_topics() -> None:
 
 
 def test_minutes_pair_success() -> None:
-    client.post("/practice/events", json={"topic": "arrays", "minutes": 45, "difficulty": "easy"})
-    client.post("/practice/events", json={"topic": "graphs", "minutes": 30, "difficulty": "medium"})
+    client.post(
+        "/practice/events",
+        json={"topic": "arrays", "minutes": 45, "difficulty": "easy"},
+    )
+    client.post(
+        "/practice/events",
+        json={"topic": "graphs", "minutes": 30, "difficulty": "medium"},
+    )
 
     response = client.get("/practice/insights/minutes-pair?target=75")
     assert response.status_code == 200
@@ -86,7 +91,10 @@ def test_minutes_pair_success() -> None:
 
 
 def test_minutes_pair_not_found() -> None:
-    client.post("/practice/events", json={"topic": "arrays", "minutes": 45, "difficulty": "easy"})
+    client.post(
+        "/practice/events",
+        json={"topic": "arrays", "minutes": 45, "difficulty": "easy"},
+    )
 
     response = client.get("/practice/insights/minutes-pair?target=999")
     assert response.status_code == 404
