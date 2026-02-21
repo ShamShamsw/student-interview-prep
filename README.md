@@ -1,10 +1,10 @@
 ```markdown
 # student-interview-prep
 
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/OWNER/REPO/branch/main/graph/badge.svg)](https://codecov.io/gh/OWNER/REPO)
-[![Python Tests](https://github.com/OWNER/REPO/actions/workflows/python-tests.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/python-tests.yml)
-[![YAML Lint](https://github.com/OWNER/REPO/actions/workflows/yaml-lint.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/yaml-lint.yml)
+[![CI](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/ci.yml/badge.svg)](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/ShamShamsw/student-interview-prep/branch/main/graph/badge.svg)](https://codecov.io/gh/ShamShamsw/student-interview-prep)
+[![Python Tests](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/python-tests.yml/badge.svg)](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/python-tests.yml)
+[![YAML Lint](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/yaml-lint.yml/badge.svg)](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/yaml-lint.yml)
 
 > A comprehensive, beginner-friendly repository for technical interview preparation with 35+ coding problems, practical projects, and guided learning paths.
 
@@ -17,7 +17,7 @@
 ### 1. Clone & Setup
 ```powershell
 # Clone the repository
-git clone https://github.com/OWNER/REPO.git
+git clone https://github.com/ShamShamsw/student-interview-prep.git
 cd student-interview-prep
 
 # Run automated setup (installs dependencies, configures tools)

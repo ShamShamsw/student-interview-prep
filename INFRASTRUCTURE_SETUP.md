@@ -186,11 +186,11 @@ pip install -e .
 
 ## Badge Setup
 
-Update the README badges by replacing `OWNER` and `REPO`:
+Your README badges are configured for:
 
 ```markdown
-[![CI](https://github.com/YOUR_USERNAME/student-interview-prep/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/student-interview-prep/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/YOUR_USERNAME/student-interview-prep/branch/main/graph/badge.svg)](https://codecov.io/gh/YOUR_USERNAME/student-interview-prep)
+[![CI](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/ci.yml/badge.svg)](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/ShamShamsw/student-interview-prep/branch/main/graph/badge.svg)](https://codecov.io/gh/ShamShamsw/student-interview-prep)
 ```
 
 For Codecov (public repos), no token needed. For private repos:

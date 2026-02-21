@@ -142,18 +142,15 @@ python scripts\verify_setup.py
 
 ## 🔄 Before You Commit
 
-**Important:** Update the README badges!
+**✅ Badges Updated!**
 
-Replace `OWNER` and `REPO` in [README.md](README.md):
+Your README badges are now live at:
 
 ```markdown
-[![CI](https://github.com/YOUR_USERNAME/student-interview-prep/actions/workflows/ci.yml/badge.svg)]
+[![CI](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/ci.yml/badge.svg)]
 ```
 
-Example: If your GitHub username is `john-doe`:
-```markdown
-[![CI](https://github.com/john-doe/student-interview-prep/actions/workflows/ci.yml/badge.svg)]
-```
+They will show the status of your CI/CD pipelines once you push to GitHub.
 
 Then commit and push:
 ```powershell

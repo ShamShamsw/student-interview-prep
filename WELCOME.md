@@ -60,7 +60,7 @@
 
 ```powershell
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/student-interview-prep.git
+git clone https://github.com/ShamShamsw/student-interview-prep.git
 cd student-interview-prep
 
 # 2. Run automated setup
