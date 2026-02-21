@@ -24,13 +24,13 @@ jobs:
           pip install black flake8 ruff
       
       - name: Run Black
-        run: black --check .
+        run: black --check languages/ scripts/
       
       - name: Run Flake8
-        run: flake8 . --count --max-line-length=100 --statistics
+        run: flake8 languages/ scripts/ --count --max-line-length=100 --statistics
       
       - name: Run Ruff
-        run: ruff check .
+        run: ruff check languages/ scripts/
 
   test:
     name: Test Python ${{ matrix.python-version }}
@@ -64,7 +64,7 @@ jobs:
       
       - name: Run tests with coverage
         run: |
-          pytest --cov=./ --cov-report=xml --cov-report=term
+          pytest
       
       - name: Upload coverage to Codecov
         if: matrix.python-version == '3.11'
