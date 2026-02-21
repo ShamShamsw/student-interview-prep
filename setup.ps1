@@ -21,11 +21,13 @@ if ($LASTEXITCODE -eq 0) {
     Write-Host "   ✓ $pythonVersion found" -ForegroundColor Green
     
     # Check if Python 3.10+
-    $versionMatch = $pythonVersion -match "Python 3\.(\d+)"
-    if ($matches -and [int]$matches[1] -ge 10) {
-        Write-Host "   ✓ Python version is 3.10 or higher" -ForegroundColor Green
-    } else {
-        Write-Host "   ⚠ Warning: Python 3.10+ recommended" -ForegroundColor Yellow
+    if ($pythonVersion -match "Python 3\.(\d+)") {
+        $minorVersion = [int]$matches[1]
+        if ($minorVersion -ge 10) {
+            Write-Host "   ✓ Python version is 3.10 or higher" -ForegroundColor Green
+        } else {
+            Write-Host "   ⚠ Warning: Python 3.10+ recommended" -ForegroundColor Yellow
+        }
     }
 } else {
     Write-Host "   ✗ Python not found. Please install Python 3.10+ first." -ForegroundColor Red
@@ -69,7 +71,7 @@ Write-Host ""
 # Setup pre-commit hooks
 Write-Host "🔧 Step 4/5: Setting up pre-commit hooks..." -ForegroundColor Yellow
 try {
-    $precommitCheck = & pre-commit --version 2>&1
+    $null = & pre-commit --version 2>&1
     if ($LASTEXITCODE -eq 0) {
         pre-commit install | Out-Null
         Write-Host "   ✓ Pre-commit hooks installed" -ForegroundColor Green
