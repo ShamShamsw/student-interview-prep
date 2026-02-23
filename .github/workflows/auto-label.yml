@@ -1,6 +1,6 @@
 name: "Auto-label new issues"
 
-on:
+"on":
   issues:
     types: [opened, edited]
 
@@ -20,11 +20,42 @@ jobs:
             const body = (issue.body || '').toLowerCase();
             const labels = new Set();
             // Simple keyword-based labeling
-            if (title.includes('bug') || body.includes('bug') || /error|exception|fail|crash/.test(title) ) labels.add('bug');
-            if (title.includes('feature') || body.includes('feature') || title.includes('enhancement') || body.includes('enhancement')) labels.add('feature');
-            if (body.includes('problem') || title.includes('problem') || body.includes('exercise') || body.includes('solution')) labels.add('problem-suggestion');
-            if (body.includes('help wanted') || title.includes('help wanted')) labels.add('help wanted');
-            if (body.includes('first time') || body.includes('good first issue') || title.includes('good first issue')) labels.add('good first issue');
+            if (
+              title.includes('bug') ||
+              body.includes('bug') ||
+              /error|exception|fail|crash/.test(title)
+            ) {
+              labels.add('bug');
+            }
+            if (
+              title.includes('feature') ||
+              body.includes('feature') ||
+              title.includes('enhancement') ||
+              body.includes('enhancement')
+            ) {
+              labels.add('feature');
+            }
+            if (
+              body.includes('problem') ||
+              title.includes('problem') ||
+              body.includes('exercise') ||
+              body.includes('solution')
+            ) {
+              labels.add('problem-suggestion');
+            }
+            if (
+              body.includes('help wanted') ||
+              title.includes('help wanted')
+            ) {
+              labels.add('help wanted');
+            }
+            if (
+              body.includes('first time') ||
+              body.includes('good first issue') ||
+              title.includes('good first issue')
+            ) {
+              labels.add('good first issue');
+            }
             if (labels.size === 0) labels.add('triage');
             await github.issues.addLabels({
               owner: context.repo.owner,
