@@ -6,6 +6,7 @@
 [![Python Tests](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/python-tests.yml/badge.svg)](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/python-tests.yml)
 [![YAML Lint](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/yaml-lint.yml/badge.svg)](https://github.com/ShamShamsw/student-interview-prep/actions/workflows/yaml-lint.yml)
 
+[![Contribute](https://img.shields.io/badge/contribute-Guide-blue.svg)](CONTRIBUTING.md)
 > A comprehensive, beginner-friendly repository for technical interview preparation with 35+ coding problems, practical projects, and guided learning paths.
 
 ---
@@ -145,6 +146,8 @@ We welcome contributions! See:
 - [CONTRIBUTING.md](CONTRIBUTING.md) - Contribution guidelines
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - Community standards
 - [ROADMAP_Version2.md](ROADMAP_Version2.md) - Future plans
+
+> Quick start: copy a problem template from `languages/python/problems/templates/PROBLEM_TEMPLATE.md`, add a solution in `languages/python/problems/solutions/` and tests in `languages/python/problems/tests/`, run `pre-commit run --all-files` and `pytest`, then open a PR.
 
 ### Ways to Contribute
 - 🐛 Report bugs or issues

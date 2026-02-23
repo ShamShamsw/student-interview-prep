@@ -85,3 +85,23 @@ Labels & issues
 - If you want to join as an active maintainer, open an issue describing your interest.
 
 Thank you — contributors make this project possible!
+
+## PR Checklist (Quick)
+
+Use this short checklist when opening a PR. See `CONTRIBUTING.md` above for full guidance.
+
+- Title and description clearly explain the change and link related issues.
+- Branch name is descriptive (e.g., `add-python-two-sum-template`).
+- Run `pre-commit` locally and fix formatting issues: `pre-commit run --all-files`.
+- Include or update tests where applicable; run `pytest` and ensure tests pass.
+- Update `languages/python/problems/README.md` or relevant README if adding content.
+- Add any new dependencies to `requirements-dev.txt` or the relevant project `requirements.txt`.
+
+## Example: Add a new problem (fast steps)
+
+1. Copy `languages/python/problems/templates/PROBLEM_TEMPLATE.md` to `languages/python/problems/NN-problem-name.md`.
+2. Fill Title, Difficulty, Topics, Statement, Examples, Constraints, and Canonical solution field.
+3. Add a solution under `languages/python/problems/solutions/NN-problem-name.py` using the solution template.
+4. Add tests in `languages/python/problems/tests/test_NN_problem_name.py` using the test template.
+5. Run `pre-commit run --all-files` and `pytest` before opening a PR.
+
