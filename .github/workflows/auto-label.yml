@@ -14,49 +14,44 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
+            // Auto-label script: helper-based, easy to extend.
             const issue = context.payload.issue;
             if (!issue) return;
+
             const title = (issue.title || '').toLowerCase();
             const body = (issue.body || '').toLowerCase();
+
             const labels = new Set();
-            // Simple keyword-based labeling
-            if (
-              title.includes('bug') ||
-              body.includes('bug') ||
-              /error|exception|fail|crash/.test(title)
-            ) {
-              labels.add('bug');
+
+            function addIf(cond, label) {
+              if (cond) labels.add(label);
             }
-            if (
-              title.includes('feature') ||
-              body.includes('feature') ||
-              title.includes('enhancement') ||
-              body.includes('enhancement')
-            ) {
-              labels.add('feature');
-            }
-            if (
-              body.includes('problem') ||
-              title.includes('problem') ||
-              body.includes('exercise') ||
-              body.includes('solution')
-            ) {
-              labels.add('problem-suggestion');
-            }
-            if (
-              body.includes('help wanted') ||
-              title.includes('help wanted')
-            ) {
-              labels.add('help wanted');
-            }
-            if (
-              body.includes('first time') ||
-              body.includes('good first issue') ||
-              title.includes('good first issue')
-            ) {
-              labels.add('good first issue');
-            }
+
+            // Simple keyword-based labeling rules
+            addIf(
+              title.includes('bug') || body.includes('bug') || /error|exception|fail|crash/.test(title),
+              'bug'
+            );
+
+            addIf(
+              title.includes('feature') || body.includes('feature') || title.includes('enhancement') || body.includes('enhancement'),
+              'feature'
+            );
+
+            addIf(
+              body.includes('problem') || title.includes('problem') || body.includes('exercise') || body.includes('solution'),
+              'problem-suggestion'
+            );
+
+            addIf(body.includes('help wanted') || title.includes('help wanted'), 'help wanted');
+
+            addIf(
+              body.includes('first time') || body.includes('good first issue') || title.includes('good first issue'),
+              'good first issue'
+            );
+
             if (labels.size === 0) labels.add('triage');
+
             await github.issues.addLabels({
               owner: context.repo.owner,
               repo: context.repo.repo,

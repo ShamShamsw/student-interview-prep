@@ -1,12 +1,17 @@
-"""
-Canonical solution template
+"""Canonical solution template
+
 License: MIT (see LICENSE)
 """
+
 from typing import List, Optional
 
 
 def solution_function(args):
-    """Describe inputs/outputs and complexity."""
+    """Describe inputs/outputs and complexity.
+
+    Implement the function and replace `args` with concrete parameters.
+    """
+
     # Implement solution here
     raise NotImplementedError()
 
