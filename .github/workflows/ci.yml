@@ -27,7 +27,7 @@ jobs:
         run: black --check languages/ scripts/
 
       - name: Run Flake8
-        run: flake8 languages/ scripts/ --count --max-line-length=100 --statistics
+        run: flake8 languages/ scripts/ --count --max-line-length=100 --extend-ignore=E203 --statistics
 
       - name: Run Ruff
         run: ruff check languages/ scripts/
