@@ -30,7 +30,7 @@ jobs:
         run: flake8 languages/ scripts/ --count --max-line-length=100 --extend-ignore=E203 --statistics
 
       - name: Run Ruff
-        run: ruff check languages/ scripts/ --ignore UP,I001
+        run: ruff check languages/ scripts/
 
   test:
     name: Test Python ${{ matrix.python-version }}

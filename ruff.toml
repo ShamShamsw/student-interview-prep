@@ -24,6 +24,8 @@ ignore = [
     "E501",  # Line too long (handled by formatter)
     "B008",  # Do not perform function call in argument defaults
     "C901",  # Too complex (let developers decide)
+    "I001",  # Import sorting differences in legacy project files
+    "UP",    # Legacy typing syntax retained in interview solution files
 ]
 
 # Allow autofix for all enabled rules

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Visualizer - Interview Prep</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            align-items: end;
+        }
+        
+        .control-group {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        select, input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        
+        select:focus, input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .visualization-area {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 30px;
+            min-height: 400px;
+            margin-bottom: 20px;
+        }
+        
+        .array-container {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .array-item {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            border: 3px solid #ddd;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .array-item.highlight {
+            background: #ffd700;
+            border-color: #ffb700;
+            transform: scale(1.1);
+        }
+        
+        .array-item.found {
+            background: #4caf50;
+            color: white;
+            border-color: #45a049;
+        }
+        
+        .array-item.checking {
+            background: #2196f3;
+            color: white;
+            border-color: #1976d2;
+        }
+        
+        .array-item .index {
+            position: absolute;
+            top: -25px;
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .step-info {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .step-info h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .step-info p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .code-display {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+        
+        .code-display .keyword {
+            color: #ff79c6;
+        }
+        
+        .code-display .function {
+            color: #50fa7b;
+        }
+        
+        .code-display .comment {
+            color: #6272a4;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .controls-row {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .array-item.active {
+            animation: pulse 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Algorithm Visualizer</h1>
+        <p class="subtitle">See algorithms come to life with interactive visualizations</p>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="algorithm">Algorithm</label>
+                <select id="algorithm">
+                    <option value="two-sum">Two Sum</option>
+                    <option value="binary-search">Binary Search</option>
+                    <option value="bubble-sort">Bubble Sort</option>
+                    <option value="linear-search">Linear Search</option>
+                </select>
+            </div>
+            
+            <div class="control-group">
+                <label for="arrayInput">Array (comma-separated)</label>
+                <input type="text" id="arrayInput" placeholder="2, 7, 11, 15" value="2, 7, 11, 15">
+            </div>
+            
+            <div class="control-group">
+                <label for="targetInput">Target (for search)</label>
+                <input type="number" id="targetInput" placeholder="9" value="9">
+            </div>
+            
+            <div class="control-group">
+                <label for="speedInput">Speed</label>
+                <select id="speedInput">
+                    <option value="1500">Slow</option>
+                    <option value="1000" selected>Medium</option>
+                    <option value="500">Fast</option>
+                </select>
+            </div>
+            
+            <button onclick="startVisualization()">▶️ Visualize</button>
+        </div>
+        
+        <div class="visualization-area">
+            <div class="array-container" id="arrayContainer"></div>
+            
+            <div class="step-info" id="stepInfo">
+                <h3>Welcome! 👋</h3>
+                <p>Select an algorithm, provide input, and click "Visualize" to see it in action.</p>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="stepCount">0</div>
+                <div class="stat-label">Steps</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="comparisons">0</div>
+                <div class="stat-label">Comparisons</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="timeComplexity">-</div>
+                <div class="stat-label">Time Complexity</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let isRunning = false;
+        let stepCount = 0;
+        let comparisons = 0;
+        
+        function resetStats() {
+            stepCount = 0;
+            comparisons = 0;
+            document.getElementById('stepCount').textContent = '0';
+            document.getElementById('comparisons').textContent = '0';
+        }
+        
+        function updateStep(message) {
+            stepCount++;
+            document.getElementById('stepCount').textContent = stepCount;
+            document.getElementById('stepInfo').innerHTML = `
+                <h3>Step ${stepCount}</h3>
+                <p>${message}</p>
+            `;
+        }
+        
+        function incrementComparisons() {
+            comparisons++;
+            document.getElementById('comparisons').textContent = comparisons;
+        }
+        
+        function parseArray() {
+            const input = document.getElementById('arrayInput').value;
+            return input.split(',').map(x => parseInt(x.trim())).filter(x => !isNaN(x));
+        }
+        
+        function displayArray(arr, highlights = [], classes = {}) {
+            const container = document.getElementById('arrayContainer');
+            container.innerHTML = '';
+            
+            arr.forEach((val, idx) => {
+                const item = document.createElement('div');
+                item.className = 'array-item';
+                item.innerHTML = `<span class="index">${idx}</span>${val}`;
+                
+                if (highlights.includes(idx)) {
+                    item.classList.add('highlight');
+                }
+                
+                if (classes[idx]) {
+                    item.classList.add(classes[idx]);
+                }
+                
+                container.appendChild(item);
+            });
+        }
+        
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+        
+        async function visualizeTwoSum(arr, target, speed) {
+            const seen = new Map();
+            
+            updateStep(`Looking for two numbers that sum to ${target}`);
+            displayArray(arr);
+            await sleep(speed);
+            
+            for (let i = 0; i < arr.length; i++) {
+                const complement = target - arr[i];
+                
+                updateStep(`Checking index ${i}: ${arr[i]}. Need complement: ${complement}`);
+                displayArray(arr, [i], {[i]: 'checking'});
+                await sleep(speed);
+                
+                incrementComparisons();
+                
+                if (seen.has(complement)) {
+                    updateStep(`✅ Found! ${arr[seen.get(complement)]} + ${arr[i]} = ${target}`);
+                    displayArray(arr, [], {[seen.get(complement)]: 'found', [i]: 'found'});
+                    return;
+                }
+                
+                seen.set(arr[i], i);
+                updateStep(`Stored ${arr[i]} at index ${i} in hash map`);
+                await sleep(speed);
+            }
+            
+            updateStep('❌ No solution found');
+        }
+        
+        async function visualizeBinarySearch(arr, target, speed) {
+            arr = arr.sort((a, b) => a - b);
+            let left = 0;
+            let right = arr.length - 1;
+            
+            updateStep(`Searching for ${target} in sorted array`);
+            displayArray(arr);
+            await sleep(speed);
+            
+            while (left <= right) {
+                const mid = Math.floor((left + right) / 2);
+                
+                updateStep(`Checking middle element at index ${mid}: ${arr[mid]}`);
+                displayArray(arr, [left, mid, right]);
+                await sleep(speed);
+                
+                incrementComparisons();
+                
+                if (arr[mid] === target) {
+                    updateStep(`✅ Found ${target} at index ${mid}!`);
+                    displayArray(arr, [], {[mid]: 'found'});
+                    return;
+                } else if (arr[mid] < target) {
+                    updateStep(`${arr[mid]} < ${target}, search right half`);
+                    left = mid + 1;
+                } else {
+                    updateStep(`${arr[mid]} > ${target}, search left half`);
+                    right = mid - 1;
+                }
+                
+                await sleep(speed);
+            }
+            
+            updateStep(`❌ ${target} not found in array`);
+        }
+        
+        async function visualizeBubbleSort(arr, speed) {
+            const n = arr.length;
+            const sorted = [...arr];
+            
+            updateStep('Starting Bubble Sort');
+            displayArray(sorted);
+            await sleep(speed);
+            
+            for (let i = 0; i < n - 1; i++) {
+                for (let j = 0; j < n - i - 1; j++) {
+                    updateStep(`Comparing ${sorted[j]} and ${sorted[j + 1]}`);
+                    displayArray(sorted, [j, j + 1]);
+                    await sleep(speed);
+                    
+                    incrementComparisons();
+                    
+                    if (sorted[j] > sorted[j + 1]) {
+                        updateStep(`Swapping ${sorted[j]} and ${sorted[j + 1]}`);
+                        [sorted[j], sorted[j + 1]] = [sorted[j + 1], sorted[j]];
+                        displayArray(sorted, [j, j + 1]);
+                        await sleep(speed);
+                    }
+                }
+            }
+            
+            updateStep('✅ Array sorted!');
+            displayArray(sorted, [], Object.fromEntries(sorted.map((_, i) => [i, 'found'])));
+        }
+        
+        async function visualizeLinearSearch(arr, target, speed) {
+            updateStep(`Searching for ${target} using linear search`);
+            displayArray(arr);
+            await sleep(speed);
+            
+            for (let i = 0; i < arr.length; i++) {
+                updateStep(`Checking index ${i}: ${arr[i]}`);
+                displayArray(arr, [i], {[i]: 'checking'});
+                await sleep(speed);
+                
+                incrementComparisons();
+                
+                if (arr[i] === target) {
+                    updateStep(`✅ Found ${target} at index ${i}!`);
+                    displayArray(arr, [], {[i]: 'found'});
+                    return;
+                }
+            }
+            
+            updateStep(`❌ ${target} not found`);
+        }
+        
+        async function startVisualization() {
+            if (isRunning) return;
+            
+            isRunning = true;
+            resetStats();
+            
+            const algorithm = document.getElementById('algorithm').value;
+            const arr = parseArray();
+            const target = parseInt(document.getElementById('targetInput').value);
+            const speed = parseInt(document.getElementById('speedInput').value);
+            
+            // Update time complexity
+            const complexities = {
+                'two-sum': 'O(n)',
+                'binary-search': 'O(log n)',
+                'bubble-sort': 'O(n²)',
+                'linear-search': 'O(n)'
+            };
+            document.getElementById('timeComplexity').textContent = complexities[algorithm];
+            
+            try {
+                switch (algorithm) {
+                    case 'two-sum':
+                        await visualizeTwoSum(arr, target, speed);
+                        break;
+                    case 'binary-search':
+                        await visualizeBinarySearch(arr, target, speed);
+                        break;
+                    case 'bubble-sort':
+                        await visualizeBubbleSort(arr, speed);
+                        break;
+                    case 'linear-search':
+                        await visualizeLinearSearch(arr, target, speed);
+                        break;
+                }
+            } catch (error) {
+                updateStep(`❌ Error: ${error.message}`);
+            }
+            
+            isRunning = false;
+        }
+    </script>
+</body>
+</html>
