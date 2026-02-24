@@ -1,6 +1,4 @@
-try:
-    Node
-except NameError:
+if "Node" not in globals():
 
     class Node:
         def __init__(self, val=0, neighbors=None):
