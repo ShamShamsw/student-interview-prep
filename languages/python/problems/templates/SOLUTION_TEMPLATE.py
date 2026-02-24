@@ -3,7 +3,7 @@
 License: MIT (see LICENSE)
 """
 
-from typing import List, Optional
+# Imports removed to avoid unused-import lint errors. Add typing imports as needed.
 
 
 def solution_function(args):
