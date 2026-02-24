@@ -1,6 +1,7 @@
 try:
     Node
 except NameError:
+
     class Node:
         def __init__(self, val=0, neighbors=None):
             self.val = val
