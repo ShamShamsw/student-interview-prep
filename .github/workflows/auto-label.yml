@@ -29,24 +29,34 @@ jobs:
 
             // Simple keyword-based labeling rules
             addIf(
-              title.includes('bug') || body.includes('bug') || /error|exception|fail|crash/.test(title),
+              title.includes('bug') ||
+              body.includes('bug') ||
+              /error|exception|fail|crash/.test(title),
               'bug'
             );
 
             addIf(
-              title.includes('feature') || body.includes('feature') || title.includes('enhancement') || body.includes('enhancement'),
+              title.includes('feature') ||
+              body.includes('feature') ||
+              title.includes('enhancement') ||
+              body.includes('enhancement'),
               'feature'
             );
 
             addIf(
-              body.includes('problem') || title.includes('problem') || body.includes('exercise') || body.includes('solution'),
+              body.includes('problem') ||
+              title.includes('problem') ||
+              body.includes('exercise') ||
+              body.includes('solution'),
               'problem-suggestion'
             );
 
             addIf(body.includes('help wanted') || title.includes('help wanted'), 'help wanted');
 
             addIf(
-              body.includes('first time') || body.includes('good first issue') || title.includes('good first issue'),
+              body.includes('first time') ||
+              body.includes('good first issue') ||
+              title.includes('good first issue'),
               'good first issue'
             );
 
