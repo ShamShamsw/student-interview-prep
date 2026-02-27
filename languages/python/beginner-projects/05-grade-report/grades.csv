@@ -1,0 +1,26 @@
+student_name,assignment_name,score,max_score
+Alice,Homework 1,45,50
+Alice,Homework 2,38,50
+Alice,Midterm,82,100
+Alice,Project,90,100
+Alice,Final,88,100
+Bob,Homework 1,50,50
+Bob,Homework 2,42,50
+Bob,Midterm,71,100
+Bob,Project,65,100
+Bob,Final,73,100
+Charlie,Homework 1,30,50
+Charlie,Homework 2,28,50
+Charlie,Midterm,55,100
+Charlie,Project,40,100
+Charlie,Final,48,100
+Diana,Homework 1,48,50
+Diana,Homework 2,50,50
+Diana,Midterm,95,100
+Diana,Project,98,100
+Diana,Final,97,100
+Ethan,Homework 1,40,50
+Ethan,Homework 2,35,50
+Ethan,Midterm,78,100
+Ethan,Project,72,100
+Ethan,Final,81,100
