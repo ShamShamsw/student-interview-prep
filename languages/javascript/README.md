@@ -1,10 +1,20 @@
 # JavaScript Interview Prep
 
-Welcome to the JavaScript section! This contains the same coding problems implemented in JavaScript, perfect for:
-- **Frontend developers** preparing for FAANG interviews
+Welcome to the JavaScript section! This contains coding problems implemented in JavaScript, perfect for:
+- **Frontend developers** preparing for technical interviews
 - **Full-stack engineers** who prefer JavaScript
 - **Node.js developers** practicing algorithms
 - Anyone learning algorithms in JavaScript
+
+## Current Status
+
+> **This section is a work in progress.** We have 2 of 35 problems ported from the Python section so far. Contributions welcome — see [CONTRIBUTING.md](../../CONTRIBUTING.md) for how to add more solutions and tests.
+
+| Problem | Solution | Tests |
+|---------|----------|-------|
+| 01 — Two Sum | ✅ | ✅ |
+| 15 — Valid Palindrome | ✅ | ✅ |
+| 02–14, 16–35 | ❌ Not yet ported | ❌ |
 
 ## 🚀 Quick Start
 
@@ -35,18 +45,13 @@ languages/javascript/
 ├── README.md (this file)
 ├── package.json
 ├── jest.config.js
-├── problems/
-│   ├── 01-two-sum.md
-│   ├── 02-valid-parentheses.md
-│   └── ...
+├── .eslintrc.js
 ├── solutions/
 │   ├── 01-two-sum.js
-│   ├── 02-valid-parentheses.js
-│   └── ...
+│   └── 15-valid-palindrome.js
 └── tests/
     ├── 01-two-sum.test.js
-     ├── 02-valid-parentheses.test.js
-    └── ...
+    └── 15-valid-palindrome.test.js
 ```
 
 ## 💻 Coding Style
@@ -74,29 +79,6 @@ describe('Problem: Two Sum', () => {
 });
 ```
 
-## 📊 Problem Categories
-
-### Arrays & Hashing (10 problems)
-- Two Sum, Valid Anagram, Group Anagrams, etc.
-
-### Two Pointers (4 problems)
-- Valid Palindrome, 3Sum, Container With Most Water, etc.
-
-### Sliding Window (4 problems)
-- Longest Substring, Permutation in String, etc.
-
-### Binary Search (5 problems)
-- Binary Search, Search Rotated Array, etc.
-
-### Linked Lists (3 problems)
-- Reverse List, Detect Cycle, Merge Lists
-
-### Trees & Graphs (5 problems)
-- Valid BST, Level Order Traversal, Islands, etc.
-
-### Dynamic Programming (2 problems)
-- Coin Change, Kth Largest Element
-
 ## 🎯 Tips for JavaScript Solutions
 
 1. **Use modern ES6+ features**: Arrow functions, destructuring, spread operator
@@ -105,16 +87,17 @@ describe('Problem: Two Sum', () => {
 4. **Handle edge cases**: `null`, `undefined`, empty arrays
 5. **Write clean code**: Meaningful variable names, comments for complex logic
 
+## 🤝 Contributing
+
+Want to add more JavaScript solutions? We'd love the help! Each contribution needs:
+1. A solution file in `solutions/` following the naming pattern (`NN-problem-name.js`)
+2. A test file in `tests/` with at least 5 test cases (`NN-problem-name.test.js`)
+3. JSDoc comments with time/space complexity
+
+See the existing solutions for examples, and [CONTRIBUTING.md](../../CONTRIBUTING.md) for full guidelines.
+
 ## 🔗 Resources
 
 - [MDN JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [JavaScript.info](https://javascript.info/)
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
-
-## 🤝 Contributing
-
-Want to add more JavaScript solutions? See [CONTRIBUTING.md](../../CONTRIBUTING.md)
-
----
-
-**Happy Coding!** 🚀

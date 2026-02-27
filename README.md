@@ -13,7 +13,7 @@ cd student-interview-prep
 Run your first test:
 
 ```powershell
-pytest languages/python/problems/tests/test_01_two_sum.py
+pytest languages/python/problems/tests/test_core_algorithms.py
 ```
 
 See the [Quick Start Guide](docs/QUICKSTART.md) for manual setup, Docker, and troubleshooting.
@@ -46,6 +46,20 @@ Four hands-on projects in [`languages/python/projects/`](languages/python/projec
 - **Study Session Tracker** — time management tool
 - **Interview Patterns API** — REST API with algorithm patterns
 - **Interview Prep Capstone** — full-stack interview tracking app
+
+### Mini-Projects (1–2 hours each)
+
+Quick-build exercises in [`languages/python/mini-projects/`](languages/python/mini-projects/) that bridge the gap between individual problems and full projects:
+
+- **LRU Cache** — hash map + linked list (classic interview design)
+- **Markdown Link Checker** — file I/O, regex, HTTP requests
+- **Rate Limiter** — sliding window, decorators
+- **Stack Calculator** — expression parsing, stack operations
+- **Word Frequency Counter** — hash maps, sorting, CLI
+
+### SQL Problems
+
+10 SQL interview problems in [`languages/sql/`](languages/sql/) covering queries from basic SELECTs to window functions and self-joins.
 
 ### Learning Resources
 

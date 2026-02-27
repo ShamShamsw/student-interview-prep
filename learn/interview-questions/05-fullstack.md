@@ -129,3 +129,76 @@ Questions that bridge frontend and backend — end-to-end architecture, integrat
 - Draw architecture diagrams on paper before coding
 - When something breaks, trace the full request from browser → server → database and back
 - Read production incident postmortems — they teach fullstack thinking
+
+---
+
+## Model Answers
+
+### Model Answer: "Walk through what happens when a user types a URL and presses Enter" (#1)
+
+> "This is one of my favorite questions because it touches every layer of the stack.
+>
+> 1. **DNS Resolution** — The browser checks its cache, then the OS cache, then queries a DNS resolver to translate `example.com` into an IP address like `93.184.216.34`.
+>
+> 2. **TCP Connection** — The browser opens a TCP connection to that IP on port 443 (HTTPS). This involves a three-way handshake: SYN, SYN-ACK, ACK.
+>
+> 3. **TLS Handshake** — Since it's HTTPS, the browser and server negotiate encryption. The server presents its certificate, they agree on a cipher, and the connection is now encrypted.
+>
+> 4. **HTTP Request** — The browser sends `GET / HTTP/1.1` with headers (Host, User-Agent, Accept, cookies, etc.).
+>
+> 5. **Server Processing** — The request hits a load balancer, which routes it to an app server. The server runs through middleware (logging, auth), matches the route, executes the handler, possibly queries a database, and builds a response.
+>
+> 6. **HTTP Response** — The server sends back HTML with a status code (200 OK), headers (`Content-Type`, `Cache-Control`), and the body.
+>
+> 7. **Rendering** — The browser parses the HTML, builds the DOM. It encounters `<link>` and `<script>` tags, fetching CSS and JS (which may block rendering). It builds the CSSOM, combines it with the DOM into a render tree, calculates layout, and paints pixels to the screen.
+>
+> 8. **JavaScript Execution** — JS runs, possibly making additional `fetch` requests to load dynamic data, updating the DOM, and making the page interactive.
+>
+> The whole process typically takes 200ms–2 seconds depending on network conditions, server location, and page complexity."
+
+### Model Answer: "How do you handle form validation across frontend and backend?" (#9)
+
+> "You need validation on both sides, and they serve different purposes.
+>
+> **Frontend validation** is for user experience. When someone types an invalid email or leaves a required field blank, you show an error immediately without waiting for a round trip to the server. I typically use HTML5 validation attributes (`required`, `type="email"`, `pattern`) for simple cases, and a library like Zod or Yup for complex schemas, especially with form libraries like React Hook Form.
+>
+> **Backend validation** is for security. You NEVER trust client input — someone can bypass the frontend by sending requests directly with curl or Postman. The server validates everything again: correct types, required fields, string length limits, authorized values. In Python/FastAPI, I'd use Pydantic models; in Express, I'd use Joi or express-validator.
+>
+> **The key principle is: frontend validation is a courtesy, backend validation is a requirement.** If I had to pick only one, I'd always pick backend.
+>
+> For consistency, I try to share validation schemas between frontend and backend when possible. In a TypeScript fullstack app, you can define a Zod schema once and use it on both sides. In polyglot stacks, I at least make sure the rules match by documenting them in the API spec."
+
+### Model Answer: "Design a simple URL shortener" (#26)
+
+> "Let me walk through this step by step.
+>
+> **Requirements clarification:** Users submit a long URL and get back a short one (like `short.ly/abc123`). When someone visits the short URL, they're redirected to the original. Let's say we need to support 1 million new URLs per day and 10 million redirects per day.
+>
+> **High-level design:**
+> ```
+> [Browser] → [API Server] → [Database]
+>                  ↑
+>              [Cache (Redis)]
+> ```
+>
+> **Core components:**
+> - **Create endpoint** (`POST /shorten`): Takes a long URL, generates a short code, stores the mapping, returns the short URL
+> - **Redirect endpoint** (`GET /:code`): Looks up the code, returns a 301 redirect to the original URL
+>
+> **Short code generation:** I'd use a base62 encoding (a-z, A-Z, 0-9) of an auto-incrementing ID. A 7-character code gives us 62⁷ ≈ 3.5 trillion possible URLs, which is plenty. Alternative: hash the URL with MD5/SHA and take the first 7 characters, but you'd need collision handling.
+>
+> **Database schema:**
+> ```sql
+> CREATE TABLE urls (
+>   id BIGINT PRIMARY KEY AUTO_INCREMENT,
+>   short_code VARCHAR(7) UNIQUE NOT NULL,
+>   original_url TEXT NOT NULL,
+>   created_at TIMESTAMP DEFAULT NOW()
+> );
+> CREATE INDEX idx_short_code ON urls(short_code);
+> ```
+>
+> **Scaling considerations:**
+> - Redirects are read-heavy (10:1 read:write), so I'd put Redis in front as a cache — most popular links are accessed repeatedly
+> - 301 (permanent) vs 302 (temporary) redirect: 301 lets browsers cache, reducing server load, but you can't track click analytics. I'd use 302 if analytics matter.
+> - At higher scale: database read replicas, sharding by code prefix, CDN for the redirect layer."

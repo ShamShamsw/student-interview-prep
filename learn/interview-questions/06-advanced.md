@@ -140,3 +140,90 @@ These tips apply to design questions at any level:
 - Practice with classic design problems: URL shortener, chat system, Twitter feed, notification service
 - Study one design pattern per week and find it in real codebases
 - When using any tool (database, cache, queue), understand WHY you're using it, not just HOW
+
+---
+
+## Model Answers
+
+### Model Answer: "Explain CAP theorem. What trade-offs does it force?" (#2)
+
+> "CAP theorem states that a distributed system can only guarantee two of three properties simultaneously:
+>
+> - **Consistency** — every read receives the most recent write (all nodes see the same data at the same time)
+> - **Availability** — every request receives a response, even if some nodes are down
+> - **Partition Tolerance** — the system continues operating even if network communication between nodes drops
+>
+> In practice, network partitions WILL happen in distributed systems, so you're really choosing between CP and AP:
+>
+> - **CP (Consistency + Partition Tolerance):** During a partition, the system refuses to serve requests rather than risk returning stale data. Example: a banking system — you'd rather show an error than let someone overdraft because two nodes disagree on the balance. Tools: HBase, MongoDB (in default config), etcd.
+>
+> - **AP (Availability + Partition Tolerance):** During a partition, the system continues serving requests but some nodes may return stale data. Example: a social media feed — it's okay if a user sees a post a few seconds late rather than getting an error page. Tools: Cassandra, DynamoDB, CouchDB.
+>
+> Most real-world systems don't make a global CP/AP choice — they tune consistency per operation. For example, an e-commerce system might be CP for inventory counts (don't oversell) but AP for product recommendations (stale is fine)."
+
+### Model Answer: "How would you design a rate limiter?" (#4)
+
+> "A rate limiter controls how many requests a user or IP can make within a time window. Let me walk through the design.
+>
+> **Requirements:** Limit each user to 100 requests per minute. Return HTTP 429 (Too Many Requests) when exceeded.
+>
+> **Algorithm — Sliding Window Counter:**
+> I'd use a sliding window approach in Redis. For each user, I maintain a sorted set where each member is a request timestamp.
+>
+> On each request:
+> 1. Remove all entries older than 60 seconds from the sorted set
+> 2. Count remaining entries
+> 3. If count < 100: add current timestamp, allow request
+> 4. If count ≥ 100: reject with 429 and a `Retry-After` header
+>
+> **Alternative algorithms:**
+> - **Token Bucket:** Each user has a bucket that fills at a steady rate (e.g., 100 tokens/minute). Each request consumes a token. Simple, allows bursts up to bucket capacity.
+> - **Fixed Window:** Count requests in fixed 1-minute windows. Simple but has a boundary problem — a user could make 100 requests at 0:59 and 100 at 1:01, hitting 200 in 2 seconds.
+> - **Leaky Bucket:** Requests enter a queue processed at a fixed rate. Smooths traffic but adds latency.
+>
+> **Distributed rate limiting:** With multiple app servers, each server can't count independently. I'd use Redis as a shared counter — it's fast (in-memory), supports atomic operations (`INCR`, `EXPIRE`), and all servers see the same counts.
+>
+> **Implementation in practice:**
+> I'd implement this as middleware that runs before the route handler. The middleware checks Redis, and either passes the request through or returns 429. I'd include rate limit headers in every response (`X-RateLimit-Remaining`, `X-RateLimit-Reset`) so clients can self-regulate."
+
+### Model Answer: "What is the saga pattern? Give an example." (#12)
+
+> "The saga pattern manages distributed transactions across multiple services by breaking them into a sequence of local transactions, each with a compensating action (rollback) if something fails.
+>
+> **Example — E-commerce order flow:**
+>
+> When a user places an order, three services are involved:
+> 1. **Order Service** — creates the order record
+> 2. **Payment Service** — charges the credit card
+> 3. **Inventory Service** — reserves the items
+>
+> **Happy path:**
+> ```
+> Order Service: Create order (status: pending)
+>   → Payment Service: Charge $50
+>     → Inventory Service: Reserve 2 items
+>       → Order Service: Update order (status: confirmed)
+> ```
+>
+> **Failure path (payment fails):**
+> ```
+> Order Service: Create order (status: pending)
+>   → Payment Service: Charge $50 — FAILS (insufficient funds)
+>     → Compensating action: Order Service cancels the order
+> ```
+>
+> **Failure path (inventory fails):**
+> ```
+> Order Service: Create order (status: pending)
+>   → Payment Service: Charge $50 — succeeds
+>     → Inventory Service: Reserve items — FAILS (out of stock)
+>       → Compensating actions (reverse order):
+>          Payment Service: Refund $50
+>          Order Service: Cancel order
+> ```
+>
+> There are two coordination approaches:
+> - **Choreography:** Each service emits events and listens for events from others. Simpler but harder to trace the full flow.
+> - **Orchestration:** A central saga coordinator tells each service what to do and handles failures. Easier to understand and debug, but the orchestrator is a single point of failure.
+>
+> The key advantage over a traditional distributed transaction (2PC) is that sagas don't hold locks across services, so they're more performant and resilient. The trade-off is that your system is in a temporarily inconsistent state during the saga — you need to design for that."

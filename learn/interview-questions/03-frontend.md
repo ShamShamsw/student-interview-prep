@@ -124,3 +124,46 @@ Questions specific to frontend and UI engineering roles — HTML, CSS, JavaScrip
 - Build a small project to solidify each concept (a todo app, a weather widget)
 - Use browser DevTools daily — open the console, inspect elements, profile performance
 - Practice explaining concepts without jargon, as if to a non-technical person
+
+---
+
+## Model Answers
+
+### Model Answer: "Explain the CSS box model" (#6)
+
+> "Every HTML element is a rectangular box made of four layers: content, padding, border, and margin — from inside out.
+>
+> The **content** is where text and images appear. **Padding** is transparent space between the content and the border. The **border** wraps around the padding. **Margin** is transparent space outside the border that separates the element from its neighbors.
+>
+> By default, when you set `width: 200px`, that only applies to the content area — padding and border are added on top, making the total box wider than 200px. This catches people off guard, which is why most developers set `box-sizing: border-box` globally. With border-box, the `width` includes content + padding + border, making layout math much more predictable.
+>
+> In practice, I always start my CSS with `*, *::before, *::after { box-sizing: border-box; }` to avoid sizing surprises."
+
+### Model Answer: "What is the event loop? How does JavaScript handle asynchronous code?" (#13)
+
+> "JavaScript is single-threaded — it has one call stack and can only execute one thing at a time. But it handles async operations through the event loop.
+>
+> Here's how it works: When you call something like `setTimeout` or `fetch`, the browser's Web APIs handle the actual waiting. When the async operation completes, its callback is placed in a task queue. The event loop continuously checks: 'Is the call stack empty? If yes, take the first item from the queue and push it onto the stack.'
+>
+> There are actually two queues: the **microtask queue** (Promises, `queueMicrotask`) and the **macrotask queue** (`setTimeout`, `setInterval`, DOM events). Microtasks have priority — the event loop drains ALL microtasks before processing the next macrotask.
+>
+> For example:
+> ```javascript
+> console.log('1');          // runs immediately
+> setTimeout(() => console.log('2'), 0);  // macrotask queue
+> Promise.resolve().then(() => console.log('3'));  // microtask queue
+> console.log('4');          // runs immediately
+> // Output: 1, 4, 3, 2
+> ```
+>
+> This is why `async/await` is preferred over nested callbacks — it makes async code read sequentially while the event loop manages the actual scheduling."
+
+### Model Answer: "What is lazy loading and when would you use it?" (#25)
+
+> "Lazy loading means deferring the loading of a resource until it's actually needed, rather than loading everything upfront.
+>
+> The most common use cases are images and code splitting. For images, you can add `loading="lazy"` to `<img>` tags, and the browser won't fetch them until they're about to enter the viewport. For JavaScript, frameworks like React support `React.lazy()` and dynamic `import()` to split your bundle so each route only loads its own code.
+>
+> I'd use lazy loading when a page has many images below the fold, or when an app has heavy routes that most users never visit. It directly improves the Largest Contentful Paint metric and reduces initial bandwidth, which especially matters on mobile connections.
+>
+> The trade-off is a brief delay when content does load — users might see a placeholder flash. You mitigate this with skeleton screens or blurred image placeholders."

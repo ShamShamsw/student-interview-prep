@@ -124,3 +124,31 @@ These appear in nearly every interview. Prepare a real story for each category u
 - Answer out loud using STAR (set a 90-second timer)
 - Record yourself once a week and listen back
 - Track which stories you've used so you have variety across interviews
+
+---
+
+## Model Answers
+
+Below are fully worked-through examples so you can see what a strong behavioral answer sounds like. Use these as templates, but always substitute your own real stories.
+
+### Model Answer: "Tell me about yourself" (#1)
+
+> "I'm a computer science student at [University] graduating this spring. Over the past two years, I've focused on full-stack development — I built a study session tracker as a personal project where I used Python and Flask for the backend and React for the frontend. Last summer, I interned at [Company] where I worked on their internal tooling team, building dashboards that helped the support team reduce ticket resolution time by 20%. I'm excited about this role because I love building tools that make people's workflows faster, and your team's focus on developer experience really resonates with me."
+
+**Why this works:** It follows the past → present → future arc, includes a concrete metric (20% faster), and connects to the specific role.
+
+### Model Answer: "Tell me about the hardest technical problem you've solved" (#6)
+
+> **Situation:** During my internship, our team's CI pipeline started timing out randomly — builds that normally took 8 minutes were taking 45+ minutes, and sometimes failing entirely. Nobody could figure out why because the failures weren't consistent.
+>
+> **Task:** My manager asked me to investigate since I had the lightest sprint load that week. I needed to find the root cause and fix it without disrupting the team's deployments.
+>
+> **Action:** I started by collecting data — I pulled the last 30 days of build logs and plotted timing. I noticed the slow builds correlated with certain test files running. I dug into those tests and found one integration test was making real HTTP calls to a third-party API that had recently added rate limiting. When we hit the rate limit, the test would retry with exponential backoff, sometimes waiting minutes. I mocked the external API call in the test environment and added a network-isolation check to our CI config so no test could ever make real external calls.
+>
+> **Result:** Build times went back to a consistent 7-8 minutes. My manager was impressed enough to have me present the debugging process at our team retro, and the network-isolation pattern got adopted across three other teams' CI configs.
+
+**Why this works:** Uses STAR structure clearly. Shows a methodical debugging approach (data collection → hypothesis → isolation → fix). The result has both a direct outcome and a broader impact.
+
+### Model Answer: "How do you handle disagreements about technical decisions?" (#12)
+
+> "In a group project last semester, my teammate wanted to use MongoDB for our e-commerce app, and I felt PostgreSQL was a better fit because we had highly relational data — users, orders, products, and reviews all linked together. Instead of just arguing my preference, I made a quick comparison doc: I listed the three most complex queries we'd need to support and showed how each would look in both databases. The relational version was dramatically simpler. My teammate actually agreed once they saw the concrete comparison, and we went with PostgreSQL. I learned that showing rather than telling is much more effective in technical disagreements — and that I should always be prepared to change my own mind if the evidence goes the other way."

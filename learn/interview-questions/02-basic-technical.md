@@ -124,3 +124,35 @@ Foundational CS and programming concepts every developer should be comfortable w
 - Then check — can you explain it to someone who doesn't code?
 - If you can't explain it simply, review the concept before moving on
 - Practice 3–5 questions per study session
+
+---
+
+## Model Answers
+
+Below are fully worked-through examples. In real interviews, aim for this level of depth and clarity.
+
+### Model Answer: "What is the difference between an array and a linked list?" (#1)
+
+> "An array stores elements in contiguous memory — think of it as a row of numbered mailboxes side by side. Because they're contiguous, you can jump to any index in O(1) time, which makes reading fast. But inserting or deleting in the middle is O(n) because you have to shift everything after that position.
+>
+> A linked list stores elements as nodes scattered in memory, where each node holds a value and a pointer to the next node. This makes insertion and deletion at a known position O(1) — you just update pointers. But accessing the k-th element is O(n) because you have to walk the chain from the head.
+>
+> In practice, I'd use an array (or Python list) by default because of cache locality and simpler code. I'd reach for a linked list when I need frequent insertions/deletions at arbitrary positions and don't need random access — like implementing an LRU cache or a queue."
+
+**Why this works:** Compares on multiple dimensions (memory, access, insert/delete), gives Big-O for each, uses an analogy, and names a practical use case.
+
+### Model Answer: "Explain Big O notation. Why does it matter?" (#7)
+
+> "Big O describes how an algorithm's runtime or space grows relative to its input size, ignoring constants and lower-order terms. It answers: 'If I double my input, how much slower does this get?'
+>
+> For example, a simple loop through n items is O(n) — linear. If I nest two loops, like checking every pair, that's O(n²) — quadratic. Merge sort is O(n log n) because it divides the problem in half each time (log n levels) and does O(n) work at each level.
+>
+> It matters because it helps you predict whether your solution will work at scale. An O(n²) solution might be fine for 100 items but takes 10,000× longer for 10,000 items. In an interview, it's also how you communicate the efficiency of your approach — the interviewer will almost always ask 'What's the time and space complexity?' so you need to be comfortable reasoning about it."
+
+### Model Answer: "What is Git? Why do developers use it?" (#19)
+
+> "Git is a distributed version control system. It tracks every change to your codebase as a snapshot called a commit. 'Distributed' means every developer has a full copy of the repository, not just the latest version.
+>
+> Developers use it for three main reasons: First, you can revert to any previous state if something breaks — it's like an infinite undo button for your entire project. Second, branching lets multiple people work on different features simultaneously without stepping on each other's code. Third, the pull request workflow enables code review, where teammates can catch bugs and share knowledge before changes reach production.
+>
+> I use Git daily — branching for each feature, writing descriptive commit messages, and using `git log` and `git diff` to understand what changed when debugging."

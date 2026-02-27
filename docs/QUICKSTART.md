@@ -83,8 +83,11 @@ flake8 .
 # Navigate to problems directory
 cd languages/python/problems
 
-# Run a specific problem's tests
-pytest tests/test_01_two_sum.py
+# Run core algorithm tests
+pytest tests/test_core_algorithms.py
+
+# Run design & structure tests
+pytest tests/test_design_and_structures.py
 
 # Run all problem tests
 pytest tests/
