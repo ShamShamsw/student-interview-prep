@@ -54,6 +54,7 @@ Guides, cheatsheets, and study plans in [`learn/`](learn/):
 - [Beginner Start Here](learn/guides/BEGINNER_START_HERE.md) — 2-week daily plan for newcomers
 - [Learning Path](learn/paths/LEARNING_PATH.md) — 8-week and 12-week structured tracks
 - [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md) — complexity & pattern reference
+- [Interview Questions](learn/interview-questions/README.md) — categorized questions by role & level
 - [Mock Interview Guide](learn/guides/MOCK_INTERVIEW_GUIDE.md) — practice like the real thing
 - [System Design Basics](learn/guides/SYSTEM_DESIGN_BASICS.md) — architecture fundamentals
 - [Glossary](learn/resources/GLOSSARY.md) — technical terms explained

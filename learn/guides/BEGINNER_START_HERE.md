@@ -59,7 +59,7 @@ If you are new to IT, open source, and coding projects, use this file first.
 
 ## Interview questions (start here)
 
-- Use [../guides/INTERVIEW_QUESTIONS.md](../guides/INTERVIEW_QUESTIONS.md) for beginner-friendly interview practice.
+- Use the [Interview Questions](../interview-questions/README.md) collection for categorized interview practice.
 - Practice answering 2 questions out loud after each coding session.
 
 ## Beginner rules (anti-overwhelm)

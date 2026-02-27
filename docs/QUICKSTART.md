@@ -131,7 +131,7 @@ black .
 
 ### For Interview Prep
 1. Start with [Easy Problems](../languages/python/problems/)
-2. Review [Interview Questions](../learn/guides/INTERVIEW_QUESTIONS.md)
+2. Review [Interview Questions](../learn/interview-questions/README.md)
 3. Practice [Mock Interviews](../learn/guides/MOCK_INTERVIEW_GUIDE.md)
 4. Study [System Design](../learn/guides/SYSTEM_DESIGN_BASICS.md)
 

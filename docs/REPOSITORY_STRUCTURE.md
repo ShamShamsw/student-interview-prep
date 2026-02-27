@@ -27,9 +27,17 @@ student-interview-prep/
 │   │   ├── BEGINNER_START_HERE.md     # 2-week beginner plan
 │   │   ├── FAQ.md                     # Common questions
 │   │   ├── IDE_SETUP_GUIDE.md         # Editor configuration
-│   │   ├── INTERVIEW_QUESTIONS.md     # Behavioral prep
 │   │   ├── MOCK_INTERVIEW_GUIDE.md    # Interview practice
 │   │   └── SYSTEM_DESIGN_BASICS.md    # Architecture intro
+│   ├── interview-questions/           # Categorized interview questions
+│   │   ├── README.md                  # Index & study plan
+│   │   ├── 00-how-to-ask-and-answer.md
+│   │   ├── 01-behavioral.md
+│   │   ├── 02-basic-technical.md
+│   │   ├── 03-frontend.md
+│   │   ├── 04-backend.md
+│   │   ├── 05-fullstack.md
+│   │   └── 06-advanced.md
 │   ├── paths/                         # Structured learning tracks
 │   │   ├── LEARNING_PATH.md           # 8-week & 12-week plans
 │   │   ├── LEARNING_PATH_CHECKLIST.md # Progress checklist
@@ -105,7 +113,7 @@ student-interview-prep/
 - Capstone: [interview-prep-capstone/](../languages/python/projects/interview-prep-capstone/)
 
 **Prepare for interviews:**
-- Questions: [INTERVIEW_QUESTIONS.md](../learn/guides/INTERVIEW_QUESTIONS.md)
+- Questions: [Interview Questions](../learn/interview-questions/README.md)
 - Mock interviews: [MOCK_INTERVIEW_GUIDE.md](../learn/guides/MOCK_INTERVIEW_GUIDE.md)
 - System design: [SYSTEM_DESIGN_BASICS.md](../learn/guides/SYSTEM_DESIGN_BASICS.md)
 - Cheatsheet: [PYTHON_CHEATSHEET.md](../learn/cheatsheets/PYTHON_CHEATSHEET.md)
