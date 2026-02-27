@@ -47,6 +47,16 @@ Four hands-on projects in [`languages/python/projects/`](languages/python/projec
 - **Interview Patterns API** — REST API with algorithm patterns
 - **Interview Prep Capstone** — full-stack interview tracking app
 
+### Beginner Projects (30 min – 2 hours each)
+
+Plan-first, comment-heavy projects in [`languages/python/beginner-projects/`](languages/python/beginner-projects/) for those who know basic Python but haven't built anything from scratch yet:
+
+- **Greeting Generator** — string formatting, conditionals, planning comments (30–45 min)
+- **Quiz Game** — lists, dicts, functions, docstrings (45–75 min)
+- **Contact Book** — CRUD, JSON persistence, architecture comments (1–1.5 hr)
+- **Expense Tracker** — aggregation, formatted output, algorithm comments (1–2 hr)
+- **Student Grade Report** — CSV processing, full documentation (1.5–2 hr)
+
 ### Mini-Projects (1–2 hours each)
 
 Quick-build exercises in [`languages/python/mini-projects/`](languages/python/mini-projects/) that bridge the gap between individual problems and full projects:
