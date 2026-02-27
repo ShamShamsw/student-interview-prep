@@ -432,4 +432,4 @@ pre-commit run --all-files ; pytest --cov=languages
 
 - **Full Documentation**: See [INFRASTRUCTURE_SETUP.md](INFRASTRUCTURE_SETUP.md)
 - **Quick Start**: See [QUICKSTART.md](QUICKSTART.md)
-- **FAQ**: See [learn/guides/FAQ.md](learn/guides/FAQ.md)
+- **FAQ**: See [learn/guides/FAQ.md](../learn/guides/FAQ.md)

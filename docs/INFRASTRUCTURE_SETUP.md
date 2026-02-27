@@ -105,15 +105,14 @@ The repository has several CI workflows:
 
 ### New Unified CI Workflow (`.github/workflows/ci.yml`)
 - **Lint**: Runs Black, Flake8, and Ruff checks
-- **Test**: Runs tests on Python 3.10, 3.11, and 3.12
+- **Test**: Runs problem tests, API project tests, and capstone tests on Python 3.10, 3.11, and 3.12
 - **Coverage**: Uploads coverage to Codecov
-- **Benchmark**: Runs benchmark tests and saves results
 
-### Existing Workflows
-- `python-tests.yml` - Python test suite
+### Other Workflows
 - `yaml-lint.yml` - YAML file validation
 - `notebook-checks.yml` - Jupyter notebook validation
 - `actions-smoke-test.yml` - GitHub Actions validation
+- `auto-label.yml` - Auto-labels new issues
 
 ## Dependabot
 

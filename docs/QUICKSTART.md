@@ -125,15 +125,15 @@ black .
 ## 📚 Learning Path
 
 ### For Beginners
-1. Read the [Beginner's Guide](learn/guides/BEGINNER_START_HERE.md)
-2. Follow the [Learning Path](learn/paths/LEARNING_PATH.md)
-3. Use the [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md)
+1. Read the [Beginner's Guide](../learn/guides/BEGINNER_START_HERE.md)
+2. Follow the [Learning Path](../learn/paths/LEARNING_PATH.md)
+3. Use the [Python Cheatsheet](../learn/cheatsheets/PYTHON_CHEATSHEET.md)
 
 ### For Interview Prep
-1. Start with [Easy Problems](languages/python/problems/)
-2. Review [Interview Questions](learn/guides/INTERVIEW_QUESTIONS.md)
-3. Practice [Mock Interviews](learn/guides/MOCK_INTERVIEW_GUIDE.md)
-4. Study [System Design](learn/guides/SYSTEM_DESIGN_BASICS.md)
+1. Start with [Easy Problems](../languages/python/problems/)
+2. Review [Interview Questions](../learn/guides/INTERVIEW_QUESTIONS.md)
+3. Practice [Mock Interviews](../learn/guides/MOCK_INTERVIEW_GUIDE.md)
+4. Study [System Design](../learn/guides/SYSTEM_DESIGN_BASICS.md)
 
 ---
 
@@ -186,15 +186,15 @@ pip install -e .
 2. **Check coverage**: Aim for >80% test coverage on your solutions
 3. **Run benchmarks**: Use `pytest --benchmark-only` to test performance
 4. **Read error messages**: pytest provides helpful hints for failing tests
-5. **Use the glossary**: Check [GLOSSARY.md](learn/resources/GLOSSARY.md) for terms
+5. **Use the glossary**: Check [GLOSSARY.md](../learn/resources/GLOSSARY.md) for terms
 
 ---
 
 ## 🆘 Need Help?
 
 - 📖 Full documentation: [INFRASTRUCTURE_SETUP.md](INFRASTRUCTURE_SETUP.md)
-- ❓ Common questions: [FAQ.md](learn/guides/FAQ.md)
-- 🐛 Found a bug? Check [CONTRIBUTING.md](CONTRIBUTING.md)
+- ❓ Common questions: [FAQ.md](../learn/guides/FAQ.md)
+- 🐛 Found a bug? Check [CONTRIBUTING.md](../CONTRIBUTING.md)
 - 💬 Questions? Open an issue on GitHub
 
 ---
@@ -203,4 +203,4 @@ pip install -e .
 
 Your environment is now set up. Happy coding! 🎉
 
-**Next**: Choose a problem from [languages/python/problems/](languages/python/problems/) and start practicing!
+**Next**: Choose a problem from [languages/python/problems/](../languages/python/problems/) and start practicing!

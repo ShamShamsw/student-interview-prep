@@ -62,7 +62,7 @@ jobs:
 
             if (labels.size === 0) labels.add('triage');
 
-            await github.issues.addLabels({
+            await github.rest.issues.addLabels({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issue.number,
