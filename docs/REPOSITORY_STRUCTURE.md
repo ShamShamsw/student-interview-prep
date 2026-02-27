@@ -37,7 +37,8 @@ student-interview-prep/
 │   │   ├── 03-frontend.md
 │   │   ├── 04-backend.md
 │   │   ├── 05-fullstack.md
-│   │   └── 06-advanced.md
+│   │   ├── 06-advanced.md
+│   │   └── 07-interview-preparation-guide.md
 │   ├── paths/                         # Structured learning tracks
 │   │   ├── LEARNING_PATH.md           # 8-week & 12-week plans
 │   │   ├── LEARNING_PATH_CHECKLIST.md # Progress checklist

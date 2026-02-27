@@ -4,9 +4,10 @@ A categorized collection of questions you'll encounter in technical interviews �
 
 ## How to Use This
 
-1. **Start with** [How to Ask & Answer Questions](00-how-to-ask-and-answer.md) — frameworks for structuring every answer
-2. **Practice** [Behavioral Questions](01-behavioral.md) — these appear in every interview regardless of role
-3. **Pick your track** based on the role you're targeting:
+1. **Read** the [Interview Preparation Guide](07-interview-preparation-guide.md) — what to bring, company research, in-person vs. virtual etiquette
+2. **Learn** [How to Ask & Answer Questions](00-how-to-ask-and-answer.md) — frameworks for structuring every answer
+3. **Practice** [Behavioral Questions](01-behavioral.md) — these appear in every interview regardless of role
+4. **Pick your track** based on the role you're targeting:
 
 | File | Best For |
 |------|----------|
@@ -15,6 +16,7 @@ A categorized collection of questions you'll encounter in technical interviews �
 | [Backend](04-backend.md) | Backend / API / infrastructure roles |
 | [Fullstack](05-fullstack.md) | Fullstack roles that span both |
 | [Advanced Technical](06-advanced.md) | Senior-level / system design / architecture |
+| [Interview Preparation Guide](07-interview-preparation-guide.md) | Logistics, etiquette, and what to do before/during/after |
 
 ## Study Plan
 
