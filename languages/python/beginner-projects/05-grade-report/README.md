@@ -515,6 +515,41 @@ Save the report to both the console and a `.txt` file.
 
 ---
 
+## Reflect on What You Learned
+
+After finishing, write 2–3 sentences for EACH audience below. This project touches on data pipelines, statistical analysis, and report generation — all things worth articulating clearly.
+
+### To a friend (casual, no jargon)
+
+> _"I built a thing that..."_
+>
+> Example: "I made a program that reads a spreadsheet of student grades, figures out everyone's overall score and letter grade, and prints a nice-looking report card with a rankings table and bar chart."
+
+### To an employer (focus on skills and process)
+
+> _"In this project I practiced..."_
+>
+> Example: "I built a data processing pipeline — CSV ingestion, statistical calculations, and formatted report generation. I used Python's csv and statistics libraries, wrote teammate-level documentation with module docstrings and section separators, and explained why I used total-based grading over percentage averaging."
+
+### To a professor (technical, precise)
+
+> _"This project demonstrates..."_
+>
+> Example: "This project demonstrates an ETL-style pipeline: parsing structured CSV input, computing weighted aggregates and descriptive statistics (mean, standard deviation via the statistics module), assigning categorical labels via boundary-based classification, and generating formatted multi-section reports. I documented the choice of total-point-based grading over per-assignment percentage averaging with a mathematical justification."
+
+**Write yours in a comment block at the bottom of your Python file:**
+```python
+# ============================================================
+# WHAT I LEARNED
+# ============================================================
+# Friend:    ...
+# Employer:  ...
+# Professor: ...
+# ============================================================
+```
+
+---
+
 ## Stretch Goals
 
 1. Accept a command-line argument for the CSV path using `sys.argv` (comment: why `sys.argv` vs. `argparse` for a simple case?)

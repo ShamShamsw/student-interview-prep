@@ -339,6 +339,41 @@ Test these scenarios:
 
 ---
 
+## Reflect on What You Learned
+
+After finishing, write 2–3 sentences for EACH audience below. Describing data aggregation and algorithm choices at different levels is exactly what system design interviews test.
+
+### To a friend (casual, no jargon)
+
+> _"I built a thing that..."_
+>
+> Example: "I made a spending tracker that adds up your expenses by category and shows a little bar chart of where your money goes. It remembers everything you enter, even after you close it."
+
+### To an employer (focus on skills and process)
+
+> _"In this project I practiced..."_
+>
+> Example: "I practiced data aggregation — computing totals, averages, and category breakdowns from raw records. I documented my algorithm choices, including why I used dictionary accumulation over sort-and-group, and built formatted output with proportional bar charts."
+
+### To a professor (technical, precise)
+
+> _"This project demonstrates..."_
+>
+> Example: "This project demonstrates single-pass O(n) aggregation using dictionary accumulation, formatted console output with proportional visualization, JSON persistence, and thorough algorithm documentation. I analyzed time and space complexity of alternative approaches (sort-based grouping vs. hash-based) and justified my selection in inline comments."
+
+**Write yours in a comment block at the bottom of your Python file:**
+```python
+# ============================================================
+# WHAT I LEARNED
+# ============================================================
+# Friend:    ...
+# Employer:  ...
+# Professor: ...
+# ============================================================
+```
+
+---
+
 ## Stretch Goals
 
 1. Add date range filtering to `list_expenses` (comment on parsing and comparing dates)

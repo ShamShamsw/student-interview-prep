@@ -1,6 +1,6 @@
 # Beginner Projects
 
-Five plan-first, comment-heavy projects designed for **absolute beginners** who have basic Python knowledge (variables, if/else, loops, functions) but haven't built anything from scratch yet.
+Six plan-first, comment-heavy projects designed for **absolute beginners** who have basic Python knowledge (variables, if/else, loops, functions) but haven't built anything from scratch yet.
 
 ## Philosophy
 
@@ -19,6 +19,7 @@ These projects emphasize **planning over programming**:
 | 03 | [Contact Book](03-contact-book/README.md) | 1–1.5 hr | Beginner | CRUD, JSON persistence, architecture comments |
 | 04 | [Expense Tracker](04-expense-tracker/README.md) | 1–2 hr | Beginner | Aggregation, formatted output, algorithm comments |
 | 05 | [Student Grade Report](05-grade-report/README.md) | 1.5–2 hr | Beginner+ | CSV processing, multi-section reports, full documentation |
+| 06 | [Library Management System](06-library-system/README.md) | 2.5–4 hr | Beginner+ | Multi-entity data, relational thinking, multi-file architecture |
 
 ## Recommended Order
 
@@ -29,6 +30,7 @@ Work through the projects in order — each one builds on commenting and plannin
 3. **Contact Book** — learn to document architecture decisions and data persistence
 4. **Expense Tracker** — learn to write algorithm comments and explain trade-offs
 5. **Grade Report** — combine all skills into teammate-ready documentation
+6. **Library System** — apply everything to a multi-file, multi-entity system
 
 ## What "Done" Looks Like
 

@@ -322,6 +322,41 @@ Test these scenarios:
 
 ---
 
+## Reflect on What You Learned
+
+After finishing, write 2–3 sentences for EACH audience below. Being able to explain persistence and CRUD at different levels will come up in every backend interview.
+
+### To a friend (casual, no jargon)
+
+> _"I built a thing that..."_
+>
+> Example: "I made a digital address book that saves your contacts to a file so they're still there when you reopen the program. You can add, search, edit, and delete people — basically a mini phone book app."
+
+### To an employer (focus on skills and process)
+
+> _"In this project I practiced..."_
+>
+> Example: "I implemented full CRUD operations with JSON file persistence. I separated the data layer from the UI logic, planned the architecture before coding, and documented every design decision — like why I chose to save after every modification instead of only on exit."
+
+### To a professor (technical, precise)
+
+> _"This project demonstrates..."_
+>
+> Example: "This project demonstrates the repository pattern for data persistence using JSON serialization, CRUD operations on an in-memory collection with file-backed storage, input validation, and architectural commentary. I explained trade-offs between save-on-change vs. save-on-exit strategies in code comments."
+
+**Write yours in a comment block at the bottom of your Python file:**
+```python
+# ============================================================
+# WHAT I LEARNED
+# ============================================================
+# Friend:    ...
+# Employer:  ...
+# Professor: ...
+# ============================================================
+```
+
+---
+
 ## Stretch Goals
 
 1. Add a "favorite" flag and a command to list favorites only (comment on why booleans in your data model)

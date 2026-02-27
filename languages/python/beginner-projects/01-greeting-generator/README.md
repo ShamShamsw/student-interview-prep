@@ -218,6 +218,41 @@ Before you consider this project done, verify:
 
 ---
 
+## Reflect on What You Learned
+
+After finishing, write 2–3 sentences for EACH audience below. This isn't busywork — explaining the same thing at different levels is a skill you'll use in every interview and on every team.
+
+### To a friend (casual, no jargon)
+
+> _"I built a thing that..."_
+>
+> Example: "I built a little program that asks for your name and mood and then prints a custom greeting. The cool part was figuring out how to make it handle weird inputs without crashing."
+
+### To an employer (focus on skills and process)
+
+> _"In this project I practiced..."_
+>
+> Example: "I practiced writing a plan before coding, validating user input, and using Python string formatting. I wrote planning comments first and then implemented the logic — the same approach I'd use on a team."
+
+### To a professor (technical, precise)
+
+> _"This project demonstrates..."_
+>
+> Example: "This project demonstrates conditional branching, f-string interpolation, input validation with a while loop, and the use of a main guard. I documented design decisions in comments following a plan-first methodology."
+
+**Write yours in a comment block at the bottom of your Python file:**
+```python
+# ============================================================
+# WHAT I LEARNED
+# ============================================================
+# Friend:    ...
+# Employer:  ...
+# Professor: ...
+# ============================================================
+```
+
+---
+
 ## Stretch Goals
 
 1. Add a "surprise" mood that generates a random greeting using `random.choice()`

@@ -47,7 +47,7 @@ Four hands-on projects in [`languages/python/projects/`](languages/python/projec
 - **Interview Patterns API** — REST API with algorithm patterns
 - **Interview Prep Capstone** — full-stack interview tracking app
 
-### Beginner Projects (30 min – 2 hours each)
+### Beginner Projects (30 min – 4 hours each)
 
 Plan-first, comment-heavy projects in [`languages/python/beginner-projects/`](languages/python/beginner-projects/) for those who know basic Python but haven't built anything from scratch yet:
 
@@ -56,6 +56,7 @@ Plan-first, comment-heavy projects in [`languages/python/beginner-projects/`](la
 - **Contact Book** — CRUD, JSON persistence, architecture comments (1–1.5 hr)
 - **Expense Tracker** — aggregation, formatted output, algorithm comments (1–2 hr)
 - **Student Grade Report** — CSV processing, full documentation (1.5–2 hr)
+- **Library Management System** — multi-entity data, multi-file architecture (2.5–4 hr)
 
 ### Mini-Projects (1–2 hours each)
 

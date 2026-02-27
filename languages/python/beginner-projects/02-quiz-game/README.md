@@ -290,6 +290,41 @@ Before you consider this done:
 
 ---
 
+## Reflect on What You Learned
+
+After finishing, write 2–3 sentences for EACH audience below. Translating technical work into different registers is a core communication skill.
+
+### To a friend (casual, no jargon)
+
+> _"I built a thing that..."_
+>
+> Example: "I made a quiz game that asks you questions about Python and tells you your score at the end. I had to figure out how to store the questions and answers together so the program could check if you were right."
+
+### To an employer (focus on skills and process)
+
+> _"In this project I practiced..."_
+>
+> Example: "I practiced choosing appropriate data structures — I used a list of dictionaries to pair questions with answers and metadata. I wrote complete docstrings for every function and planned the data model before writing any logic."
+
+### To a professor (technical, precise)
+
+> _"This project demonstrates..."_
+>
+> Example: "This project demonstrates the use of list and dictionary data structures for structured data, function decomposition with documented interfaces, iteration with index tracking, and conditional scoring logic. I evaluated trade-offs between lists of dicts vs. parallel lists and documented the reasoning."
+
+**Write yours in a comment block at the bottom of your Python file:**
+```python
+# ============================================================
+# WHAT I LEARNED
+# ============================================================
+# Friend:    ...
+# Employer:  ...
+# Professor: ...
+# ============================================================
+```
+
+---
+
 ## Stretch Goals
 
 1. Shuffle the question order each time using `random.shuffle()` (comment on why random improves replayability)
