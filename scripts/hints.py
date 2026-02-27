@@ -77,7 +77,10 @@ class HintSystem:
                     },
                     {
                         "level": 2,
-                        "hint": "For each number, you need to find target - number. Store seen numbers as you iterate.",
+                        "hint": (
+                            "For each number, you need to find target - number."
+                            " Store seen numbers as you iterate."
+                        ),
                     },
                     {
                         "level": 3,
@@ -109,11 +112,17 @@ class HintSystem:
                     },
                     {
                         "level": 3,
-                        "hint": "Ignore non-alphanumeric characters and compare case-insensitively.",
+                        "hint": (
+                            "Ignore non-alphanumeric characters"
+                            " and compare case-insensitively."
+                        ),
                     },
                     {
                         "level": 4,
-                        "hint": "Move pointers inward while they match. If they meet, it's a palindrome.",
+                        "hint": (
+                            "Move pointers inward while they match."
+                            " If they meet, it's a palindrome."
+                        ),
                     },
                     {
                         "level": 5,
@@ -130,7 +139,10 @@ class HintSystem:
                     {"level": 1, "hint": "Exploit the fact that the array is sorted."},
                     {
                         "level": 2,
-                        "hint": "Each comparison allows you to eliminate half of the remaining elements.",
+                        "hint": (
+                            "Each comparison allows you to eliminate"
+                            " half of the remaining elements."
+                        ),
                     },
                     {
                         "level": 3,
@@ -138,7 +150,10 @@ class HintSystem:
                     },
                     {
                         "level": 4,
-                        "hint": "If target < mid, search left half. If target > mid, search right half.",
+                        "hint": (
+                            "If target < mid, search left half."
+                            " If target > mid, search right half."
+                        ),
                     },
                     {
                         "level": 5,
@@ -166,7 +181,10 @@ class HintSystem:
                     },
                     {
                         "level": 4,
-                        "hint": "Iterate: save next, point current to previous, advance all pointers.",
+                        "hint": (
+                            "Iterate: save next, point current to previous,"
+                            " advance all pointers."
+                        ),
                     },
                     {"level": 5, "hint": "Time: O(n), Space: O(1). In-place reversal."},
                 ],
@@ -191,7 +209,10 @@ class HintSystem:
                     },
                     {
                         "level": 4,
-                        "hint": "For each amount, try using each coin: dp[i] = min(dp[i], dp[i-coin] + 1).",
+                        "hint": (
+                            "For each amount, try using each coin:"
+                            " dp[i] = min(dp[i], dp[i-coin] + 1)."
+                        ),
                     },
                     {
                         "level": 5,

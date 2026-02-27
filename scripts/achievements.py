@@ -238,9 +238,9 @@ class AchievementSystem:
         if newly_unlocked:
             print(colorize("\n🎉 NEW ACHIEVEMENTS UNLOCKED!\n", "yellow"))
             for achievement in newly_unlocked:
-                print(
-                    f"{achievement.icon} {colorize(achievement.name, 'green')} (+{achievement.points} pts)"
-                )
+                name = colorize(achievement.name, "green")
+                pts = achievement.points
+                print(f"{achievement.icon} {name} (+{pts} pts)")
                 print(f"   {achievement.description}\n")
 
         print(colorize("\n🏆 YOUR ACHIEVEMENTS\n", "bold"))
@@ -261,11 +261,11 @@ class AchievementSystem:
                 is_unlocked = achievement.id in self.achievement_data["unlocked"]
 
                 if is_unlocked:
+                    name = colorize(achievement.name, "green")
+                    print(f"  ✅ {achievement.icon} {name}" f" [{achievement.tier}]")
                     print(
-                        f"  ✅ {achievement.icon} {colorize(achievement.name, 'green')} [{achievement.tier}]"
-                    )
-                    print(
-                        f"      {achievement.description} (+{achievement.points} pts)"
+                        f"      {achievement.description}"
+                        f" (+{achievement.points} pts)"
                     )
                 elif show_locked:
                     print(

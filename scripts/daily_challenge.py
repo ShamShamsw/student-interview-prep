@@ -252,9 +252,9 @@ class DailyChallengeSystem:
 
         print(colorize(f"\n📝 {problem['name']}", "cyan"))
         print(f"   Problem ID: {problem['id']}")
-        print(
-            f"   Difficulty: {colorize(problem['difficulty'], self._difficulty_color(problem['difficulty']))}"
-        )
+        diff = problem["difficulty"]
+        color = self._difficulty_color(diff)
+        print(f"   Difficulty: {colorize(diff, color)}")
         print(f"   Topics: {', '.join(problem['topics'])}")
 
         if problem.get("statement"):
