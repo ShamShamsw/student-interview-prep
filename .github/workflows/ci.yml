@@ -41,6 +41,37 @@ jobs:
       - name: Lint (Ruff)
         run: ruff check languages/ scripts/
 
+  test-js:
+    name: JavaScript · Lint & Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install JS dependencies
+        run: npm ci
+        working-directory: languages/javascript
+
+      - name: Run JS lint
+        run: npm run lint --silent
+        working-directory: languages/javascript
+
+      - name: Run JS tests
+        run: npm test --silent -- --coverage
+        working-directory: languages/javascript
+
+      - name: Upload JS coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          files: languages/javascript/coverage/lcov.info
+          fail_ci_if_error: false
+
   test-problems:
     name: Problems · Python ${{ matrix.python-version }}
     runs-on: ubuntu-latest

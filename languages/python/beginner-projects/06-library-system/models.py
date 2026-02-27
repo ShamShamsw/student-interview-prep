@@ -26,7 +26,6 @@ If You Get Stuck:
 from datetime import date, timedelta
 from storage import load_books, load_members, load_loans
 
-
 # ============================================================
 # ID GENERATION
 # ============================================================
@@ -39,6 +38,7 @@ from storage import load_books, load_members, load_loans
 # Note: IDs are NEVER reused. If you delete B002 and add a new book,
 # it becomes B004 (not B002). This is the same as database auto-increment.
 # ============================================================
+
 
 def _generate_id(prefix, existing_items):
     """
@@ -68,6 +68,7 @@ def _generate_id(prefix, existing_items):
 # ============================================================
 # ENTITY CONSTRUCTORS
 # ============================================================
+
 
 def create_book(title, author, isbn, genre, total_copies=1):
     """

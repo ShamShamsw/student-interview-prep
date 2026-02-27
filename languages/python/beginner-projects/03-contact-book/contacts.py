@@ -62,7 +62,6 @@ PLANNING — Answer these BEFORE writing any code (fill in below):
 import json
 import os
 
-
 # ============================================================
 # DATA LAYER
 # ============================================================
@@ -130,6 +129,7 @@ def save_contacts(contacts, filepath=CONTACTS_FILE):
 # Create, Read, Update, Delete — the four fundamental operations
 # behind almost every application.
 # ============================================================
+
 
 def add_contact(contacts):
     """
@@ -267,6 +267,7 @@ def delete_contact(contacts):
 # This is the entry point — a while loop showing options and
 # routing to the right function based on user choice.
 # ============================================================
+
 
 def main():
     """

@@ -51,7 +51,6 @@ PLANNING — Answer these BEFORE writing any code (fill in below):
         - User just presses Enter
 """
 
-
 # ============================================================
 # STEP 1: QUIZ DATA
 # ============================================================
@@ -70,25 +69,15 @@ PLANNING — Answer these BEFORE writing any code (fill in below):
 QUESTIONS = [
     {
         "question": "What keyword creates a function in Python?",
-        "choices": {
-            "A": "method",
-            "B": "def",
-            "C": "function",
-            "D": "create"
-        },
+        "choices": {"A": "method", "B": "def", "C": "function", "D": "create"},
         "answer": "B",
-        "explanation": "The 'def' keyword (short for 'define') declares a function in Python."
+        "explanation": "The 'def' keyword (short for 'define') declares a function in Python.",
     },
     {
         "question": "What does len([1, 2, 3]) return?",
-        "choices": {
-            "A": "2",
-            "B": "[1, 2, 3]",
-            "C": "3",
-            "D": "Error"
-        },
+        "choices": {"A": "2", "B": "[1, 2, 3]", "C": "3", "D": "Error"},
         "answer": "C",
-        "explanation": "len() returns the number of items in a list. [1, 2, 3] has 3 items."
+        "explanation": "len() returns the number of items in a list. [1, 2, 3] has 3 items.",
     },
     # TODO: Add at least 3 more questions of your own!
     # Think about topics you've been learning recently.
@@ -103,6 +92,7 @@ QUESTIONS = [
 # how questions look (colors, formatting), you only change this
 # function — the quiz logic stays untouched.
 # ============================================================
+
 
 def display_question(question, number, total):
     """
@@ -141,6 +131,7 @@ def display_question(question, number, total):
 # Convert to uppercase so "a" and "A" both work.
 # ============================================================
 
+
 def get_answer():
     """
     Prompt the user for their answer and validate it.
@@ -169,6 +160,7 @@ def get_answer():
 # Compare the user's choice to the correct answer.
 # Show immediate feedback — right or wrong.
 # ============================================================
+
 
 def check_answer(user_answer, question):
     """
@@ -207,6 +199,7 @@ def check_answer(user_answer, question):
 # A dictionary wouldn't work well for ranges.
 # ============================================================
 
+
 def show_results(score, total):
     """
     Display the final quiz score with a message based on performance.
@@ -231,6 +224,7 @@ def show_results(score, total):
 # ============================================================
 # This function ties everything together.
 # ============================================================
+
 
 def main():
     """

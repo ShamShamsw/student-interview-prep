@@ -24,10 +24,10 @@ If You Get Stuck:
 
 from datetime import date
 
-
 # ============================================================
 # TABLE FORMATTING HELPERS
 # ============================================================
+
 
 def _truncate(text, width):
     """
@@ -54,6 +54,7 @@ def _truncate(text, width):
 # ============================================================
 # BOOK DISPLAY
 # ============================================================
+
 
 def format_books_table(books, loans):
     """
@@ -204,15 +205,33 @@ if __name__ == "__main__":
 
     # Test with sample data
     sample_books = [
-        {"id": "B001", "title": "Clean Code", "author": "Robert Martin",
-         "isbn": "978-0132350884", "genre": "Software", "total_copies": 3},
-        {"id": "B002", "title": "The Pragmatic Programmer", "author": "Hunt & Thomas",
-         "isbn": "978-0135957059", "genre": "Software", "total_copies": 1},
+        {
+            "id": "B001",
+            "title": "Clean Code",
+            "author": "Robert Martin",
+            "isbn": "978-0132350884",
+            "genre": "Software",
+            "total_copies": 3,
+        },
+        {
+            "id": "B002",
+            "title": "The Pragmatic Programmer",
+            "author": "Hunt & Thomas",
+            "isbn": "978-0135957059",
+            "genre": "Software",
+            "total_copies": 1,
+        },
     ]
 
     sample_loans = [
-        {"id": "L001", "book_id": "B001", "member_id": "M001",
-         "checkout_date": "2026-02-15", "due_date": "2026-03-01", "return_date": None},
+        {
+            "id": "L001",
+            "book_id": "B001",
+            "member_id": "M001",
+            "checkout_date": "2026-02-15",
+            "due_date": "2026-03-01",
+            "return_date": None,
+        },
     ]
 
     table = format_books_table(sample_books, sample_loans)

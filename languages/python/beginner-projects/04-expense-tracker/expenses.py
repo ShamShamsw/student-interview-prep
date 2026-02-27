@@ -59,7 +59,6 @@ import json
 import os
 from datetime import date
 
-
 # ============================================================
 # CONSTANTS
 # ============================================================
@@ -69,7 +68,15 @@ from datetime import date
 #   3. Single source of truth — add a category by changing one line
 # ============================================================
 
-CATEGORIES = ("food", "transport", "entertainment", "shopping", "bills", "health", "other")
+CATEGORIES = (
+    "food",
+    "transport",
+    "entertainment",
+    "shopping",
+    "bills",
+    "health",
+    "other",
+)
 DATA_FILE = "expenses.json"
 
 
@@ -79,6 +86,7 @@ DATA_FILE = "expenses.json"
 # Same pattern as the Contact Book — these are the ONLY functions
 # that touch the file. Everything else works with in-memory data.
 # ============================================================
+
 
 def load_expenses(filepath=DATA_FILE):
     """
@@ -113,6 +121,7 @@ def save_expenses(expenses, filepath=DATA_FILE):
 # ============================================================
 # HELPER FUNCTIONS
 # ============================================================
+
 
 def format_currency(amount):
     """
@@ -158,6 +167,7 @@ def generate_id(expenses):
 # ============================================================
 # EXPENSE OPERATIONS
 # ============================================================
+
 
 def add_expense(expenses):
     """
@@ -233,6 +243,7 @@ def delete_expense(expenses):
 # These functions compute aggregate statistics from the raw data.
 # Each one has an algorithm comment explaining the approach.
 # ============================================================
+
 
 def get_total(expenses):
     """
@@ -329,6 +340,7 @@ def show_summary(expenses):
 # ============================================================
 # MAIN MENU
 # ============================================================
+
 
 def main():
     """

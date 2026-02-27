@@ -26,16 +26,19 @@ If You Get Stuck:
 
 from datetime import date
 from storage import (
-    load_books, save_books,
-    load_members, save_members,
-    load_loans, save_loans,
+    load_books,
+    save_books,
+    load_members,
+    save_members,
+    load_loans,
+    save_loans,
 )
 from models import create_book, create_member, create_loan
-
 
 # ============================================================
 # BOOK OPERATIONS
 # ============================================================
+
 
 def add_book(title, author, isbn, genre, total_copies=1):
     """
@@ -139,6 +142,7 @@ def get_available_copies(book_id):
 # MEMBER OPERATIONS
 # ============================================================
 
+
 def register_member(name, email):
     """
     Register a new library member.
@@ -193,6 +197,7 @@ def get_member_active_loans(member_id):
 # ============================================================
 # LOAN OPERATIONS (the complex part!)
 # ============================================================
+
 
 def checkout_book(book_id, member_id):
     """
@@ -321,6 +326,7 @@ def get_library_summary():
 # ============================================================
 # HELPER — Find entity by ID
 # ============================================================
+
 
 def _find_by_id(items, item_id):
     """

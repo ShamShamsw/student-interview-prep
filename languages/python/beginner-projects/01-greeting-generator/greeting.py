@@ -43,7 +43,6 @@ PLANNING — Answer these BEFORE writing any code (fill in below):
         3. main — tie it all together with a loop
 """
 
-
 # ============================================================
 # STEP 1: INPUT VALIDATION
 # ============================================================
@@ -51,6 +50,7 @@ PLANNING — Answer these BEFORE writing any code (fill in below):
 # instead of writing validation code three separate times.
 # This is the DRY principle: Don't Repeat Yourself.
 # ============================================================
+
 
 def get_valid_input(prompt, valid_options):
     """
@@ -89,6 +89,7 @@ def get_valid_input(prompt, valid_options):
 # but checking what got printed is much harder.
 # ============================================================
 
+
 def generate_greeting(name, time_of_day, mood):
     """
     Build a personalized greeting based on the user's inputs.
@@ -124,6 +125,7 @@ def generate_greeting(name, time_of_day, mood):
 # This ties everything together: welcome → ask questions →
 # generate greeting → ask to repeat → loop or exit.
 # ============================================================
+
 
 def main():
     """

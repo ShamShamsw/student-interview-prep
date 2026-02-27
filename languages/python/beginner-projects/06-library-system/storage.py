@@ -29,7 +29,6 @@ If You Get Stuck:
 import json
 import os
 
-
 # Path to the data directory — calculated relative to THIS file's location.
 # os.path.dirname(__file__) gives us the folder containing storage.py,
 # so this works regardless of where the user runs the program from.
@@ -111,6 +110,7 @@ def save_data(filename, data):
 # load_data("books.json") / save_data("books.json", ...).
 # It's a small readability win that prevents typos in filenames.
 # ============================================================
+
 
 def load_books():
     """Load all books from books.json."""

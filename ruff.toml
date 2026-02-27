@@ -48,6 +48,11 @@ exclude = [
 "__init__.py" = ["F401"]
 # Ignore all rules in test files that are too strict
 "test_*.py" = ["B011"]
+# Starter/scaffold exercise files intentionally contain unused imports
+# and placeholder variable assignments that students will fill in.
+"languages/python/beginner-projects/**/*.py" = ["F401", "F841"]
+"languages/python/mini-projects/**/*.py" = ["F401", "F841"]
+"languages/python/projects/**/starter/**/*.py" = ["F401", "F841"]
 
 [lint.isort]
 known-first-party = ["languages"]

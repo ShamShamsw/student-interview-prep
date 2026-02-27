@@ -70,10 +70,10 @@ import statistics
 import sys
 from datetime import date
 
-
 # ============================================================
 # DATA LOADING
 # ============================================================
+
 
 def load_grades(filepath):
     """
@@ -122,6 +122,7 @@ def load_grades(filepath):
 # ============================================================
 # CALCULATIONS
 # ============================================================
+
 
 def calculate_student_results(student_assignments):
     """
@@ -207,6 +208,7 @@ def calculate_class_stats(all_results):
 # ============================================================
 # REPORT FORMATTING
 # ============================================================
+
 
 def format_bar(percentage, width=20):
     """
@@ -303,6 +305,7 @@ def format_rankings_table(sorted_students):
 # ============================================================
 # MAIN PIPELINE
 # ============================================================
+
 
 def generate_report(filepath="grades.csv"):
     """
