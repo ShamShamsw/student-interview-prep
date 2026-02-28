@@ -23,6 +23,7 @@ Step-by-step instructions and frameworks for interview preparation.
 | [Beginner Start Here](guides/BEGINNER_START_HERE.md) | 2-week daily plan for newcomers — setup, first problems, building habits |
 | [Mock Interview Guide](guides/MOCK_INTERVIEW_GUIDE.md) | How to run practice interviews solo, with peers, or with a mentor |
 | [System Design Basics](guides/SYSTEM_DESIGN_BASICS.md) | Architecture fundamentals — load balancers, caching, databases, common patterns |
+| [Data Science Guide](guides/DATA_SCIENCE_GUIDE.md) | Statistics, ML theory, feature engineering, model evaluation, common mistakes |
 | [IDE Setup Guide](guides/IDE_SETUP_GUIDE.md) | Configure VS Code, PyCharm, and other editors for this repo |
 | [FAQ](guides/FAQ.md) | Common questions about studying, tools, and the repo |
 
@@ -49,6 +50,8 @@ Structured timelines to keep you on track.
 | [Backend](interview-questions/04-backend.md) | 30 questions — APIs, databases, auth, architecture, DevOps |
 | [Fullstack](interview-questions/05-fullstack.md) | 30 questions — end-to-end architecture, deployment, debugging |
 | [Advanced](interview-questions/06-advanced.md) | 30 questions — system design, distributed systems, design patterns |
+| [Data Science](interview-questions/08-data-science.md) | 50 questions — statistics, pandas, ML concepts, feature engineering, SQL |
+| [Data Engineering](interview-questions/09-data-engineering.md) | 39 questions — databases, ETL/ELT, pipelines, Spark, Kafka, data modeling |
 | [Interview Preparation Guide](interview-questions/07-interview-preparation-guide.md) | Logistics, etiquette, dress code, follow-up templates |
 
 ### Cheatsheets
@@ -58,6 +61,9 @@ Quick-reference material for study and review.
 | Cheatsheet | Description |
 |-----------|-------------|
 | [Python Cheatsheet](cheatsheets/PYTHON_CHEATSHEET.md) | 40 topics — data structures, algorithms, complexity tables, code patterns |
+| [Data Science Cheatsheet](cheatsheets/DATA_SCIENCE_CHEATSHEET.md) | pandas, NumPy, Matplotlib, scikit-learn, Excel equivalents, interview patterns |
+| [SQL Analytics Cheatsheet](cheatsheets/SQL_ANALYTICS_CHEATSHEET.md) | Window functions, CTEs, joins, analytics patterns, dialect differences |
+| [Excel Formulas Cheatsheet](cheatsheets/EXCEL_FORMULAS_CHEATSHEET.md) | VLOOKUP, XLOOKUP, SUMIFS, array functions, Power Query M basics |
 
 ### Checklists
 

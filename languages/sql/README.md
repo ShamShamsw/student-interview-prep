@@ -23,6 +23,10 @@ SQL appears in backend, data engineering, fullstack, and even some frontend inte
 | 08 | [Customers Who Never Order](problems/08-customers-who-never-order.md) | Easy | LEFT JOIN, IS NULL |
 | 09 | [Nth Highest Salary](problems/09-nth-highest-salary.md) | Medium | Window functions, parameterized query |
 | 10 | [Managers With At Least 5 Reports](problems/10-managers-with-reports.md) | Medium | Self-join, GROUP BY, HAVING |
+| 11 | [Monthly Revenue Growth](problems/11-monthly-revenue-growth.md) | Medium | LAG, CTE, date functions, MoM % |
+| 12 | [Cohort Retention Rate](problems/12-cohort-retention.md) | Hard | CTE, date arithmetic, retention analysis |
+| 13 | [Running Total & Percentile](problems/13-running-total-percentile.md) | Medium | SUM OVER, NTILE, PERCENT_RANK |
+| 14 | [Funnel Conversion Rates](problems/14-funnel-conversion.md) | Medium | Conditional aggregation, CASE WHEN |
 
 ## How to Practice
 

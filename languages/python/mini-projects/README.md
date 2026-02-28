@@ -21,6 +21,9 @@ Mini-projects fill the critical gap where you go from "I can solve Two Sum" to "
 | 03 | [Rate Limiter](03-rate-limiter/README.md) | Sliding window, time-based logic, decorators | 1–2 hr |
 | 04 | [Stack-Based Calculator](04-stack-calculator/README.md) | Stack, parsing, expression evaluation | 1–1.5 hr |
 | 05 | [Word Frequency Counter](05-word-frequency/README.md) | Hash maps, sorting, file I/O, CLI args | 1 hr |
+| 06 | [Excel-Style Data Analysis](06-excel-data-analysis/README.md) | pandas, GroupBy, pivot tables, merge, Matplotlib | 1.5–2 hr |
+| 07 | [Exploratory Data Analysis (EDA)](07-exploratory-data-analysis/README.md) | pandas, seaborn, statistics, data cleaning | 1.5–2.5 hr |
+| 08 | [SQL Analytics](08-sql-analytics/README.md) | Window functions, CTEs, cohort analysis, funnels, SQLite | 2–3 hr |
 
 ---
 

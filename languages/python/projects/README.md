@@ -28,3 +28,8 @@ Project: interview-patterns-api
 Project: interview-prep-capstone
 - Purpose: 8-12 week production-style capstone focused on architecture, Agile execution, and AI-assisted problem solving.
 - Includes: pre-build design docs, sprint plan, AI/resource playbook, starter API scaffold, final reference API, and walkthrough notebook.
+
+Project: data-science-capstone
+- Purpose: End-to-end machine learning pipeline — EDA, feature engineering, model training, evaluation, and a written stakeholder report.
+- Domain: Employee attrition prediction (HR dataset).
+- Includes: step-by-step instructions across 7 stages, src/ module stubs, evaluation rubric, and stretch goals (SHAP, SMOTE, FastAPI deploy).

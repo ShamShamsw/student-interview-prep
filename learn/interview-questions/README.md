@@ -16,6 +16,7 @@ A categorized collection of questions you'll encounter in technical interviews â
 | [Backend](04-backend.md) | Backend / API / infrastructure roles |
 | [Fullstack](05-fullstack.md) | Fullstack roles that span both |
 | [Advanced Technical](06-advanced.md) | Senior-level / system design / architecture |
+| [Data Science](08-data-science.md) | Data analyst / data scientist / ML engineer roles |
 | [Interview Preparation Guide](07-interview-preparation-guide.md) | Logistics, etiquette, and what to do before/during/after |
 
 ## Study Plan
