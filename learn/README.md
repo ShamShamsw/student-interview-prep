@@ -7,6 +7,7 @@ Everything you need to prepare for technical interviews — guides, cheatsheets,
 | Your level | Start here |
 |-----------|-----------|
 | **Complete beginner** | [Beginner Start Here](guides/BEGINNER_START_HERE.md) — 2-week daily plan to get set up and solving problems |
+| **Choosing a career track** | [Career Paths](guides/CAREER_PATHS.md) — compare frontend, backend, data science, ML, and more |
 | **Know basics, need structure** | [Learning Path](paths/LEARNING_PATH.md) — 8-week or 12-week track with weekly goals |
 | **Ready to practice interviews** | [Mock Interview Guide](guides/MOCK_INTERVIEW_GUIDE.md) — solo, peer, and mentor practice modes |
 
@@ -21,6 +22,7 @@ Step-by-step instructions and frameworks for interview preparation.
 | Guide | Description |
 |-------|-------------|
 | [Beginner Start Here](guides/BEGINNER_START_HERE.md) | 2-week daily plan for newcomers — setup, first problems, building habits |
+| [Career Paths](guides/CAREER_PATHS.md) | Frontend, backend, fullstack, data science, ML, data engineering, DevOps, QA, cybersecurity — what each role does and how to choose |
 | [Mock Interview Guide](guides/MOCK_INTERVIEW_GUIDE.md) | How to run practice interviews solo, with peers, or with a mentor |
 | [System Design Basics](guides/SYSTEM_DESIGN_BASICS.md) | Architecture fundamentals — load balancers, caching, databases, common patterns |
 | [Data Science Guide](guides/DATA_SCIENCE_GUIDE.md) | Statistics, ML theory, feature engineering, model evaluation, common mistakes |

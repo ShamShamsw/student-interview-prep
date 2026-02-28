@@ -3,6 +3,12 @@
 
 If you are new to IT, open source, and coding projects, use this file first.
 
+## Not sure which direction to go?
+
+Before you dive into problems, read [CAREER_PATHS.md](CAREER_PATHS.md) for a plain-English breakdown of frontend, backend, fullstack, data science, machine learning, data engineering, DevOps, QA, and cybersecurity — including what each role does day-to-day, what skills it requires, and which one might suit you.
+
+---
+
 ## Goal for your first 2 weeks
 
 - Understand basic workflow (read -> code -> test -> reflect)
@@ -24,6 +30,7 @@ If you are new to IT, open source, and coding projects, use this file first.
 ## Week 1 (daily plan)
 
 ### Day 1
+- Read [CAREER_PATHS.md](CAREER_PATHS.md) and identify which track interests you.
 - Read [LEARNING_PATH.md](../paths/LEARNING_PATH.md) and pick the 12-week track.
 - Open [LEARNING_PATH_CHECKLIST.md](../paths/LEARNING_PATH_CHECKLIST.md) and check your track.
 
