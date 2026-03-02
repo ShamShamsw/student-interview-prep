@@ -52,6 +52,11 @@ Not sure which direction to go? This guide breaks down the most common software 
      │  DevOps /   │    │   QA /       │    │  Cyber-    │
      │   Cloud     │    │   Testing    │    │  security  │
      └─────────────┘    └──────────────┘    └────────────┘
+
+     ┌─────────────┐
+     │   Graphic   │
+     │   Design    │
+     └─────────────┘
 ```
 
 ---
@@ -445,6 +450,126 @@ $65,000 – $105,000 / year
 
 ---
 
+## Graphic Design
+
+### What you build
+Visual content that communicates ideas — logos, social media graphics, posters, branding materials, websites, marketing assets, and everything that shapes how a company or organization looks.
+
+### Day-to-day work
+- Creating logos, flyers, and marketing materials
+- Designing social media content (Instagram posts, banners, stories)
+- Building brand identity (colors, fonts, style guides)
+- Editing photos and creating digital illustrations
+- Working with clients to understand their vision
+- Iterating on designs based on feedback
+
+### Core skills to learn
+| Skill | Why it matters |
+|-------|---------------|
+| Design principles (typography, color theory, layout) | Foundation of all good design |
+| Adobe Suite alternatives (see below) | Industry-standard tools |
+| Photo editing | Retouching and enhancing images |
+| Vector graphics | Scalable logos and illustrations |
+| UI/UX basics | Designing user-friendly interfaces |
+| Portfolio building | Showcasing your work to get hired |
+
+### Free platforms to create designs
+| Platform | Best for | Why use it |
+|----------|----------|-----------|
+| **Canva** (free tier) | Social media graphics, posters, presentations | Easiest to start, tons of templates |
+| **Figma** (free) | UI/UX design, website mockups, collaboration | Industry standard for web/app design |
+| **GIMP** | Photo editing (Photoshop alternative) | Completely free, powerful editing |
+| **Inkscape** | Vector graphics (Illustrator alternative) | Free SVG editor for logos and icons |
+| **Photopea** | Browser-based photo editing | Works exactly like Photoshop, no install |
+| **Krita** | Digital painting and illustration | Great for artistic work |
+| **Blender** | 3D graphics and modeling | Advanced 3D design, 100% free |
+
+### How students can get involved and gain experience
+
+#### 1. School organizations
+- Design posters for clubs, events, and sports teams
+- Create social media graphics for student government
+- Design yearbook layouts or school newspaper graphics
+- Build branding for school fundraisers or campaigns
+- Volunteer to redesign club logos or websites
+
+#### 2. Small businesses
+- Reach out to local coffee shops, salons, or boutiques
+- Offer free or discounted logo design to build your portfolio
+- Create social media templates for small business owners
+- Design menus, business cards, or window signage
+- Join platforms like Fiverr or Upwork to find micro-projects
+
+#### 3. Nonprofits and community groups
+- Contact local charities needing event flyers
+- Design awareness campaign graphics
+- Create infographics for educational content
+- Volunteer for community festivals or fundraisers
+
+#### 4. Online opportunities
+- Join design challenges on Dribbble or Behance
+- Contribute to open-source design projects
+- Create fan art or redesigns (practice + portfolio)
+- Participate in r/freedesign or r/picrequests on Reddit
+- Design for mock clients using real business prompts
+
+### Building experience with practical techniques
+
+**Start small and iterate:**
+1. Recreate designs you like to learn techniques
+2. Do 30-day design challenges (daily practice)
+3. Keep all your work to show progress over time
+4. Ask for feedback in design communities (Dribbble, Behance)
+5. Build a portfolio website (use free Wix, Cargo, or Adobe Portfolio)
+
+**Free ways to practice:**
+- Redesign book covers, album art, or movie posters
+- Create fictional brand identities for practice
+- Design personal projects (birthday cards, event invites)
+- Follow design tutorial channels and recreate their work
+
+### Free platforms to learn design
+
+| Resource | What it offers |
+|----------|---------------|
+| **YouTube channels:** [The Futur](https://www.youtube.com/@thefuturishere), [Flux Academy](https://www.youtube.com/@FluxAcademy), [DesignCourse](https://www.youtube.com/@DesignCourse) | Free tutorials on design fundamentals |
+| **Coursera / edX** (audit mode) | University courses on graphic design (free to watch) |
+| **Canva Design School** | Free courses on layout, color theory, branding |
+| **Adobe Creative Cloud tutorials** | Free official tutorials (even if you use free alternatives) |
+| **Dribbble / Behance** | Study professional work, learn by observation |
+| **LinkedIn Learning** (free trial) | Structured courses on all design software |
+| **Google UX Design Certificate** (Coursera) | Free to audit, great for UI/UX fundamentals |
+| **Hack Design** | Free 50-week design course via email lessons |
+
+### Typical job titles
+- Graphic Designer
+- Visual Designer
+- Brand Designer
+- UI/UX Designer (with web focus)
+- Social Media Designer
+- Freelance Designer
+
+### Salary range (US, entry-level)
+$40,000 – $65,000 / year (full-time)  
+Freelance: $15 – $50+ per hour depending on experience
+
+### Good fit if you...
+- Have a creative eye and enjoy visual work
+- Like combining art with problem-solving
+- Are comfortable giving and receiving critique
+- Want flexible freelance opportunities
+- Enjoy seeing your work in the real world (signs, websites, products)
+
+### Path to getting your first clients
+1. **Build a portfolio** (5–10 strong pieces, even if fictional projects)
+2. **Create a simple portfolio website** (Behance, Cargo, Wix, or Google Sites)
+3. **Reach out to 10 local businesses or school orgs** offering your services
+4. **Post your work on social media** with hashtags (#graphicdesign, #logodesign)
+5. **Join freelance platforms** (Fiverr, Upwork, 99designs) once you have samples
+6. **Network in design communities** (Discord servers, Reddit, local meetups)
+
+---
+
 ## Side-by-side comparison
 
 | Career | Math heavy | Visual work | Systems thinking | Entry difficulty | Avg entry salary (US) |
@@ -458,6 +583,7 @@ $65,000 – $105,000 / year
 | DevOps / Cloud | Low | Low | High | Moderate | $75k–$115k |
 | QA / Testing | Low | Low | Med | Easy–Moderate | $55k–$90k |
 | Cybersecurity | Med | Low | High | Moderate | $65k–$105k |
+| Graphic Design | Low | Very High | Low | Easy | $40k–$65k |
 
 > **Note:** Salaries vary widely by location, company size, and experience. These are rough US national averages for entry-level roles as of 2025–2026.
 
