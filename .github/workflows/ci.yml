@@ -67,7 +67,7 @@ jobs:
         working-directory: languages/javascript
 
       - name: Upload JS coverage to Codecov
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
         with:
           files: languages/javascript/coverage/lcov.info
           fail_ci_if_error: false
@@ -100,7 +100,7 @@ jobs:
 
       - name: Upload coverage
         if: matrix.python-version == '3.11'
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
         with:
           files: ./coverage.xml
           fail_ci_if_error: false
