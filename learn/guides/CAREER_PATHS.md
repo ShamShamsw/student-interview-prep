@@ -541,17 +541,106 @@ Visual content that communicates ideas — logos, social media graphics, posters
 | **Google UX Design Certificate** (Coursera) | Free to audit, great for UI/UX fundamentals |
 | **Hack Design** | Free 50-week design course via email lessons |
 
+### Specializations within graphic design
+
+Graphic design is broad. As you grow, you'll likely focus on one or two of these areas:
+
+| Specialization | What it involves | Tools commonly used |
+|----------------|-----------------|---------------------|
+| **Brand Identity** | Logos, color palettes, style guides, brand voices | Illustrator, Figma, Canva |
+| **UI/UX Design** | App and website interfaces, user flows, prototypes | Figma, Adobe XD |
+| **Motion Graphics** | Animated logos, video intros, explainer animations | After Effects, Blender, CapCut |
+| **Print Design** | Brochures, packaging, business cards, magazines | InDesign, Illustrator |
+| **Social Media Design** | Platform-specific graphics, story templates, ads | Canva, Photoshop, Figma |
+| **Illustration** | Custom artwork, icons, character design | Procreate, Krita, Illustrator |
+| **3D Design** | Product renders, environments, abstract visuals | Blender, Cinema 4D |
+| **Packaging Design** | Box designs, labels, product wrapping | Illustrator, Photoshop, Dimension |
+| **Editorial Design** | Book layouts, magazine spreads, infographics | InDesign, Affinity Publisher |
+
+> Most beginners start with **brand identity** or **social media design** because the feedback loop is fast and clients are easy to find.
+
+---
+
+### Graphic Design vs UI/UX — what's the difference?
+
+These overlap heavily but have different core goals:
+
+| | Graphic Design | UI/UX Design |
+|---|---|---|
+| **Primary goal** | Visual communication | User experience & usability |
+| **Main deliverables** | Logos, posters, brand materials | Wireframes, prototypes, design systems |
+| **Tools** | Illustrator, Photoshop, Canva | Figma, Adobe XD, Maze |
+| **Coding required?** | Almost never | Rarely, but helpful |
+| **Works with** | Clients, marketing teams | Product managers, developers |
+| **Salary (US entry)** | $40k–$65k | $65k–$100k |
+
+Many graphic designers transition into UI/UX after gaining foundational design skills — it's a natural and well-paying progression.
+
+---
+
+### Career progression
+
+```
+Entry Level (0–2 years)
+  └── Junior Graphic Designer
+      → Focus: executing tasks, learning tools, building portfolio
+
+Mid Level (2–5 years)
+  └── Graphic Designer / Visual Designer
+      → Focus: owning projects end-to-end, working with clients directly
+
+Senior Level (5+ years)
+  └── Senior Designer / Art Director / Creative Director
+      → Focus: leading design direction, mentoring juniors, strategy
+
+Specialist Paths
+  ├── Brand Strategist        (identity + positioning)
+  ├── UI/UX Designer          (digital product focus)
+  ├── Motion Designer         (animation + video)
+  └── Creative Director       (team leadership + vision)
+
+Freelance / Business
+  └── Independent Designer / Design Studio Owner
+      → Set your own rates, choose your clients
+```
+
+**Realistic timeline for first paid work:** 3–6 months if you practice consistently and actively seek small clients or freelance gigs.
+
+---
+
+### Portfolio tips
+
+A strong portfolio matters more than a degree in design. Here's what makes one stand out:
+
+- **Quality over quantity** — 6 great pieces beat 20 mediocre ones
+- **Show your process** — include sketches, drafts, and final result (tells a story)
+- **Variety** — include at least one logo, one brand identity, one social/print piece
+- **Real or realistic briefs** — design for fictional clients using real-world constraints
+- **Case study format** — explain the problem, your approach, and the result
+- **Keep it updated** — swap out older work as you improve
+
+**Free portfolio hosting:**
+- [Behance](https://www.behance.net) — largest design community, great for discovery
+- [Dribbble](https://dribbble.com) — curated, good for getting noticed
+- [Cargo](https://cargo.site) — minimal, designer-friendly (free tier)
+- [Wix](https://wix.com) / [Google Sites](https://sites.google.com) — easiest to set up
+
+---
+
 ### Typical job titles
 - Graphic Designer
 - Visual Designer
 - Brand Designer
 - UI/UX Designer (with web focus)
 - Social Media Designer
+- Art Director
+- Creative Director
 - Freelance Designer
 
 ### Salary range (US, entry-level)
 $40,000 – $65,000 / year (full-time)  
-Freelance: $15 – $50+ per hour depending on experience
+Freelance: $15 – $75+ per hour depending on specialization and experience  
+UI/UX focus: $65,000 – $100,000 / year
 
 ### Good fit if you...
 - Have a creative eye and enjoy visual work
@@ -559,6 +648,7 @@ Freelance: $15 – $50+ per hour depending on experience
 - Are comfortable giving and receiving critique
 - Want flexible freelance opportunities
 - Enjoy seeing your work in the real world (signs, websites, products)
+- Want a career where you don't need to write code
 
 ### Path to getting your first clients
 1. **Build a portfolio** (5–10 strong pieces, even if fictional projects)
@@ -605,6 +695,158 @@ Freelance: $15 – $50+ per hour depending on experience
 
 ### You want the highest salary ceiling
 → **ML Engineering** (most competitive, requires the most breadth)
+
+---
+
+## Salary negotiation — know your value before you accept
+
+Salary negotiation is one of the most underpracticed skills for new graduates and career-changers. Most people leave money on the table simply because they don't know how to handle the question or don't know what they're worth.
+
+---
+
+### When an employer asks "what are your salary expectations?"
+
+This question feels uncomfortable, but it's completely normal — and how you respond matters.
+
+**The safest and most effective approach:**
+
+> "Based on my research into the role and the market rate for this area, I'm targeting somewhere in the range of **$X–$Y**. That said, I'm open to discussing the full compensation package."
+
+This approach works because:
+- You've done your homework (signals professionalism)
+- You give a range rather than a hard number (gives both sides flexibility)
+- You acknowledge benefits, not just base pay (shows maturity)
+
+**What NOT to say:**
+- "I'm flexible" — this hands all power to the employer
+- A number too early before you know the full role — you may underbid yourself
+- The first number in a negotiation without anchoring it to market data
+
+**If pressed for a specific number first:**  
+It's acceptable to say: *"I'd love to learn more about the role and responsibilities before committing to a number — can you share the budgeted range for this position?"* Many employers will tell you.
+
+---
+
+### How to research your market value
+
+Never guess. Look it up. Use multiple sources and cross-reference:
+
+| Tool | What it shows |
+|------|--------------|
+| [Levels.fyi](https://www.levels.fyi) | Real salaries at tech companies (very detailed, includes TC breakdown) |
+| [Glassdoor](https://www.glassdoor.com) | Salary reports by job title + company + location |
+| [LinkedIn Salary](https://www.linkedin.com/salary/) | Salary ranges filtered by title, location, years of experience |
+| [Payscale](https://www.payscale.com) | Personalized salary estimates based on your background |
+| [Bureau of Labor Statistics](https://www.bls.gov/oes/) | Official US government wage data by occupation |
+| [Blind](https://www.teamblind.com) | Anonymous salary sharing among tech workers |
+| [Indeed](https://www.indeed.com/salaries) | Aggregated salary data from job postings |
+
+**How to do the research:**
+1. Search your **exact job title** (e.g., "Junior Frontend Developer")
+2. Filter by **your city or region** — salaries vary enormously by location
+3. Filter by **years of experience** (entry = 0–2 years)
+4. Note the **25th, 50th, and 75th percentile** — aim for the 50th–75th as your target
+5. Factor in **company size**: startups pay less base but may offer equity; large tech companies pay more
+
+> **Example:** A Junior Software Engineer in Austin, TX might see $75k median, while the same role in San Francisco could be $105k. Remote roles often benchmark against the company's home city.
+
+---
+
+### What are reasonable salary expectations by career track?
+
+Use these as rough starting points for US-based roles in 2025–2026. Adjust for location (see below).
+
+| Career track | Entry-level (0–2 yrs) | Mid-level (2–5 yrs) | Senior (5+ yrs) |
+|---|---|---|---|
+| Frontend Dev | $65k–$100k | $100k–$135k | $130k–$180k+ |
+| Backend Dev | $70k–$110k | $110k–$145k | $140k–$200k+ |
+| Fullstack Dev | $75k–$115k | $115k–$150k | $145k–$210k+ |
+| Data Science | $70k–$105k | $105k–$140k | $135k–$190k+ |
+| ML Engineering | $90k–$140k | $140k–$185k | $180k–$300k+ |
+| Data Engineering | $80k–$120k | $120k–$155k | $150k–$210k+ |
+| DevOps / Cloud | $75k–$115k | $115k–$150k | $145k–$200k+ |
+| QA / Testing | $55k–$90k | $90k–$120k | $115k–$165k+ |
+| Cybersecurity | $65k–$105k | $105k–$140k | $135k–$185k+ |
+| Graphic Design | $40k–$65k | $60k–$90k | $85k–$130k+ |
+| UI/UX Design | $65k–$100k | $95k–$135k | $130k–$180k+ |
+
+> These are base salary only. Total compensation (TC) at larger companies often includes equity (RSUs), bonuses, and benefits — which can add 20–50% on top.
+
+**Location multipliers (rough guide vs national average):**
+- San Francisco / New York City: +30% to +60%
+- Seattle / Austin / Boston: +10% to +25%
+- Chicago / Denver / Atlanta: ±0% to +10%
+- Midwest / Southeast (non-major cities): −10% to −20%
+- Remote (depends on company policy): often benchmarked to HQ city
+
+---
+
+### How education and credentials increase your pay
+
+You do not need a 4-year degree to work in tech — but credentials still matter. Here's how they affect compensation:
+
+#### Degrees
+
+| Credential | Effect on salary | Notes |
+|---|---|---|
+| No degree / self-taught | Base market rate | Portfolio and projects matter most — can still reach full salary |
+| Associate's degree | +0% to +5% | Marginal benefit; mainly helps with HR filters |
+| Bachelor's degree (CS, SE, related) | +10% to +20% | Opens more doors, especially at larger companies |
+| Bachelor's degree (unrelated field) | +5% to +10% | Shows general capability; less weight in tech hiring |
+| Master's degree (CS, Data Science, etc.) | +15% to +30% | Significant for data science, ML, and research roles |
+| PhD | +20% to +50% (in specific roles) | Valuable mainly in ML research, academia, or senior scientist roles |
+
+> A BS in Computer Science from a strong program can put you $10k–$20k ahead of a self-taught candidate at entry level — but a self-taught developer with a strong portfolio can quickly close that gap within 1–2 years on the job.
+
+#### Certifications
+
+Certifications can meaningfully increase pay, especially in cloud, DevOps, and cybersecurity:
+
+| Certification | Career track | Salary impact |
+|---|---|---|
+| AWS Certified Solutions Architect | DevOps / Cloud | +$10k–$20k |
+| Google Cloud Professional | DevOps / Cloud | +$8k–$18k |
+| Azure Administrator (AZ-104) | DevOps / Cloud | +$8k–$15k |
+| Certified Kubernetes Administrator (CKA) | DevOps | +$10k–$20k |
+| CompTIA Security+ | Cybersecurity | +$5k–$15k |
+| CISSP | Cybersecurity | +$15k–$30k |
+| Google Data Analytics Certificate | Data | Entry credential, modest impact |
+| TensorFlow Developer Certificate | ML | Moderate — portfolio matters more |
+
+#### Experience as a multiplier
+
+Years of experience is the single biggest driver of salary growth. But not all experience is equal:
+
+| Type of experience | Value | Notes |
+|---|---|---|
+| Full-time job (relevant) | Highest | Direct role-to-role comparison |
+| Internship | High | Especially at name-brand companies |
+| Freelance / contract work | High | Shows real-world delivery for clients |
+| Open-source contributions | Medium-High | Especially if in widely used projects |
+| Personal projects | Medium | Good for entry level; less weight at senior level |
+| School/class projects | Low-Medium | Useful only at entry level |
+| Bootcamp certificate | Low-Medium | Matters less than portfolio |
+
+**How to accelerate experience-based raises:**
+- Ask for a **performance review at 6 months**, not just annually
+- Quantify your contributions: *"I reduced page load time by 40%"* vs. *"I improved performance"*
+- Take on **stretch assignments** that go beyond your current level
+- Change companies — switching employers every 2–3 years typically yields **15–25% raises**, far more than annual merit increases at the same company
+
+---
+
+### Negotiation tactics that actually work
+
+1. **Always negotiate** — over 70% of employers expect it. The offer is not final until you sign.
+2. **Let them go first** — if asked for expectations before an offer, try to deflect until you have an offer in hand.
+3. **Use a range, anchor high** — if your target is $80k, say "$80k–$90k" so the midpoint lands where you want.
+4. **Negotiate the whole package** — if base salary is fixed, ask about signing bonus, remote days, PTO, or professional development budget.
+5. **Get competing offers** — even one other offer gives you real leverage. "I have another offer at $X, is there flexibility on your end?"
+6. **Never accept on the spot** — it's normal to say: *"Thank you — I'd like to take 24–48 hours to review everything."*
+7. **Don't apologize for negotiating** — it's a professional conversation, not a conflict.
+
+**Script for countering an offer:**
+> "I'm really excited about this opportunity and I'd love to join the team. Based on my research and the experience I bring, I was hoping we could get closer to $[target]. Is there room to move on the base salary?"
 
 ---
 
