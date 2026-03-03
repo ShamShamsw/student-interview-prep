@@ -850,6 +850,214 @@ Years of experience is the single biggest driver of salary growth. But not all e
 
 ---
 
+## Scam awareness and protecting yourself during your job search
+
+Job seekers — especially beginners — are frequently targeted by scams. Knowing what to look for can protect your money, identity, and career.
+
+> **Disclaimer:** The third-party websites, tools, and resources listed in this section are provided for informational purposes only. This guide has no affiliation with, endorsement from, or control over any external site. Always verify information independently. Links and policies change — use your own judgment before sharing any personal data with any website.
+
+---
+
+### Why students and early career seekers are specifically targeted
+
+Scammers are strategic. They do not target randomly — they go where the payoff is highest and the resistance is lowest. New students and people entering the workforce for the first time are among the most targeted groups online, and there are specific, well-understood reasons for this.
+
+---
+
+#### 1. Inexperience with how real hiring works
+
+When you've never gone through a professional hiring process before, you have no baseline for what "normal" looks and feels like. You don't know:
+- That legitimate offers never come without a real interview
+- That no employer sends you a check to buy your own equipment
+- That onboarding forms requiring your SSN are sent through secure HR portals, not email attachments
+- What a real recruiter email typically looks like vs. a fake one
+
+Scammers rely on this gap. The less you've seen, the easier it is to make something fake look real.
+
+---
+
+#### 2. High volume of applications creates confusion
+
+Early career job seekers typically apply to dozens or hundreds of positions at once. When you're sending that many applications, you lose track of exactly who you've contacted, what you applied for, and when. Scammers exploit this by reaching out as if you applied to their position — and you may not remember whether you did or not, so you engage anyway.
+
+---
+
+#### 3. Eagerness and emotional investment
+
+Getting your first job feels urgent and exciting. When an "employer" responds with enthusiasm, offers a great salary, and moves quickly, it triggers optimism and excitement that overrides skepticism. Scammers deliberately create a sense of momentum — fast responses, friendly tone, quick offers — to keep you moving forward before doubt sets in.
+
+This is sometimes called **emotional hijacking**: your desire for a good outcome makes it harder to think critically about what's actually happening.
+
+---
+
+#### 4. Financial pressure
+
+Students and early career seekers are often:
+- Carrying student loan debt
+- Living on a limited budget
+- Urgently needing income to pay rent or other bills
+
+Financial stress narrows your focus. When someone offers you exactly the income you need, the brain is wired to pay more attention to the reward and less attention to the warning signs. Scammers know this and deliberately craft offers with salary ranges that feel just right for someone in your situation.
+
+---
+
+#### 5. Clean credit and unused identity information
+
+Young adults who have never had their identity compromised are more valuable targets for identity theft. A person with:
+- A recently issued Social Security Number with little credit history
+- No fraud alerts on their accounts
+- No prior experience detecting fraudulent credit inquiries
+
+...is a blank slate. Criminals can open credit cards, take out loans, or commit tax fraud in your name with less interference than against someone who monitors their accounts closely. This makes students a particularly high-value target for information harvesting — not just money, but your identity itself.
+
+---
+
+#### 6. Less likely to report or follow up
+
+Many people who fall for a scam — especially younger people — feel embarrassed and do not report it. Scammers count on this. Low reporting rates mean scams continue operating longer without shutdown. If you encounter a scam, reporting it is not embarrassing — it protects the next person.
+
+---
+
+#### 7. Overreliance on digital-first communication
+
+Students are comfortable with text, DMs, email, and chat as primary communication channels. Scammers operate almost entirely through these channels. An "interview" over text or Google Chat feels normal to someone who communicates that way daily — but it is never how a legitimate employer conducts a hiring process for a real position.
+
+---
+
+#### 8. Public exposure through job boards and LinkedIn
+
+When you create a LinkedIn profile, post your resume on Indeed, or fill out profiles on job sites, you are publicly advertising:
+- Your name
+- Your school and graduation year
+- Your general location
+- The types of jobs you're looking for
+- The fact that you are actively job hunting
+
+Scammers scrape this data. They then reach out with targeted messages that reference your background, making the contact feel personal and legitimate. The fact that they "know" you went to a certain school or studied a certain subject does not mean they are a real employer — it means they read your profile.
+
+---
+
+> **The core truth:** Scammers target students and early career seekers because it works. Inexperience, urgency, financial need, and unfamiliarity with hiring norms create a highly exploitable situation. Knowing this is not a reason to feel foolish — it is a reason to build awareness before it matters.
+
+---
+
+### Common job and career scams
+
+#### 1. Fake job offers
+- You receive an offer with an unusually high salary for little experience or effort
+- The "interview" is entirely over text message or chat (no video, no voice)
+- You are hired after a single, weirdly easy conversation
+- The company name is slightly misspelled or generic (e.g., "Amazon Recruitment Inc." vs. "Amazon")
+
+**Red flags:**
+- No interview, or an "interview" conducted purely via Google Hangouts / Telegram
+- Immediate job offer after applying
+- Job posting has excessive salary promises but vague responsibilities
+- The recruiter uses a personal Gmail / Yahoo / Hotmail address instead of a company domain
+
+---
+
+#### 2. Payment / check scams
+- You are "hired" and sent a check to buy equipment or set up a home office
+- They ask you to buy gift cards, wire money, or purchase crypto and send a portion back
+- The check bounces after you've already sent money — and you are responsible for the full amount
+
+> **Rule:** A legitimate employer will never ask you to purchase equipment with your own money and reimburse you via check. Legitimate employers send equipment directly or reimburse through payroll.
+
+---
+
+#### 3. Personal information harvesting
+- A fake "employer" sends you onboarding forms asking for your Social Security Number, bank account details, or passport before you have ever had a real interview
+- A website mimics a real employer's career portal (slightly different URL) and collects your login credentials
+
+---
+
+#### 4. "Pay to apply" or training fee scams
+- You must pay a fee to access job listings or training materials before starting
+- A company asks you to buy a certification from them specifically before they can hire you
+
+> **Rule:** Legitimate employers do not charge application fees. Legitimate training programs are paid by the employer or reimbursed, not required upfront.
+
+---
+
+#### 5. Pyramid / MLM schemes disguised as jobs
+- Job titles like "Brand Ambassador," "Marketing Coordinator," or "Sales Representative"
+- The real revenue model is recruiting other salespeople, not selling a product
+- Income is described as "unlimited" or based on "your own effort and team"
+
+---
+
+#### 6. Salary survey and data phishing
+- A site asks you to enter your full employment history, SSN, and salary to "see what you're worth"
+- Legitimate salary sites do not require your Social Security Number
+
+---
+
+### Information you should NEVER share with an unverified employer
+
+| Information | Why it's risky |
+|---|---|
+| Social Security Number (SSN) | Identity theft, tax fraud — share only after a verified offer via secure HR systems |
+| Bank account / routing numbers | Direct access to your money |
+| Passport or driver's license photos | Can be used to open credit accounts in your name |
+| Passwords to any account | No legitimate employer needs these |
+| Credit card numbers | No legitimate hiring process involves this |
+| Personal home address (early stage) | Share only when completing verified onboarding paperwork |
+| Your mother's maiden name / security question answers | Common identity theft data points |
+
+**When sharing is legitimate:**
+- SSN and bank info are collected via a secure, company-hosted onboarding system (like Workday, ADP, or Rippling) **after** you have a verified, signed offer letter
+- You can always ask: *"What secure system will I use to submit this information?"* — a real employer will have a clear answer
+
+---
+
+### How to verify a job or employer
+
+Before engaging deeply with any job opportunity, do a basic check:
+
+1. **Verify the company exists** — search their name on [LinkedIn](https://www.linkedin.com), check their website independently (don't click links in emails), and look for a physical address
+2. **Verify the recruiter** — find the recruiter on LinkedIn. Does their profile match? Is it a real account with history?
+3. **Check the email domain** — recruiter@amazon.com is legitimate. recruiter.amazon@gmail.com is not.
+4. **Search the job posting** — copy the job description text and paste it into Google with quotes. Duplicate postings across dozens of sites under different company names is a red flag.
+5. **Call the company's main line** — look up the company's official phone number independently and ask if the recruiter works there.
+6. **Check review sites** — look up the company name + "scam" or "reviews."
+
+---
+
+### Trusted resources for scam awareness
+
+> **Disclaimer:** These are independently operated organizations and websites. This guide has no affiliation with any of them. Their policies, content, and reliability may change. Always use your own critical judgment.
+
+| Resource | What it covers |
+|---|---|
+| [FTC Consumer Information — Jobs & Making Money](https://consumer.ftc.gov/jobs-making-money) | US Federal Trade Commission guidance on work-from-home and job scams |
+| [BBB Scam Tracker](https://www.bbb.org/scamtracker) | Searchable database of reported scams by type, company, and location |
+| [USA.gov — Job Scams](https://www.usa.gov/job-scams) | Official US government overview of job scam red flags |
+| [AARP Fraud Watch Network](https://www.aarp.org/money/scams-fraud/) | General scam awareness (not only seniors — broadly useful) |
+| [Glassdoor — Company Reviews](https://www.glassdoor.com) | Employee reviews to vet real vs. suspicious companies |
+| [LinkedIn — Verify Job Postings](https://www.linkedin.com) | Cross-reference recruiters and postings against real company profiles |
+| [Have I Been Pwned](https://haveibeenpwned.com) | Check if your email has appeared in a data breach |
+| [ScamAdvisor](https://www.scamadviser.com) | Check whether a website is likely legitimate or suspicious |
+
+---
+
+### Safe practices — always-on habits
+
+These habits apply throughout your career, not just during job searching:
+
+- **Use a separate email address for job applications** — keep your primary personal and banking email separate
+- **Use unique, strong passwords** — never reuse passwords; use a password manager (Bitwarden is free)
+- **Enable two-factor authentication (2FA)** on all email and financial accounts
+- **Never click links in unsolicited emails** — go directly to the company's website by typing it yourself
+- **Be skeptical of urgency** — scams create artificial time pressure ("respond in 24 hours or lose your offer")
+- **Trust your instincts** — if something feels off, it probably is; there are always other jobs
+- **Keep records** — screenshot job postings, recruiter messages, and offer letters in case you need to report something
+- **Report scams** — file a report with the [FTC](https://reportfraud.ftc.gov/) and the [BBB Scam Tracker](https://www.bbb.org/scamtracker) to protect others
+
+> **Final note:** Legitimate employers want to hire you. They will not pressure you, charge you, or ask for sensitive personal data before a real, verified offer is in place. When in doubt, slow down. No real opportunity disappears because you took 24 hours to verify it.
+
+---
+
 ## Next steps
 
 1. Pick a track that interests you
