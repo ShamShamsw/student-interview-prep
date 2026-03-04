@@ -53,10 +53,11 @@ Not sure which direction to go? This guide breaks down the most common software 
      │   Cloud     │    │   Testing    │    │  security  │
      └─────────────┘    └──────────────┘    └────────────┘
 
-     ┌─────────────┐
-     │   Graphic   │
-     │   Design    │
-     └─────────────┘
+     ┌─────────────┐    ┌──────────────┐
+     │   Graphic   │    │    Start     │
+     │   Design    │    │  Your Own    │
+     │             │    │   Business   │
+     └─────────────┘    └──────────────┘
 ```
 
 ---
@@ -660,6 +661,205 @@ UI/UX focus: $65,000 – $100,000 / year
 
 ---
 
+## Starting Your Own Business
+
+### What you build
+Your own company — products, services, or expertise delivered directly to customers. You become the boss, set the vision, handle everything from marketing to operations, and keep the profits (and absorb the risks).
+
+### Day-to-day work
+- Identifying customer problems and market opportunities
+- Building and refining your product or service
+- Marketing and sales (finding and converting customers)
+- Financial management (pricing, taxes, cash flow)
+- Operations (fulfillment, customer service, hiring)
+- Strategic planning and competitive analysis
+
+### Business structure options
+
+Understanding your business structure affects taxes, liability, and how you operate:
+
+| Structure | Liability | Taxes | Complexity | Best for |
+|-----------|-----------|-------|------------|----------|
+| **Sole Proprietorship** | Personal liability | Personal tax return (Schedule C) | Simple | Freelancers, consultants, single-owner services |
+| **LLC (Limited Liability Company)** | Protected from business debts | Pass-through or corporate | Moderate | Most small businesses, partnerships |
+| **Partnership** | Personal liability | Pass-through to partners | Moderate | Multi-owner businesses |
+| **S-Corporation** | Protected liability | Pass-through, no self-employment tax on distributions | Complex | Businesses with profits to distribute |
+| **C-Corporation** | Protected liability | Double taxation (corporate + personal) | Most complex | High-growth businesses seeking investment |
+
+> **Most common choice for beginners:** LLC offers liability protection with tax simplicity. Consult with an accountant before deciding — the "right" choice depends on your situation.
+
+### How taxes work
+
+**As a business owner, you'll handle:**
+- **Income taxes** — pay on business profits (or losses reduce your tax burden)
+- **Self-employment taxes** — Social Security and Medicare (15.3% on net earnings)
+- **Quarterly estimated taxes** — pay throughout the year, not just April
+- **Business deductions** — equipment, software, home office, business meals, travel
+
+**Key tax tips:**
+- Track every business expense (use tools like QuickBooks, FreshBooks, or even a spreadsheet)
+- Set aside 25–30% of profits for taxes (open a separate savings account)
+- Consider working with a CPA, especially in your first year — they often save more than they cost
+
+### Where to get advice and support
+
+**Local business resources:**
+- **Small Business Development Centers (SBDC)** — free consulting and workshops
+- **SCORE mentors** — retired executives who volunteer advice
+- **Local Chamber of Commerce** — networking and business programs
+- **Small business owners in your community** — coffee chat with people running businesses you admire
+
+**Academic and institutional support:**
+- **Professors** — especially business, entrepreneurship, or industry-specific faculty
+- **Career counselors** — can connect you with alumni entrepreneurs
+- **Entrepreneurship clubs** — peer learning and networking
+- **University incubators** — mentorship and sometimes funding
+
+**Online communities:**
+- **Industry-specific forums** — connect with others in your exact field
+- **Reddit** — r/entrepreneur, r/smallbusiness, r/freelance
+- **Local business Facebook groups** — city-specific networking
+
+> Always seek multiple opinions. What works in one business or market may not work in another.
+
+---
+
+### Reality check: Most businesses fail (and why that's okay)
+
+**The statistics are sobering:**
+- 20% of businesses fail within the first year
+- 50% fail within five years
+- 66% fail within ten years
+
+**But failure doesn't always mean financial disaster:**
+- Many "failed" businesses break even or make modest profits before closing
+- Entrepreneurs often start multiple businesses — each one teaches valuable lessons
+- Even a "failed" business gives you real-world experience that's valuable to employers
+- Some of the most successful entrepreneurs had multiple failures first
+
+**Common reasons businesses fail:**
+- Insufficient market demand (building something nobody wants)
+- Running out of cash (poor financial planning)
+- Wrong team or leadership issues
+- Getting outcompeted by better-funded companies
+- Personal burnout or life changes
+
+> **Takeaway:** Plan for failure as a possibility, not a certainty. Have a financial cushion, a backup plan, and realistic expectations.
+
+---
+
+### How to succeed in small markets: Don't compete with giants
+
+**Rule #1: Don't fight big companies at their own game.**
+
+Large corporations have advantages you can't match:
+- Economies of scale (lower costs)
+- Massive marketing budgets
+- Brand recognition
+- Distribution networks
+- Ability to operate at a loss to crush competition
+
+**Instead, find where big companies *can't* compete well:**
+
+#### Example: The McDonald's lesson
+
+**What McDonald's does well:**
+- Cheap, consistent product
+- Fast service (under 90 seconds)
+- Massive marketing reach
+- Standardized experience everywhere
+
+**Where McDonald's *can't* compete:**
+- Personalized, high-touch customer service
+- Premium ingredients and customization
+- Local community connection
+- Unique, non-standardizable experiences
+
+**Your restaurant advantage might be:**
+- Knowing regular customers' names and preferences
+- Sourcing ingredients from local farms
+- Customizing meals to dietary restrictions
+- Creating a cozy atmosphere where the manager personally checks on tables
+- Building relationships with local community groups
+
+> McDonald's will never send a manager to personally ask how your meal is. That's your competitive advantage — if you can deliver that experience profitably.
+
+#### Find Your Competitive Edge
+
+**Ask these questions:**
+1. What do customers value that big companies can't deliver economically?
+2. What can I do cheaper/better/faster because I'm small?
+3. Where is the giant company's experience impersonal or unsatisfying?
+4. What local/niche needs are they ignoring?
+
+**Examples of small business competitive advantages:**
+- **Personal service** — you know every customer
+- **Customization** — can modify products for individual needs
+- **Local focus** — support local causes, use local suppliers
+- **Speed/agility** — faster to adapt to customer feedback
+- **Expertise** — deep specialization in a narrow niche
+
+---
+
+### Business analysis tools
+
+#### SWOT Analysis (Simple and Practical)
+
+A SWOT analysis helps you understand your business position:
+
+| | **Helpful** | **Harmful** |
+|---|---|---|
+| **Internal** | **Strengths** | **Weaknesses** |
+| | What you do well, unique resources | What you lack, areas needing improvement |
+| **External** | **Opportunities** | **Threats** |
+| | Market trends, gaps, growth areas | Competition, regulation, market risks |
+
+**Example for a local coffee shop:**
+- **Strengths:** Personal service, local community ties, flexible menu
+- **Weaknesses:** Higher costs than Starbucks, limited marketing budget
+- **Opportunities:** Starbucks feels impersonal, local preference for small business
+- **Threats:** Starbucks opens next door, rising rent costs
+
+#### Other Analysis Techniques
+
+**"Min-maxing" your competitive advantage:**
+Like a video game where you maximize certain stats while accepting weaknesses elsewhere. Focus all your energy on the 1–2 things you can do exceptionally well.
+
+**Examples:**
+- **McDonald's min-max:** Maximize speed + consistency, minimize service quality + customization
+- **Your coffee shop min-max:** Maximize personal relationships + local sourcing, minimize convenience + lowest price
+- **Boutique consulting min-max:** Maximize expertise + personal attention, minimize scale + low rates
+
+**The key:** Don't try to be everything to everyone. Be exceptional at what matters most to your target customers.
+
+### Typical paths and timelines
+
+**Salary range (highly variable):**
+- Year 1: Often negative or $0–$30,000 (investment phase)
+- Years 2–3: $30,000–$80,000 (if business gains traction)
+- Successful businesses: $75,000–$500,000+ (depends on industry and scale)
+- Most small business owners: $40,000–$90,000 long-term
+
+> **Important:** These numbers vary wildly by industry, location, and business model. Many business owners earn less than they would as employees, but gain flexibility and potential upside.
+
+### Good fit if you...
+- Want control over your schedule and decisions
+- Are comfortable with uncertainty and financial risk
+- Enjoy solving problems and learning constantly
+- Don't mind wearing multiple hats (marketing, finance, operations)
+- Are motivated by building something from nothing
+- Can handle rejection and setbacks without giving up
+
+### Not a good fit if you...
+- Prefer predictable income and benefits
+- Want to focus on one specific skill (rather than general business skills)
+- Avoid risk or get stressed by financial uncertainty
+- Prefer being told what to work on rather than deciding yourself
+
+> **Reality check:** Entrepreneurship is often romanticized, but it typically means longer hours, more stress, and lower initial income than employment. The potential rewards (financial and personal) can be higher, but so are the risks.
+
+---
+
 ## Side-by-side comparison
 
 | Career | Math heavy | Visual work | Systems thinking | Entry difficulty | Avg entry salary (US) |
@@ -674,6 +874,7 @@ UI/UX focus: $65,000 – $100,000 / year
 | QA / Testing | Low | Low | Med | Easy–Moderate | $55k–$90k |
 | Cybersecurity | Med | Low | High | Moderate | $65k–$105k |
 | Graphic Design | Low | Very High | Low | Easy | $40k–$65k |
+| Entrepreneurship | Variable | Variable | High | Hard | $0–$500k+ |
 
 > **Note:** Salaries vary widely by location, company size, and experience. These are rough US national averages for entry-level roles as of 2025–2026.
 
@@ -695,6 +896,12 @@ UI/UX focus: $65,000 – $100,000 / year
 
 ### You want the highest salary ceiling
 → **ML Engineering** (most competitive, requires the most breadth)
+
+### You want complete control and flexibility
+→ **Entrepreneurship** — highest risk but unlimited upside potential
+
+### You have a specific business idea or hate being told what to do
+→ **Entrepreneurship** — but get 2-3 years of work experience first to build skills and savings
 
 ---
 
@@ -769,6 +976,7 @@ Use these as rough starting points for US-based roles in 2025–2026. Adjust for
 | Cybersecurity | $65k–$105k | $105k–$140k | $135k–$185k+ |
 | Graphic Design | $40k–$65k | $60k–$90k | $85k–$130k+ |
 | UI/UX Design | $65k–$100k | $95k–$135k | $130k–$180k+ |
+| Entrepreneurship | $0–$50k | $30k–$100k | $50k–$500k+ |
 
 > These are base salary only. Total compensation (TC) at larger companies often includes equity (RSUs), bonuses, and benefits — which can add 20–50% on top.
 
