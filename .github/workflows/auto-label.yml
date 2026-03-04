@@ -11,7 +11,7 @@ jobs:
       issues: write
     steps:
       - name: Label issue based on title/body
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             // Auto-label script: helper-based, easy to extend.
