@@ -1,6 +1,6 @@
 # Student Interview Prep
 
-A beginner-friendly repository for technical interview preparation — 35+ coding problems, practical projects, and guided learning paths in Python (with JavaScript support starting).
+A comprehensive career guidance and technical interview preparation resource — 35+ coding problems across Python and JavaScript, practical projects, career path guidance, and structured learning paths for 10+ tech career tracks.
 
 ## Quick Start
 
@@ -22,12 +22,19 @@ See the [Quick Start Guide](docs/QUICKSTART.md) for manual setup, Docker, and tr
 
 ## What's Inside
 
+### Career Guidance
+
+Start here if you're unsure which tech career to pursue:
+
+- **[Career Paths Guide](learn/guides/CAREER_PATHS.md)** — comprehensive overview of 10+ tech careers with day-to-day work, skills needed, salary ranges, and how to get started
+- **[Data Science Guide](learn/guides/DATA_SCIENCE_GUIDE.md)** — deep dive into the data science career track
+- **[IDE Setup Guide](learn/guides/IDE_SETUP_GUIDE.md)** — setting up your development environment
+
 ### Coding Problems (35+)
 
-All problems live in [`languages/python/problems/`](languages/python/problems/) with matching solutions and tests.
+Problems available in both Python ([`languages/python/problems/`](languages/python/problems/)) and JavaScript ([`languages/javascript/`](languages/javascript/)) with matching solutions and tests.
 
 | Topic | Problems | Difficulty |
-|-------|----------|------------|
 | Arrays & Hashing | 01–10 | Easy–Medium |
 | Sliding Window | 11–14 | Medium–Hard |
 | Two Pointers | 15–18 | Easy–Medium |
@@ -67,6 +74,9 @@ Quick-build exercises in [`languages/python/mini-projects/`](languages/python/mi
 - **Rate Limiter** — sliding window, decorators
 - **Stack Calculator** — expression parsing, stack operations
 - **Word Frequency Counter** — hash maps, sorting, CLI
+- **Excel Data Analysis** — pandas, data cleaning, business insights
+- **Exploratory Data Analysis** — statistical analysis, visualization
+- **SQL Analytics** — database queries, business reporting
 
 ### SQL Problems
 
@@ -76,13 +86,31 @@ Quick-build exercises in [`languages/python/mini-projects/`](languages/python/mi
 
 Guides, cheatsheets, and study plans in [`learn/`](learn/):
 
+**Study Plans & Guidance:**
+- [Career Paths Guide](learn/guides/CAREER_PATHS.md) — choose your tech career track with confidence
 - [Beginner Start Here](learn/guides/BEGINNER_START_HERE.md) — 2-week daily plan for newcomers
 - [Learning Path](learn/paths/LEARNING_PATH.md) — 8-week and 12-week structured tracks
-- [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md) — complexity & pattern reference
-- [Interview Questions](learn/interview-questions/README.md) — categorized questions by role & level
 - [Mock Interview Guide](learn/guides/MOCK_INTERVIEW_GUIDE.md) — practice like the real thing
 - [System Design Basics](learn/guides/SYSTEM_DESIGN_BASICS.md) — architecture fundamentals
+
+**Cheatsheets:**
+- [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md) — complexity & pattern reference
+- [Data Science Cheatsheet](learn/cheatsheets/DATA_SCIENCE_CHEATSHEET.md) — pandas, NumPy, machine learning
+- [SQL Analytics Cheatsheet](learn/cheatsheets/SQL_ANALYTICS_CHEATSHEET.md) — window functions, CTEs, optimization
+- [Excel Formulas Cheatsheet](learn/cheatsheets/EXCEL_FORMULAS_CHEATSHEET.md) — VLOOKUP, pivot tables, data analysis
+
+**Interview Questions by Career Track:**
+- [Behavioral Interview Questions](learn/interview-questions/01-behavioral.md) — STAR method, culture fit
+- [Frontend Questions](learn/interview-questions/03-frontend.md) — React, JavaScript, CSS
+- [Backend Questions](learn/interview-questions/04-backend.md) — APIs, databases, system design
+- [Fullstack Questions](learn/interview-questions/05-fullstack.md) — end-to-end development
+- [Data Science Questions](learn/interview-questions/08-data-science.md) — statistics, ML, Python
+- [Data Engineering Questions](learn/interview-questions/09-data-engineering.md) — pipelines, SQL, cloud
+- [Complete List](learn/interview-questions/README.md) — all categories
+
+**Reference:**
 - [Glossary](learn/resources/GLOSSARY.md) — technical terms explained
+- [External Resources](learn/resources/EXTERNAL_RESOURCES.md) — curated learning links
 
 ---
 
@@ -104,17 +132,19 @@ The `scripts/` directory includes utilities to support your practice:
 
 ## Learning Paths
 
-### Beginner (12 weeks)
-1. [Beginner Start Here](learn/guides/BEGINNER_START_HERE.md) — environment setup + Python basics
-2. [Learning Path](learn/paths/LEARNING_PATH.md) — 12-week track
-3. Problems 01–15 (Easy), then the Sample Todo App project
-4. Weekly self-assessment with [Confidence Check](learn/checklists/WEEKLY_CONFIDENCE_CHECK.md)
+### New to Tech (12 weeks)
+1. **[Career Paths Guide](learn/guides/CAREER_PATHS.md)** — decide which career track interests you
+2. [Beginner Start Here](learn/guides/BEGINNER_START_HERE.md) — environment setup + Python basics
+3. [Learning Path](learn/paths/LEARNING_PATH.md) — 12-week track
+4. Problems 01–15 (Easy), then the Sample Todo App project
+5. Weekly self-assessment with [Confidence Check](learn/checklists/WEEKLY_CONFIDENCE_CHECK.md)
 
 ### Interview Ready (8 weeks)
-1. [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md) — review patterns
-2. [Learning Path](learn/paths/LEARNING_PATH.md) — 8-week fast track
-3. All 35 problems + Interview Patterns API project
-4. [Mock Interviews](learn/guides/MOCK_INTERVIEW_GUIDE.md) + [System Design](learn/guides/SYSTEM_DESIGN_BASICS.md)
+1. **[Career Paths Guide](learn/guides/CAREER_PATHS.md)** — salary negotiation & scam awareness
+2. [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md) — review patterns
+3. [Learning Path](learn/paths/LEARNING_PATH.md) — 8-week fast track
+4. All 35 problems + Interview Patterns API project
+5. [Mock Interviews](learn/guides/MOCK_INTERVIEW_GUIDE.md) + [System Design](learn/guides/SYSTEM_DESIGN_BASICS.md)
 
 ### Self-Paced
 Browse [problems by topic](languages/python/problems/), track progress with the [checklist](learn/paths/LEARNING_PATH_CHECKLIST.md), build projects as you go.
