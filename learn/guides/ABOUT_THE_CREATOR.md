@@ -3,7 +3,6 @@
 ## Jacob Haseman
 
 **Pronouns:** he/him  
-**Location:** Colorado Springs, CO  
 **LinkedIn:** [jacob-haseman-6865621a3](https://www.linkedin.com/in/jacob-haseman-6865621a3/)  
 **Portfolio:** [shamshamsw.github.io/portfolio-website.html](https://shamshamsw.github.io/portfolio-website.html)  
 **GitHub:** [@ShamShamsw](https://github.com/ShamShamsw)
