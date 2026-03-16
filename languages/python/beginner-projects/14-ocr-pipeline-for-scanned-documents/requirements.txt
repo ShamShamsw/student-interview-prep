@@ -1,1 +1,2 @@
-﻿# Add project-specific dependencies here
+﻿pytesseract>=0.3.13
+Pillow>=10.0.0
