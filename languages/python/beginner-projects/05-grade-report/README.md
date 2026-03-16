@@ -12,6 +12,14 @@ This is the capstone of the beginner projects. You'll read data from a file, pro
 
 ---
 
+## Separate Repository
+
+You can also access this project in a separate repository:
+
+[grade report Repository](https://github.com/ShamShamsw/grade-report.git)
+
+---
+
 ## The Importance of Comments
 
 For this project, write comments as if **a teammate will maintain your code after you leave.** This is the most common real-world commenting scenario and exactly what interviewers are evaluating.
