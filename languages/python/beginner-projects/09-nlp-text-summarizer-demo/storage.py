@@ -1,29 +1,61 @@
 ﻿"""
-storage.py - Persistence layer for Project 09: NLP Text Summarizer Demo
+storage.py - Persistence helpers for summarization run artifacts
+===============================================================
 """
 
-from pathlib import Path
 import json
+from pathlib import Path
 
-DATA_DIR = Path(__file__).resolve().parent / 'data'
+DATA_DIR = Path(__file__).resolve().parent / "data"
+RUNS_DIR = DATA_DIR / "runs"
+LATEST_RUN = RUNS_DIR / "latest_summary_run.json"
+RUN_HISTORY = RUNS_DIR / "summary_run_history.json"
 
 
-def ensure_data_dir() -> None:
-    """Create local data directory if it does not exist."""
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+def ensure_runs_dir() -> None:
+    """Ensure run artifact folder exists."""
+    RUNS_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def load_json(filename: str):
-    """Load JSON data from the local data directory."""
-    ensure_data_dir()
-    path = DATA_DIR / filename
+def _read_json(path: Path, default):
+    """
+    Read JSON from path with safe fallback.
+    """
     if not path.exists():
-        return []
-    return json.loads(path.read_text(encoding='utf-8'))
+        return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return default
 
 
-def save_json(filename: str, data) -> None:
-    """Save JSON data to the local data directory."""
-    ensure_data_dir()
-    path = DATA_DIR / filename
-    path.write_text(json.dumps(data, indent=2), encoding='utf-8')
+def _write_json(path: Path, payload) -> None:
+    """Write JSON payload with human-readable indentation."""
+    path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+
+
+def save_latest_run(run: dict) -> None:
+    """
+    Save latest run and append to run history.
+
+    Parameters:
+        run (dict): Run artifact payload.
+    """
+    ensure_runs_dir()
+    _write_json(LATEST_RUN, run)
+
+    history = _read_json(RUN_HISTORY, default=[])
+    history.append(run)
+    _write_json(RUN_HISTORY, history)
+
+
+def load_latest_run() -> dict:
+    """Load latest run artifact or empty dict if unavailable."""
+    ensure_runs_dir()
+    return _read_json(LATEST_RUN, default={})
+
+
+def load_run_history() -> list:
+    """Load all historical summarization runs."""
+    ensure_runs_dir()
+    return _read_json(RUN_HISTORY, default=[])
