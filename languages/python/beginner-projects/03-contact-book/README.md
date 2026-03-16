@@ -14,6 +14,14 @@ This project also introduces **data persistence** — your program saves data to
 
 ---
 
+## Separate Repository
+
+You can also access this project in a separate repository:
+
+[quiz game Repository](https://github.com/ShamShamsw/contact-book.git)
+
+---
+
 ## The Importance of Comments
 
 In this project, focus on **architecture comments** — comments that explain how pieces fit together, not just what one line does.
