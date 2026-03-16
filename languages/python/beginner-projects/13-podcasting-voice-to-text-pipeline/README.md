@@ -20,7 +20,9 @@ This project gives you a practical beginner workflow where you can:
 
 ## Separate Repository
 
-This project is currently maintained in this monorepo.
+You can also access this project in a separate repository:
+
+[podcasting voice to text pipeline Repository](https://github.com/ShamShamsw/podcasting-voice-to-text-pipeline.git)
 
 ---
 
