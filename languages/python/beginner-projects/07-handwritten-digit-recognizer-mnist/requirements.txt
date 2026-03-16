@@ -1,1 +1,2 @@
-﻿# Add project-specific dependencies here
+﻿scikit-learn>=1.4
+numpy>=1.26
