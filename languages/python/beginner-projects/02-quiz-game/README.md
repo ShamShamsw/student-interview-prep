@@ -16,7 +16,7 @@ A quiz game is one of the best beginner projects because it forces you to think 
 
 You can also access this project in a separate repository:
 
-[quiz game Repository](https://github.com/ShamShamsw/quiz-game.git)
+[quiz game Repository](https://github.com/ShamShamsw/Personal-Greeting-Generator.git)
 
 ---
 
