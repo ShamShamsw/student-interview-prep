@@ -4,7 +4,7 @@
     "max_cluster_iterations": 20,
     "choropleth_metric": "point_count",
     "zoom_start": 4,
-    "created_at": "2026-03-16T19:05:30Z"
+    "created_at": "2026-03-16T19:14:37Z"
   },
   "point_count": 12,
   "points": [
@@ -211,5 +211,5 @@
     "clusters_map": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\10-interactive-geospatial-explorer\\data\\outputs\\clusters_map.html",
     "choropleth_map": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\10-interactive-geospatial-explorer\\data\\outputs\\choropleth_map.html"
   },
-  "saved_at": "2026-03-16T19:05:38Z"
+  "saved_at": "2026-03-16T19:14:38Z"
 }
