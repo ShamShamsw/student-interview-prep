@@ -1,0 +1,218 @@
+{
+  "status": "completed",
+  "config": {
+    "n_trials": 50,
+    "n_heads": 30,
+    "prior_alpha": 1.0,
+    "prior_beta": 1.0,
+    "n_posterior_samples": 10000,
+    "seed": 42,
+    "created_at": "2026-03-16T20:56:58Z"
+  },
+  "base_result": {
+    "config": {
+      "n_trials": 50,
+      "n_heads": 30,
+      "prior_alpha": 1.0,
+      "prior_beta": 1.0,
+      "n_posterior_samples": 10000,
+      "seed": 42,
+      "created_at": "2026-03-16T20:56:58Z"
+    },
+    "prior": {
+      "alpha": 1.0,
+      "beta": 1.0,
+      "label": "prior"
+    },
+    "posterior": {
+      "alpha": 31.0,
+      "beta": 21.0,
+      "label": "posterior"
+    },
+    "metrics": {
+      "mean": 0.5961538461538461,
+      "mode": 0.6,
+      "variance": 0.004542536563581556,
+      "std": 0.06739834243942174,
+      "ci_lower": 0.46114098957980765,
+      "ci_upper": 0.7241570394874148,
+      "ci_level": 0.95
+    },
+    "completed_at": "2026-03-16T20:56:58Z"
+  },
+  "sensitivity_results": [
+    {
+      "config": {
+        "n_trials": 50,
+        "n_heads": 30,
+        "prior_alpha": 1.0,
+        "prior_beta": 1.0,
+        "n_posterior_samples": 10000,
+        "seed": 42,
+        "created_at": "2026-03-16T20:56:58Z"
+      },
+      "prior": {
+        "alpha": 1.0,
+        "beta": 1.0,
+        "label": "uniform"
+      },
+      "posterior": {
+        "alpha": 31.0,
+        "beta": 21.0,
+        "label": "posterior"
+      },
+      "metrics": {
+        "mean": 0.5961538461538461,
+        "mode": 0.6,
+        "variance": 0.004542536563581556,
+        "std": 0.06739834243942174,
+        "ci_lower": 0.46114098957980765,
+        "ci_upper": 0.7241570394874148,
+        "ci_level": 0.95
+      },
+      "completed_at": "2026-03-16T20:56:58Z",
+      "preset_name": "uniform",
+      "preset_description": "Uniform prior - no prior belief"
+    },
+    {
+      "config": {
+        "n_trials": 50,
+        "n_heads": 30,
+        "prior_alpha": 1.0,
+        "prior_beta": 1.0,
+        "n_posterior_samples": 10000,
+        "seed": 42,
+        "created_at": "2026-03-16T20:56:58Z"
+      },
+      "prior": {
+        "alpha": 2.0,
+        "beta": 2.0,
+        "label": "weakly_informative"
+      },
+      "posterior": {
+        "alpha": 32.0,
+        "beta": 22.0,
+        "label": "posterior"
+      },
+      "metrics": {
+        "mean": 0.5925925925925926,
+        "mode": 0.5961538461538461,
+        "variance": 0.0043895747599451305,
+        "std": 0.06625386599999376,
+        "ci_lower": 0.46004305346547075,
+        "ci_upper": 0.7186420429821911,
+        "ci_level": 0.95
+      },
+      "completed_at": "2026-03-16T20:56:58Z",
+      "preset_name": "weakly_informative",
+      "preset_description": "Weakly informative - slight fair-coin belief"
+    },
+    {
+      "config": {
+        "n_trials": 50,
+        "n_heads": 30,
+        "prior_alpha": 1.0,
+        "prior_beta": 1.0,
+        "n_posterior_samples": 10000,
+        "seed": 42,
+        "created_at": "2026-03-16T20:56:58Z"
+      },
+      "prior": {
+        "alpha": 10.0,
+        "beta": 10.0,
+        "label": "strong_fair_coin"
+      },
+      "posterior": {
+        "alpha": 40.0,
+        "beta": 30.0,
+        "label": "posterior"
+      },
+      "metrics": {
+        "mean": 0.5714285714285714,
+        "mode": 0.5735294117647058,
+        "variance": 0.0034492670307559644,
+        "std": 0.058730460842359854,
+        "ci_lower": 0.4547536389693048,
+        "ci_upper": 0.6842353533260978,
+        "ci_level": 0.95
+      },
+      "completed_at": "2026-03-16T20:56:58Z",
+      "preset_name": "strong_fair_coin",
+      "preset_description": "Strong fair-coin belief (p near 0.5)"
+    },
+    {
+      "config": {
+        "n_trials": 50,
+        "n_heads": 30,
+        "prior_alpha": 1.0,
+        "prior_beta": 1.0,
+        "n_posterior_samples": 10000,
+        "seed": 42,
+        "created_at": "2026-03-16T20:56:58Z"
+      },
+      "prior": {
+        "alpha": 5.0,
+        "beta": 2.0,
+        "label": "biased_high"
+      },
+      "posterior": {
+        "alpha": 35.0,
+        "beta": 22.0,
+        "label": "posterior"
+      },
+      "metrics": {
+        "mean": 0.6140350877192983,
+        "mode": 0.6181818181818182,
+        "variance": 0.004086137909807793,
+        "std": 0.0639229059868823,
+        "ci_lower": 0.48547830656293667,
+        "ci_upper": 0.7350087374962713,
+        "ci_level": 0.95
+      },
+      "completed_at": "2026-03-16T20:56:58Z",
+      "preset_name": "biased_high",
+      "preset_description": "Prior belief coin is biased toward heads"
+    },
+    {
+      "config": {
+        "n_trials": 50,
+        "n_heads": 30,
+        "prior_alpha": 1.0,
+        "prior_beta": 1.0,
+        "n_posterior_samples": 10000,
+        "seed": 42,
+        "created_at": "2026-03-16T20:56:58Z"
+      },
+      "prior": {
+        "alpha": 0.5,
+        "beta": 0.5,
+        "label": "jeffreys"
+      },
+      "posterior": {
+        "alpha": 30.5,
+        "beta": 20.5,
+        "label": "posterior"
+      },
+      "metrics": {
+        "mean": 0.5980392156862745,
+        "mode": 0.6020408163265306,
+        "variance": 0.004622852157454234,
+        "std": 0.06799155945743732,
+        "ci_lower": 0.4617435894430282,
+        "ci_upper": 0.7270476302805683,
+        "ci_level": 0.95
+      },
+      "completed_at": "2026-03-16T20:56:58Z",
+      "preset_name": "jeffreys",
+      "preset_description": "Jeffreys prior - non-informative reference prior"
+    }
+  ],
+  "posterior_predictive": {
+    "future_trials": 20,
+    "n_samples": 10000,
+    "predicted_mean_heads": 11.9543,
+    "predicted_std": 2.5446829881146296,
+    "predicted_95ci_lower": 7.0,
+    "predicted_95ci_upper": 17.0
+  }
+}
