@@ -23,7 +23,7 @@ The goal is not to build the most accurate model. The goal is to learn the workf
 
 You can also access this project in a separate repository:
 
-[quiz game Repository](https://github.com/ShamShamsw/quiz-game.git)
+[handwritten digit recognizer Repository](https://github.com/ShamShamsw/handwritten-digit-recognizer.git)
 
 ---
 
