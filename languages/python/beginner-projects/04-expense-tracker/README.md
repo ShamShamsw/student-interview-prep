@@ -16,7 +16,7 @@ The expense tracker adds a layer of complexity beyond simple CRUD — you need t
 
 You can also access this project in a separate repository:
 
-[quiz game Repository](https://github.com/ShamShamsw/expense-tracker.git)
+[expense tracker Repository](https://github.com/ShamShamsw/expense-tracker.git)
 
 ---
 
