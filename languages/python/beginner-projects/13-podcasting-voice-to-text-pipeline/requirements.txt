@@ -1,1 +1,1 @@
-﻿# Add project-specific dependencies here
+﻿SpeechRecognition>=3.10.4
