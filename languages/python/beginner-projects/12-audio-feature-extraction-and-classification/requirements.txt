@@ -1,1 +1,4 @@
-﻿# Add project-specific dependencies here
+﻿librosa>=0.10.2
+numpy>=1.26.0
+scikit-learn>=1.4.0
+soundfile>=0.12.1
