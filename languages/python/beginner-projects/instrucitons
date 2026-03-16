@@ -1,0 +1,371 @@
+AI Implementation Instructions For 50 Python Projects
+
+How to use this file
+- Each project has a clear objective, required deliverables, architecture, and done criteria.
+- Build every project as reproducible: fixed random seeds, requirements file, and runnable entry point.
+- For notebook projects, include at least one exported script version so the logic is reusable.
+- For all projects, add a README with setup, usage, sample input/output, and limitations.
+
+Standard requirements for every project
+- Use Python 3.11+.
+- Include `requirements.txt` and `README.md`.
+- Add `src/` for code, `data/` for sample data, `outputs/` for generated assets.
+- Separate concerns: data loading, processing/modeling, visualization, and app/interface.
+- Include basic tests for core utilities when practical.
+
+01) Stock Data Explorer And Backtester
+- Objective: Download historical stock data, visualize trends, and backtest rule-based strategies.
+- Must-have features: ticker/date input, moving averages, strategy engine, metrics (return, drawdown, sharpe).
+- Suggested structure: `src/data.py`, `src/indicators.py`, `src/backtest.py`, `src/plots.py`, `main.py`.
+- Libraries: yfinance, pandas, matplotlib; optional zipline.
+- Done criteria: running `main.py` creates at least 3 plots and a CSV summary report.
+
+02) Interactive EDA Dashboard
+- Objective: Let users upload a dataset and explore statistics and plots interactively.
+- Must-have features: schema preview, missing-value summary, filter widgets, chart chooser.
+- Suggested structure: `src/eda.py`, `src/widgets.py`, `dashboard.ipynb` or `app.py`.
+- Libraries: pandas, plotly, ipywidgets, seaborn.
+- Done criteria: user can load an arbitrary CSV and generate descriptive analytics without code edits.
+
+03) Time-Series Forecasting Lab
+- Objective: Compare ARIMA, Prophet, and LSTM on the same target series.
+- Must-have features: train/validation split, shared metrics (MAE/RMSE/MAPE), model comparison table.
+- Suggested structure: `src/preprocess.py`, `src/models/`, `src/evaluate.py`, `notebook.ipynb`.
+- Libraries: statsmodels, prophet, tensorflow or torch, scikit-learn.
+- Done criteria: one command runs all models and saves metric and forecast comparison plots.
+
+04) Movie Recommender Notebook
+- Objective: Build content-based and collaborative recommenders and compare recommendation quality.
+- Must-have features: user-item matrix, TF-IDF similarity, top-N recommendations, offline evaluation.
+- Suggested structure: `src/data.py`, `src/content.py`, `src/cf.py`, `src/eval.py`.
+- Libraries: pandas, scikit-learn, implicit or Surprise.
+- Done criteria: given a user ID or movie title, system returns top 10 recommendations from both methods.
+
+05) News Scraper Plus Sentiment Tracker
+- Objective: Scrape headlines/articles and track sentiment trend over time.
+- Must-have features: source config, deduplication, sentiment scoring, named entity extraction, timeline plot.
+- Suggested structure: `src/scrape.py`, `src/nlp.py`, `src/store.py`, `src/report.py`.
+- Libraries: requests, BeautifulSoup/newspaper3k, nltk or spacy, vaderSentiment.
+- Done criteria: daily run appends new records and regenerates sentiment dashboard artifacts.
+
+06) Image Classification With Transfer Learning
+- Objective: Fine-tune a pretrained CNN on a small custom dataset.
+- Must-have features: train/val split, augmentation, checkpointing, confusion matrix.
+- Suggested structure: `src/dataset.py`, `src/train.py`, `src/infer.py`, `src/plots.py`.
+- Libraries: torchvision or keras, PIL, matplotlib.
+- Done criteria: model reaches better-than-random accuracy and predicts labels for unseen images.
+
+07) Handwritten Digit Recognizer (MNIST)
+- Objective: Train a baseline classifier and explain common errors.
+- Must-have features: training loop, misclassification gallery, activation visualization.
+- Suggested structure: `src/model.py`, `src/train.py`, `src/analysis.py`.
+- Libraries: tensorflow or torch, sklearn, matplotlib.
+- Done criteria: save trained model and produce report with accuracy and error examples.
+
+08) Topic Modeling And Visualization
+- Objective: Discover latent topics in text corpus and make results interpretable.
+- Must-have features: text cleaning, LDA and NMF pipelines, topic-word tables, interactive topic visualization.
+- Suggested structure: `src/preprocess.py`, `src/topic_models.py`, `src/visualize.py`.
+- Libraries: sklearn, gensim, pyLDAvis, spacy.
+- Done criteria: output includes top words per topic and an interactive visualization file.
+
+09) NLP Text Summarizer Demo
+- Objective: Compare extractive and abstractive summarization quality.
+- Must-have features: document input, two summarization methods, ROUGE scoring, side-by-side display.
+- Suggested structure: `src/extractive.py`, `src/abstractive.py`, `src/eval.py`.
+- Libraries: transformers, nltk, rouge-score.
+- Done criteria: for a sample corpus, generate summaries and metric table automatically.
+
+10) Interactive Geospatial Explorer
+- Objective: Explore points, clusters, and choropleths on maps.
+- Must-have features: region filter, clustering toggle, layer control, tooltip metadata.
+- Suggested structure: `src/load_geo.py`, `src/maps.py`, `src/cluster.py`, `app.py`.
+- Libraries: geopandas, folium, plotly, shapely.
+- Done criteria: map app loads and displays at least 3 geospatial views from sample data.
+
+11) Real-Time Webcam Computer Vision Demos
+- Objective: Build small live demos for detection, filters, and tracking.
+- Must-have features: webcam capture, mode switcher, FPS counter, graceful camera release.
+- Suggested structure: `src/camera.py`, `src/filters.py`, `src/detect.py`, `main.py`.
+- Libraries: OpenCV, ipywidgets, imageio.
+- Done criteria: user can switch between at least 3 real-time CV modes.
+
+12) Audio Feature Extraction And Classification
+- Objective: Extract MFCC/chroma features and train an audio classifier.
+- Must-have features: audio preprocessing, feature cache, model training, evaluation visuals.
+- Suggested structure: `src/features.py`, `src/train.py`, `src/evaluate.py`.
+- Libraries: librosa, scikit-learn, soundfile.
+- Done criteria: model predicts class labels on held-out clips with saved metrics.
+
+13) Podcasting Voice-To-Text Pipeline
+- Objective: Transcribe audio into searchable transcript with timestamps/highlights.
+- Must-have features: chunking long audio, transcription, keyword indexing, summary snippet output.
+- Suggested structure: `src/transcribe.py`, `src/index.py`, `src/search.py`.
+- Libraries: whisper or SpeechRecognition, pydub.
+- Done criteria: given an audio file, generate transcript JSON and keyword search results.
+
+14) OCR Pipeline For Scanned Documents
+- Objective: Convert scanned docs into structured text output.
+- Must-have features: image cleanup, OCR extraction, section parsing, export to JSON/CSV.
+- Suggested structure: `src/preprocess.py`, `src/ocr.py`, `src/parse.py`.
+- Libraries: pytesseract, OpenCV, pdfminer.
+- Done criteria: process a sample scanned PDF and extract at least title, headings, and body text.
+
+15) Interactive Math Tutor Notebook
+- Objective: Solve symbolic math problems with explanations and visualizations.
+- Must-have features: expression input, symbolic solve/simplify, step logging, plot where relevant.
+- Suggested structure: `src/solver.py`, `src/explain.py`, `src/plot.py`.
+- Libraries: sympy, matplotlib, ipywidgets.
+- Done criteria: notebook handles algebra, equations, and graphing in one interface.
+
+16) SIR Epidemic Simulator With Visualization
+- Objective: Simulate disease spread and inspect sensitivity to parameters.
+- Must-have features: SIR solver, parameter sweep, uncertainty bands, scenario comparison charts.
+- Suggested structure: `src/model.py`, `src/simulate.py`, `src/visualize.py`.
+- Libraries: numpy, scipy, matplotlib, seaborn.
+- Done criteria: app produces time-series curves and sweep heatmap for custom parameters.
+
+17) Bayesian Modeling Tutorial
+- Objective: Build a Bayesian model and communicate posterior uncertainty.
+- Must-have features: prior definition, posterior sampling, posterior predictive checks, diagnostics.
+- Suggested structure: `src/model.py`, `src/sampling.py`, `src/report.py`.
+- Libraries: pymc, arviz, matplotlib.
+- Done criteria: saved notebook/report includes trace, posterior, and PPC plots with interpretation.
+
+18) Reinforcement Learning Playground
+- Objective: Implement Q-learning in Gridworld and compare with a baseline RL library.
+- Must-have features: environment definition, epsilon-greedy policy, reward tracking, policy visualization.
+- Suggested structure: `src/env.py`, `src/q_learning.py`, `src/evaluate.py`.
+- Libraries: gym, numpy, matplotlib; optional stable-baselines3.
+- Done criteria: reward trend improves over episodes and final policy is rendered.
+
+19) GAN Image Generation Demo
+- Objective: Train a simple GAN and visualize generated sample quality over time.
+- Must-have features: generator/discriminator models, training loop, fixed-noise progression images.
+- Suggested structure: `src/models.py`, `src/train.py`, `src/sample.py`.
+- Libraries: tensorflow or torch, torchvision.
+- Done criteria: save checkpoints and generated image grids at regular epochs.
+
+20) Image Segmentation Interactive Demo
+- Objective: Train U-Net style model and inspect predicted masks.
+- Must-have features: mask-aware dataloader, augmentation, dice/IoU metrics, overlay viewer.
+- Suggested structure: `src/dataset.py`, `src/unet.py`, `src/train.py`, `src/viewer.py`.
+- Libraries: torch or keras, albumentations, matplotlib.
+- Done criteria: model segments validation images with measurable IoU above baseline.
+
+21) AutoML Comparison Notebook
+- Objective: Benchmark several models and hyperparameter searches on a tabular dataset.
+- Must-have features: preprocessing pipeline, model registry, search strategy, final leaderboard.
+- Suggested structure: `src/pipeline.py`, `src/search.py`, `src/report.py`.
+- Libraries: scikit-learn, optuna, optional mlflow.
+- Done criteria: automatically outputs best model config and reproducible metric report.
+
+22) Interactive Data Labeling Tool
+- Objective: Label images or short text samples inside a notebook UI.
+- Must-have features: next/prev navigation, label assignment, autosave, export annotations.
+- Suggested structure: `src/ui.py`, `src/storage.py`, `src/export.py`.
+- Libraries: ipywidgets, bqplot, PIL.
+- Done criteria: user labels dataset and exports machine-readable annotation file.
+
+23) Network Analysis Of Social Graphs
+- Objective: Compute graph metrics and visualize communities.
+- Must-have features: graph construction, centrality metrics, community detection, interactive plot.
+- Suggested structure: `src/build_graph.py`, `src/metrics.py`, `src/community.py`, `src/viz.py`.
+- Libraries: networkx, python-igraph, plotly.
+- Done criteria: outputs ranked nodes and colored community graph visualization.
+
+24) Rate-Limit-Aware Web Crawler
+- Objective: Crawl pages responsibly with retries and persistent storage.
+- Must-have features: robots.txt check, request throttling, retry/backoff, sqlite storage, dedupe.
+- Suggested structure: `src/crawler.py`, `src/parser.py`, `src/storage.py`, `src/config.py`.
+- Libraries: requests, BeautifulSoup, asyncio/aiohttp, sqlite3.
+- Done criteria: crawl run can resume and avoids duplicate URL/content entries.
+
+25) Personal Finance Tracker With Forecasts
+- Objective: Ingest transactions, categorize spending, and forecast cashflow.
+- Must-have features: CSV import, category mapping, monthly summaries, forecast chart.
+- Suggested structure: `src/importer.py`, `src/categorize.py`, `src/forecast.py`, `src/report.py`.
+- Libraries: pandas, prophet or sklearn, plotly.
+- Done criteria: user gets dashboard with budget insights and future balance estimate.
+
+26) Cryptocurrency Real-Time Tracker
+- Objective: Stream crypto market data and trigger alerts.
+- Must-have features: live ticker ingestion, order book snapshot, threshold alerts, rolling charts.
+- Suggested structure: `src/stream.py`, `src/alerts.py`, `src/visualize.py`.
+- Libraries: websockets or ccxt, plotly, pandas.
+- Done criteria: app updates live and sends at least one configurable alert type.
+
+27) OCR-Based Invoice Parser
+- Objective: Extract vendor, dates, totals, and line items from invoices.
+- Must-have features: OCR preprocessing, field extraction rules, confidence scoring, JSON export.
+- Suggested structure: `src/ocr.py`, `src/fields.py`, `src/line_items.py`, `src/validate.py`.
+- Libraries: pytesseract, regex, spacy.
+- Done criteria: parse sample invoices into consistent structured output schema.
+
+28) Gesture-Controlled Slideshow
+- Objective: Use webcam hand gestures to navigate slides.
+- Must-have features: gesture detection, debouncing, next/prev controls, visual feedback overlay.
+- Suggested structure: `src/camera.py`, `src/gestures.py`, `src/controller.py`.
+- Libraries: mediapipe, OpenCV, ipywidgets.
+- Done criteria: gestures reliably move slides forward/back in a demo deck.
+
+29) Sudoku Generator And Solver
+- Objective: Generate Sudoku puzzles and solve step-by-step.
+- Must-have features: valid board generator, difficulty presets, backtracking solver, solver trace.
+- Suggested structure: `src/generator.py`, `src/solver.py`, `src/visualize.py`.
+- Libraries: numpy.
+- Done criteria: generated puzzles are unique-solution and solver can explain each step.
+
+30) Genetic Algorithm Visualizer
+- Objective: Solve optimization tasks while visualizing population evolution.
+- Must-have features: genome encoding, selection/crossover/mutation, fitness tracking, animation.
+- Suggested structure: `src/ga.py`, `src/problems.py`, `src/plot.py`.
+- Libraries: DEAP or custom implementation, matplotlib, ipywidgets.
+- Done criteria: plot shows fitness improving over generations with configurable parameters.
+
+31) Fractal And Procedural Art Studio
+- Objective: Generate and interact with fractal/procedural visuals.
+- Must-have features: Mandelbrot and Julia rendering, parameter controls, export image.
+- Suggested structure: `src/fractals.py`, `src/ui.py`, `src/export.py`.
+- Libraries: numpy, matplotlib, ipywidgets.
+- Done criteria: user can tweak parameters and save generated artwork.
+
+32) Image Augmentation Playground
+- Objective: Demonstrate augmentation effects and model impact.
+- Must-have features: augmentation pipeline editor, before/after grid, optional training comparison.
+- Suggested structure: `src/augment.py`, `src/preview.py`, `src/evaluate.py`.
+- Libraries: albumentations, torchvision, matplotlib.
+- Done criteria: report compares metrics with and without augmentation.
+
+33) Plagiarism Similarity Detector
+- Objective: Detect semantic similarity between documents.
+- Must-have features: embedding generation, pairwise similarity matrix, nearest-neighbor report, clustering.
+- Suggested structure: `src/embed.py`, `src/similarity.py`, `src/cluster.py`, `src/report.py`.
+- Libraries: sentence-transformers, scikit-learn, umap, hdbscan.
+- Done criteria: system flags highly similar pairs and visualizes document clusters.
+
+34) Document Search Engine
+- Objective: Build semantic search over a local document corpus.
+- Must-have features: ingestion pipeline, embedding index, query ranking, snippet highlighting.
+- Suggested structure: `src/ingest.py`, `src/index.py`, `src/search.py`, `app.py`.
+- Libraries: sentence-transformers, faiss, streamlit or ipywidgets.
+- Done criteria: user query returns relevant ranked documents with snippets.
+
+35) Interactive Chemistry Visualizer
+- Objective: Parse SMILES, draw molecules, and compute molecular properties.
+- Must-have features: SMILES input validation, 2D molecule render, property panel, optional similarity.
+- Suggested structure: `src/chem.py`, `src/properties.py`, `src/ui.py`.
+- Libraries: RDKit, matplotlib, ipywidgets.
+- Done criteria: at least 10 sample compounds render with computed descriptors.
+
+36) Image Annotation Tool For Detection
+- Objective: Draw bounding boxes and export in standard formats.
+- Must-have features: class management, box editing, image navigation, COCO/Pascal export.
+- Suggested structure: `src/annotate.py`, `src/schema.py`, `src/export.py`.
+- Libraries: ipywidgets, PIL, json.
+- Done criteria: annotations can be loaded by common detection training pipelines.
+
+37) Log Analysis And Anomaly Detection
+- Objective: Parse logs and detect unusual behavior patterns.
+- Must-have features: parser for common log format, feature engineering, anomaly scoring, timeline views.
+- Suggested structure: `src/parse.py`, `src/features.py`, `src/detect.py`, `src/report.py`.
+- Libraries: pandas, regex, scikit-learn, seaborn.
+- Done criteria: report identifies top anomalies with supporting evidence.
+
+38) Smart Recipe Recommender With Nutrition
+- Objective: Recommend recipes from pantry items and nutrition goals.
+- Must-have features: ingredient matching, constraint filtering (calories/protein/etc), ranked suggestions.
+- Suggested structure: `src/recipes.py`, `src/match.py`, `src/nutrition.py`, `app.py`.
+- Libraries: pandas, fuzzy matching, nutrition API client.
+- Done criteria: user input yields personalized recipe list with nutrition breakdown.
+
+39) Interactive Optimization Visualizer
+- Objective: Solve optimization problems and visualize iterative progress.
+- Must-have features: define objective/constraints, solver execution, convergence plot, feasible-region plot.
+- Suggested structure: `src/problems.py`, `src/solve.py`, `src/plot.py`.
+- Libraries: scipy.optimize, pulp, matplotlib.
+- Done criteria: includes at least one linear and one nonlinear optimization example.
+
+40) Real-Time Collaborative Notebook Demo
+- Objective: Simulate multi-user edits and conflict resolution on shared data.
+- Must-have features: user sessions, operation log, merge/conflict display, final state export.
+- Suggested structure: `src/session.py`, `src/sync.py`, `src/merge.py`, `demo.ipynb`.
+- Libraries: ipywidgets, websockets.
+- Done criteria: demo shows concurrent edits and deterministic merge outcome.
+
+41) Weather Data Explorer With Forecasts
+- Objective: Pull weather data, detect anomalies, and forecast short-term trends.
+- Must-have features: API ingestion, derived features, anomaly detection, geospatial/time plots.
+- Suggested structure: `src/fetch.py`, `src/features.py`, `src/forecast.py`, `src/viz.py`.
+- Libraries: requests, pandas, plotly, optional netCDF4.
+- Done criteria: outputs local forecast and anomaly report for selected location.
+
+42) Hand-Pose Sign Language Classifier
+- Objective: Detect hand landmarks and classify a limited sign vocabulary.
+- Must-have features: landmark extraction, dataset capture mode, classifier training, live inference.
+- Suggested structure: `src/landmarks.py`, `src/dataset.py`, `src/train.py`, `src/live.py`.
+- Libraries: mediapipe, tensorflow or torch, OpenCV.
+- Done criteria: live demo recognizes target signs with documented accuracy.
+
+43) Sorting Algorithm Education Visualizer
+- Objective: Animate sorting algorithms and compare complexity empirically.
+- Must-have features: quicksort/mergesort/heapsort animations, operation counters, runtime chart.
+- Suggested structure: `src/sorts.py`, `src/animate.py`, `src/benchmark.py`.
+- Libraries: matplotlib animation, ipywidgets.
+- Done criteria: student can run each algorithm and see side-by-side behavior and stats.
+
+44) Cryptography Toolkit And Visualizations
+- Objective: Implement classic and modern crypto examples with educational visuals.
+- Must-have features: Caesar/Vigenere demos, RSA keygen/encrypt/decrypt, attack demonstrations for weak settings.
+- Suggested structure: `src/classic.py`, `src/rsa.py`, `src/attacks.py`, `src/viz.py`.
+- Libraries: cryptography, pycryptodome, matplotlib.
+- Done criteria: toolkit encrypts/decrypts correctly and documents security caveats.
+
+45) Interactive Unit Converter Plus Calculator
+- Objective: Convert units, chain calculations, and plot computed values.
+- Must-have features: category-based conversions, expression parsing, history, optional plotting.
+- Suggested structure: `src/convert.py`, `src/calc.py`, `src/ui.py`.
+- Libraries: pint, ipywidgets, numpy.
+- Done criteria: conversion and calculator outputs are accurate for provided test cases.
+
+46) Travel Itinerary Optimizer
+- Objective: Optimize visit order under constraints (time, distance, priorities).
+- Must-have features: route optimization, map visualization, constraints handling, day-wise schedule.
+- Suggested structure: `src/places.py`, `src/optimize.py`, `src/schedule.py`, `src/maps.py`.
+- Libraries: ortools, folium, geopandas.
+- Done criteria: outputs optimized itinerary and plotted route map.
+
+47) Virtual Physics Lab
+- Objective: Simulate fundamental physics experiments interactively.
+- Must-have features: projectile motion, harmonic oscillator, parameter sliders, derived quantity plots.
+- Suggested structure: `src/projectile.py`, `src/oscillator.py`, `src/ui.py`.
+- Libraries: numpy, matplotlib, ipywidgets.
+- Done criteria: users can modify parameters and observe physically consistent outcomes.
+
+48) Multi-Armed Bandit Simulator
+- Objective: Compare epsilon-greedy, UCB, and Thompson sampling.
+- Must-have features: configurable reward distributions, regret tracking, cumulative reward plots.
+- Suggested structure: `src/bandits.py`, `src/strategies.py`, `src/evaluate.py`.
+- Libraries: numpy, matplotlib.
+- Done criteria: simulation report compares strategies across multiple random seeds.
+
+49) Image Colorization Demo
+- Objective: Colorize grayscale images and compare predicted vs reference outputs.
+- Must-have features: preprocessing pipeline, model training or inference, before/after gallery.
+- Suggested structure: `src/data.py`, `src/model.py`, `src/train_or_infer.py`, `src/viz.py`.
+- Libraries: pytorch or keras, torchvision, PIL.
+- Done criteria: generate colorized outputs for a test set with qualitative examples.
+
+50) Notebook-Based Portfolio Website Generator
+- Objective: Convert markdown/notebook content into a static portfolio website.
+- Must-have features: content parser, template rendering, asset bundling, navigation generation.
+- Suggested structure: `src/parse.py`, `src/render.py`, `src/build.py`, `templates/`.
+- Libraries: nbconvert, jinja2, pathlib.
+- Done criteria: one build command creates a deployable static site in `dist/`.
+
+Final quality checklist for all 50 projects
+- Reproducible run instructions in README.
+- Clear input and output contract.
+- Error handling for common failures (missing file, bad input, network/API issues).
+- At least one example dataset or sample file.
+- Saved outputs (plots, model, or reports) for quick verification.
