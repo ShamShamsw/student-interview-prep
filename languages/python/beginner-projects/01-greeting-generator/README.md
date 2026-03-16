@@ -12,6 +12,14 @@ This is intentionally a very small program. The goal is NOT to write a lot of co
 
 ---
 
+## Separate Repository
+
+You can also access this project in a separate repository:
+
+[Personal Greeting Generator Repository](https://github.com/ShamShamsw/Personal-Greeting-Generator.git)
+
+---
+
 ## The Importance of Comments
 
 > "Code tells you HOW. Comments tell you WHY."
