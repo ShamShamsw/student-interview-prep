@@ -14,6 +14,14 @@ This project is your bridge from "I can write Python scripts" to "I can design a
 
 ---
 
+## Separate Repository
+
+You can also access this project in a separate repository:
+
+[library system Repository](https://github.com/ShamShamsw/library-system.git)
+
+---
+
 ## The Importance of Comments
 
 This project introduces **system-level documentation** — writing comments that explain how the pieces fit together, not just how one function works.
