@@ -12,6 +12,14 @@ The expense tracker adds a layer of complexity beyond simple CRUD — you need t
 
 ---
 
+## Separate Repository
+
+You can also access this project in a separate repository:
+
+[quiz game Repository](https://github.com/ShamShamsw/expense-tracker.git)
+
+---
+
 ## The Importance of Comments
 
 For this project, focus on **algorithm comments** — explaining your approach to calculations and data processing.
