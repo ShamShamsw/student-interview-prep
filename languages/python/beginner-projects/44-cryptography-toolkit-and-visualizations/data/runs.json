@@ -1,0 +1,13 @@
+[
+  {
+    "session_id": "20260317_213836",
+    "demo_message_label": "lesson_affine_safe",
+    "demo_message_length": 59,
+    "runtime_points": 36,
+    "attacks_run": 2,
+    "elapsed_ms": 596.4612,
+    "fastest_cipher": "caesar",
+    "finished_at": "2026-03-17T21:38:36Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\44-cryptography-toolkit-and-visualizations\\data\\outputs\\run_20260317_213836.json"
+  }
+]

@@ -1,0 +1,213 @@
+{
+  "session_id": "20260317_213836",
+  "config": {
+    "project_type": "cryptography_toolkit_and_visualizations",
+    "classic_algorithms": [
+      "caesar",
+      "vigenere"
+    ],
+    "benchmark_algorithms": [
+      "caesar",
+      "vigenere",
+      "rsa"
+    ],
+    "demo_message_label": "lesson_affine_safe",
+    "benchmark_message_lengths": [
+      24,
+      64,
+      128,
+      256
+    ],
+    "benchmark_trials": 3,
+    "rsa_demo_bits": 16,
+    "rsa_attack_bits": [
+      12,
+      14,
+      16,
+      18
+    ],
+    "include_frequency_plot": true,
+    "include_runtime_chart": true,
+    "include_attack_chart": true,
+    "max_preview_rows": 6,
+    "random_seed": 42,
+    "created_at": "2026-03-17T21:38:36Z"
+  },
+  "message": {
+    "message_id": "msg_001",
+    "label": "lesson_affine_safe",
+    "plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+    "caesar_shift": 7,
+    "vigenere_key": "VECTOR",
+    "description": "Balanced educational sentence with repeated letters for frequency plots.",
+    "tags": [
+      "demo",
+      "balanced",
+      "frequency"
+    ]
+  },
+  "demos": [
+    {
+      "algorithm": "caesar",
+      "key_material": "shift=7",
+      "ciphertext": "ZLJBYL ZFZALTZ YLSF VU NVVK RLFZ HUK JHYLMBS PTWSLTLUAHAPVU",
+      "recovered_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+      "elapsed_ms": 0.0381,
+      "roundtrip_ok": true
+    },
+    {
+      "algorithm": "vigenere",
+      "key_material": "key=VECTOR",
+      "ciphertext": "NIENFV NCUMSDN VGEM FI KQHR BZCU TBU XETXTLG MOIZVHIPMOKDSP",
+      "recovered_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+      "elapsed_ms": 0.0544,
+      "roundtrip_ok": true
+    },
+    {
+      "algorithm": "rsa",
+      "key_material": "n=31439 e=65537",
+      "ciphertext": "8577 12337 22665 10902 27995 12337 3275 8577 ...",
+      "recovered_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+      "elapsed_ms": 0.0825,
+      "roundtrip_ok": true
+    }
+  ],
+  "attacks": [
+    {
+      "attack_name": "caesar_bruteforce",
+      "target": "Caesar",
+      "success": true,
+      "elapsed_ms": 0.6037,
+      "details": {
+        "expected_shift": 7,
+        "inferred_shift": 7,
+        "expected_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+        "inferred_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+        "top_candidates": [
+          {
+            "shift": 7,
+            "plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+            "score": 4.992549019607843
+          },
+          {
+            "shift": 11,
+            "plaintext": "OAYQNA OUOPAIO NAHU KJ CKKZ GAUO WJZ YWNABQH EILHAIAJPWPEKJ",
+            "score": 0.9682352941176471
+          },
+          {
+            "shift": 17,
+            "plaintext": "IUSKHU IOIJUCI HUBO ED WEET AUOI QDT SQHUVKB YCFBUCUDJQJYED",
+            "score": 0.9682352941176471
+          },
+          {
+            "shift": 5,
+            "plaintext": "UGEWTG UAUVGOU TGNA QP IQQF MGAU CPF ECTGHWN KORNGOGPVCVKQP",
+            "score": 0.8945098039215686
+          },
+          {
+            "shift": 23,
+            "plaintext": "COMEBO CICDOWC BOVI YX QYYN UOIC KXN MKBOPEV SWZVOWOXDKDSYX",
+            "score": 0.8945098039215686
+          }
+        ]
+      }
+    },
+    {
+      "attack_name": "rsa_trial_division_factorization",
+      "target": "RSA",
+      "success": true,
+      "elapsed_ms": 0.0515,
+      "details": {
+        "n": 31439,
+        "e": 65537,
+        "p": 149,
+        "q": 211,
+        "trial_divisions": 74,
+        "recovered_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION"
+      }
+    }
+  ],
+  "rsa_payload": {
+    "keypair": {
+      "n": 31439,
+      "e": 65537,
+      "d": 24113,
+      "bits": 16
+    },
+    "cipher_blocks": [
+      8577,
+      12337,
+      22665,
+      10902,
+      27995,
+      12337,
+      3275,
+      8577,
+      13723,
+      8577,
+      10417,
+      12337,
+      3566,
+      8577,
+      3275,
+      27995,
+      12337,
+      23215,
+      13723,
+      3275,
+      18382,
+      19858,
+      3275,
+      14114,
+      18382,
+      18382,
+      24887,
+      3275,
+      27881,
+      12337,
+      13723,
+      8577,
+      3275,
+      3738,
+      19858,
+      24887,
+      3275,
+      22665,
+      3738,
+      27995,
+      12337,
+      22593,
+      10902,
+      23215,
+      3275,
+      19995,
+      3566,
+      28489,
+      23215,
+      12337,
+      3566,
+      12337,
+      19858,
+      10417,
+      3738,
+      10417,
+      19995,
+      18382,
+      19858
+    ],
+    "attack": {
+      "attack_name": "rsa_trial_division_factorization",
+      "target": "RSA",
+      "success": true,
+      "elapsed_ms": 0.0515,
+      "details": {
+        "n": 31439,
+        "e": 65537,
+        "p": 149,
+        "q": 211,
+        "trial_divisions": 74,
+        "recovered_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION"
+      }
+    }
+  }
+}

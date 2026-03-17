@@ -1,0 +1,52 @@
+[
+  {
+    "message_id": "msg_001",
+    "label": "lesson_affine_safe",
+    "plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+    "caesar_shift": 7,
+    "vigenere_key": "VECTOR",
+    "description": "Balanced educational sentence with repeated letters for frequency plots.",
+    "tags": [
+      "demo",
+      "balanced",
+      "frequency"
+    ]
+  },
+  {
+    "message_id": "msg_002",
+    "label": "lesson_short_alert",
+    "plaintext": "MEET AT LAB TWO AT NINE",
+    "caesar_shift": 3,
+    "vigenere_key": "ALPHA",
+    "description": "Short operational message for compact examples.",
+    "tags": [
+      "demo",
+      "short"
+    ]
+  },
+  {
+    "message_id": "msg_003",
+    "label": "lesson_long_form",
+    "plaintext": "CRYPTOGRAPHY PROTECTS CONFIDENTIALITY INTEGRITY AND AUTHENTICITY WHEN USED CORRECTLY",
+    "caesar_shift": 11,
+    "vigenere_key": "MATRIX",
+    "description": "Longer sentence for runtime scaling and key-length effects.",
+    "tags": [
+      "demo",
+      "long",
+      "benchmark"
+    ]
+  },
+  {
+    "message_id": "msg_004",
+    "label": "lesson_attack_phrase",
+    "plaintext": "WEAK MODULUS SIZES ALLOW PRACTICAL FACTORIZATION ATTACKS",
+    "caesar_shift": 5,
+    "vigenere_key": "CIPHER",
+    "description": "Phrase tuned to accompany RSA attack demonstration.",
+    "tags": [
+      "demo",
+      "attack"
+    ]
+  }
+]

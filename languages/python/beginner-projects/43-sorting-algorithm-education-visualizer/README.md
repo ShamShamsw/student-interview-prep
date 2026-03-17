@@ -32,7 +32,7 @@ This project teaches end-to-end sorting visualization concepts where you can:
 
 You can also access this project in a separate repository:
 
-[quiz game Repository](sorting-algorithm-education-visualizer.git)
+[sorting algorithm education visualizer Repository](sorting-algorithm-education-visualizer.git)
 
 ---
 

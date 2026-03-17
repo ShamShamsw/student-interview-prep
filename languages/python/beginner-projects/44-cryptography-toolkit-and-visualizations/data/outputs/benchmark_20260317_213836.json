@@ -1,0 +1,307 @@
+{
+  "session_id": "20260317_213836",
+  "runtime_points": [
+    {
+      "algorithm": "caesar",
+      "message_length": 24,
+      "trial": 1,
+      "elapsed_ms": 0.0133
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 24,
+      "trial": 1,
+      "elapsed_ms": 0.0228
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 24,
+      "trial": 1,
+      "elapsed_ms": 0.0325
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 24,
+      "trial": 2,
+      "elapsed_ms": 0.0125
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 24,
+      "trial": 2,
+      "elapsed_ms": 0.0195
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 24,
+      "trial": 2,
+      "elapsed_ms": 0.032
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 24,
+      "trial": 3,
+      "elapsed_ms": 0.0114
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 24,
+      "trial": 3,
+      "elapsed_ms": 0.0184
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 24,
+      "trial": 3,
+      "elapsed_ms": 0.0316
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 64,
+      "trial": 1,
+      "elapsed_ms": 0.0261
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 64,
+      "trial": 1,
+      "elapsed_ms": 0.0435
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 64,
+      "trial": 1,
+      "elapsed_ms": 0.0717
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 64,
+      "trial": 2,
+      "elapsed_ms": 0.0257
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 64,
+      "trial": 2,
+      "elapsed_ms": 0.0487
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 64,
+      "trial": 2,
+      "elapsed_ms": 0.0719
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 64,
+      "trial": 3,
+      "elapsed_ms": 0.0243
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 64,
+      "trial": 3,
+      "elapsed_ms": 0.0405
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 64,
+      "trial": 3,
+      "elapsed_ms": 0.0713
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 128,
+      "trial": 1,
+      "elapsed_ms": 0.0548
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 128,
+      "trial": 1,
+      "elapsed_ms": 0.0853
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 128,
+      "trial": 1,
+      "elapsed_ms": 0.1413
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 128,
+      "trial": 2,
+      "elapsed_ms": 0.0495
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 128,
+      "trial": 2,
+      "elapsed_ms": 0.0836
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 128,
+      "trial": 2,
+      "elapsed_ms": 0.1454
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 128,
+      "trial": 3,
+      "elapsed_ms": 0.0473
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 128,
+      "trial": 3,
+      "elapsed_ms": 0.0781
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 128,
+      "trial": 3,
+      "elapsed_ms": 0.1426
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 256,
+      "trial": 1,
+      "elapsed_ms": 0.0961
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 256,
+      "trial": 1,
+      "elapsed_ms": 0.162
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 256,
+      "trial": 1,
+      "elapsed_ms": 0.286
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 256,
+      "trial": 2,
+      "elapsed_ms": 0.0962
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 256,
+      "trial": 2,
+      "elapsed_ms": 0.1598
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 256,
+      "trial": 2,
+      "elapsed_ms": 0.2969
+    },
+    {
+      "algorithm": "caesar",
+      "message_length": 256,
+      "trial": 3,
+      "elapsed_ms": 0.1007
+    },
+    {
+      "algorithm": "vigenere",
+      "message_length": 256,
+      "trial": 3,
+      "elapsed_ms": 0.1709
+    },
+    {
+      "algorithm": "rsa",
+      "message_length": 256,
+      "trial": 3,
+      "elapsed_ms": 0.2868
+    }
+  ],
+  "runtime_summary": {
+    "caesar": [
+      {
+        "message_length": 24,
+        "elapsed_ms": 0.0124
+      },
+      {
+        "message_length": 64,
+        "elapsed_ms": 0.025367
+      },
+      {
+        "message_length": 128,
+        "elapsed_ms": 0.050533
+      },
+      {
+        "message_length": 256,
+        "elapsed_ms": 0.097667
+      }
+    ],
+    "vigenere": [
+      {
+        "message_length": 24,
+        "elapsed_ms": 0.020233
+      },
+      {
+        "message_length": 64,
+        "elapsed_ms": 0.044233
+      },
+      {
+        "message_length": 128,
+        "elapsed_ms": 0.082333
+      },
+      {
+        "message_length": 256,
+        "elapsed_ms": 0.164233
+      }
+    ],
+    "rsa": [
+      {
+        "message_length": 24,
+        "elapsed_ms": 0.032033
+      },
+      {
+        "message_length": 64,
+        "elapsed_ms": 0.071633
+      },
+      {
+        "message_length": 128,
+        "elapsed_ms": 0.1431
+      },
+      {
+        "message_length": 256,
+        "elapsed_ms": 0.2899
+      }
+    ]
+  },
+  "attack_points": [
+    {
+      "key_bits": 12,
+      "modulus_n": 2183,
+      "trial_divisions": 18,
+      "elapsed_ms": 0.0024,
+      "success": true
+    },
+    {
+      "key_bits": 14,
+      "modulus_n": 10379,
+      "trial_divisions": 48,
+      "elapsed_ms": 0.0033,
+      "success": true
+    },
+    {
+      "key_bits": 16,
+      "modulus_n": 47941,
+      "trial_divisions": 95,
+      "elapsed_ms": 0.0045,
+      "success": true
+    },
+    {
+      "key_bits": 18,
+      "modulus_n": 101617,
+      "trial_divisions": 153,
+      "elapsed_ms": 0.0081,
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "session_id": "20260317_213836",
+  "messages_available": 4,
+  "demo_message_label": "lesson_affine_safe",
+  "demo_message_length": 59,
+  "runtime_points": 36,
+  "attacks_run": 2,
+  "elapsed_ms": 596.4612,
+  "artifacts": {
+    "trace_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\44-cryptography-toolkit-and-visualizations\\data\\outputs\\trace_20260317_213836.json",
+    "benchmark_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\44-cryptography-toolkit-and-visualizations\\data\\outputs\\benchmark_20260317_213836.json",
+    "frequency_plot_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\44-cryptography-toolkit-and-visualizations\\data\\outputs\\frequency_20260317_213836.png",
+    "runtime_chart_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\44-cryptography-toolkit-and-visualizations\\data\\outputs\\runtime_20260317_213836.png",
+    "attack_chart_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\44-cryptography-toolkit-and-visualizations\\data\\outputs\\attack_cost_20260317_213836.png"
+  },
+  "demo_previews": [
+    {
+      "algorithm": "caesar",
+      "key_material": "shift=7",
+      "ciphertext": "ZLJBYL ZFZALTZ YLSF VU NVVK RLFZ HUK JHYLMBS PTWSLTLUAHAPVU",
+      "recovered_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+      "elapsed_ms": 0.0381,
+      "roundtrip_ok": true
+    },
+    {
+      "algorithm": "vigenere",
+      "key_material": "key=VECTOR",
+      "ciphertext": "NIENFV NCUMSDN VGEM FI KQHR BZCU TBU XETXTLG MOIZVHIPMOKDSP",
+      "recovered_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+      "elapsed_ms": 0.0544,
+      "roundtrip_ok": true
+    },
+    {
+      "algorithm": "rsa",
+      "key_material": "n=31439 e=65537",
+      "ciphertext": "8577 12337 22665 10902 27995 12337 3275 8577 ...",
+      "recovered_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+      "elapsed_ms": 0.0825,
+      "roundtrip_ok": true
+    }
+  ],
+  "metrics": {
+    "fastest_cipher": "caesar",
+    "fastest_avg_runtime_ms": 0.046492,
+    "rsa_factorization_ms": 0.0515,
+    "largest_message_length": 256,
+    "caesar_attack_recovered_shift": 7,
+    "rsa_attack_trial_divisions": 74
+  },
+  "finished_at": "2026-03-17T21:38:36Z",
+  "attacks": [
+    {
+      "attack_name": "caesar_bruteforce",
+      "target": "Caesar",
+      "success": true,
+      "elapsed_ms": 0.6037,
+      "details": {
+        "expected_shift": 7,
+        "inferred_shift": 7,
+        "expected_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+        "inferred_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+        "top_candidates": [
+          {
+            "shift": 7,
+            "plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION",
+            "score": 4.992549019607843
+          },
+          {
+            "shift": 11,
+            "plaintext": "OAYQNA OUOPAIO NAHU KJ CKKZ GAUO WJZ YWNABQH EILHAIAJPWPEKJ",
+            "score": 0.9682352941176471
+          },
+          {
+            "shift": 17,
+            "plaintext": "IUSKHU IOIJUCI HUBO ED WEET AUOI QDT SQHUVKB YCFBUCUDJQJYED",
+            "score": 0.9682352941176471
+          },
+          {
+            "shift": 5,
+            "plaintext": "UGEWTG UAUVGOU TGNA QP IQQF MGAU CPF ECTGHWN KORNGOGPVCVKQP",
+            "score": 0.8945098039215686
+          },
+          {
+            "shift": 23,
+            "plaintext": "COMEBO CICDOWC BOVI YX QYYN UOIC KXN MKBOPEV SWZVOWOXDKDSYX",
+            "score": 0.8945098039215686
+          }
+        ]
+      }
+    },
+    {
+      "attack_name": "rsa_trial_division_factorization",
+      "target": "RSA",
+      "success": true,
+      "elapsed_ms": 0.0515,
+      "details": {
+        "n": 31439,
+        "e": 65537,
+        "p": 149,
+        "q": 211,
+        "trial_divisions": 74,
+        "recovered_plaintext": "SECURE SYSTEMS RELY ON GOOD KEYS AND CAREFUL IMPLEMENTATION"
+      }
+    }
+  ]
+}
