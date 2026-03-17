@@ -30,7 +30,7 @@ This project teaches end-to-end cryptography visualization concepts where you ca
 
 You can also access this project in a separate repository:
 
-[cryptography toolkit and visualizations Repository](cryptography-toolkit-and-visualizations.git)
+[cryptography toolkit and visualizations Repository](https://github.com/ShamShamsw/cryptography-toolkit-and-visualizations.git)
 
 ---
 

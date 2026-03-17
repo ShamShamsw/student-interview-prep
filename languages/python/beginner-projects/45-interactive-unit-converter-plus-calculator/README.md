@@ -30,7 +30,7 @@ This project teaches end-to-end conversion and calculator workflow concepts wher
 
 You can also access this project in a separate repository:
 
-[interactive unit converter plus calculator Repository](interactive-unit-converter-plus-calculator.git)
+[interactive unit converter plus calculator Repository](https://github.com/ShamShamsw/interactive-unit-converter-plus-calculator.git)
 
 ---
 

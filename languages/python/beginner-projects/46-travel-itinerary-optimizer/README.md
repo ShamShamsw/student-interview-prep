@@ -30,7 +30,7 @@ This project teaches end-to-end itinerary optimization workflow concepts where y
 
 You can also access this project in a separate repository:
 
-[travel itinerary optimizer Repository](travel-itinerary-optimizer.git)
+[travel itinerary optimizer Repository](https://github.com/ShamShamsw/travel-itinerary-optimizer.git)
 
 ---
 
