@@ -1,1 +1,1 @@
-﻿# Add project-specific dependencies here
+﻿# No external dependencies; this project uses the Python 3.11 standard library only.

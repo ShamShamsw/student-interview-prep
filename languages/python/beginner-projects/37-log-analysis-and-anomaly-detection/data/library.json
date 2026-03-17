@@ -1,0 +1,110 @@
+[
+  {
+    "source_id": "log_001",
+    "service": "edge-proxy",
+    "environment": "prod",
+    "raw_line": "198.51.100.10 - alice [17/Mar/2026:08:00:01 +0000] \"GET / HTTP/1.1\" 200 4210 \"https://example.com/start\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64)\""
+  },
+  {
+    "source_id": "log_002",
+    "service": "edge-proxy",
+    "environment": "prod",
+    "raw_line": "198.51.100.11 - bob [17/Mar/2026:08:00:08 +0000] \"GET /products HTTP/1.1\" 200 5820 \"https://example.com/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)\""
+  },
+  {
+    "source_id": "log_003",
+    "service": "edge-proxy",
+    "environment": "prod",
+    "raw_line": "198.51.100.12 - carol [17/Mar/2026:08:01:17 +0000] \"POST /api/cart HTTP/1.1\" 201 920 \"https://example.com/products\" \"Mozilla/5.0 (X11; Linux x86_64)\""
+  },
+  {
+    "source_id": "log_004",
+    "service": "auth-gateway",
+    "environment": "prod",
+    "raw_line": "203.0.113.77 - - [17/Mar/2026:08:02:10 +0000] \"POST /wp-login.php HTTP/1.1\" 401 713 \"-\" \"curl/8.5.0\""
+  },
+  {
+    "source_id": "log_005",
+    "service": "auth-gateway",
+    "environment": "prod",
+    "raw_line": "203.0.113.77 - - [17/Mar/2026:08:02:18 +0000] \"POST /wp-login.php HTTP/1.1\" 403 713 \"-\" \"curl/8.5.0\""
+  },
+  {
+    "source_id": "log_006",
+    "service": "auth-gateway",
+    "environment": "prod",
+    "raw_line": "203.0.113.77 - - [17/Mar/2026:08:02:25 +0000] \"POST /wp-login.php HTTP/1.1\" 403 713 \"-\" \"curl/8.5.0\""
+  },
+  {
+    "source_id": "log_007",
+    "service": "edge-proxy",
+    "environment": "prod",
+    "raw_line": "198.51.100.42 - - [17/Mar/2026:08:03:09 +0000] \"GET /.env HTTP/1.1\" 404 289 \"-\" \"python-requests/2.32.0\""
+  },
+  {
+    "source_id": "log_008",
+    "service": "api-gateway",
+    "environment": "prod",
+    "raw_line": "192.0.2.55 - svc_export [17/Mar/2026:08:04:01 +0000] \"POST /api/export HTTP/1.1\" 500 0 \"https://example.com/dashboard\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64)\""
+  },
+  {
+    "source_id": "log_009",
+    "service": "api-gateway",
+    "environment": "prod",
+    "raw_line": "192.0.2.55 - svc_export [17/Mar/2026:08:04:11 +0000] \"POST /api/export HTTP/1.1\" 500 0 \"https://example.com/dashboard\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64)\""
+  },
+  {
+    "source_id": "log_010",
+    "service": "api-gateway",
+    "environment": "prod",
+    "raw_line": "192.0.2.55 - svc_export [17/Mar/2026:08:04:25 +0000] \"POST /api/export HTTP/1.1\" 502 0 \"https://example.com/dashboard\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64)\""
+  },
+  {
+    "source_id": "log_011",
+    "service": "api-gateway",
+    "environment": "prod",
+    "raw_line": "192.0.2.55 - svc_export [17/Mar/2026:08:04:39 +0000] \"POST /api/export HTTP/1.1\" 500 0 \"https://example.com/dashboard\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64)\""
+  },
+  {
+    "source_id": "log_012",
+    "service": "admin-portal",
+    "environment": "prod",
+    "raw_line": "10.24.8.9 - ops-admin [17/Mar/2026:02:15:42 +0000] \"GET /admin/reports HTTP/1.1\" 200 189342 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64)\""
+  },
+  {
+    "source_id": "log_013",
+    "service": "edge-proxy",
+    "environment": "prod",
+    "raw_line": "198.51.100.14 - dan [17/Mar/2026:08:05:04 +0000] \"GET /pricing HTTP/1.1\" 200 4980 \"https://example.com/\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)\""
+  },
+  {
+    "source_id": "log_014",
+    "service": "edge-proxy",
+    "environment": "prod",
+    "raw_line": "198.51.100.15 - erin [17/Mar/2026:08:05:12 +0000] \"GET /docs HTTP/1.1\" 200 6120 \"https://example.com/\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64)\""
+  },
+  {
+    "source_id": "log_015",
+    "service": "edge-proxy",
+    "environment": "prod",
+    "raw_line": "198.51.100.16 - frank [17/Mar/2026:08:06:03 +0000] \"GET /health HTTP/1.1\" 200 96 \"-\" \"kube-probe/1.29\""
+  },
+  {
+    "source_id": "log_016",
+    "service": "edge-proxy",
+    "environment": "prod",
+    "raw_line": "198.51.100.17 - grace [17/Mar/2026:08:06:31 +0000] \"GET /assets/logo.png HTTP/1.1\" 304 0 \"https://example.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64)\""
+  },
+  {
+    "source_id": "log_017",
+    "service": "api-gateway",
+    "environment": "prod",
+    "raw_line": "198.51.100.18 - svc_batch [17/Mar/2026:08:07:02 +0000] \"PUT /api/orders/183 HTTP/1.1\" 200 834 \"https://example.com/orders\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64)\""
+  },
+  {
+    "source_id": "log_018",
+    "service": "edge-proxy",
+    "environment": "prod",
+    "raw_line": "bad malformed line without common log format fields"
+  }
+]
