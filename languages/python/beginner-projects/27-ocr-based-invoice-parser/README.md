@@ -27,7 +27,7 @@ This project teaches a professional document extraction pipeline where you can:
 
 You can also access this project in a separate repository:
 
-[OCR-Based Invoice Parser Repository](https://github.com/placeholder/ocr-based-invoice-parser.git)
+[OCR-Based Invoice Parser Repository](https://github.com/ShamShamsw/ocr-based-invoice-parser.git)
 
 ---
 

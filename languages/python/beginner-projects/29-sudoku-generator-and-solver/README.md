@@ -29,7 +29,7 @@ This project teaches algorithm design and constraint solving where you can:
 
 You can also access this project in a separate repository:
 
-[Sudoku Generator And Solver Repository](https://github.com/placeholder/sudoku-generator-and-solver.git)
+[Sudoku Generator And Solver Repository](https://github.com/ShamShamsw/sudoku-generator-and-solver.git)
 
 ---
 

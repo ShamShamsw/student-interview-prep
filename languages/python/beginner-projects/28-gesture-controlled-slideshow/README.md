@@ -29,7 +29,7 @@ This project teaches a professional gesture recognition pipeline where you can:
 
 You can also access this project in a separate repository:
 
-[Gesture-Controlled Slideshow Repository](https://github.com/placeholder/gesture-controlled-slideshow.git)
+[Gesture-Controlled Slideshow Repository](https://github.com/ShamShamsw/gesture-controlled-slideshow.git)
 
 ---
 

@@ -26,7 +26,7 @@ This project teaches a professional polling pipeline where you can:
 
 You can also access this project in a separate repository:
 
-[Cryptocurrency Real-Time Tracker Repository](https://github.com/placeholder/cryptocurrency-real-time-tracker.git)
+[Cryptocurrency Real-Time Tracker Repository](https://github.com/ShamShamsw/cryptocurrency-real-time-tracker.git)
 
 ---
 
