@@ -1,0 +1,57 @@
+{
+  "run_id": "20260317_063852",
+  "pipelines_applied": 4,
+  "grids_exported": 4,
+  "elapsed_ms": 4824.602200009394,
+  "artifacts": {
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\32-image-augmentation-playground\\data\\outputs\\run_20260317_063852.json",
+    "grid_files": [
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\32-image-augmentation-playground\\data\\outputs\\grid_color_jitter_20260317_063852.png",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\32-image-augmentation-playground\\data\\outputs\\grid_geometric_20260317_063852.png",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\32-image-augmentation-playground\\data\\outputs\\grid_noise_injection_20260317_063852.png",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\32-image-augmentation-playground\\data\\outputs\\grid_combined_20260317_063852.png"
+    ],
+    "metadata_files": [
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\32-image-augmentation-playground\\data\\outputs\\aug_color_jitter_20260317_063852.json",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\32-image-augmentation-playground\\data\\outputs\\aug_geometric_20260317_063852.json",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\32-image-augmentation-playground\\data\\outputs\\aug_noise_injection_20260317_063852.json",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\32-image-augmentation-playground\\data\\outputs\\aug_combined_20260317_063852.json"
+    ]
+  },
+  "pipeline_previews": [
+    {
+      "pipeline_name": "color_jitter",
+      "operations_label": "brightness \u2192 contrast",
+      "delta_brightness": 0.02054210565984249,
+      "delta_contrast": 0.038544557988643646
+    },
+    {
+      "pipeline_name": "geometric",
+      "operations_label": "h_flip \u2192 crop_resize",
+      "delta_brightness": 0.01478409394621849,
+      "delta_contrast": 0.01070556789636612
+    },
+    {
+      "pipeline_name": "noise_injection",
+      "operations_label": "gaussian_noise \u2192 salt_pepper",
+      "delta_brightness": 0.020801886916160583,
+      "delta_contrast": 0.007710874080657959
+    },
+    {
+      "pipeline_name": "combined",
+      "operations_label": "h_flip \u2192 brightness \u2192 gaussian_noise",
+      "delta_brightness": 0.029163725674152374,
+      "delta_contrast": 0.02888672798871994
+    }
+  ],
+  "evaluation": {
+    "classifier": "nearest-centroid",
+    "baseline_accuracy": 1.0,
+    "augmented_accuracy": 1.0,
+    "dataset_size_baseline": 24,
+    "dataset_size_augmented": 96,
+    "test_size": 8,
+    "accuracy_delta": 0.0
+  },
+  "finished_at": "2026-03-17T06:38:57Z"
+}

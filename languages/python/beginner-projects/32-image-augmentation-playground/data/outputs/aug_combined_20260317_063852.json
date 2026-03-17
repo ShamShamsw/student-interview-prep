@@ -1,0 +1,21 @@
+{
+  "aug_id": "combined_20260317_063852",
+  "pipeline_name": "combined",
+  "operations": [
+    "h_flip",
+    "brightness",
+    "gaussian_noise"
+  ],
+  "original_stats": {
+    "mean_brightness": 0.15215669199824333,
+    "contrast": 0.30037495493888855,
+    "edge_density": 0.008012790785869583
+  },
+  "augmented_stats": {
+    "mean_brightness": 0.1813204176723957,
+    "contrast": 0.3292616829276085,
+    "edge_density": 0.035748617723584175
+  },
+  "grid_file": "",
+  "created_at": "2026-03-17T06:38:52Z"
+}

@@ -1,0 +1,20 @@
+{
+  "aug_id": "noise_injection_20260317_063852",
+  "pipeline_name": "noise_injection",
+  "operations": [
+    "gaussian_noise",
+    "salt_pepper"
+  ],
+  "original_stats": {
+    "mean_brightness": 0.15215669199824333,
+    "contrast": 0.30037495493888855,
+    "edge_density": 0.008012790785869583
+  },
+  "augmented_stats": {
+    "mean_brightness": 0.17295857891440392,
+    "contrast": 0.3080858290195465,
+    "edge_density": 0.06756277475506067
+  },
+  "grid_file": "",
+  "created_at": "2026-03-17T06:38:52Z"
+}
