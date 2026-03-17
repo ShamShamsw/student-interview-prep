@@ -1,0 +1,11 @@
+{
+  "query_id": "q_004",
+  "query_text": "optimize api latency with caching",
+  "rank": 1,
+  "doc_id": "doc_008",
+  "title": "Caching Strategies in Web Apps",
+  "semantic_score": 0.34456220269203186,
+  "lexical_score": 0.13636363636363635,
+  "blended_score": 0.3029224894263528,
+  "created_at": "2026-03-17T07:14:50Z"
+}

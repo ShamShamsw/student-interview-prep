@@ -1,0 +1,50 @@
+[
+  {
+    "doc_id": "doc_001",
+    "title": "Python Data Classes Quick Guide",
+    "category": "python",
+    "text": "Data classes reduce boilerplate for classes that store state. They support generated initializers, comparison methods, and clean repr output for simple domain objects."
+  },
+  {
+    "doc_id": "doc_002",
+    "title": "Understanding Breadth First Search",
+    "category": "algorithms",
+    "text": "Breadth first search explores graph nodes level by level. It uses a queue, guarantees shortest path in unweighted graphs, and helps solve connectivity problems."
+  },
+  {
+    "doc_id": "doc_003",
+    "title": "FastAPI Routing Basics",
+    "category": "backend",
+    "text": "FastAPI route handlers map HTTP methods and paths to Python functions. Dependency injection and type hints improve validation, docs generation, and maintainability."
+  },
+  {
+    "doc_id": "doc_004",
+    "title": "SQL Indexing Fundamentals",
+    "category": "databases",
+    "text": "Database indexes speed up lookups by organizing values into search-friendly structures. Composite indexes, selectivity, and query patterns determine effectiveness."
+  },
+  {
+    "doc_id": "doc_005",
+    "title": "JavaScript Async Await Patterns",
+    "category": "javascript",
+    "text": "Async await syntax improves readability of asynchronous logic. Use try catch for error handling and Promise.all for concurrent independent tasks."
+  },
+  {
+    "doc_id": "doc_006",
+    "title": "TF-IDF for Information Retrieval",
+    "category": "nlp",
+    "text": "TF-IDF assigns higher weights to terms that are frequent in a document but rare across the corpus. It is a practical baseline for ranking relevance in search systems."
+  },
+  {
+    "doc_id": "doc_007",
+    "title": "Unit Testing with Pytest",
+    "category": "testing",
+    "text": "Pytest encourages small test functions, expressive assertions, fixtures for reusable setup, and parameterization to cover multiple cases with minimal duplication."
+  },
+  {
+    "doc_id": "doc_008",
+    "title": "Caching Strategies in Web Apps",
+    "category": "architecture",
+    "text": "Caching reduces latency and backend load. Common layers include in-memory caches, CDN edge caching, and application-level memoization with eviction policies."
+  }
+]

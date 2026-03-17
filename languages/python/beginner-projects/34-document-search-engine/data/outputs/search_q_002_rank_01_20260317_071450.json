@@ -1,0 +1,11 @@
+{
+  "query_id": "q_002",
+  "query_text": "best way to test python functions with fixtures",
+  "rank": 1,
+  "doc_id": "doc_007",
+  "title": "Unit Testing with Pytest",
+  "semantic_score": 0.2669193744659424,
+  "lexical_score": 0.21739130434782608,
+  "blended_score": 0.25701376044231916,
+  "created_at": "2026-03-17T07:14:50Z"
+}

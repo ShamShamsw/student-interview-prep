@@ -1,0 +1,105 @@
+{
+  "run_id": "20260317_071450",
+  "documents_indexed": 8,
+  "queries_executed": 4,
+  "results_returned": 5,
+  "elapsed_ms": 70.39099995745346,
+  "artifacts": {
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\34-document-search-engine\\data\\outputs\\run_20260317_071450.json",
+    "index_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\34-document-search-engine\\data\\outputs\\index_20260317_071450.json",
+    "results_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\34-document-search-engine\\data\\outputs\\results_20260317_071450.json",
+    "metadata_files": [
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\34-document-search-engine\\data\\outputs\\search_q_001_rank_01_20260317_071450.json",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\34-document-search-engine\\data\\outputs\\search_q_002_rank_01_20260317_071450.json",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\34-document-search-engine\\data\\outputs\\search_q_002_rank_02_20260317_071450.json",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\34-document-search-engine\\data\\outputs\\search_q_003_rank_01_20260317_071450.json",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\34-document-search-engine\\data\\outputs\\search_q_004_rank_01_20260317_071450.json"
+    ]
+  },
+  "query_previews": [
+    {
+      "query_id": "q_001",
+      "query_text": "how tf idf improves document search relevance",
+      "top_doc_id": "doc_006",
+      "top_score": 0.2780913523265294
+    },
+    {
+      "query_id": "q_002",
+      "query_text": "best way to test python functions with fixtures",
+      "top_doc_id": "doc_007",
+      "top_score": 0.25701376044231916
+    },
+    {
+      "query_id": "q_003",
+      "query_text": "graph traversal shortest path with queue",
+      "top_doc_id": "doc_002",
+      "top_score": 0.2874245007832845
+    },
+    {
+      "query_id": "q_004",
+      "query_text": "optimize api latency with caching",
+      "top_doc_id": "doc_008",
+      "top_score": 0.3029224894263528
+    }
+  ],
+  "top_results": [
+    {
+      "query_id": "q_004",
+      "query_text": "optimize api latency with caching",
+      "doc_id": "doc_008",
+      "title": "Caching Strategies in Web Apps",
+      "semantic_score": 0.34456220269203186,
+      "lexical_score": 0.13636363636363635,
+      "blended_score": 0.3029224894263528,
+      "rank": 1
+    },
+    {
+      "query_id": "q_003",
+      "query_text": "graph traversal shortest path with queue",
+      "doc_id": "doc_002",
+      "title": "Understanding Breadth First Search",
+      "semantic_score": 0.31761395931243896,
+      "lexical_score": 0.16666666666666666,
+      "blended_score": 0.2874245007832845,
+      "rank": 1
+    },
+    {
+      "query_id": "q_001",
+      "query_text": "how tf idf improves document search relevance",
+      "doc_id": "doc_006",
+      "title": "TF-IDF for Information Retrieval",
+      "semantic_score": 0.30297133326530457,
+      "lexical_score": 0.17857142857142858,
+      "blended_score": 0.2780913523265294,
+      "rank": 1
+    },
+    {
+      "query_id": "q_002",
+      "query_text": "best way to test python functions with fixtures",
+      "doc_id": "doc_007",
+      "title": "Unit Testing with Pytest",
+      "semantic_score": 0.2669193744659424,
+      "lexical_score": 0.21739130434782608,
+      "blended_score": 0.25701376044231916,
+      "rank": 1
+    },
+    {
+      "query_id": "q_002",
+      "query_text": "best way to test python functions with fixtures",
+      "doc_id": "doc_003",
+      "title": "FastAPI Routing Basics",
+      "semantic_score": 0.20836234092712402,
+      "lexical_score": 0.12,
+      "blended_score": 0.1906898727416992,
+      "rank": 2
+    }
+  ],
+  "metrics": {
+    "vocab_size": 315,
+    "mean_blended_score": 0.263228395144037,
+    "max_blended_score": 0.3029224894263528,
+    "min_blended_score": 0.1906898727416992,
+    "min_score_threshold": 0.1
+  },
+  "finished_at": "2026-03-17T07:14:50Z"
+}

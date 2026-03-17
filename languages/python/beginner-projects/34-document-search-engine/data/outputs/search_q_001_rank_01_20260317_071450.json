@@ -1,0 +1,11 @@
+{
+  "query_id": "q_001",
+  "query_text": "how tf idf improves document search relevance",
+  "rank": 1,
+  "doc_id": "doc_006",
+  "title": "TF-IDF for Information Retrieval",
+  "semantic_score": 0.30297133326530457,
+  "lexical_score": 0.17857142857142858,
+  "blended_score": 0.2780913523265294,
+  "created_at": "2026-03-17T07:14:50Z"
+}

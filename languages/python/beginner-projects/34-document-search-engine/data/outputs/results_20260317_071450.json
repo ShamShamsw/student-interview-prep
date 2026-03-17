@@ -1,0 +1,85 @@
+{
+  "run_id": "20260317_071450",
+  "config": {
+    "top_k": 4,
+    "min_score": 0.1,
+    "semantic_weight": 0.8,
+    "lexical_weight": 0.2
+  },
+  "query_reports": [
+    {
+      "query_id": "q_001",
+      "query_text": "how tf idf improves document search relevance",
+      "results": [
+        {
+          "query_id": "q_001",
+          "query_text": "how tf idf improves document search relevance",
+          "doc_id": "doc_006",
+          "title": "TF-IDF for Information Retrieval",
+          "semantic_score": 0.30297133326530457,
+          "lexical_score": 0.17857142857142858,
+          "blended_score": 0.2780913523265294,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "query_id": "q_002",
+      "query_text": "best way to test python functions with fixtures",
+      "results": [
+        {
+          "query_id": "q_002",
+          "query_text": "best way to test python functions with fixtures",
+          "doc_id": "doc_007",
+          "title": "Unit Testing with Pytest",
+          "semantic_score": 0.2669193744659424,
+          "lexical_score": 0.21739130434782608,
+          "blended_score": 0.25701376044231916,
+          "rank": 1
+        },
+        {
+          "query_id": "q_002",
+          "query_text": "best way to test python functions with fixtures",
+          "doc_id": "doc_003",
+          "title": "FastAPI Routing Basics",
+          "semantic_score": 0.20836234092712402,
+          "lexical_score": 0.12,
+          "blended_score": 0.1906898727416992,
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "query_id": "q_003",
+      "query_text": "graph traversal shortest path with queue",
+      "results": [
+        {
+          "query_id": "q_003",
+          "query_text": "graph traversal shortest path with queue",
+          "doc_id": "doc_002",
+          "title": "Understanding Breadth First Search",
+          "semantic_score": 0.31761395931243896,
+          "lexical_score": 0.16666666666666666,
+          "blended_score": 0.2874245007832845,
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "query_id": "q_004",
+      "query_text": "optimize api latency with caching",
+      "results": [
+        {
+          "query_id": "q_004",
+          "query_text": "optimize api latency with caching",
+          "doc_id": "doc_008",
+          "title": "Caching Strategies in Web Apps",
+          "semantic_score": 0.34456220269203186,
+          "lexical_score": 0.13636363636363635,
+          "blended_score": 0.3029224894263528,
+          "rank": 1
+        }
+      ]
+    }
+  ]
+}

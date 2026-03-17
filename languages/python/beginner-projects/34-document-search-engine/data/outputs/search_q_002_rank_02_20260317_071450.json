@@ -1,0 +1,11 @@
+{
+  "query_id": "q_002",
+  "query_text": "best way to test python functions with fixtures",
+  "rank": 2,
+  "doc_id": "doc_003",
+  "title": "FastAPI Routing Basics",
+  "semantic_score": 0.20836234092712402,
+  "lexical_score": 0.12,
+  "blended_score": 0.1906898727416992,
+  "created_at": "2026-03-17T07:14:50Z"
+}

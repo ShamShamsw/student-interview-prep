@@ -1,0 +1,18 @@
+[
+  {
+    "query_id": "q_001",
+    "query_text": "how tf idf improves document search relevance"
+  },
+  {
+    "query_id": "q_002",
+    "query_text": "best way to test python functions with fixtures"
+  },
+  {
+    "query_id": "q_003",
+    "query_text": "graph traversal shortest path with queue"
+  },
+  {
+    "query_id": "q_004",
+    "query_text": "optimize api latency with caching"
+  }
+]
