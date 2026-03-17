@@ -1,0 +1,20 @@
+[
+  {
+    "session_id": "20260317_201129",
+    "notebooks_processed": 2,
+    "edits_total": 24,
+    "conflicts_total": 4,
+    "elapsed_ms": 878.2170999911614,
+    "finished_at": "2026-03-17T20:11:30Z",
+    "session_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\40-real-time-collaborative-notebook-demo\\data\\outputs\\session_20260317_201129.json"
+  },
+  {
+    "session_id": "20260317_201208",
+    "notebooks_processed": 2,
+    "edits_total": 24,
+    "conflicts_total": 4,
+    "elapsed_ms": 310.24830002570525,
+    "finished_at": "2026-03-17T20:12:09Z",
+    "session_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\40-real-time-collaborative-notebook-demo\\data\\outputs\\session_20260317_201208.json"
+  }
+]

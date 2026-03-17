@@ -1,0 +1,434 @@
+[
+  {
+    "edit_id": "edit_007",
+    "session_id": "20260317_201129",
+    "user_id": "bob",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_003",
+    "session_id": "20260317_201129",
+    "user_id": "alice",
+    "cell_id": "cell_1",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_001",
+    "session_id": "20260317_201129",
+    "user_id": "alice",
+    "cell_id": "cell_1",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_008",
+    "session_id": "20260317_201129",
+    "user_id": "bob",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_005",
+    "session_id": "20260317_201129",
+    "user_id": "bob",
+    "cell_id": "cell_5",
+    "operation": "insert",
+    "is_conflict": true,
+    "status": "discarded"
+  },
+  {
+    "edit_id": "edit_004",
+    "session_id": "20260317_201129",
+    "user_id": "alice",
+    "cell_id": "cell_5",
+    "operation": "delete",
+    "is_conflict": true,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_002",
+    "session_id": "20260317_201129",
+    "user_id": "alice",
+    "cell_id": "cell_2",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_006",
+    "session_id": "20260317_201129",
+    "user_id": "bob",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": true,
+    "status": "discarded"
+  },
+  {
+    "edit_id": "edit_012",
+    "session_id": "20260317_201129",
+    "user_id": "carol",
+    "cell_id": "cell_5",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_009",
+    "session_id": "20260317_201129",
+    "user_id": "carol",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": true,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_011",
+    "session_id": "20260317_201129",
+    "user_id": "carol",
+    "cell_id": "cell_4",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_010",
+    "session_id": "20260317_201129",
+    "user_id": "carol",
+    "cell_id": "cell_4",
+    "operation": "delete",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_020",
+    "session_id": "20260317_201129",
+    "user_id": "bob",
+    "cell_id": "cell_4",
+    "operation": "replace",
+    "is_conflict": true,
+    "status": "discarded"
+  },
+  {
+    "edit_id": "edit_022",
+    "session_id": "20260317_201129",
+    "user_id": "carol",
+    "cell_id": "cell_4",
+    "operation": "insert",
+    "is_conflict": true,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_014",
+    "session_id": "20260317_201129",
+    "user_id": "alice",
+    "cell_id": "cell_2",
+    "operation": "replace",
+    "is_conflict": true,
+    "status": "discarded"
+  },
+  {
+    "edit_id": "edit_015",
+    "session_id": "20260317_201129",
+    "user_id": "alice",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_024",
+    "session_id": "20260317_201129",
+    "user_id": "carol",
+    "cell_id": "cell_4",
+    "operation": "delete",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_017",
+    "session_id": "20260317_201129",
+    "user_id": "bob",
+    "cell_id": "cell_2",
+    "operation": "replace",
+    "is_conflict": true,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_016",
+    "session_id": "20260317_201129",
+    "user_id": "alice",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_021",
+    "session_id": "20260317_201129",
+    "user_id": "carol",
+    "cell_id": "cell_5",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_023",
+    "session_id": "20260317_201129",
+    "user_id": "carol",
+    "cell_id": "cell_2",
+    "operation": "delete",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_019",
+    "session_id": "20260317_201129",
+    "user_id": "bob",
+    "cell_id": "cell_1",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_018",
+    "session_id": "20260317_201129",
+    "user_id": "bob",
+    "cell_id": "cell_5",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_013",
+    "session_id": "20260317_201129",
+    "user_id": "alice",
+    "cell_id": "cell_1",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_007",
+    "session_id": "20260317_201208",
+    "user_id": "bob",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_003",
+    "session_id": "20260317_201208",
+    "user_id": "alice",
+    "cell_id": "cell_1",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_001",
+    "session_id": "20260317_201208",
+    "user_id": "alice",
+    "cell_id": "cell_1",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_008",
+    "session_id": "20260317_201208",
+    "user_id": "bob",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_005",
+    "session_id": "20260317_201208",
+    "user_id": "bob",
+    "cell_id": "cell_5",
+    "operation": "insert",
+    "is_conflict": true,
+    "status": "discarded"
+  },
+  {
+    "edit_id": "edit_004",
+    "session_id": "20260317_201208",
+    "user_id": "alice",
+    "cell_id": "cell_5",
+    "operation": "delete",
+    "is_conflict": true,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_002",
+    "session_id": "20260317_201208",
+    "user_id": "alice",
+    "cell_id": "cell_2",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_006",
+    "session_id": "20260317_201208",
+    "user_id": "bob",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": true,
+    "status": "discarded"
+  },
+  {
+    "edit_id": "edit_012",
+    "session_id": "20260317_201208",
+    "user_id": "carol",
+    "cell_id": "cell_5",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_009",
+    "session_id": "20260317_201208",
+    "user_id": "carol",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": true,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_011",
+    "session_id": "20260317_201208",
+    "user_id": "carol",
+    "cell_id": "cell_4",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_010",
+    "session_id": "20260317_201208",
+    "user_id": "carol",
+    "cell_id": "cell_4",
+    "operation": "delete",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_020",
+    "session_id": "20260317_201208",
+    "user_id": "bob",
+    "cell_id": "cell_4",
+    "operation": "replace",
+    "is_conflict": true,
+    "status": "discarded"
+  },
+  {
+    "edit_id": "edit_022",
+    "session_id": "20260317_201208",
+    "user_id": "carol",
+    "cell_id": "cell_4",
+    "operation": "insert",
+    "is_conflict": true,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_014",
+    "session_id": "20260317_201208",
+    "user_id": "alice",
+    "cell_id": "cell_2",
+    "operation": "replace",
+    "is_conflict": true,
+    "status": "discarded"
+  },
+  {
+    "edit_id": "edit_015",
+    "session_id": "20260317_201208",
+    "user_id": "alice",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_024",
+    "session_id": "20260317_201208",
+    "user_id": "carol",
+    "cell_id": "cell_4",
+    "operation": "delete",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_017",
+    "session_id": "20260317_201208",
+    "user_id": "bob",
+    "cell_id": "cell_2",
+    "operation": "replace",
+    "is_conflict": true,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_016",
+    "session_id": "20260317_201208",
+    "user_id": "alice",
+    "cell_id": "cell_3",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_021",
+    "session_id": "20260317_201208",
+    "user_id": "carol",
+    "cell_id": "cell_5",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_023",
+    "session_id": "20260317_201208",
+    "user_id": "carol",
+    "cell_id": "cell_2",
+    "operation": "delete",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_019",
+    "session_id": "20260317_201208",
+    "user_id": "bob",
+    "cell_id": "cell_1",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_018",
+    "session_id": "20260317_201208",
+    "user_id": "bob",
+    "cell_id": "cell_5",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  },
+  {
+    "edit_id": "edit_013",
+    "session_id": "20260317_201208",
+    "user_id": "alice",
+    "cell_id": "cell_1",
+    "operation": "replace",
+    "is_conflict": false,
+    "status": "applied"
+  }
+]

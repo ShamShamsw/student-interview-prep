@@ -1,0 +1,96 @@
+[
+  {
+    "notebook_id": "nb_001",
+    "name": "Data Analysis Pipeline",
+    "description": "A shared notebook for exploratory data analysis.",
+    "cells": [
+      {
+        "cell_id": "cell_1",
+        "cell_type": "code",
+        "content": "import pandas as pd\nimport numpy as np",
+        "version": 0,
+        "last_editor": "",
+        "last_edited_at_ms": 0.0
+      },
+      {
+        "cell_id": "cell_2",
+        "cell_type": "code",
+        "content": "df = pd.read_csv(\"data.csv\")",
+        "version": 0,
+        "last_editor": "",
+        "last_edited_at_ms": 0.0
+      },
+      {
+        "cell_id": "cell_3",
+        "cell_type": "markdown",
+        "content": "## Summary Statistics",
+        "version": 0,
+        "last_editor": "",
+        "last_edited_at_ms": 0.0
+      },
+      {
+        "cell_id": "cell_4",
+        "cell_type": "code",
+        "content": "df.describe()",
+        "version": 0,
+        "last_editor": "",
+        "last_edited_at_ms": 0.0
+      },
+      {
+        "cell_id": "cell_5",
+        "cell_type": "code",
+        "content": "df.plot(kind=\"hist\")",
+        "version": 0,
+        "last_editor": "",
+        "last_edited_at_ms": 0.0
+      }
+    ]
+  },
+  {
+    "notebook_id": "nb_002",
+    "name": "Model Training Runbook",
+    "description": "Shared runbook for training and evaluating a classifier.",
+    "cells": [
+      {
+        "cell_id": "cell_1",
+        "cell_type": "markdown",
+        "content": "# Model Training",
+        "version": 0,
+        "last_editor": "",
+        "last_edited_at_ms": 0.0
+      },
+      {
+        "cell_id": "cell_2",
+        "cell_type": "code",
+        "content": "from sklearn.ensemble import RandomForestClassifier",
+        "version": 0,
+        "last_editor": "",
+        "last_edited_at_ms": 0.0
+      },
+      {
+        "cell_id": "cell_3",
+        "cell_type": "code",
+        "content": "model = RandomForestClassifier(n_estimators=100)",
+        "version": 0,
+        "last_editor": "",
+        "last_edited_at_ms": 0.0
+      },
+      {
+        "cell_id": "cell_4",
+        "cell_type": "code",
+        "content": "model.fit(X_train, y_train)",
+        "version": 0,
+        "last_editor": "",
+        "last_edited_at_ms": 0.0
+      },
+      {
+        "cell_id": "cell_5",
+        "cell_type": "code",
+        "content": "print(model.score(X_test, y_test))",
+        "version": 0,
+        "last_editor": "",
+        "last_edited_at_ms": 0.0
+      }
+    ]
+  }
+]

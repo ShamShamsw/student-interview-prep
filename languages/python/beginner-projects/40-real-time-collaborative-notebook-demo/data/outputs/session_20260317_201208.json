@@ -1,0 +1,102 @@
+{
+  "session_id": "20260317_201208",
+  "notebooks_processed": 2,
+  "edits_total": 24,
+  "conflicts_total": 4,
+  "conflicts_resolved": 4,
+  "elapsed_ms": 310.24830002570525,
+  "artifacts": {
+    "bundle_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\40-real-time-collaborative-notebook-demo\\data\\outputs\\edits_20260317_201208.json",
+    "timeline_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\40-real-time-collaborative-notebook-demo\\data\\outputs\\timeline_20260317_201208.png",
+    "conflict_chart_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\40-real-time-collaborative-notebook-demo\\data\\outputs\\conflicts_20260317_201208.png",
+    "edit_count": 24
+  },
+  "edit_previews": [
+    {
+      "edit_id": "edit_007",
+      "user_id": "bob",
+      "notebook_id": "nb_001",
+      "cell_id": "cell_3",
+      "operation": "replace",
+      "is_conflict": false,
+      "status": "applied"
+    },
+    {
+      "edit_id": "edit_003",
+      "user_id": "alice",
+      "notebook_id": "nb_001",
+      "cell_id": "cell_1",
+      "operation": "replace",
+      "is_conflict": false,
+      "status": "applied"
+    },
+    {
+      "edit_id": "edit_001",
+      "user_id": "alice",
+      "notebook_id": "nb_001",
+      "cell_id": "cell_1",
+      "operation": "replace",
+      "is_conflict": false,
+      "status": "applied"
+    },
+    {
+      "edit_id": "edit_008",
+      "user_id": "bob",
+      "notebook_id": "nb_001",
+      "cell_id": "cell_3",
+      "operation": "replace",
+      "is_conflict": false,
+      "status": "applied"
+    },
+    {
+      "edit_id": "edit_005",
+      "user_id": "bob",
+      "notebook_id": "nb_001",
+      "cell_id": "cell_5",
+      "operation": "insert",
+      "is_conflict": true,
+      "status": "discarded"
+    },
+    {
+      "edit_id": "edit_004",
+      "user_id": "alice",
+      "notebook_id": "nb_001",
+      "cell_id": "cell_5",
+      "operation": "delete",
+      "is_conflict": true,
+      "status": "applied"
+    },
+    {
+      "edit_id": "edit_002",
+      "user_id": "alice",
+      "notebook_id": "nb_001",
+      "cell_id": "cell_2",
+      "operation": "replace",
+      "is_conflict": false,
+      "status": "applied"
+    },
+    {
+      "edit_id": "edit_006",
+      "user_id": "bob",
+      "notebook_id": "nb_001",
+      "cell_id": "cell_3",
+      "operation": "replace",
+      "is_conflict": true,
+      "status": "discarded"
+    }
+  ],
+  "metrics": {
+    "conflict_rate": 0.1667,
+    "mean_edits_per_cell": 4.8,
+    "max_conflicts_in_cell": 1,
+    "resolution_strategy": "last_writer_wins",
+    "applied_edits": 20,
+    "discarded_edits": 4,
+    "unique_users": [
+      "alice",
+      "bob",
+      "carol"
+    ]
+  },
+  "finished_at": "2026-03-17T20:12:09Z"
+}
