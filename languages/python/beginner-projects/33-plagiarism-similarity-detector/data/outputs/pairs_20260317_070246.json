@@ -1,0 +1,318 @@
+{
+  "run_id": "20260317_070246",
+  "similarity_threshold": 0.12,
+  "pairs": [
+    {
+      "pair_id": "doc_003__doc_004",
+      "doc_a_id": "doc_003",
+      "doc_b_id": "doc_004",
+      "doc_a_title": "Photosynthesis Overview",
+      "doc_b_title": "Plant Energy Conversion Notes",
+      "semantic_score": 0.27643078565597534,
+      "lexical_score": 0.39285714285714285,
+      "risk_level": "critical"
+    },
+    {
+      "pair_id": "doc_001__doc_002",
+      "doc_a_id": "doc_001",
+      "doc_b_id": "doc_002",
+      "doc_a_title": "Neural Network Basics Essay",
+      "doc_b_title": "Intro To Neural Networks",
+      "semantic_score": 0.163739874958992,
+      "lexical_score": 0.22580645161290322,
+      "risk_level": "high"
+    },
+    {
+      "pair_id": "doc_007__doc_008",
+      "doc_a_id": "doc_007",
+      "doc_b_id": "doc_008",
+      "doc_a_title": "Classical Mechanics Summary",
+      "doc_b_title": "Newtonian Motion Notes",
+      "semantic_score": 0.12378469109535217,
+      "lexical_score": 0.18181818181818182,
+      "risk_level": "medium"
+    },
+    {
+      "pair_id": "doc_005__doc_006",
+      "doc_a_id": "doc_005",
+      "doc_b_id": "doc_006",
+      "doc_a_title": "Roman Empire Timeline",
+      "doc_b_title": "Bread Baking Process",
+      "semantic_score": 0.04844069853425026,
+      "lexical_score": 0.04878048780487805,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_003__doc_006",
+      "doc_a_id": "doc_003",
+      "doc_b_id": "doc_006",
+      "doc_a_title": "Photosynthesis Overview",
+      "doc_b_title": "Bread Baking Process",
+      "semantic_score": 0.047945864498615265,
+      "lexical_score": 0.05128205128205128,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_004__doc_006",
+      "doc_a_id": "doc_004",
+      "doc_b_id": "doc_006",
+      "doc_a_title": "Plant Energy Conversion Notes",
+      "doc_b_title": "Bread Baking Process",
+      "semantic_score": 0.03893517702817917,
+      "lexical_score": 0.07317073170731707,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_002__doc_007",
+      "doc_a_id": "doc_002",
+      "doc_b_id": "doc_007",
+      "doc_a_title": "Intro To Neural Networks",
+      "doc_b_title": "Classical Mechanics Summary",
+      "semantic_score": 0.03049922175705433,
+      "lexical_score": 0.05405405405405406,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_004__doc_005",
+      "doc_a_id": "doc_004",
+      "doc_b_id": "doc_005",
+      "doc_a_title": "Plant Energy Conversion Notes",
+      "doc_b_title": "Roman Empire Timeline",
+      "semantic_score": 0.029505472630262375,
+      "lexical_score": 0.05128205128205128,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_003__doc_007",
+      "doc_a_id": "doc_003",
+      "doc_b_id": "doc_007",
+      "doc_a_title": "Photosynthesis Overview",
+      "doc_b_title": "Classical Mechanics Summary",
+      "semantic_score": 0.029414426535367966,
+      "lexical_score": 0.058823529411764705,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_005__doc_008",
+      "doc_a_id": "doc_005",
+      "doc_b_id": "doc_008",
+      "doc_a_title": "Roman Empire Timeline",
+      "doc_b_title": "Newtonian Motion Notes",
+      "semantic_score": 0.027499713003635406,
+      "lexical_score": 0.05128205128205128,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_002__doc_008",
+      "doc_a_id": "doc_002",
+      "doc_b_id": "doc_008",
+      "doc_a_title": "Intro To Neural Networks",
+      "doc_b_title": "Newtonian Motion Notes",
+      "semantic_score": 0.026164954528212547,
+      "lexical_score": 0.05,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_003__doc_005",
+      "doc_a_id": "doc_003",
+      "doc_b_id": "doc_005",
+      "doc_a_title": "Photosynthesis Overview",
+      "doc_b_title": "Roman Empire Timeline",
+      "semantic_score": 0.02523079328238964,
+      "lexical_score": 0.02702702702702703,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_006__doc_008",
+      "doc_a_id": "doc_006",
+      "doc_b_id": "doc_008",
+      "doc_a_title": "Bread Baking Process",
+      "doc_b_title": "Newtonian Motion Notes",
+      "semantic_score": 0.02433053031563759,
+      "lexical_score": 0.047619047619047616,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_001__doc_004",
+      "doc_a_id": "doc_001",
+      "doc_b_id": "doc_004",
+      "doc_a_title": "Neural Network Basics Essay",
+      "doc_b_title": "Plant Energy Conversion Notes",
+      "semantic_score": 0.02157367393374443,
+      "lexical_score": 0.02702702702702703,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_006__doc_007",
+      "doc_a_id": "doc_006",
+      "doc_b_id": "doc_007",
+      "doc_a_title": "Bread Baking Process",
+      "doc_b_title": "Classical Mechanics Summary",
+      "semantic_score": 0.019418999552726746,
+      "lexical_score": 0.025,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_001__doc_006",
+      "doc_a_id": "doc_001",
+      "doc_b_id": "doc_006",
+      "doc_a_title": "Neural Network Basics Essay",
+      "doc_b_title": "Bread Baking Process",
+      "semantic_score": 0.018796252086758614,
+      "lexical_score": 0.02564102564102564,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_001__doc_007",
+      "doc_a_id": "doc_001",
+      "doc_b_id": "doc_007",
+      "doc_a_title": "Neural Network Basics Essay",
+      "doc_b_title": "Classical Mechanics Summary",
+      "semantic_score": 0.016975054517388344,
+      "lexical_score": 0.029411764705882353,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_002__doc_005",
+      "doc_a_id": "doc_002",
+      "doc_b_id": "doc_005",
+      "doc_a_title": "Intro To Neural Networks",
+      "doc_b_title": "Roman Empire Timeline",
+      "semantic_score": 0.016129909083247185,
+      "lexical_score": 0.025,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_004__doc_008",
+      "doc_a_id": "doc_004",
+      "doc_b_id": "doc_008",
+      "doc_a_title": "Plant Energy Conversion Notes",
+      "doc_b_title": "Newtonian Motion Notes",
+      "semantic_score": 0.014819847419857979,
+      "lexical_score": 0.05,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_002__doc_003",
+      "doc_a_id": "doc_002",
+      "doc_b_id": "doc_003",
+      "doc_a_title": "Intro To Neural Networks",
+      "doc_b_title": "Photosynthesis Overview",
+      "semantic_score": 0.013954582624137402,
+      "lexical_score": 0.02631578947368421,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_005__doc_007",
+      "doc_a_id": "doc_005",
+      "doc_b_id": "doc_007",
+      "doc_a_title": "Roman Empire Timeline",
+      "doc_b_title": "Classical Mechanics Summary",
+      "semantic_score": 0.013786145485937595,
+      "lexical_score": 0.02702702702702703,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_003__doc_008",
+      "doc_a_id": "doc_003",
+      "doc_b_id": "doc_008",
+      "doc_a_title": "Photosynthesis Overview",
+      "doc_b_title": "Newtonian Motion Notes",
+      "semantic_score": 0.012672784738242626,
+      "lexical_score": 0.02631578947368421,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_002__doc_004",
+      "doc_a_id": "doc_002",
+      "doc_b_id": "doc_004",
+      "doc_a_title": "Intro To Neural Networks",
+      "doc_b_title": "Plant Energy Conversion Notes",
+      "semantic_score": 0.00869255606085062,
+      "lexical_score": 0.024390243902439025,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_002__doc_006",
+      "doc_a_id": "doc_002",
+      "doc_b_id": "doc_006",
+      "doc_a_title": "Intro To Neural Networks",
+      "doc_b_title": "Bread Baking Process",
+      "semantic_score": 0.007573464885354042,
+      "lexical_score": 0.023255813953488372,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_004__doc_007",
+      "doc_a_id": "doc_004",
+      "doc_b_id": "doc_007",
+      "doc_a_title": "Plant Energy Conversion Notes",
+      "doc_b_title": "Classical Mechanics Summary",
+      "semantic_score": 0.007429479621350765,
+      "lexical_score": 0.02631578947368421,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_001__doc_003",
+      "doc_a_id": "doc_001",
+      "doc_b_id": "doc_003",
+      "doc_a_title": "Neural Network Basics Essay",
+      "doc_b_title": "Photosynthesis Overview",
+      "semantic_score": 0.0,
+      "lexical_score": 0.0,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_001__doc_005",
+      "doc_a_id": "doc_001",
+      "doc_b_id": "doc_005",
+      "doc_a_title": "Neural Network Basics Essay",
+      "doc_b_title": "Roman Empire Timeline",
+      "semantic_score": 0.0,
+      "lexical_score": 0.0,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_001__doc_008",
+      "doc_a_id": "doc_001",
+      "doc_b_id": "doc_008",
+      "doc_a_title": "Neural Network Basics Essay",
+      "doc_b_title": "Newtonian Motion Notes",
+      "semantic_score": 0.0,
+      "lexical_score": 0.0,
+      "risk_level": "low"
+    }
+  ],
+  "flagged_pairs": [
+    {
+      "pair_id": "doc_003__doc_004",
+      "doc_a_id": "doc_003",
+      "doc_b_id": "doc_004",
+      "doc_a_title": "Photosynthesis Overview",
+      "doc_b_title": "Plant Energy Conversion Notes",
+      "semantic_score": 0.27643078565597534,
+      "lexical_score": 0.39285714285714285,
+      "risk_level": "critical"
+    },
+    {
+      "pair_id": "doc_001__doc_002",
+      "doc_a_id": "doc_001",
+      "doc_b_id": "doc_002",
+      "doc_a_title": "Neural Network Basics Essay",
+      "doc_b_title": "Intro To Neural Networks",
+      "semantic_score": 0.163739874958992,
+      "lexical_score": 0.22580645161290322,
+      "risk_level": "high"
+    },
+    {
+      "pair_id": "doc_007__doc_008",
+      "doc_a_id": "doc_007",
+      "doc_b_id": "doc_008",
+      "doc_a_title": "Classical Mechanics Summary",
+      "doc_b_title": "Newtonian Motion Notes",
+      "semantic_score": 0.12378469109535217,
+      "lexical_score": 0.18181818181818182,
+      "risk_level": "medium"
+    }
+  ]
+}

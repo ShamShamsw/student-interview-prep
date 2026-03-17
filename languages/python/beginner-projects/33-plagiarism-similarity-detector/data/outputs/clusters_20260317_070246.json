@@ -1,0 +1,67 @@
+{
+  "run_id": "20260317_070246",
+  "cluster_threshold": 0.12,
+  "clusters": [
+    {
+      "cluster_id": "cluster_01",
+      "size": 2,
+      "avg_similarity": 0.163739874958992,
+      "members": [
+        "doc_001",
+        "doc_002"
+      ],
+      "titles_preview": [
+        "Neural Network Basics Essay",
+        "Intro To Neural Networks"
+      ]
+    },
+    {
+      "cluster_id": "cluster_02",
+      "size": 2,
+      "avg_similarity": 0.27643078565597534,
+      "members": [
+        "doc_003",
+        "doc_004"
+      ],
+      "titles_preview": [
+        "Photosynthesis Overview",
+        "Plant Energy Conversion Notes"
+      ]
+    },
+    {
+      "cluster_id": "cluster_03",
+      "size": 2,
+      "avg_similarity": 0.12378469109535217,
+      "members": [
+        "doc_007",
+        "doc_008"
+      ],
+      "titles_preview": [
+        "Classical Mechanics Summary",
+        "Newtonian Motion Notes"
+      ]
+    },
+    {
+      "cluster_id": "cluster_04",
+      "size": 1,
+      "avg_similarity": 1.0,
+      "members": [
+        "doc_005"
+      ],
+      "titles_preview": [
+        "Roman Empire Timeline"
+      ]
+    },
+    {
+      "cluster_id": "cluster_05",
+      "size": 1,
+      "avg_similarity": 1.0,
+      "members": [
+        "doc_006"
+      ],
+      "titles_preview": [
+        "Bread Baking Process"
+      ]
+    }
+  ]
+}

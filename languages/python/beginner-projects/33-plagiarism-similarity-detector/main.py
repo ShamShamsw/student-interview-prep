@@ -2,13 +2,23 @@
 main.py - Entry point for Project 33: Plagiarism Similarity Detector
 """
 
-from operations import run_core_flow
+from display import format_header, format_run_report, format_startup_guide
+from models import create_detector_config
+from operations import load_detector_profile, run_core_flow
+from storage import ensure_data_dirs
 
 
 def main() -> None:
-    """Start the project workflow."""
-    print('Starting Project 33: Plagiarism Similarity Detector')
-    run_core_flow()
+    """Run one complete plagiarism similarity detection session."""
+    ensure_data_dirs()
+    print(format_header())
+
+    config = create_detector_config()
+    profile = load_detector_profile()
+    print(format_startup_guide(config, profile))
+
+    summary = run_core_flow()
+    print(format_run_report(summary))
 
 
 if __name__ == '__main__':

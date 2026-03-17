@@ -1,0 +1,50 @@
+[
+  {
+    "doc_id": "doc_001",
+    "title": "Neural Network Basics Essay",
+    "author": "student_a",
+    "text": "A neural network is a layered function approximator. Training updates weights with gradient descent so predictions match labeled examples."
+  },
+  {
+    "doc_id": "doc_002",
+    "title": "Intro To Neural Networks",
+    "author": "student_b",
+    "text": "Neural networks approximate complex functions with layers. During training, gradient descent adjusts weights to reduce the prediction error on labeled data."
+  },
+  {
+    "doc_id": "doc_003",
+    "title": "Photosynthesis Overview",
+    "author": "student_c",
+    "text": "Photosynthesis converts light energy into chemical energy. Plants use chlorophyll to capture light and produce glucose from carbon dioxide and water."
+  },
+  {
+    "doc_id": "doc_004",
+    "title": "Plant Energy Conversion Notes",
+    "author": "student_d",
+    "text": "Plants transform sunlight into stored chemical energy. Chlorophyll captures light so the plant can synthesize glucose using water and carbon dioxide."
+  },
+  {
+    "doc_id": "doc_005",
+    "title": "Roman Empire Timeline",
+    "author": "student_e",
+    "text": "The Roman Empire expanded across Europe and the Mediterranean. Administrative reforms and military organization helped it rule for centuries before western decline."
+  },
+  {
+    "doc_id": "doc_006",
+    "title": "Bread Baking Process",
+    "author": "student_f",
+    "text": "Bread baking starts by mixing flour, water, yeast, and salt. After kneading and proofing, the dough is baked until crust and crumb structure are formed."
+  },
+  {
+    "doc_id": "doc_007",
+    "title": "Classical Mechanics Summary",
+    "author": "student_g",
+    "text": "Classical mechanics explains motion with force, mass, and acceleration. Newton laws describe how objects respond to external interactions."
+  },
+  {
+    "doc_id": "doc_008",
+    "title": "Newtonian Motion Notes",
+    "author": "student_h",
+    "text": "Newtonian mechanics models motion through forces acting on mass. The three laws of motion determine acceleration and momentum changes in physical systems."
+  }
+]

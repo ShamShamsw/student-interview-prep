@@ -1,0 +1,230 @@
+{
+  "run_id": "20260317_070246",
+  "documents_processed": 8,
+  "pairs_compared": 28,
+  "flagged_pairs": 3,
+  "clusters_found": 3,
+  "elapsed_ms": 585.4729999555275,
+  "artifacts": {
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\33-plagiarism-similarity-detector\\data\\outputs\\run_20260317_070246.json",
+    "similarity_matrix_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\33-plagiarism-similarity-detector\\data\\outputs\\similarity_matrix_20260317_070246.json",
+    "pair_report_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\33-plagiarism-similarity-detector\\data\\outputs\\pairs_20260317_070246.json",
+    "cluster_report_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\33-plagiarism-similarity-detector\\data\\outputs\\clusters_20260317_070246.json",
+    "metadata_files": [
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\33-plagiarism-similarity-detector\\data\\outputs\\analysis_doc_003__doc_004_20260317_070246.json",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\33-plagiarism-similarity-detector\\data\\outputs\\analysis_doc_001__doc_002_20260317_070246.json",
+      "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\33-plagiarism-similarity-detector\\data\\outputs\\analysis_doc_007__doc_008_20260317_070246.json"
+    ]
+  },
+  "pair_previews": [
+    {
+      "pair_id": "doc_003__doc_004",
+      "doc_a_id": "doc_003",
+      "doc_b_id": "doc_004",
+      "doc_a_title": "Photosynthesis Overview",
+      "doc_b_title": "Plant Energy Conversion Notes",
+      "semantic_score": 0.27643078565597534,
+      "lexical_score": 0.39285714285714285,
+      "risk_level": "critical"
+    },
+    {
+      "pair_id": "doc_001__doc_002",
+      "doc_a_id": "doc_001",
+      "doc_b_id": "doc_002",
+      "doc_a_title": "Neural Network Basics Essay",
+      "doc_b_title": "Intro To Neural Networks",
+      "semantic_score": 0.163739874958992,
+      "lexical_score": 0.22580645161290322,
+      "risk_level": "high"
+    },
+    {
+      "pair_id": "doc_007__doc_008",
+      "doc_a_id": "doc_007",
+      "doc_b_id": "doc_008",
+      "doc_a_title": "Classical Mechanics Summary",
+      "doc_b_title": "Newtonian Motion Notes",
+      "semantic_score": 0.12378469109535217,
+      "lexical_score": 0.18181818181818182,
+      "risk_level": "medium"
+    },
+    {
+      "pair_id": "doc_005__doc_006",
+      "doc_a_id": "doc_005",
+      "doc_b_id": "doc_006",
+      "doc_a_title": "Roman Empire Timeline",
+      "doc_b_title": "Bread Baking Process",
+      "semantic_score": 0.04844069853425026,
+      "lexical_score": 0.04878048780487805,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_003__doc_006",
+      "doc_a_id": "doc_003",
+      "doc_b_id": "doc_006",
+      "doc_a_title": "Photosynthesis Overview",
+      "doc_b_title": "Bread Baking Process",
+      "semantic_score": 0.047945864498615265,
+      "lexical_score": 0.05128205128205128,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_004__doc_006",
+      "doc_a_id": "doc_004",
+      "doc_b_id": "doc_006",
+      "doc_a_title": "Plant Energy Conversion Notes",
+      "doc_b_title": "Bread Baking Process",
+      "semantic_score": 0.03893517702817917,
+      "lexical_score": 0.07317073170731707,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_002__doc_007",
+      "doc_a_id": "doc_002",
+      "doc_b_id": "doc_007",
+      "doc_a_title": "Intro To Neural Networks",
+      "doc_b_title": "Classical Mechanics Summary",
+      "semantic_score": 0.03049922175705433,
+      "lexical_score": 0.05405405405405406,
+      "risk_level": "low"
+    },
+    {
+      "pair_id": "doc_004__doc_005",
+      "doc_a_id": "doc_004",
+      "doc_b_id": "doc_005",
+      "doc_a_title": "Plant Energy Conversion Notes",
+      "doc_b_title": "Roman Empire Timeline",
+      "semantic_score": 0.029505472630262375,
+      "lexical_score": 0.05128205128205128,
+      "risk_level": "low"
+    }
+  ],
+  "nearest_neighbors": [
+    {
+      "doc_id": "doc_003",
+      "title": "Photosynthesis Overview",
+      "nearest_doc_id": "doc_004",
+      "nearest_title": "Plant Energy Conversion Notes",
+      "score": 0.27643078565597534
+    },
+    {
+      "doc_id": "doc_004",
+      "title": "Plant Energy Conversion Notes",
+      "nearest_doc_id": "doc_003",
+      "nearest_title": "Photosynthesis Overview",
+      "score": 0.27643078565597534
+    },
+    {
+      "doc_id": "doc_001",
+      "title": "Neural Network Basics Essay",
+      "nearest_doc_id": "doc_002",
+      "nearest_title": "Intro To Neural Networks",
+      "score": 0.163739874958992
+    },
+    {
+      "doc_id": "doc_002",
+      "title": "Intro To Neural Networks",
+      "nearest_doc_id": "doc_001",
+      "nearest_title": "Neural Network Basics Essay",
+      "score": 0.163739874958992
+    },
+    {
+      "doc_id": "doc_007",
+      "title": "Classical Mechanics Summary",
+      "nearest_doc_id": "doc_008",
+      "nearest_title": "Newtonian Motion Notes",
+      "score": 0.12378469109535217
+    },
+    {
+      "doc_id": "doc_008",
+      "title": "Newtonian Motion Notes",
+      "nearest_doc_id": "doc_007",
+      "nearest_title": "Classical Mechanics Summary",
+      "score": 0.12378469109535217
+    },
+    {
+      "doc_id": "doc_005",
+      "title": "Roman Empire Timeline",
+      "nearest_doc_id": "doc_006",
+      "nearest_title": "Bread Baking Process",
+      "score": 0.04844069853425026
+    },
+    {
+      "doc_id": "doc_006",
+      "title": "Bread Baking Process",
+      "nearest_doc_id": "doc_005",
+      "nearest_title": "Roman Empire Timeline",
+      "score": 0.04844069853425026
+    }
+  ],
+  "cluster_previews": [
+    {
+      "cluster_id": "cluster_01",
+      "size": 2,
+      "avg_similarity": 0.163739874958992,
+      "members": [
+        "doc_001",
+        "doc_002"
+      ],
+      "titles_preview": [
+        "Neural Network Basics Essay",
+        "Intro To Neural Networks"
+      ]
+    },
+    {
+      "cluster_id": "cluster_02",
+      "size": 2,
+      "avg_similarity": 0.27643078565597534,
+      "members": [
+        "doc_003",
+        "doc_004"
+      ],
+      "titles_preview": [
+        "Photosynthesis Overview",
+        "Plant Energy Conversion Notes"
+      ]
+    },
+    {
+      "cluster_id": "cluster_03",
+      "size": 2,
+      "avg_similarity": 0.12378469109535217,
+      "members": [
+        "doc_007",
+        "doc_008"
+      ],
+      "titles_preview": [
+        "Classical Mechanics Summary",
+        "Newtonian Motion Notes"
+      ]
+    },
+    {
+      "cluster_id": "cluster_04",
+      "size": 1,
+      "avg_similarity": 1.0,
+      "members": [
+        "doc_005"
+      ],
+      "titles_preview": [
+        "Roman Empire Timeline"
+      ]
+    },
+    {
+      "cluster_id": "cluster_05",
+      "size": 1,
+      "avg_similarity": 1.0,
+      "members": [
+        "doc_006"
+      ],
+      "titles_preview": [
+        "Bread Baking Process"
+      ]
+    }
+  ],
+  "metrics": {
+    "vocab_size": 277,
+    "mean_similarity": 0.15824201703071594,
+    "median_pair_similarity": 0.020496336743235588,
+    "max_pair_similarity": 0.27643078565597534,
+    "threshold": 0.12
+  },
+  "finished_at": "2026-03-17T07:02:46Z"
+}
