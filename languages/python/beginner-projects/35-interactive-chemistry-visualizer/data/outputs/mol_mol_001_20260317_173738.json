@@ -1,0 +1,14 @@
+{
+  "mol_id": "mol_001",
+  "name": "Aspirin",
+  "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+  "formula": "C8H21O3Oc",
+  "mol_weight": 177.253,
+  "num_rings": 1,
+  "hbd": 0,
+  "hba": 3,
+  "logp": 3.15,
+  "rotatable_bonds": 1,
+  "lipinski_pass": true,
+  "created_at": "2026-03-17T17:37:38Z"
+}

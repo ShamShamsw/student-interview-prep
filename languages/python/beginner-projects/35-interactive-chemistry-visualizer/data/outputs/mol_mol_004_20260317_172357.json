@@ -1,0 +1,14 @@
+{
+  "mol_id": "mol_004",
+  "name": "Glucose",
+  "smiles": "OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O",
+  "formula": "C6H10O6",
+  "mol_weight": 178.14,
+  "num_rings": 1,
+  "hbd": 0,
+  "hba": 6,
+  "logp": -0.84,
+  "rotatable_bonds": 2,
+  "lipinski_pass": true,
+  "created_at": "2026-03-17T17:23:58Z"
+}

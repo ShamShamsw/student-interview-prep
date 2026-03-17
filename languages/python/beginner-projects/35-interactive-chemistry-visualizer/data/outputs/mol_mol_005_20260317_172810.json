@@ -1,0 +1,14 @@
+{
+  "mol_id": "mol_005",
+  "name": "Benzene",
+  "smiles": "c1ccccc1",
+  "formula": "",
+  "mol_weight": 0.0,
+  "num_rings": 1,
+  "hbd": 0,
+  "hba": 0,
+  "logp": 0.0,
+  "rotatable_bonds": 0,
+  "lipinski_pass": true,
+  "created_at": "2026-03-17T17:28:10Z"
+}

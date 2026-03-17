@@ -1,0 +1,802 @@
+[
+  {
+    "mol_id": "mol_001",
+    "run_id": "20260317_172357",
+    "name": "Aspirin",
+    "formula": "C3H2O3Oc",
+    "mol_weight": 98.046,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:23:57Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_001_20260317_172357.json"
+  },
+  {
+    "mol_id": "mol_002",
+    "run_id": "20260317_172357",
+    "name": "Caffeine",
+    "formula": "C2CnO2",
+    "mol_weight": 68.02,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:23:57Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_002_20260317_172357.json"
+  },
+  {
+    "mol_id": "mol_003",
+    "run_id": "20260317_172357",
+    "name": "Ethanol",
+    "formula": "C2H4O",
+    "mol_weight": 44.053,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:23:58Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_003_20260317_172357.json"
+  },
+  {
+    "mol_id": "mol_004",
+    "run_id": "20260317_172357",
+    "name": "Glucose",
+    "formula": "C6H10O6",
+    "mol_weight": 178.14,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:23:58Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_004_20260317_172357.json"
+  },
+  {
+    "mol_id": "mol_005",
+    "run_id": "20260317_172357",
+    "name": "Benzene",
+    "formula": "",
+    "mol_weight": 0.0,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:23:58Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_005_20260317_172357.json"
+  },
+  {
+    "mol_id": "mol_006",
+    "run_id": "20260317_172357",
+    "name": "Penicillin G",
+    "formula": "C9H11CcN2O4S",
+    "mol_weight": 255.257,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:23:58Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_006_20260317_172357.json"
+  },
+  {
+    "mol_id": "mol_007",
+    "run_id": "20260317_172357",
+    "name": "Ibuprofen",
+    "formula": "C6H9CcO2",
+    "mol_weight": 125.136,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:23:58Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_007_20260317_172357.json"
+  },
+  {
+    "mol_id": "mol_008",
+    "run_id": "20260317_172357",
+    "name": "Paracetamol",
+    "formula": "C2HNcO2",
+    "mol_weight": 69.028,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:23:58Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_008_20260317_172357.json"
+  },
+  {
+    "mol_id": "mol_001",
+    "run_id": "20260317_172556",
+    "name": "Aspirin",
+    "formula": "C3H2O3Oc",
+    "mol_weight": 98.046,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:25:56Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_001_20260317_172556.json"
+  },
+  {
+    "mol_id": "mol_002",
+    "run_id": "20260317_172556",
+    "name": "Caffeine",
+    "formula": "C2CnO2",
+    "mol_weight": 68.02,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:25:56Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_002_20260317_172556.json"
+  },
+  {
+    "mol_id": "mol_003",
+    "run_id": "20260317_172556",
+    "name": "Ethanol",
+    "formula": "C2H4O",
+    "mol_weight": 44.053,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:25:56Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_003_20260317_172556.json"
+  },
+  {
+    "mol_id": "mol_004",
+    "run_id": "20260317_172556",
+    "name": "Glucose",
+    "formula": "C6H10O6",
+    "mol_weight": 178.14,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:25:56Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_004_20260317_172556.json"
+  },
+  {
+    "mol_id": "mol_005",
+    "run_id": "20260317_172556",
+    "name": "Benzene",
+    "formula": "",
+    "mol_weight": 0.0,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:25:56Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_005_20260317_172556.json"
+  },
+  {
+    "mol_id": "mol_006",
+    "run_id": "20260317_172556",
+    "name": "Penicillin G",
+    "formula": "C9H11CcN2O4S",
+    "mol_weight": 255.257,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:25:56Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_006_20260317_172556.json"
+  },
+  {
+    "mol_id": "mol_007",
+    "run_id": "20260317_172556",
+    "name": "Ibuprofen",
+    "formula": "C6H9CcO2",
+    "mol_weight": 125.136,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:25:56Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_007_20260317_172556.json"
+  },
+  {
+    "mol_id": "mol_008",
+    "run_id": "20260317_172556",
+    "name": "Paracetamol",
+    "formula": "C2HNcO2",
+    "mol_weight": 69.028,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:25:57Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_008_20260317_172556.json"
+  },
+  {
+    "mol_id": "mol_001",
+    "run_id": "20260317_172810",
+    "name": "Aspirin",
+    "formula": "C3H2O3Oc",
+    "mol_weight": 98.046,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:28:10Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_001_20260317_172810.json"
+  },
+  {
+    "mol_id": "mol_002",
+    "run_id": "20260317_172810",
+    "name": "Caffeine",
+    "formula": "C2CnO2",
+    "mol_weight": 68.02,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:28:10Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_002_20260317_172810.json"
+  },
+  {
+    "mol_id": "mol_003",
+    "run_id": "20260317_172810",
+    "name": "Ethanol",
+    "formula": "C2H4O",
+    "mol_weight": 44.053,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:28:10Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_003_20260317_172810.json"
+  },
+  {
+    "mol_id": "mol_004",
+    "run_id": "20260317_172810",
+    "name": "Glucose",
+    "formula": "C6H10O6",
+    "mol_weight": 178.14,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:28:10Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_004_20260317_172810.json"
+  },
+  {
+    "mol_id": "mol_005",
+    "run_id": "20260317_172810",
+    "name": "Benzene",
+    "formula": "",
+    "mol_weight": 0.0,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:28:10Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_005_20260317_172810.json"
+  },
+  {
+    "mol_id": "mol_006",
+    "run_id": "20260317_172810",
+    "name": "Penicillin G",
+    "formula": "C9H11CcN2O4S",
+    "mol_weight": 255.257,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:28:10Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_006_20260317_172810.json"
+  },
+  {
+    "mol_id": "mol_007",
+    "run_id": "20260317_172810",
+    "name": "Ibuprofen",
+    "formula": "C6H9CcO2",
+    "mol_weight": 125.136,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:28:10Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_007_20260317_172810.json"
+  },
+  {
+    "mol_id": "mol_008",
+    "run_id": "20260317_172810",
+    "name": "Paracetamol",
+    "formula": "C2HNcO2",
+    "mol_weight": 69.028,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:28:10Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_008_20260317_172810.json"
+  },
+  {
+    "mol_id": "mol_001",
+    "run_id": "20260317_173738",
+    "name": "Aspirin",
+    "formula": "C8H21O3Oc",
+    "mol_weight": 177.253,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:37:38Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_001_20260317_173738.json"
+  },
+  {
+    "mol_id": "mol_002",
+    "run_id": "20260317_173738",
+    "name": "Caffeine",
+    "formula": "C7H21CnN3O2",
+    "mol_weight": 191.264,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:37:38Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_002_20260317_173738.json"
+  },
+  {
+    "mol_id": "mol_003",
+    "run_id": "20260317_173738",
+    "name": "Ethanol",
+    "formula": "C2H7O",
+    "mol_weight": 47.077,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:37:38Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_003_20260317_173738.json"
+  },
+  {
+    "mol_id": "mol_004",
+    "run_id": "20260317_173738",
+    "name": "Glucose",
+    "formula": "C6H22O6",
+    "mol_weight": 190.236,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:37:38Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_004_20260317_173738.json"
+  },
+  {
+    "mol_id": "mol_005",
+    "run_id": "20260317_173738",
+    "name": "Benzene",
+    "formula": "C6H16",
+    "mol_weight": 88.194,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:37:38Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_005_20260317_173738.json"
+  },
+  {
+    "mol_id": "mol_006",
+    "run_id": "20260317_173738",
+    "name": "Penicillin G",
+    "formula": "C14H39CcN2O4S",
+    "mol_weight": 343.536,
+    "lipinski_pass": false,
+    "created_at": "2026-03-17T17:37:38Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_006_20260317_173738.json"
+  },
+  {
+    "mol_id": "mol_007",
+    "run_id": "20260317_173738",
+    "name": "Ibuprofen",
+    "formula": "C11H31CcO2",
+    "mol_weight": 207.367,
+    "lipinski_pass": false,
+    "created_at": "2026-03-17T17:37:38Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_007_20260317_173738.json"
+  },
+  {
+    "mol_id": "mol_008",
+    "run_id": "20260317_173738",
+    "name": "Paracetamol",
+    "formula": "C7H19NcO2",
+    "mol_weight": 147.227,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:37:38Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_008_20260317_173738.json"
+  },
+  {
+    "mol_id": "mol_001",
+    "run_id": "20260317_174013",
+    "name": "Aspirin",
+    "formula": "C8H21O3Oc",
+    "mol_weight": 177.253,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:40:13Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_001_20260317_174013.json"
+  },
+  {
+    "mol_id": "mol_002",
+    "run_id": "20260317_174013",
+    "name": "Caffeine",
+    "formula": "C7H21CnN3O2",
+    "mol_weight": 191.264,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:40:13Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_002_20260317_174013.json"
+  },
+  {
+    "mol_id": "mol_003",
+    "run_id": "20260317_174013",
+    "name": "Ethanol",
+    "formula": "C2H7O",
+    "mol_weight": 47.077,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:40:13Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_003_20260317_174013.json"
+  },
+  {
+    "mol_id": "mol_004",
+    "run_id": "20260317_174013",
+    "name": "Glucose",
+    "formula": "C6H22O6",
+    "mol_weight": 190.236,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:40:13Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_004_20260317_174013.json"
+  },
+  {
+    "mol_id": "mol_005",
+    "run_id": "20260317_174013",
+    "name": "Benzene",
+    "formula": "C6H16",
+    "mol_weight": 88.194,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:40:13Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_005_20260317_174013.json"
+  },
+  {
+    "mol_id": "mol_006",
+    "run_id": "20260317_174013",
+    "name": "Penicillin G",
+    "formula": "C14H39CcN2O4S",
+    "mol_weight": 343.536,
+    "lipinski_pass": false,
+    "created_at": "2026-03-17T17:40:13Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_006_20260317_174013.json"
+  },
+  {
+    "mol_id": "mol_007",
+    "run_id": "20260317_174013",
+    "name": "Ibuprofen",
+    "formula": "C11H31CcO2",
+    "mol_weight": 207.367,
+    "lipinski_pass": false,
+    "created_at": "2026-03-17T17:40:14Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_007_20260317_174013.json"
+  },
+  {
+    "mol_id": "mol_008",
+    "run_id": "20260317_174013",
+    "name": "Paracetamol",
+    "formula": "C7H19NcO2",
+    "mol_weight": 147.227,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:40:14Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_008_20260317_174013.json"
+  },
+  {
+    "mol_id": "mol_001",
+    "run_id": "20260317_174608",
+    "name": "Aspirin",
+    "formula": "C9H25O4",
+    "mol_weight": 197.295,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:46:08Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_001_20260317_174608.json"
+  },
+  {
+    "mol_id": "mol_002",
+    "run_id": "20260317_174608",
+    "name": "Caffeine",
+    "formula": "C8H26N4O2",
+    "mol_weight": 210.322,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:46:08Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_002_20260317_174608.json"
+  },
+  {
+    "mol_id": "mol_003",
+    "run_id": "20260317_174608",
+    "name": "Ethanol",
+    "formula": "C2H7O",
+    "mol_weight": 47.077,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:46:08Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_003_20260317_174608.json"
+  },
+  {
+    "mol_id": "mol_004",
+    "run_id": "20260317_174608",
+    "name": "Glucose",
+    "formula": "C6H22O6",
+    "mol_weight": 190.236,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:46:08Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_004_20260317_174608.json"
+  },
+  {
+    "mol_id": "mol_005",
+    "run_id": "20260317_174608",
+    "name": "Benzene",
+    "formula": "C6H16",
+    "mol_weight": 88.194,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:46:08Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_005_20260317_174608.json"
+  },
+  {
+    "mol_id": "mol_006",
+    "run_id": "20260317_174608",
+    "name": "Penicillin G",
+    "formula": "C16H45N2O4S",
+    "mol_weight": 361.606,
+    "lipinski_pass": false,
+    "created_at": "2026-03-17T17:46:08Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_006_20260317_174608.json"
+  },
+  {
+    "mol_id": "mol_007",
+    "run_id": "20260317_174608",
+    "name": "Ibuprofen",
+    "formula": "C13H37O2",
+    "mol_weight": 225.437,
+    "lipinski_pass": false,
+    "created_at": "2026-03-17T17:46:08Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_007_20260317_174608.json"
+  },
+  {
+    "mol_id": "mol_008",
+    "run_id": "20260317_174608",
+    "name": "Paracetamol",
+    "formula": "C8H24NO2",
+    "mol_weight": 166.285,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:46:08Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_008_20260317_174608.json"
+  },
+  {
+    "mol_id": "mol_001",
+    "run_id": "20260317_175100",
+    "name": "Aspirin",
+    "formula": "C9H14O4",
+    "mol_weight": 186.207,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:51:00Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_001_20260317_175100.json"
+  },
+  {
+    "mol_id": "mol_002",
+    "run_id": "20260317_175100",
+    "name": "Caffeine",
+    "formula": "C8H14N4O2",
+    "mol_weight": 198.226,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:51:00Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_002_20260317_175100.json"
+  },
+  {
+    "mol_id": "mol_003",
+    "run_id": "20260317_175100",
+    "name": "Ethanol",
+    "formula": "C2H6O",
+    "mol_weight": 46.069,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:51:00Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_003_20260317_175100.json"
+  },
+  {
+    "mol_id": "mol_004",
+    "run_id": "20260317_175100",
+    "name": "Glucose",
+    "formula": "C6H16O6",
+    "mol_weight": 184.188,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:51:00Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_004_20260317_175100.json"
+  },
+  {
+    "mol_id": "mol_005",
+    "run_id": "20260317_175100",
+    "name": "Benzene",
+    "formula": "C6H12",
+    "mol_weight": 84.162,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:51:00Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_005_20260317_175100.json"
+  },
+  {
+    "mol_id": "mol_006",
+    "run_id": "20260317_175100",
+    "name": "Penicillin G",
+    "formula": "C16H24N2O4S",
+    "mol_weight": 340.438,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:51:00Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_006_20260317_175100.json"
+  },
+  {
+    "mol_id": "mol_007",
+    "run_id": "20260317_175100",
+    "name": "Ibuprofen",
+    "formula": "C13H24O2",
+    "mol_weight": 212.333,
+    "lipinski_pass": false,
+    "created_at": "2026-03-17T17:51:00Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_007_20260317_175100.json"
+  },
+  {
+    "mol_id": "mol_008",
+    "run_id": "20260317_175100",
+    "name": "Paracetamol",
+    "formula": "C8H15NO2",
+    "mol_weight": 157.213,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:51:00Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_008_20260317_175100.json"
+  },
+  {
+    "mol_id": "mol_001",
+    "run_id": "20260317_175554",
+    "name": "Aspirin",
+    "formula": "C9H8O4",
+    "mol_weight": 180.159,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:55:54Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_001_20260317_175554.json"
+  },
+  {
+    "mol_id": "mol_002",
+    "run_id": "20260317_175554",
+    "name": "Caffeine",
+    "formula": "C8H5N4O2",
+    "mol_weight": 189.154,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:55:54Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_002_20260317_175554.json"
+  },
+  {
+    "mol_id": "mol_003",
+    "run_id": "20260317_175554",
+    "name": "Ethanol",
+    "formula": "C2H6O",
+    "mol_weight": 46.069,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:55:54Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_003_20260317_175554.json"
+  },
+  {
+    "mol_id": "mol_004",
+    "run_id": "20260317_175554",
+    "name": "Glucose",
+    "formula": "C6H16O6",
+    "mol_weight": 184.188,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:55:54Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_004_20260317_175554.json"
+  },
+  {
+    "mol_id": "mol_005",
+    "run_id": "20260317_175554",
+    "name": "Benzene",
+    "formula": "C6H6",
+    "mol_weight": 78.114,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:55:54Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_005_20260317_175554.json"
+  },
+  {
+    "mol_id": "mol_006",
+    "run_id": "20260317_175554",
+    "name": "Penicillin G",
+    "formula": "C16H18N2O4S",
+    "mol_weight": 334.39,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:55:54Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_006_20260317_175554.json"
+  },
+  {
+    "mol_id": "mol_007",
+    "run_id": "20260317_175554",
+    "name": "Ibuprofen",
+    "formula": "C13H18O2",
+    "mol_weight": 206.285,
+    "lipinski_pass": false,
+    "created_at": "2026-03-17T17:55:54Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_007_20260317_175554.json"
+  },
+  {
+    "mol_id": "mol_008",
+    "run_id": "20260317_175554",
+    "name": "Paracetamol",
+    "formula": "C8H9NO2",
+    "mol_weight": 151.165,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:55:54Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_008_20260317_175554.json"
+  },
+  {
+    "mol_id": "mol_001",
+    "run_id": "20260317_175851",
+    "name": "Aspirin",
+    "formula": "C9H8O4",
+    "mol_weight": 180.159,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:58:52Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_001_20260317_175851.json"
+  },
+  {
+    "mol_id": "mol_002",
+    "run_id": "20260317_175851",
+    "name": "Caffeine",
+    "formula": "C8H9N4O2",
+    "mol_weight": 193.186,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:58:52Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_002_20260317_175851.json"
+  },
+  {
+    "mol_id": "mol_003",
+    "run_id": "20260317_175851",
+    "name": "Ethanol",
+    "formula": "C2H6O",
+    "mol_weight": 46.069,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:58:52Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_003_20260317_175851.json"
+  },
+  {
+    "mol_id": "mol_004",
+    "run_id": "20260317_175851",
+    "name": "Glucose",
+    "formula": "C6H12O6",
+    "mol_weight": 180.156,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:58:52Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_004_20260317_175851.json"
+  },
+  {
+    "mol_id": "mol_005",
+    "run_id": "20260317_175851",
+    "name": "Benzene",
+    "formula": "C6H6",
+    "mol_weight": 78.114,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:58:52Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_005_20260317_175851.json"
+  },
+  {
+    "mol_id": "mol_006",
+    "run_id": "20260317_175851",
+    "name": "Penicillin G",
+    "formula": "C16H18N2O4S",
+    "mol_weight": 334.39,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:58:52Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_006_20260317_175851.json"
+  },
+  {
+    "mol_id": "mol_007",
+    "run_id": "20260317_175851",
+    "name": "Ibuprofen",
+    "formula": "C13H18O2",
+    "mol_weight": 206.285,
+    "lipinski_pass": false,
+    "created_at": "2026-03-17T17:58:52Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_007_20260317_175851.json"
+  },
+  {
+    "mol_id": "mol_008",
+    "run_id": "20260317_175851",
+    "name": "Paracetamol",
+    "formula": "C8H9NO2",
+    "mol_weight": 151.165,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T17:58:52Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_008_20260317_175851.json"
+  },
+  {
+    "mol_id": "mol_001",
+    "run_id": "20260317_180036",
+    "name": "Aspirin",
+    "formula": "C9H8O4",
+    "mol_weight": 180.159,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T18:00:36Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_001_20260317_180036.json"
+  },
+  {
+    "mol_id": "mol_002",
+    "run_id": "20260317_180036",
+    "name": "Caffeine",
+    "formula": "C8H9N4O2",
+    "mol_weight": 193.186,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T18:00:36Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_002_20260317_180036.json"
+  },
+  {
+    "mol_id": "mol_003",
+    "run_id": "20260317_180036",
+    "name": "Ethanol",
+    "formula": "C2H6O",
+    "mol_weight": 46.069,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T18:00:36Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_003_20260317_180036.json"
+  },
+  {
+    "mol_id": "mol_004",
+    "run_id": "20260317_180036",
+    "name": "Glucose",
+    "formula": "C6H12O6",
+    "mol_weight": 180.156,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T18:00:36Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_004_20260317_180036.json"
+  },
+  {
+    "mol_id": "mol_005",
+    "run_id": "20260317_180036",
+    "name": "Benzene",
+    "formula": "C6H6",
+    "mol_weight": 78.114,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T18:00:36Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_005_20260317_180036.json"
+  },
+  {
+    "mol_id": "mol_006",
+    "run_id": "20260317_180036",
+    "name": "Penicillin G",
+    "formula": "C16H18N2O4S",
+    "mol_weight": 334.39,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T18:00:36Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_006_20260317_180036.json"
+  },
+  {
+    "mol_id": "mol_007",
+    "run_id": "20260317_180036",
+    "name": "Ibuprofen",
+    "formula": "C13H18O2",
+    "mol_weight": 206.285,
+    "lipinski_pass": false,
+    "created_at": "2026-03-17T18:00:36Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_007_20260317_180036.json"
+  },
+  {
+    "mol_id": "mol_008",
+    "run_id": "20260317_180036",
+    "name": "Paracetamol",
+    "formula": "C8H9NO2",
+    "mol_weight": 151.165,
+    "lipinski_pass": true,
+    "created_at": "2026-03-17T18:00:36Z",
+    "metadata_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\mol_mol_008_20260317_180036.json"
+  }
+]

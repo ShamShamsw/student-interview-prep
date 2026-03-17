@@ -1,0 +1,14 @@
+{
+  "mol_id": "mol_002",
+  "name": "Caffeine",
+  "smiles": "Cn1cnc2c1c(=O)n(C)c(=O)n2C",
+  "formula": "C8H9N4O2",
+  "mol_weight": 193.186,
+  "num_rings": 2,
+  "hbd": 0,
+  "hba": 6,
+  "logp": -0.34,
+  "rotatable_bonds": 0,
+  "lipinski_pass": true,
+  "created_at": "2026-03-17T17:58:52Z"
+}

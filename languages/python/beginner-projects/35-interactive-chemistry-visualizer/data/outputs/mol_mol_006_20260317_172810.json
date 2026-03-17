@@ -1,0 +1,14 @@
+{
+  "mol_id": "mol_006",
+  "name": "Penicillin G",
+  "smiles": "CC1(C)SC2C(NC(=O)Cc3ccccc3)C(=O)N2C1C(=O)O",
+  "formula": "C9H11CcN2O4S",
+  "mol_weight": 255.257,
+  "num_rings": 3,
+  "hbd": 0,
+  "hba": 6,
+  "logp": 0.45,
+  "rotatable_bonds": 2,
+  "lipinski_pass": true,
+  "created_at": "2026-03-17T17:28:10Z"
+}

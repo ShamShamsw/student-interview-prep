@@ -1,0 +1,92 @@
+[
+  {
+    "run_id": "20260317_172357",
+    "molecules_processed": 8,
+    "properties_computed": 48,
+    "lipinski_pass_count": 8,
+    "elapsed_ms": 184.07200003275648,
+    "finished_at": "2026-03-17T17:23:58Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\run_20260317_172357.json"
+  },
+  {
+    "run_id": "20260317_172556",
+    "molecules_processed": 8,
+    "properties_computed": 48,
+    "lipinski_pass_count": 8,
+    "elapsed_ms": 430.47620001016185,
+    "finished_at": "2026-03-17T17:25:57Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\run_20260317_172556.json"
+  },
+  {
+    "run_id": "20260317_172810",
+    "molecules_processed": 8,
+    "properties_computed": 48,
+    "lipinski_pass_count": 8,
+    "elapsed_ms": 403.0999999959022,
+    "finished_at": "2026-03-17T17:28:10Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\run_20260317_172810.json"
+  },
+  {
+    "run_id": "20260317_173738",
+    "molecules_processed": 8,
+    "properties_computed": 48,
+    "lipinski_pass_count": 6,
+    "elapsed_ms": 242.28130001574755,
+    "finished_at": "2026-03-17T17:37:38Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\run_20260317_173738.json"
+  },
+  {
+    "run_id": "20260317_174013",
+    "molecules_processed": 8,
+    "properties_computed": 48,
+    "lipinski_pass_count": 6,
+    "elapsed_ms": 562.1430999599397,
+    "finished_at": "2026-03-17T17:40:14Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\run_20260317_174013.json"
+  },
+  {
+    "run_id": "20260317_174608",
+    "molecules_processed": 8,
+    "properties_computed": 48,
+    "lipinski_pass_count": 6,
+    "elapsed_ms": 149.09959997748956,
+    "finished_at": "2026-03-17T17:46:08Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\run_20260317_174608.json"
+  },
+  {
+    "run_id": "20260317_175100",
+    "molecules_processed": 8,
+    "properties_computed": 48,
+    "lipinski_pass_count": 7,
+    "elapsed_ms": 111.99239996494725,
+    "finished_at": "2026-03-17T17:51:00Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\run_20260317_175100.json"
+  },
+  {
+    "run_id": "20260317_175554",
+    "molecules_processed": 8,
+    "properties_computed": 48,
+    "lipinski_pass_count": 7,
+    "elapsed_ms": 92.02419995563105,
+    "finished_at": "2026-03-17T17:55:54Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\run_20260317_175554.json"
+  },
+  {
+    "run_id": "20260317_175851",
+    "molecules_processed": 8,
+    "properties_computed": 48,
+    "lipinski_pass_count": 7,
+    "elapsed_ms": 92.38739998545498,
+    "finished_at": "2026-03-17T17:58:52Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\run_20260317_175851.json"
+  },
+  {
+    "run_id": "20260317_180036",
+    "molecules_processed": 8,
+    "properties_computed": 48,
+    "lipinski_pass_count": 7,
+    "elapsed_ms": 139.41380003234372,
+    "finished_at": "2026-03-17T18:00:36Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\35-interactive-chemistry-visualizer\\data\\outputs\\run_20260317_180036.json"
+  }
+]

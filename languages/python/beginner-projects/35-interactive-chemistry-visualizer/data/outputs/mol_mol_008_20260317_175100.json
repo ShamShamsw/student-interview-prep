@@ -1,0 +1,14 @@
+{
+  "mol_id": "mol_008",
+  "name": "Paracetamol",
+  "smiles": "CC(=O)Nc1ccc(O)cc1",
+  "formula": "C8H15NO2",
+  "mol_weight": 157.213,
+  "num_rings": 1,
+  "hbd": 0,
+  "hba": 3,
+  "logp": 2.42,
+  "rotatable_bonds": 1,
+  "lipinski_pass": true,
+  "created_at": "2026-03-17T17:51:00Z"
+}
