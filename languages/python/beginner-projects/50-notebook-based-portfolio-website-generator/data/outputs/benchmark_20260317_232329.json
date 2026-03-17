@@ -1,0 +1,433 @@
+{
+  "session_id": "20260317_232329",
+  "runtime_points": [
+    {
+      "series": "minimal_slate",
+      "size": 3.0,
+      "trial": 1,
+      "elapsed_ms": 0.0687
+    },
+    {
+      "series": "minimal_slate",
+      "size": 3.0,
+      "trial": 2,
+      "elapsed_ms": 0.039
+    },
+    {
+      "series": "minimal_slate",
+      "size": 3.0,
+      "trial": 3,
+      "elapsed_ms": 0.0357
+    },
+    {
+      "series": "minimal_slate",
+      "size": 3.0,
+      "trial": 4,
+      "elapsed_ms": 0.0388
+    },
+    {
+      "series": "bold_cards",
+      "size": 3.0,
+      "trial": 1,
+      "elapsed_ms": 0.0359
+    },
+    {
+      "series": "bold_cards",
+      "size": 3.0,
+      "trial": 2,
+      "elapsed_ms": 0.034
+    },
+    {
+      "series": "bold_cards",
+      "size": 3.0,
+      "trial": 3,
+      "elapsed_ms": 0.0329
+    },
+    {
+      "series": "bold_cards",
+      "size": 3.0,
+      "trial": 4,
+      "elapsed_ms": 0.0331
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 3.0,
+      "trial": 1,
+      "elapsed_ms": 0.0355
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 3.0,
+      "trial": 2,
+      "elapsed_ms": 0.0337
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 3.0,
+      "trial": 3,
+      "elapsed_ms": 0.0346
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 3.0,
+      "trial": 4,
+      "elapsed_ms": 0.0335
+    },
+    {
+      "series": "minimal_slate",
+      "size": 5.0,
+      "trial": 1,
+      "elapsed_ms": 0.0558
+    },
+    {
+      "series": "minimal_slate",
+      "size": 5.0,
+      "trial": 2,
+      "elapsed_ms": 0.0521
+    },
+    {
+      "series": "minimal_slate",
+      "size": 5.0,
+      "trial": 3,
+      "elapsed_ms": 0.0509
+    },
+    {
+      "series": "minimal_slate",
+      "size": 5.0,
+      "trial": 4,
+      "elapsed_ms": 0.0507
+    },
+    {
+      "series": "bold_cards",
+      "size": 5.0,
+      "trial": 1,
+      "elapsed_ms": 0.0511
+    },
+    {
+      "series": "bold_cards",
+      "size": 5.0,
+      "trial": 2,
+      "elapsed_ms": 0.0511
+    },
+    {
+      "series": "bold_cards",
+      "size": 5.0,
+      "trial": 3,
+      "elapsed_ms": 0.0499
+    },
+    {
+      "series": "bold_cards",
+      "size": 5.0,
+      "trial": 4,
+      "elapsed_ms": 0.051
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 5.0,
+      "trial": 1,
+      "elapsed_ms": 0.0511
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 5.0,
+      "trial": 2,
+      "elapsed_ms": 0.0504
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 5.0,
+      "trial": 3,
+      "elapsed_ms": 0.0508
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 5.0,
+      "trial": 4,
+      "elapsed_ms": 0.0497
+    },
+    {
+      "series": "minimal_slate",
+      "size": 8.0,
+      "trial": 1,
+      "elapsed_ms": 0.088
+    },
+    {
+      "series": "minimal_slate",
+      "size": 8.0,
+      "trial": 2,
+      "elapsed_ms": 0.0784
+    },
+    {
+      "series": "minimal_slate",
+      "size": 8.0,
+      "trial": 3,
+      "elapsed_ms": 0.0761
+    },
+    {
+      "series": "minimal_slate",
+      "size": 8.0,
+      "trial": 4,
+      "elapsed_ms": 0.0756
+    },
+    {
+      "series": "bold_cards",
+      "size": 8.0,
+      "trial": 1,
+      "elapsed_ms": 0.0754
+    },
+    {
+      "series": "bold_cards",
+      "size": 8.0,
+      "trial": 2,
+      "elapsed_ms": 0.0759
+    },
+    {
+      "series": "bold_cards",
+      "size": 8.0,
+      "trial": 3,
+      "elapsed_ms": 0.0755
+    },
+    {
+      "series": "bold_cards",
+      "size": 8.0,
+      "trial": 4,
+      "elapsed_ms": 0.0758
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 8.0,
+      "trial": 1,
+      "elapsed_ms": 0.0757
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 8.0,
+      "trial": 2,
+      "elapsed_ms": 0.0806
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 8.0,
+      "trial": 3,
+      "elapsed_ms": 0.0843
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 8.0,
+      "trial": 4,
+      "elapsed_ms": 0.0759
+    },
+    {
+      "series": "minimal_slate",
+      "size": 12.0,
+      "trial": 1,
+      "elapsed_ms": 0.08
+    },
+    {
+      "series": "minimal_slate",
+      "size": 12.0,
+      "trial": 2,
+      "elapsed_ms": 0.077
+    },
+    {
+      "series": "minimal_slate",
+      "size": 12.0,
+      "trial": 3,
+      "elapsed_ms": 0.0763
+    },
+    {
+      "series": "minimal_slate",
+      "size": 12.0,
+      "trial": 4,
+      "elapsed_ms": 0.0767
+    },
+    {
+      "series": "bold_cards",
+      "size": 12.0,
+      "trial": 1,
+      "elapsed_ms": 0.0767
+    },
+    {
+      "series": "bold_cards",
+      "size": 12.0,
+      "trial": 2,
+      "elapsed_ms": 0.0769
+    },
+    {
+      "series": "bold_cards",
+      "size": 12.0,
+      "trial": 3,
+      "elapsed_ms": 0.0756
+    },
+    {
+      "series": "bold_cards",
+      "size": 12.0,
+      "trial": 4,
+      "elapsed_ms": 0.076
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 12.0,
+      "trial": 1,
+      "elapsed_ms": 0.0777
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 12.0,
+      "trial": 2,
+      "elapsed_ms": 0.0767
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 12.0,
+      "trial": 3,
+      "elapsed_ms": 0.0765
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 12.0,
+      "trial": 4,
+      "elapsed_ms": 0.0758
+    },
+    {
+      "series": "minimal_slate",
+      "size": 16.0,
+      "trial": 1,
+      "elapsed_ms": 0.0785
+    },
+    {
+      "series": "minimal_slate",
+      "size": 16.0,
+      "trial": 2,
+      "elapsed_ms": 0.0765
+    },
+    {
+      "series": "minimal_slate",
+      "size": 16.0,
+      "trial": 3,
+      "elapsed_ms": 0.0765
+    },
+    {
+      "series": "minimal_slate",
+      "size": 16.0,
+      "trial": 4,
+      "elapsed_ms": 0.0759
+    },
+    {
+      "series": "bold_cards",
+      "size": 16.0,
+      "trial": 1,
+      "elapsed_ms": 0.0765
+    },
+    {
+      "series": "bold_cards",
+      "size": 16.0,
+      "trial": 2,
+      "elapsed_ms": 0.076
+    },
+    {
+      "series": "bold_cards",
+      "size": 16.0,
+      "trial": 3,
+      "elapsed_ms": 0.0765
+    },
+    {
+      "series": "bold_cards",
+      "size": 16.0,
+      "trial": 4,
+      "elapsed_ms": 0.0758
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 16.0,
+      "trial": 1,
+      "elapsed_ms": 0.0768
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 16.0,
+      "trial": 2,
+      "elapsed_ms": 0.1098
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 16.0,
+      "trial": 3,
+      "elapsed_ms": 0.0694
+    },
+    {
+      "series": "adaptive_grid",
+      "size": 16.0,
+      "trial": 4,
+      "elapsed_ms": 0.0688
+    }
+  ],
+  "runtime_summary": {
+    "minimal_slate": [
+      {
+        "size": 3.0,
+        "elapsed_ms": 0.04555
+      },
+      {
+        "size": 5.0,
+        "elapsed_ms": 0.052375
+      },
+      {
+        "size": 8.0,
+        "elapsed_ms": 0.079525
+      },
+      {
+        "size": 12.0,
+        "elapsed_ms": 0.0775
+      },
+      {
+        "size": 16.0,
+        "elapsed_ms": 0.07685
+      }
+    ],
+    "bold_cards": [
+      {
+        "size": 3.0,
+        "elapsed_ms": 0.033975
+      },
+      {
+        "size": 5.0,
+        "elapsed_ms": 0.050775
+      },
+      {
+        "size": 8.0,
+        "elapsed_ms": 0.07565
+      },
+      {
+        "size": 12.0,
+        "elapsed_ms": 0.0763
+      },
+      {
+        "size": 16.0,
+        "elapsed_ms": 0.0762
+      }
+    ],
+    "adaptive_grid": [
+      {
+        "size": 3.0,
+        "elapsed_ms": 0.034325
+      },
+      {
+        "size": 5.0,
+        "elapsed_ms": 0.0505
+      },
+      {
+        "size": 8.0,
+        "elapsed_ms": 0.079125
+      },
+      {
+        "size": 12.0,
+        "elapsed_ms": 0.076675
+      },
+      {
+        "size": 16.0,
+        "elapsed_ms": 0.0812
+      }
+    ]
+  }
+}

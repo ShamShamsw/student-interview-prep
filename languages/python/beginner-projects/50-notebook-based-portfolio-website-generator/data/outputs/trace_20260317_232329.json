@@ -1,0 +1,414 @@
+{
+  "session_id": "20260317_232329",
+  "config": {
+    "project_type": "notebook_based_portfolio_website_generator",
+    "strategy": "adaptive_grid",
+    "enabled_strategies": [
+      "minimal_slate",
+      "bold_cards",
+      "adaptive_grid"
+    ],
+    "demo_portfolio_label": "data_science_student",
+    "max_projects": 8,
+    "max_snippets_per_project": 3,
+    "benchmark_project_counts": [
+      3,
+      5,
+      8,
+      12,
+      16
+    ],
+    "benchmark_trials": 4,
+    "include_runtime_plot": true,
+    "include_debt_plot": true,
+    "max_preview_rows": 8,
+    "random_seed": 42,
+    "created_at": "2026-03-17T23:23:29Z"
+  },
+  "portfolio_case": {
+    "portfolio_id": "portfolio_001",
+    "label": "data_science_student",
+    "owner_name": "Alex Johnson",
+    "headline": "Building practical machine learning projects with strong storytelling.",
+    "about": "Computer science student focused on reproducible experiments, clean analysis, and simple user-facing demos.",
+    "projects": [
+      {
+        "project_id": "proj_001",
+        "title": "Retail Demand Forecasting Notebook",
+        "source_type": "notebook",
+        "tags": [
+          "python",
+          "forecasting",
+          "timeseries"
+        ],
+        "highlights": [
+          "Compared ARIMA and gradient boosting baseline models.",
+          "Documented feature ablations and confidence intervals.",
+          "Published clear visual diagnostics for weekly seasonality."
+        ]
+      },
+      {
+        "project_id": "proj_002",
+        "title": "Medical Text Summarization Report",
+        "source_type": "markdown",
+        "tags": [
+          "nlp",
+          "transformers",
+          "evaluation"
+        ],
+        "highlights": [
+          "Built synthetic benchmark pipeline for summarization quality checks.",
+          "Tracked ROUGE trends and failure examples by category.",
+          "Added clinician-friendly report formatting for review."
+        ]
+      },
+      {
+        "project_id": "proj_003",
+        "title": "Interactive Fraud Detection Walkthrough",
+        "source_type": "notebook",
+        "tags": [
+          "classification",
+          "xgboost",
+          "dashboard"
+        ],
+        "highlights": [
+          "Balanced precision-recall tradeoffs for analyst workflows.",
+          "Explained threshold tuning with cost-sensitive scoring.",
+          "Exported confusion trends and drift snapshots."
+        ]
+      },
+      {
+        "project_id": "proj_004",
+        "title": "Portfolio Reflection Essay",
+        "source_type": "markdown",
+        "tags": [
+          "writing",
+          "communication",
+          "career"
+        ],
+        "highlights": [
+          "Summarized technical growth and team collaboration outcomes.",
+          "Mapped projects to measurable impact and learning goals.",
+          "Outlined next milestones for production-ready ML delivery."
+        ]
+      }
+    ],
+    "accent_palette": "sunset_orange",
+    "preferred_layout": "grid"
+  },
+  "strategy_comparison": [
+    {
+      "strategy": "minimal_slate",
+      "mean_quality_score": 0.915949,
+      "accessibility_score": 0.925949,
+      "seo_score": 0.915949,
+      "cumulative_layout_debt": 0.336206,
+      "pages": [
+        {
+          "page_index": 1,
+          "strategy": "minimal_slate",
+          "source_title": "Retail Demand Forecasting Notebook",
+          "slug": "retail-demand-forecasting-notebook",
+          "source_type": "notebook",
+          "tags": [
+            "python",
+            "forecasting",
+            "timeseries"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.890045,
+          "layout_debt": 0.109955,
+          "cumulative_layout_debt": 0.109955
+        },
+        {
+          "page_index": 2,
+          "strategy": "minimal_slate",
+          "source_title": "Medical Text Summarization Report",
+          "slug": "medical-text-summarization-report",
+          "source_type": "markdown",
+          "tags": [
+            "nlp",
+            "transformers",
+            "evaluation"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.93085,
+          "layout_debt": 0.06915,
+          "cumulative_layout_debt": 0.179105
+        },
+        {
+          "page_index": 3,
+          "strategy": "minimal_slate",
+          "source_title": "Interactive Fraud Detection Walkthrough",
+          "slug": "interactive-fraud-detection-walkthrough",
+          "source_type": "notebook",
+          "tags": [
+            "classification",
+            "xgboost",
+            "dashboard"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.906165,
+          "layout_debt": 0.093835,
+          "cumulative_layout_debt": 0.27294
+        },
+        {
+          "page_index": 4,
+          "strategy": "minimal_slate",
+          "source_title": "Portfolio Reflection Essay",
+          "slug": "portfolio-reflection-essay",
+          "source_type": "markdown",
+          "tags": [
+            "writing",
+            "communication",
+            "career"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.936735,
+          "layout_debt": 0.063265,
+          "cumulative_layout_debt": 0.336206
+        }
+      ],
+      "feasible": true
+    },
+    {
+      "strategy": "bold_cards",
+      "mean_quality_score": 0.929854,
+      "accessibility_score": 0.899854,
+      "seo_score": 0.919854,
+      "cumulative_layout_debt": 0.280584,
+      "pages": [
+        {
+          "page_index": 1,
+          "strategy": "bold_cards",
+          "source_title": "Retail Demand Forecasting Notebook",
+          "slug": "retail-demand-forecasting-notebook",
+          "source_type": "notebook",
+          "tags": [
+            "python",
+            "forecasting",
+            "timeseries"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.950197,
+          "layout_debt": 0.049803,
+          "cumulative_layout_debt": 0.049803
+        },
+        {
+          "page_index": 2,
+          "strategy": "bold_cards",
+          "source_title": "Medical Text Summarization Report",
+          "slug": "medical-text-summarization-report",
+          "source_type": "markdown",
+          "tags": [
+            "nlp",
+            "transformers",
+            "evaluation"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.914859,
+          "layout_debt": 0.085141,
+          "cumulative_layout_debt": 0.134943
+        },
+        {
+          "page_index": 3,
+          "strategy": "bold_cards",
+          "source_title": "Interactive Fraud Detection Walkthrough",
+          "slug": "interactive-fraud-detection-walkthrough",
+          "source_type": "notebook",
+          "tags": [
+            "classification",
+            "xgboost",
+            "dashboard"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.951968,
+          "layout_debt": 0.048032,
+          "cumulative_layout_debt": 0.182975
+        },
+        {
+          "page_index": 4,
+          "strategy": "bold_cards",
+          "source_title": "Portfolio Reflection Essay",
+          "slug": "portfolio-reflection-essay",
+          "source_type": "markdown",
+          "tags": [
+            "writing",
+            "communication",
+            "career"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.902391,
+          "layout_debt": 0.097609,
+          "cumulative_layout_debt": 0.280584
+        }
+      ],
+      "feasible": true
+    },
+    {
+      "strategy": "adaptive_grid",
+      "mean_quality_score": 0.937298,
+      "accessibility_score": 0.937298,
+      "seo_score": 0.947298,
+      "cumulative_layout_debt": 0.250807,
+      "pages": [
+        {
+          "page_index": 1,
+          "strategy": "adaptive_grid",
+          "source_title": "Retail Demand Forecasting Notebook",
+          "slug": "retail-demand-forecasting-notebook",
+          "source_type": "notebook",
+          "tags": [
+            "python",
+            "forecasting",
+            "timeseries"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.941645,
+          "layout_debt": 0.058355,
+          "cumulative_layout_debt": 0.058355
+        },
+        {
+          "page_index": 2,
+          "strategy": "adaptive_grid",
+          "source_title": "Medical Text Summarization Report",
+          "slug": "medical-text-summarization-report",
+          "source_type": "markdown",
+          "tags": [
+            "nlp",
+            "transformers",
+            "evaluation"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.930594,
+          "layout_debt": 0.069406,
+          "cumulative_layout_debt": 0.127761
+        },
+        {
+          "page_index": 3,
+          "strategy": "adaptive_grid",
+          "source_title": "Interactive Fraud Detection Walkthrough",
+          "slug": "interactive-fraud-detection-walkthrough",
+          "source_type": "notebook",
+          "tags": [
+            "classification",
+            "xgboost",
+            "dashboard"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.954492,
+          "layout_debt": 0.045508,
+          "cumulative_layout_debt": 0.173269
+        },
+        {
+          "page_index": 4,
+          "strategy": "adaptive_grid",
+          "source_title": "Portfolio Reflection Essay",
+          "slug": "portfolio-reflection-essay",
+          "source_type": "markdown",
+          "tags": [
+            "writing",
+            "communication",
+            "career"
+          ],
+          "estimated_read_minutes": 1,
+          "section_count": 4,
+          "quality_score": 0.922462,
+          "layout_debt": 0.077538,
+          "cumulative_layout_debt": 0.250807
+        }
+      ],
+      "feasible": true
+    }
+  ],
+  "selected_result": {
+    "strategy": "adaptive_grid",
+    "mean_quality_score": 0.937298,
+    "accessibility_score": 0.937298,
+    "seo_score": 0.947298,
+    "cumulative_layout_debt": 0.250807,
+    "pages": [
+      {
+        "page_index": 1,
+        "strategy": "adaptive_grid",
+        "source_title": "Retail Demand Forecasting Notebook",
+        "slug": "retail-demand-forecasting-notebook",
+        "source_type": "notebook",
+        "tags": [
+          "python",
+          "forecasting",
+          "timeseries"
+        ],
+        "estimated_read_minutes": 1,
+        "section_count": 4,
+        "quality_score": 0.941645,
+        "layout_debt": 0.058355,
+        "cumulative_layout_debt": 0.058355
+      },
+      {
+        "page_index": 2,
+        "strategy": "adaptive_grid",
+        "source_title": "Medical Text Summarization Report",
+        "slug": "medical-text-summarization-report",
+        "source_type": "markdown",
+        "tags": [
+          "nlp",
+          "transformers",
+          "evaluation"
+        ],
+        "estimated_read_minutes": 1,
+        "section_count": 4,
+        "quality_score": 0.930594,
+        "layout_debt": 0.069406,
+        "cumulative_layout_debt": 0.127761
+      },
+      {
+        "page_index": 3,
+        "strategy": "adaptive_grid",
+        "source_title": "Interactive Fraud Detection Walkthrough",
+        "slug": "interactive-fraud-detection-walkthrough",
+        "source_type": "notebook",
+        "tags": [
+          "classification",
+          "xgboost",
+          "dashboard"
+        ],
+        "estimated_read_minutes": 1,
+        "section_count": 4,
+        "quality_score": 0.954492,
+        "layout_debt": 0.045508,
+        "cumulative_layout_debt": 0.173269
+      },
+      {
+        "page_index": 4,
+        "strategy": "adaptive_grid",
+        "source_title": "Portfolio Reflection Essay",
+        "slug": "portfolio-reflection-essay",
+        "source_type": "markdown",
+        "tags": [
+          "writing",
+          "communication",
+          "career"
+        ],
+        "estimated_read_minutes": 1,
+        "section_count": 4,
+        "quality_score": 0.922462,
+        "layout_debt": 0.077538,
+        "cumulative_layout_debt": 0.250807
+      }
+    ],
+    "feasible": true
+  },
+  "history_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\50-notebook-based-portfolio-website-generator\\data\\portfolio_history.json"
+}

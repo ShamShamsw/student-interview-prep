@@ -1,0 +1,112 @@
+[
+  {
+    "portfolio_id": "portfolio_001",
+    "label": "data_science_student",
+    "owner_name": "Alex Johnson",
+    "headline": "Building practical machine learning projects with strong storytelling.",
+    "about": "Computer science student focused on reproducible experiments, clean analysis, and simple user-facing demos.",
+    "projects": [
+      {
+        "project_id": "proj_001",
+        "title": "Retail Demand Forecasting Notebook",
+        "source_type": "notebook",
+        "tags": [
+          "python",
+          "forecasting",
+          "timeseries"
+        ],
+        "highlights": [
+          "Compared ARIMA and gradient boosting baseline models.",
+          "Documented feature ablations and confidence intervals.",
+          "Published clear visual diagnostics for weekly seasonality."
+        ]
+      },
+      {
+        "project_id": "proj_002",
+        "title": "Medical Text Summarization Report",
+        "source_type": "markdown",
+        "tags": [
+          "nlp",
+          "transformers",
+          "evaluation"
+        ],
+        "highlights": [
+          "Built synthetic benchmark pipeline for summarization quality checks.",
+          "Tracked ROUGE trends and failure examples by category.",
+          "Added clinician-friendly report formatting for review."
+        ]
+      },
+      {
+        "project_id": "proj_003",
+        "title": "Interactive Fraud Detection Walkthrough",
+        "source_type": "notebook",
+        "tags": [
+          "classification",
+          "xgboost",
+          "dashboard"
+        ],
+        "highlights": [
+          "Balanced precision-recall tradeoffs for analyst workflows.",
+          "Explained threshold tuning with cost-sensitive scoring.",
+          "Exported confusion trends and drift snapshots."
+        ]
+      },
+      {
+        "project_id": "proj_004",
+        "title": "Portfolio Reflection Essay",
+        "source_type": "markdown",
+        "tags": [
+          "writing",
+          "communication",
+          "career"
+        ],
+        "highlights": [
+          "Summarized technical growth and team collaboration outcomes.",
+          "Mapped projects to measurable impact and learning goals.",
+          "Outlined next milestones for production-ready ML delivery."
+        ]
+      }
+    ],
+    "accent_palette": "sunset_orange",
+    "preferred_layout": "grid"
+  },
+  {
+    "portfolio_id": "portfolio_002",
+    "label": "fullstack_builder",
+    "owner_name": "Sam Rivera",
+    "headline": "Shipping data-backed web apps from prototype to deployment.",
+    "about": "Full-stack developer blending product thinking with analytics instrumentation.",
+    "projects": [
+      {
+        "project_id": "proj_005",
+        "title": "A/B Testing Notebook For Checkout Funnel",
+        "source_type": "notebook",
+        "tags": [
+          "experimentation",
+          "statistics",
+          "product"
+        ],
+        "highlights": [
+          "Designed robust randomization and significance checks.",
+          "Built annotation-rich plots for stakeholder review."
+        ]
+      },
+      {
+        "project_id": "proj_006",
+        "title": "Developer Blog Series Generator",
+        "source_type": "markdown",
+        "tags": [
+          "automation",
+          "content",
+          "developer-experience"
+        ],
+        "highlights": [
+          "Converted engineering notes into release-ready writeups.",
+          "Added SEO metadata and accessibility-first heading structure."
+        ]
+      }
+    ],
+    "accent_palette": "ocean_blue",
+    "preferred_layout": "magazine"
+  }
+]
