@@ -12,7 +12,13 @@ A quiz game is one of the best beginner projects because it forces you to think 
 
 ---
 
+## Separate Repository
 
+You can also access this project in a separate repository:
+
+[quiz game Repository](https://github.com/ShamShamsw/quiz-game.git)
+
+---
 
 ## The Importance of Comments
 
