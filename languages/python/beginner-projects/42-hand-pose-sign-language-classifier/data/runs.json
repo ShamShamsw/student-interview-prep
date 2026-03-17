@@ -1,0 +1,28 @@
+[
+  {
+    "session_id": "20260317_205936",
+    "signs_modeled": 5,
+    "captures_total": 120,
+    "training_samples": 90,
+    "test_samples": 30,
+    "test_accuracy": 1.0,
+    "live_frames": 12,
+    "low_confidence_frames": 1,
+    "elapsed_ms": 852.8437999775633,
+    "finished_at": "2026-03-17T20:59:37Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\42-hand-pose-sign-language-classifier\\data\\outputs\\run_20260317_205936.json"
+  },
+  {
+    "session_id": "20260317_210350",
+    "signs_modeled": 5,
+    "captures_total": 120,
+    "training_samples": 90,
+    "test_samples": 30,
+    "test_accuracy": 1.0,
+    "live_frames": 12,
+    "low_confidence_frames": 1,
+    "elapsed_ms": 630.185299902223,
+    "finished_at": "2026-03-17T21:03:50Z",
+    "run_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\42-hand-pose-sign-language-classifier\\data\\outputs\\run_20260317_210350.json"
+  }
+]

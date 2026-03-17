@@ -1,0 +1,612 @@
+{
+  "session_id": "20260317_211936",
+  "config": {
+    "project_type": "sorting_algorithm_education_visualizer",
+    "algorithms": [
+      "quicksort",
+      "mergesort",
+      "heapsort"
+    ],
+    "demo_array_label": "lesson_random_12",
+    "benchmark_sizes": [
+      16,
+      32,
+      64,
+      96,
+      128
+    ],
+    "benchmark_trials": 3,
+    "storyboard_frames": 6,
+    "include_storyboard_plot": true,
+    "include_runtime_chart": true,
+    "include_operations_chart": true,
+    "max_algorithms_in_report": 3,
+    "random_seed": 42,
+    "created_at": "2026-03-17T21:19:36Z"
+  },
+  "demo_array": {
+    "array_id": "array_001",
+    "label": "lesson_random_12",
+    "values": [
+      38,
+      12,
+      57,
+      9,
+      61,
+      24,
+      45,
+      17,
+      73,
+      30,
+      52,
+      4
+    ],
+    "description": "Mixed unsorted values for the main storyboard demo.",
+    "tags": [
+      "demo",
+      "random",
+      "balanced"
+    ]
+  },
+  "algorithm_reports": [
+    {
+      "algorithm": "quicksort",
+      "sorted_values": [
+        4,
+        9,
+        12,
+        17,
+        24,
+        30,
+        38,
+        45,
+        52,
+        57,
+        61,
+        73
+      ],
+      "comparisons": 37,
+      "writes": 26,
+      "swaps": 13,
+      "max_depth": 6,
+      "elapsed_ms": 0.2532,
+      "frame_count": 53,
+      "sampled_frames": [
+        {
+          "step": 0,
+          "values": [
+            38,
+            12,
+            57,
+            9,
+            61,
+            24,
+            45,
+            17,
+            73,
+            30,
+            52,
+            4
+          ],
+          "active_indices": [],
+          "note": "Initial state",
+          "counts": {
+            "comparisons": 0,
+            "writes": 0,
+            "swaps": 0,
+            "max_depth": 0
+          }
+        },
+        {
+          "step": 10,
+          "values": [
+            38,
+            12,
+            57,
+            9,
+            61,
+            24,
+            45,
+            17,
+            73,
+            30,
+            52,
+            4
+          ],
+          "active_indices": [
+            9,
+            11
+          ],
+          "note": "Compare 30 against pivot 4",
+          "counts": {
+            "comparisons": 10,
+            "writes": 0,
+            "swaps": 0,
+            "max_depth": 1
+          }
+        },
+        {
+          "step": 21,
+          "values": [
+            4,
+            12,
+            9,
+            24,
+            61,
+            57,
+            45,
+            17,
+            73,
+            30,
+            52,
+            38
+          ],
+          "active_indices": [
+            7,
+            11
+          ],
+          "note": "Compare 17 against pivot 38",
+          "counts": {
+            "comparisons": 18,
+            "writes": 6,
+            "swaps": 3,
+            "max_depth": 2
+          }
+        },
+        {
+          "step": 31,
+          "values": [
+            4,
+            12,
+            9,
+            24,
+            17,
+            30,
+            38,
+            61,
+            73,
+            57,
+            52,
+            45
+          ],
+          "active_indices": [
+            4,
+            5
+          ],
+          "note": "Compare 17 against pivot 30",
+          "counts": {
+            "comparisons": 25,
+            "writes": 12,
+            "swaps": 6,
+            "max_depth": 3
+          }
+        },
+        {
+          "step": 42,
+          "values": [
+            4,
+            9,
+            12,
+            17,
+            24,
+            30,
+            38,
+            61,
+            73,
+            57,
+            52,
+            45
+          ],
+          "active_indices": [
+            10,
+            11
+          ],
+          "note": "Compare 52 against pivot 45",
+          "counts": {
+            "comparisons": 33,
+            "writes": 16,
+            "swaps": 8,
+            "max_depth": 6
+          }
+        },
+        {
+          "step": 52,
+          "values": [
+            4,
+            9,
+            12,
+            17,
+            24,
+            30,
+            38,
+            45,
+            52,
+            57,
+            61,
+            73
+          ],
+          "active_indices": [],
+          "note": "Array sorted",
+          "counts": {
+            "comparisons": 37,
+            "writes": 26,
+            "swaps": 13,
+            "max_depth": 6
+          }
+        }
+      ],
+      "is_sorted": true
+    },
+    {
+      "algorithm": "mergesort",
+      "sorted_values": [
+        4,
+        9,
+        12,
+        17,
+        24,
+        30,
+        38,
+        45,
+        52,
+        57,
+        61,
+        73
+      ],
+      "comparisons": 32,
+      "writes": 44,
+      "swaps": 0,
+      "max_depth": 5,
+      "elapsed_ms": 0.1292,
+      "frame_count": 46,
+      "sampled_frames": [
+        {
+          "step": 0,
+          "values": [
+            38,
+            12,
+            57,
+            9,
+            61,
+            24,
+            45,
+            17,
+            73,
+            30,
+            52,
+            4
+          ],
+          "active_indices": [],
+          "note": "Initial state",
+          "counts": {
+            "comparisons": 0,
+            "writes": 0,
+            "swaps": 0,
+            "max_depth": 0
+          }
+        },
+        {
+          "step": 9,
+          "values": [
+            12,
+            38,
+            57,
+            9,
+            24,
+            61,
+            45,
+            17,
+            73,
+            30,
+            52,
+            4
+          ],
+          "active_indices": [
+            4
+          ],
+          "note": "Flush right remainder for [3:6)",
+          "counts": {
+            "comparisons": 5,
+            "writes": 9,
+            "swaps": 0,
+            "max_depth": 5
+          }
+        },
+        {
+          "step": 18,
+          "values": [
+            9,
+            12,
+            24,
+            38,
+            57,
+            61,
+            45,
+            17,
+            73,
+            30,
+            52,
+            4
+          ],
+          "active_indices": [
+            8
+          ],
+          "note": "Flush right remainder for [7:9)",
+          "counts": {
+            "comparisons": 11,
+            "writes": 18,
+            "swaps": 0,
+            "max_depth": 5
+          }
+        },
+        {
+          "step": 27,
+          "values": [
+            9,
+            12,
+            24,
+            38,
+            57,
+            61,
+            4,
+            45,
+            73,
+            4,
+            30,
+            52
+          ],
+          "active_indices": [
+            6
+          ],
+          "note": "Merge segment [6:12) back into the main array",
+          "counts": {
+            "comparisons": 17,
+            "writes": 27,
+            "swaps": 0,
+            "max_depth": 5
+          }
+        },
+        {
+          "step": 36,
+          "values": [
+            4,
+            9,
+            12,
+            17,
+            57,
+            61,
+            4,
+            17,
+            30,
+            45,
+            52,
+            73
+          ],
+          "active_indices": [
+            3
+          ],
+          "note": "Merge segment [0:12) back into the main array",
+          "counts": {
+            "comparisons": 25,
+            "writes": 36,
+            "swaps": 0,
+            "max_depth": 5
+          }
+        },
+        {
+          "step": 45,
+          "values": [
+            4,
+            9,
+            12,
+            17,
+            24,
+            30,
+            38,
+            45,
+            52,
+            57,
+            61,
+            73
+          ],
+          "active_indices": [],
+          "note": "Array sorted",
+          "counts": {
+            "comparisons": 32,
+            "writes": 44,
+            "swaps": 0,
+            "max_depth": 5
+          }
+        }
+      ],
+      "is_sorted": true
+    },
+    {
+      "algorithm": "heapsort",
+      "sorted_values": [
+        4,
+        9,
+        12,
+        17,
+        24,
+        30,
+        38,
+        45,
+        52,
+        57,
+        61,
+        73
+      ],
+      "comparisons": 51,
+      "writes": 66,
+      "swaps": 33,
+      "max_depth": 4,
+      "elapsed_ms": 0.1042,
+      "frame_count": 36,
+      "sampled_frames": [
+        {
+          "step": 0,
+          "values": [
+            38,
+            12,
+            57,
+            9,
+            61,
+            24,
+            45,
+            17,
+            73,
+            30,
+            52,
+            4
+          ],
+          "active_indices": [],
+          "note": "Initial state",
+          "counts": {
+            "comparisons": 0,
+            "writes": 0,
+            "swaps": 0,
+            "max_depth": 0
+          }
+        },
+        {
+          "step": 7,
+          "values": [
+            73,
+            61,
+            57,
+            17,
+            52,
+            24,
+            45,
+            12,
+            9,
+            30,
+            38,
+            4
+          ],
+          "active_indices": [
+            0
+          ],
+          "note": "Max heap constructed",
+          "counts": {
+            "comparisons": 17,
+            "writes": 12,
+            "swaps": 6,
+            "max_depth": 4
+          }
+        },
+        {
+          "step": 14,
+          "values": [
+            57,
+            52,
+            45,
+            17,
+            38,
+            24,
+            4,
+            12,
+            9,
+            30,
+            61,
+            73
+          ],
+          "active_indices": [
+            2,
+            6
+          ],
+          "note": "Restore max-heap order by sifting the root downward",
+          "counts": {
+            "comparisons": 27,
+            "writes": 26,
+            "swaps": 13,
+            "max_depth": 4
+          }
+        },
+        {
+          "step": 21,
+          "values": [
+            12,
+            38,
+            24,
+            17,
+            30,
+            9,
+            4,
+            45,
+            52,
+            57,
+            61,
+            73
+          ],
+          "active_indices": [
+            0,
+            7
+          ],
+          "note": "Move current maximum into final position 7",
+          "counts": {
+            "comparisons": 35,
+            "writes": 40,
+            "swaps": 20,
+            "max_depth": 4
+          }
+        },
+        {
+          "step": 28,
+          "values": [
+            24,
+            17,
+            9,
+            4,
+            12,
+            30,
+            38,
+            45,
+            52,
+            57,
+            61,
+            73
+          ],
+          "active_indices": [
+            0,
+            2
+          ],
+          "note": "Restore max-heap order by sifting the root downward",
+          "counts": {
+            "comparisons": 45,
+            "writes": 54,
+            "swaps": 27,
+            "max_depth": 4
+          }
+        },
+        {
+          "step": 35,
+          "values": [
+            4,
+            9,
+            12,
+            17,
+            24,
+            30,
+            38,
+            45,
+            52,
+            57,
+            61,
+            73
+          ],
+          "active_indices": [],
+          "note": "Array sorted",
+          "counts": {
+            "comparisons": 51,
+            "writes": 66,
+            "swaps": 33,
+            "max_depth": 4
+          }
+        }
+      ],
+      "is_sorted": true
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "session_id": "20260317_205936",
+  "signs_modeled": 5,
+  "captures_total": 120,
+  "training_samples": 90,
+  "test_samples": 30,
+  "test_accuracy": 1.0,
+  "live_frames": 12,
+  "low_confidence_frames": 1,
+  "elapsed_ms": 852.8437999775633,
+  "artifacts": {
+    "model_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\42-hand-pose-sign-language-classifier\\data\\outputs\\model_20260317_205936.json",
+    "live_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\42-hand-pose-sign-language-classifier\\data\\outputs\\live_inference_20260317_205936.json",
+    "confusion_matrix_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\42-hand-pose-sign-language-classifier\\data\\outputs\\confusion_matrix_20260317_205936.png",
+    "confidence_timeline_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\42-hand-pose-sign-language-classifier\\data\\outputs\\confidence_timeline_20260317_205936.png",
+    "capture_count": 120
+  },
+  "prediction_previews": [
+    {
+      "frame_id": "live_20260317_205936_001",
+      "expected_label": "A",
+      "predicted_label": "A",
+      "confidence": 0.5804,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "A",
+          "score": 0.5804
+        },
+        {
+          "label": "C",
+          "score": 0.1741
+        },
+        {
+          "label": "B",
+          "score": 0.0873
+        }
+      ]
+    },
+    {
+      "frame_id": "live_20260317_205936_002",
+      "expected_label": "B",
+      "predicted_label": "B",
+      "confidence": 0.6536,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "B",
+          "score": 0.6536
+        },
+        {
+          "label": "C",
+          "score": 0.1397
+        },
+        {
+          "label": "A",
+          "score": 0.0794
+        }
+      ]
+    },
+    {
+      "frame_id": "live_20260317_205936_003",
+      "expected_label": "C",
+      "predicted_label": "C",
+      "confidence": 0.6546,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "C",
+          "score": 0.6546
+        },
+        {
+          "label": "B",
+          "score": 0.1173
+        },
+        {
+          "label": "A",
+          "score": 0.1169
+        }
+      ]
+    },
+    {
+      "frame_id": "live_20260317_205936_004",
+      "expected_label": "L",
+      "predicted_label": "L",
+      "confidence": 0.5828,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "L",
+          "score": 0.5828
+        },
+        {
+          "label": "Y",
+          "score": 0.1133
+        },
+        {
+          "label": "A",
+          "score": 0.1087
+        }
+      ]
+    },
+    {
+      "frame_id": "live_20260317_205936_005",
+      "expected_label": "Y",
+      "predicted_label": "Y",
+      "confidence": 0.7786,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "Y",
+          "score": 0.7786
+        },
+        {
+          "label": "A",
+          "score": 0.06
+        },
+        {
+          "label": "L",
+          "score": 0.0584
+        }
+      ]
+    },
+    {
+      "frame_id": "live_20260317_205936_006",
+      "expected_label": "L",
+      "predicted_label": "L",
+      "confidence": 0.7264,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "L",
+          "score": 0.7264
+        },
+        {
+          "label": "Y",
+          "score": 0.0746
+        },
+        {
+          "label": "A",
+          "score": 0.07
+        }
+      ]
+    },
+    {
+      "frame_id": "live_20260317_205936_007",
+      "expected_label": "C",
+      "predicted_label": "C",
+      "confidence": 0.6349,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "C",
+          "score": 0.6349
+        },
+        {
+          "label": "A",
+          "score": 0.1265
+        },
+        {
+          "label": "B",
+          "score": 0.1216
+        }
+      ]
+    },
+    {
+      "frame_id": "live_20260317_205936_008",
+      "expected_label": "B",
+      "predicted_label": "B",
+      "confidence": 0.7162,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "B",
+          "score": 0.7162
+        },
+        {
+          "label": "C",
+          "score": 0.1127
+        },
+        {
+          "label": "A",
+          "score": 0.0649
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "macro_accuracy": 1.0,
+    "avg_live_confidence": 0.6574,
+    "feature_dimension": 77,
+    "classifier_type": "nearest_centroid",
+    "live_demo_accuracy": 1.0,
+    "low_confidence_rate": 0.0833,
+    "predicted_distribution": {
+      "A": 3,
+      "B": 3,
+      "C": 2,
+      "L": 2,
+      "Y": 2
+    }
+  },
+  "finished_at": "2026-03-17T20:59:37Z"
+}

@@ -1,0 +1,257 @@
+{
+  "session_id": "20260317_210350",
+  "predictions": [
+    {
+      "frame_id": "live_001",
+      "expected_label": "A",
+      "predicted_label": "A",
+      "confidence": 0.5804,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "A",
+          "score": 0.5804
+        },
+        {
+          "label": "C",
+          "score": 0.1741
+        },
+        {
+          "label": "B",
+          "score": 0.0873
+        }
+      ]
+    },
+    {
+      "frame_id": "live_002",
+      "expected_label": "B",
+      "predicted_label": "B",
+      "confidence": 0.6536,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "B",
+          "score": 0.6536
+        },
+        {
+          "label": "C",
+          "score": 0.1397
+        },
+        {
+          "label": "A",
+          "score": 0.0794
+        }
+      ]
+    },
+    {
+      "frame_id": "live_003",
+      "expected_label": "C",
+      "predicted_label": "C",
+      "confidence": 0.6546,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "C",
+          "score": 0.6546
+        },
+        {
+          "label": "B",
+          "score": 0.1173
+        },
+        {
+          "label": "A",
+          "score": 0.1169
+        }
+      ]
+    },
+    {
+      "frame_id": "live_004",
+      "expected_label": "L",
+      "predicted_label": "L",
+      "confidence": 0.5828,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "L",
+          "score": 0.5828
+        },
+        {
+          "label": "Y",
+          "score": 0.1133
+        },
+        {
+          "label": "A",
+          "score": 0.1087
+        }
+      ]
+    },
+    {
+      "frame_id": "live_005",
+      "expected_label": "Y",
+      "predicted_label": "Y",
+      "confidence": 0.7786,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "Y",
+          "score": 0.7786
+        },
+        {
+          "label": "A",
+          "score": 0.06
+        },
+        {
+          "label": "L",
+          "score": 0.0584
+        }
+      ]
+    },
+    {
+      "frame_id": "live_006",
+      "expected_label": "L",
+      "predicted_label": "L",
+      "confidence": 0.7264,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "L",
+          "score": 0.7264
+        },
+        {
+          "label": "Y",
+          "score": 0.0746
+        },
+        {
+          "label": "A",
+          "score": 0.07
+        }
+      ]
+    },
+    {
+      "frame_id": "live_007",
+      "expected_label": "C",
+      "predicted_label": "C",
+      "confidence": 0.6349,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "C",
+          "score": 0.6349
+        },
+        {
+          "label": "A",
+          "score": 0.1265
+        },
+        {
+          "label": "B",
+          "score": 0.1216
+        }
+      ]
+    },
+    {
+      "frame_id": "live_008",
+      "expected_label": "B",
+      "predicted_label": "B",
+      "confidence": 0.7162,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "B",
+          "score": 0.7162
+        },
+        {
+          "label": "C",
+          "score": 0.1127
+        },
+        {
+          "label": "A",
+          "score": 0.0649
+        }
+      ]
+    },
+    {
+      "frame_id": "live_009",
+      "expected_label": "A",
+      "predicted_label": "A",
+      "confidence": 0.6273,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "A",
+          "score": 0.6273
+        },
+        {
+          "label": "C",
+          "score": 0.1466
+        },
+        {
+          "label": "B",
+          "score": 0.0779
+        }
+      ]
+    },
+    {
+      "frame_id": "live_010",
+      "expected_label": "Y",
+      "predicted_label": "Y",
+      "confidence": 0.7924,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "Y",
+          "score": 0.7924
+        },
+        {
+          "label": "A",
+          "score": 0.0562
+        },
+        {
+          "label": "L",
+          "score": 0.055
+        }
+      ]
+    },
+    {
+      "frame_id": "live_011",
+      "expected_label": "A",
+      "predicted_label": "A",
+      "confidence": 0.6449,
+      "is_low_confidence": false,
+      "top_candidates": [
+        {
+          "label": "A",
+          "score": 0.6449
+        },
+        {
+          "label": "C",
+          "score": 0.1394
+        },
+        {
+          "label": "Y",
+          "score": 0.0747
+        }
+      ]
+    },
+    {
+      "frame_id": "live_012",
+      "expected_label": "B",
+      "predicted_label": "B",
+      "confidence": 0.4971,
+      "is_low_confidence": true,
+      "top_candidates": [
+        {
+          "label": "B",
+          "score": 0.4971
+        },
+        {
+          "label": "C",
+          "score": 0.1974
+        },
+        {
+          "label": "A",
+          "score": 0.1163
+        }
+      ]
+    }
+  ]
+}

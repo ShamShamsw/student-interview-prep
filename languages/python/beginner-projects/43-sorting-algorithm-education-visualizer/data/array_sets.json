@@ -1,0 +1,95 @@
+[
+  {
+    "array_id": "array_001",
+    "label": "lesson_random_12",
+    "values": [
+      38,
+      12,
+      57,
+      9,
+      61,
+      24,
+      45,
+      17,
+      73,
+      30,
+      52,
+      4
+    ],
+    "description": "Mixed unsorted values for the main storyboard demo.",
+    "tags": [
+      "demo",
+      "random",
+      "balanced"
+    ]
+  },
+  {
+    "array_id": "array_002",
+    "label": "lesson_nearly_sorted_12",
+    "values": [
+      3,
+      7,
+      11,
+      14,
+      18,
+      22,
+      27,
+      31,
+      35,
+      40,
+      39,
+      44
+    ],
+    "description": "Nearly sorted values to show best-case style behavior.",
+    "tags": [
+      "demo",
+      "nearly_sorted"
+    ]
+  },
+  {
+    "array_id": "array_003",
+    "label": "lesson_reversed_12",
+    "values": [
+      88,
+      79,
+      71,
+      64,
+      57,
+      48,
+      39,
+      28,
+      20,
+      13,
+      6,
+      1
+    ],
+    "description": "Descending values to emphasize difficult ordering patterns.",
+    "tags": [
+      "demo",
+      "reversed"
+    ]
+  },
+  {
+    "array_id": "array_004",
+    "label": "lesson_duplicates_12",
+    "values": [
+      12,
+      7,
+      12,
+      3,
+      9,
+      7,
+      15,
+      3,
+      18,
+      15,
+      6,
+      9
+    ],
+    "description": "Duplicate-heavy values for discussing stability and repeated keys.",
+    "tags": [
+      "demo",
+      "duplicates"
+    ]
+  }
+]
