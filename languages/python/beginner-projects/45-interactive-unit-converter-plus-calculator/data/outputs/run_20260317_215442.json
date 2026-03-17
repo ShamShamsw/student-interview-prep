@@ -1,0 +1,194 @@
+{
+  "session_id": "20260317_215442",
+  "cases_available": 6,
+  "demo_sequence_label": "lesson_everyday_mix",
+  "conversions_run": 6,
+  "expressions_run": 5,
+  "runtime_points": 140,
+  "elapsed_ms": 336.001,
+  "artifacts": {
+    "trace_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\45-interactive-unit-converter-plus-calculator\\data\\outputs\\trace_20260317_215442.json",
+    "benchmark_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\45-interactive-unit-converter-plus-calculator\\data\\outputs\\benchmark_20260317_215442.json",
+    "category_chart_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\45-interactive-unit-converter-plus-calculator\\data\\outputs\\category_runtime_20260317_215442.png",
+    "history_chart_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\45-interactive-unit-converter-plus-calculator\\data\\outputs\\history_trend_20260317_215442.png",
+    "history_file": "C:\\Users\\jhase\\OneDrive\\Documents\\Jacob\\Programing\\student-interview-prep\\languages\\python\\beginner-projects\\45-interactive-unit-converter-plus-calculator\\data\\calculator_history.json"
+  },
+  "conversion_previews": [
+    {
+      "category": "length",
+      "from_unit": "mile",
+      "to_unit": "kilometer",
+      "input_value": 3.0,
+      "output_value": 4.828032,
+      "elapsed_ms": 0.0045
+    },
+    {
+      "category": "temperature",
+      "from_unit": "fahrenheit",
+      "to_unit": "celsius",
+      "input_value": 72.0,
+      "output_value": 22.22222222,
+      "elapsed_ms": 0.0036
+    },
+    {
+      "category": "mass",
+      "from_unit": "pound",
+      "to_unit": "kilogram",
+      "input_value": 180.0,
+      "output_value": 81.6466266,
+      "elapsed_ms": 0.0024
+    },
+    {
+      "category": "volume",
+      "from_unit": "gallon",
+      "to_unit": "liter",
+      "input_value": 2.5,
+      "output_value": 9.46352946,
+      "elapsed_ms": 0.0014
+    },
+    {
+      "category": "speed",
+      "from_unit": "mph",
+      "to_unit": "kph",
+      "input_value": 65.0,
+      "output_value": 104.60735999,
+      "elapsed_ms": 0.0015
+    },
+    {
+      "category": "time",
+      "from_unit": "hour",
+      "to_unit": "minute",
+      "input_value": 2.5,
+      "output_value": 150.0,
+      "elapsed_ms": 0.001
+    }
+  ],
+  "expression_previews": [
+    {
+      "expression": "12 + 4 * 3",
+      "result": 24.0,
+      "elapsed_ms": 0.0862,
+      "valid": true
+    },
+    {
+      "expression": "(18 / 3) + 7.5",
+      "result": 13.5,
+      "elapsed_ms": 0.0349,
+      "valid": true
+    },
+    {
+      "expression": "2 ** 8 - 17",
+      "result": 239.0,
+      "elapsed_ms": 0.0274,
+      "valid": true
+    },
+    {
+      "expression": "((5 + 3) * (9 - 2)) / 4",
+      "result": 14.0,
+      "elapsed_ms": 0.0384,
+      "valid": true
+    },
+    {
+      "expression": "100 / (3 + 2)",
+      "result": 20.0,
+      "elapsed_ms": 0.023,
+      "valid": true
+    }
+  ],
+  "metrics": {
+    "fastest_series": "volume",
+    "fastest_avg_runtime_ms": 0.00056,
+    "avg_expression_result": 62.1,
+    "history_size": 11
+  },
+  "finished_at": "2026-03-17T21:54:42Z",
+  "history_previews": [
+    {
+      "event_type": "conversion",
+      "payload": {
+        "category": "volume",
+        "from_unit": "gallon",
+        "to_unit": "liter",
+        "input_value": 2.5,
+        "output_value": 9.46352946,
+        "elapsed_ms": 0.0014
+      },
+      "created_at": "2026-03-17T21:54:42Z"
+    },
+    {
+      "event_type": "conversion",
+      "payload": {
+        "category": "speed",
+        "from_unit": "mph",
+        "to_unit": "kph",
+        "input_value": 65.0,
+        "output_value": 104.60735999,
+        "elapsed_ms": 0.0015
+      },
+      "created_at": "2026-03-17T21:54:42Z"
+    },
+    {
+      "event_type": "conversion",
+      "payload": {
+        "category": "time",
+        "from_unit": "hour",
+        "to_unit": "minute",
+        "input_value": 2.5,
+        "output_value": 150.0,
+        "elapsed_ms": 0.001
+      },
+      "created_at": "2026-03-17T21:54:42Z"
+    },
+    {
+      "event_type": "expression",
+      "payload": {
+        "expression": "12 + 4 * 3",
+        "result": 24.0,
+        "elapsed_ms": 0.0862,
+        "valid": true
+      },
+      "created_at": "2026-03-17T21:54:42Z"
+    },
+    {
+      "event_type": "expression",
+      "payload": {
+        "expression": "(18 / 3) + 7.5",
+        "result": 13.5,
+        "elapsed_ms": 0.0349,
+        "valid": true
+      },
+      "created_at": "2026-03-17T21:54:42Z"
+    },
+    {
+      "event_type": "expression",
+      "payload": {
+        "expression": "2 ** 8 - 17",
+        "result": 239.0,
+        "elapsed_ms": 0.0274,
+        "valid": true
+      },
+      "created_at": "2026-03-17T21:54:42Z"
+    },
+    {
+      "event_type": "expression",
+      "payload": {
+        "expression": "((5 + 3) * (9 - 2)) / 4",
+        "result": 14.0,
+        "elapsed_ms": 0.0384,
+        "valid": true
+      },
+      "created_at": "2026-03-17T21:54:42Z"
+    },
+    {
+      "event_type": "expression",
+      "payload": {
+        "expression": "100 / (3 + 2)",
+        "result": 20.0,
+        "elapsed_ms": 0.023,
+        "valid": true
+      },
+      "created_at": "2026-03-17T21:54:42Z"
+    }
+  ],
+  "max_preview_rows": 8
+}

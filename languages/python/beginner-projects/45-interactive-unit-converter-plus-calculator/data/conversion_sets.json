@@ -1,0 +1,75 @@
+[
+  {
+    "case_id": "case_001",
+    "label": "lesson_everyday_mix",
+    "category": "length",
+    "from_unit": "mile",
+    "to_unit": "kilometer",
+    "value": 3.0,
+    "description": "Convert running distance to metric.",
+    "tags": [
+      "distance",
+      "fitness"
+    ]
+  },
+  {
+    "case_id": "case_002",
+    "label": "lesson_everyday_mix",
+    "category": "temperature",
+    "from_unit": "fahrenheit",
+    "to_unit": "celsius",
+    "value": 72.0,
+    "description": "Convert room temperature.",
+    "tags": [
+      "weather"
+    ]
+  },
+  {
+    "case_id": "case_003",
+    "label": "lesson_everyday_mix",
+    "category": "mass",
+    "from_unit": "pound",
+    "to_unit": "kilogram",
+    "value": 180.0,
+    "description": "Convert body weight units.",
+    "tags": [
+      "health"
+    ]
+  },
+  {
+    "case_id": "case_004",
+    "label": "lesson_everyday_mix",
+    "category": "volume",
+    "from_unit": "gallon",
+    "to_unit": "liter",
+    "value": 2.5,
+    "description": "Convert fuel volume.",
+    "tags": [
+      "travel"
+    ]
+  },
+  {
+    "case_id": "case_005",
+    "label": "lesson_everyday_mix",
+    "category": "speed",
+    "from_unit": "mph",
+    "to_unit": "kph",
+    "value": 65.0,
+    "description": "Convert speed limit signs.",
+    "tags": [
+      "driving"
+    ]
+  },
+  {
+    "case_id": "case_006",
+    "label": "lesson_everyday_mix",
+    "category": "time",
+    "from_unit": "hour",
+    "to_unit": "minute",
+    "value": 2.5,
+    "description": "Convert meeting length units.",
+    "tags": [
+      "scheduling"
+    ]
+  }
+]
