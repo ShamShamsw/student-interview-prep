@@ -1,212 +1,179 @@
 # Student Interview Prep
 
-A comprehensive career guidance and technical interview preparation resource — 35+ coding problems across Python and JavaScript, practical projects, career path guidance, and structured learning paths for 10+ tech career tracks.
+A career + interview prep repository with coding practice, guided projects, and study resources for software, data, and analytics roles.
 
-## Quick Start
+## Start in 5 Minutes
 
 ```powershell
 git clone https://github.com/ShamShamsw/student-interview-prep.git
 cd student-interview-prep
 .\setup.ps1
-```
-
-Run your first test:
-
-```powershell
 pytest languages/python/problems/tests/test_core_algorithms.py
 ```
 
-See the [Quick Start Guide](docs/QUICKSTART.md) for manual setup, Docker, and troubleshooting.
+Need manual setup or Docker? See [Quick Start Guide](docs/QUICKSTART.md).
 
 ---
 
-## What's Inside
+## Quick Navigation
 
-### Career Guidance
+Use this table to jump directly to what you need.
 
-Start here if you're unsure which tech career to pursue:
+| I want to... | Go here |
+|---|---|
+| Pick a career direction | [Career Paths Guide](learn/guides/CAREER_PATHS.md) |
+| Start as a complete beginner | [Beginner Start Here](learn/guides/BEGINNER_START_HERE.md) |
+| Practice interview coding problems | [Python Problems](languages/python/problems/) / [JavaScript Track](languages/javascript/README.md) |
+| Follow a structured weekly plan | [Learning Path (8/12 week)](learn/paths/LEARNING_PATH.md) |
+| Build projects (beginner -> capstone) | [Python Projects Hub](languages/python/README.md) |
+| Prepare for mock interviews | [Mock Interview Guide](learn/guides/MOCK_INTERVIEW_GUIDE.md) |
+| Learn SQL interview patterns | [SQL Track](languages/sql/README.md) |
+| Review all learning resources | [Learning Resources Index](learn/README.md) |
 
-- **[Career Paths Guide](learn/guides/CAREER_PATHS.md)** — comprehensive overview of 10+ tech careers with day-to-day work, skills needed, salary ranges, and how to get started
-- **[Data Science Guide](learn/guides/DATA_SCIENCE_GUIDE.md)** — deep dive into the data science career track with a quick-start path and interview-readiness checklist
-- **[IDE Setup Guide](learn/guides/IDE_SETUP_GUIDE.md)** — setting up your development environment
+---
+
+## Recommended Paths by Skill and Goal
+
+### 1) New to Coding (Entry Level)
+
+Start here if you are early in your coding journey.
+
+1. [Beginner Start Here](learn/guides/BEGINNER_START_HERE.md)
+2. [Python Track Overview](languages/python/README.md)
+3. Beginner projects in order:
+	- [01 Greeting Generator](languages/python/beginner-projects/01-greeting-generator/)
+	- [02 Quiz Game](languages/python/beginner-projects/02-quiz-game/)
+	- [03 Contact Book](languages/python/beginner-projects/03-contact-book/)
+	- [04 Expense Tracker](languages/python/beginner-projects/04-expense-tracker/)
+4. Easy coding problems: [languages/python/problems/](languages/python/problems/)
+5. Weekly check-in: [Learning Path Checklist](learn/paths/LEARNING_PATH_CHECKLIST.md)
+
+### 2) Building Core Problem-Solving Skills
+
+Best for learners who know basic syntax and want stronger algorithm patterns.
+
+1. [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md)
+2. Solve problems by topic in [languages/python/problems/](languages/python/problems/)
+3. Build mini-projects (1-2 hours each):
+	- [01 LRU Cache](languages/python/mini-projects/01-lru-cache/)
+	- [03 Rate Limiter](languages/python/mini-projects/03-rate-limiter/)
+	- [04 Stack Calculator](languages/python/mini-projects/04-stack-calculator/)
+4. Track progress with [scripts/progress_tracker.py](scripts/progress_tracker.py)
+
+### 3) Interview Preparation (Job Ready)
+
+Use this track if interviews are your primary goal.
+
+1. [Learning Path (8-week)](learn/paths/LEARNING_PATH.md)
+2. Complete all core problems in [languages/python/problems/](languages/python/problems/)
+3. Build interview-focused projects:
+	- [Interview Patterns API](languages/python/projects/interview-patterns-api/)
+	- [Interview Prep Capstone](languages/python/projects/interview-prep-capstone/)
+4. Practice with [Mock Interview Guide](learn/guides/MOCK_INTERVIEW_GUIDE.md)
+5. Add [System Design Basics](learn/guides/SYSTEM_DESIGN_BASICS.md)
+
+### 4) Data / Analytics Focus
+
+Choose this if you are targeting data analyst, data science, or data engineering roles.
+
+1. [Data Science Guide](learn/guides/DATA_SCIENCE_GUIDE.md)
+2. [SQL Track](languages/sql/README.md) + SQL problems in [languages/sql/](languages/sql/)
+3. Data-focused mini-projects:
+	- [06 Excel Data Analysis](languages/python/mini-projects/06-excel-data-analysis/)
+	- [07 Exploratory Data Analysis](languages/python/mini-projects/07-exploratory-data-analysis/)
+	- [08 SQL Analytics](languages/python/mini-projects/08-sql-analytics/)
+4. Capstone options:
+	- [Data Science Capstone](languages/python/projects/data-science-capstone/)
+	- [Study Session Tracker](languages/python/projects/study-session-tracker/)
+
+---
+
+## What's Included
 
 ### Language Tracks
 
-Use the language-specific guides for setup, workflows, and contribution standards:
-
-- **[Languages Overview](languages/README.md)** — entry point for all language tracks
-- **[Python Track](languages/python/README.md)** — primary track: problems, beginner projects, mini-projects, and capstones
-- **[JavaScript Track](languages/javascript/README.md)** — interview problems and test-driven solution workflow
-- **[SQL Track](languages/sql/README.md)** — SQL interview practice from basic queries to window functions
+- [Languages Overview](languages/README.md)
+- [Python Track](languages/python/README.md)
+- [JavaScript Track](languages/javascript/README.md)
+- [SQL Track](languages/sql/README.md)
 
 ### Coding Problems (35+)
 
-Problems available in both Python ([`languages/python/problems/`](languages/python/problems/)) and JavaScript ([`languages/javascript/`](languages/javascript/)) with matching solutions and tests.
+Available in Python and JavaScript with matching tests and reference solutions.
 
 | Topic | Problems | Difficulty |
-|-------|----------|------------|
-| Arrays & Hashing | 01–10 | Easy–Medium |
-| Sliding Window | 11–14 | Medium–Hard |
-| Two Pointers | 15–18 | Easy–Medium |
-| Binary Search | 19–23 | Medium |
-| Intervals | 24–25 | Medium |
-| Linked Lists | 26–28 | Easy–Medium |
-| Trees | 29–31 | Medium |
-| Graphs | 32–33 | Medium |
-| Heap / DP | 34–35 | Medium |
+|---|---|---|
+| Arrays & Hashing | 01-10 | Easy-Medium |
+| Sliding Window | 11-14 | Medium-Hard |
+| Two Pointers | 15-18 | Easy-Medium |
+| Binary Search | 19-23 | Medium |
+| Intervals | 24-25 | Medium |
+| Linked Lists | 26-28 | Easy-Medium |
+| Trees | 29-31 | Medium |
+| Graphs | 32-33 | Medium |
+| Heap / DP | 34-35 | Medium |
 
-### Projects
+### Project Types
 
-Four hands-on projects in [`languages/python/projects/`](languages/python/projects/), each with starter code, a final solution, and a walkthrough notebook:
-
-- **Sample Todo App** — best practices demo
-- **Study Session Tracker** — time management tool
-- **Interview Patterns API** — REST API with algorithm patterns
-- **Interview Prep Capstone** — full-stack interview tracking app
-
-### Beginner Projects (30 min – 4 hours each)
-
-Plan-first, comment-heavy projects in [`languages/python/beginner-projects/`](languages/python/beginner-projects/) for those who know basic Python but haven't built anything from scratch yet:
-
-- **Greeting Generator** — string formatting, conditionals, planning comments (30–45 min)
-- **Quiz Game** — lists, dicts, functions, docstrings (45–75 min)
-- **Contact Book** — CRUD, JSON persistence, architecture comments (1–1.5 hr)
-- **Expense Tracker** — aggregation, formatted output, algorithm comments (1–2 hr)
-- **Student Grade Report** — CSV processing, full documentation (1.5–2 hr)
-- **Library Management System** — multi-entity data, multi-file architecture (2.5–4 hr)
-
-### Mini-Projects (1–2 hours each)
-
-Quick-build exercises in [`languages/python/mini-projects/`](languages/python/mini-projects/) that bridge the gap between individual problems and full projects:
-
-- **LRU Cache** — hash map + linked list (classic interview design)
-- **Markdown Link Checker** — file I/O, regex, HTTP requests
-- **Rate Limiter** — sliding window, decorators
-- **Stack Calculator** — expression parsing, stack operations
-- **Word Frequency Counter** — hash maps, sorting, CLI
-- **Excel Data Analysis** — pandas, data cleaning, business insights
-- **Exploratory Data Analysis** — statistical analysis, visualization
-- **SQL Analytics** — database queries, business reporting
-
-### SQL Problems
-
-14 SQL interview problems in [`languages/sql/`](languages/sql/) covering queries from basic SELECTs to window functions and self-joins.
+- Beginner projects: [languages/python/beginner-projects/](languages/python/beginner-projects/)
+- Mini-projects: [languages/python/mini-projects/](languages/python/mini-projects/)
+- Full projects and capstones: [languages/python/projects/](languages/python/projects/)
 
 ### Learning Resources
 
-Guides, cheatsheets, and study plans in [`learn/`](learn/):
-
-**Study Plans & Guidance:**
-- [Learning Resources Index](learn/README.md) — full guide, path, and cheatsheet index
-- [Career Paths Guide](learn/guides/CAREER_PATHS.md) — choose your tech career track with confidence
-- [Beginner Start Here](learn/guides/BEGINNER_START_HERE.md) — 2-week daily plan for newcomers
-- [Learning Path](learn/paths/LEARNING_PATH.md) — 8-week and 12-week structured tracks
-- [Mock Interview Guide](learn/guides/MOCK_INTERVIEW_GUIDE.md) — practice like the real thing
-- [System Design Basics](learn/guides/SYSTEM_DESIGN_BASICS.md) — architecture fundamentals
-
-**Cheatsheets:**
-- [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md) — complexity, pattern quick refs, and notecard summaries
-- [Data Science Cheatsheet](learn/cheatsheets/DATA_SCIENCE_CHEATSHEET.md) — pandas, NumPy, ML quick refs, and notecard summaries
-- [SQL Analytics Cheatsheet](learn/cheatsheets/SQL_ANALYTICS_CHEATSHEET.md) — window functions, CTEs, optimization quick refs, and notecard summaries
-- [Excel Formulas Cheatsheet](learn/cheatsheets/EXCEL_FORMULAS_CHEATSHEET.md) — formula quick refs and notecard summaries for analysis workflows
-
-All cheatsheets now include a standardized `Notecard Summary` format (`Card`, `Prompt`, `Answer`) for fast spaced-repetition review.
-
-**Interview Questions by Career Track:**
-- [Behavioral Interview Questions](learn/interview-questions/01-behavioral.md) — STAR method, culture fit
-- [Frontend Questions](learn/interview-questions/03-frontend.md) — React, JavaScript, CSS
-- [Backend Questions](learn/interview-questions/04-backend.md) — APIs, databases, system design
-- [Fullstack Questions](learn/interview-questions/05-fullstack.md) — end-to-end development
-- [Data Science Questions](learn/interview-questions/08-data-science.md) — statistics, ML, Python
-- [Data Engineering Questions](learn/interview-questions/09-data-engineering.md) — pipelines, SQL, cloud
-- [Complete List](learn/interview-questions/README.md) — all categories
-
-**Reference:**
-- [Glossary](learn/resources/GLOSSARY.md) — technical terms explained
-- [External Resources](learn/resources/EXTERNAL_RESOURCES.md) — curated learning links
+- [Learning Resources Index](learn/README.md)
+- [Interview Questions by Track](learn/interview-questions/README.md)
+- [Cheatsheets](learn/cheatsheets/)
+- [Glossary](learn/resources/GLOSSARY.md)
+- [External Resources](learn/resources/EXTERNAL_RESOURCES.md)
 
 ---
 
-## Tools
+## Useful Scripts
 
-The `scripts/` directory includes utilities to support your practice:
-
-| Command | What it does |
-|---------|--------------|
+| Command | Purpose |
+|---|---|
 | `python scripts/progress_tracker.py` | Visual progress bars, streaks, achievements |
-| `python scripts/daily_challenge.py` | Spaced-repetition daily problem selector |
-| `python scripts/hints.py 01-two-sum` | Progressive 5-level hint system |
-| `python scripts/achievements.py` | Unlock badges as you progress |
-| `python scripts/analyze_code.py <file>` | Code quality & complexity analysis |
+| `python scripts/daily_challenge.py` | Daily spaced-repetition problem selector |
+| `python scripts/hints.py 01-two-sum` | Progressive 5-level hints |
+| `python scripts/achievements.py` | Badge and milestone tracking |
+| `python scripts/analyze_code.py <file>` | Code quality and complexity analysis |
 | `python scripts/visualize.py two-sum --array "[2,7,11,15]" --target 9` | Terminal algorithm visualization |
-| Open `scripts/visualizer.html` in a browser | Interactive visual algorithm animations |
+| Open `scripts/visualizer.html` in a browser | Interactive algorithm visualizations |
 
 ---
 
-## Learning Paths
+## Development and Quality
 
-### New to Tech (12 weeks)
-1. **[Career Paths Guide](learn/guides/CAREER_PATHS.md)** — decide which career track interests you
-2. [Beginner Start Here](learn/guides/BEGINNER_START_HERE.md) — environment setup + Python basics
-3. [Learning Path](learn/paths/LEARNING_PATH.md) — 12-week track
-4. Problems 01–15 (Easy), then the Sample Todo App project
-5. Weekly self-assessment with [Confidence Check](learn/checklists/WEEKLY_CONFIDENCE_CHECK.md)
-
-### Interview Ready (8 weeks)
-1. **[Career Paths Guide](learn/guides/CAREER_PATHS.md)** — salary negotiation & scam awareness
-2. [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md) — review patterns
-3. [Learning Path](learn/paths/LEARNING_PATH.md) — 8-week fast track
-4. All 35 problems + Interview Patterns API project
-5. [Mock Interviews](learn/guides/MOCK_INTERVIEW_GUIDE.md) + [System Design](learn/guides/SYSTEM_DESIGN_BASICS.md)
-
-### Self-Paced
-Browse [problems by topic](languages/python/problems/), track progress with the [checklist](learn/paths/LEARNING_PATH_CHECKLIST.md), build projects as you go.
-
----
-
-## Development
-
-**Requirements:** Python 3.10+, Git. Optional: Docker.
+Requirements: Python 3.10+, Git (Docker optional).
 
 ```powershell
 pytest                              # Run all tests
 pytest --cov=./ --cov-report=html   # Coverage report
 ruff check .                        # Lint
 black .                             # Format
-mypy --ignore-missing-imports scripts .github/scripts  # Type checks for automation scripts
-pytest --no-cov tests/scripts/      # Script utility tests
-python .github/scripts/check_docs_consistency.py  # Docs links + repository structure checks
-python scripts/verify_setup.py      # Verify environment
+mypy --ignore-missing-imports scripts .github/scripts
+pytest --no-cov tests/scripts/
+python .github/scripts/check_docs_consistency.py
+python scripts/verify_setup.py
 ```
 
-Pre-commit hooks auto-format and lint on every commit. See [Commands Reference](docs/COMMANDS_REFERENCE.md) for the full list and [Infrastructure Setup](docs/INFRASTRUCTURE_SETUP.md) for Docker and CI details.
+References:
 
-### CI Quality Gates
-
-The CI pipeline runs multiple quality gates on pull requests and pushes:
-
-- **Docs checks**: validates internal markdown links and repository structure references
-- **Linting**: Black, Flake8, Ruff
-- **Type checks**: mypy on `scripts/` and `.github/scripts/`
-- **Tests**: Python problem tests, script utility tests, JavaScript tests, API project tests, capstone tests
+- [Commands Reference](docs/COMMANDS_REFERENCE.md)
+- [Infrastructure Setup](docs/INFRASTRUCTURE_SETUP.md)
+- [Repository Structure](docs/REPOSITORY_STRUCTURE.md)
 
 ---
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards.
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [CONTRIBUTING_CHECKLIST.md](CONTRIBUTING_CHECKLIST.md)
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
 ---
 
-## Further Reading
-
-- [Languages Overview](languages/README.md) — Python, JavaScript, and SQL track guides
-- [Quick Start Guide](docs/QUICKSTART.md) — setup, common tasks, troubleshooting
-- [Commands Reference](docs/COMMANDS_REFERENCE.md) — every command in one place
-- [Repository Structure](docs/REPOSITORY_STRUCTURE.md) — full directory map
-- [FAQ](learn/guides/FAQ.md) — common questions
-- [External Resources](learn/resources/EXTERNAL_RESOURCES.md) — curated links
-
 ## License
 
-MIT — see [LICENSE](LICENSE). Copyright (c) 2026 ShamShamsw / Jacob Haseman.
+MIT - see [LICENSE](LICENSE). Copyright (c) 2026 ShamShamsw / Jacob Haseman.
