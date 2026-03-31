@@ -71,6 +71,7 @@ Before you dive into problems, read [CAREER_PATHS.md](CAREER_PATHS.md) for a pla
 ## Quick companion resources
 
 - [Python Cheatsheet](../cheatsheets/PYTHON_CHEATSHEET.md) for syntax and pattern quick references.
+- [Open Source Projects Guide](OPEN_SOURCE_PROJECTS_GUIDE.md) to understand how public projects work, how contributors join, and why collaboration matters.
 - [FAQ](FAQ.md) for common setup and workflow issues.
 - [IDE Setup Guide](IDE_SETUP_GUIDE.md) to configure formatting and test discovery.
 

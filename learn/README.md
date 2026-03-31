@@ -28,6 +28,7 @@ Step-by-step instructions and frameworks for interview preparation.
 | [Beginner Start Here](guides/BEGINNER_START_HERE.md) | 2-week daily plan for newcomers — setup, first problems, building habits | 2 weeks |
 | [Career Paths](guides/CAREER_PATHS.md) | Frontend, backend, fullstack, data science, ML, data engineering, DevOps, QA, cybersecurity | 1-2 hours |
 | [Mock Interview Guide](guides/MOCK_INTERVIEW_GUIDE.md) | How to run practice interviews solo, with peers, or with a mentor | 30 min |
+| [Open Source Projects Guide](guides/OPEN_SOURCE_PROJECTS_GUIDE.md) | What open source projects are, why they matter, how to plan one, and how to find collaborators | 25-35 min |
 | [System Design Basics](guides/SYSTEM_DESIGN_BASICS.md) | Architecture fundamentals — load balancers, caching, databases, common patterns | 2-3 hours |
 | [Data Science Guide](guides/DATA_SCIENCE_GUIDE.md) | Statistics, ML theory, feature engineering, model evaluation, common mistakes, plus a quick-start and interview-readiness checklist | 3-4 hours |
 | [IDE Setup Guide](guides/IDE_SETUP_GUIDE.md) | Configure VS Code, PyCharm, and other editors for this repo | 30 min |
@@ -100,6 +101,7 @@ Terminology and curated external links.
 | Prepare for next week | Learning Path + Weekly Checklist | 30-60 min |
 | Practice interview answers | Interview Questions + mock guide | 1-2 hours |
 | Build a foundation | Beginner Start Here | 2 weeks |
+| Learn how public projects work | Open Source Projects Guide | 25-35 min |
 | Decide your career path | Career Paths | 1-2 hours |
 | Learn system design | System Design Basics | 2-3 hours |
 | Deep dive into data science | Data Science Guide | 3-4 hours |

@@ -8,20 +8,24 @@ Principles
 - Use templates to keep a consistent contributor experience.
 
 License expectations
-- Code (scripts, runnable code, helper libraries) in the repository: MIT License (see LICENSE).
+- Code (scripts, runnable code, helper libraries) in the repository: Student Interview Prep Source-Available Non-Commercial Attribution License 1.0 (see LICENSE).
 - Content (problem statements, solutions, project drafts, walkthroughs): CC BY‑NC‑SA 4.0 (see CONTENT_LICENSE.md).
-- By submitting a PR, you agree to license your contribution under the repository licenses above.
+- By submitting a PR, you agree to license your contribution under the repository licenses above and grant the copyright holder(s) the right to relicense your contribution for future versions of the repository.
 - Add a one-line header in new files if you want to indicate license explicitly (example below).
 
 Recommended license header examples
 - For code files:
   // Copyright (c) 2026 ShamShamsw
-  // Licensed under the MIT License. See LICENSE.
+  // Licensed under the Student Interview Prep Source-Available Non-Commercial Attribution License 1.0. See LICENSE.
 - For content files (Markdown):
   <!--
   Copyright (c) 2026 <Your Name>
   This content is licensed under CC BY‑NC‑SA 4.0. See CONTENT_LICENSE.md.
   -->
+
+License note
+- The repository source code is source-available, not OSI open source, because commercial sale and other commercial use require prior written permission.
+- Future versions of the repository may be released under different license terms at the sole discretion of the copyright holder(s). Already released versions remain governed by the license that applied when they were released.
 
 ## Why Open Source Matters
 

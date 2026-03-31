@@ -102,7 +102,8 @@ student-interview-prep/
 ├── CONTRIBUTING.md                    # How to contribute
 ├── CODE_OF_CONDUCT.md                 # Community standards
 ├── CHANGELOG.md                       # Version history
-├── LICENSE                            # MIT License
+├── LICENSE                            # Source-available code license
+├── CONTENT_LICENSE.md                 # Content/documentation license
 ├── setup.ps1                          # Automated setup
 ├── Makefile                           # Common dev commands
 ├── pytest.ini                         # Test configuration

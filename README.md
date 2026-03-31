@@ -23,6 +23,7 @@ Use this table to jump directly to what you need.
 |---|---|
 | Pick a career direction | [Career Paths Guide](learn/guides/CAREER_PATHS.md) |
 | Start as a complete beginner | [Beginner Start Here](learn/guides/BEGINNER_START_HERE.md) |
+| Learn how open source projects work | [Open Source Projects Guide](learn/guides/OPEN_SOURCE_PROJECTS_GUIDE.md) |
 | Practice interview coding problems | [Python Problems](languages/python/problems/) / [JavaScript Track](languages/javascript/README.md) |
 | Follow a structured weekly plan | [Learning Path (8/12 week)](learn/paths/LEARNING_PATH.md) |
 | Build projects (beginner -> capstone) | [Python Projects Hub](languages/python/README.md) |
@@ -122,10 +123,19 @@ Available in Python and JavaScript with matching tests and reference solutions.
 ### Learning Resources
 
 - [Learning Resources Index](learn/README.md)
+- [Open Source Projects Guide](learn/guides/OPEN_SOURCE_PROJECTS_GUIDE.md)
 - [Interview Questions by Track](learn/interview-questions/README.md)
 - [Cheatsheets](learn/cheatsheets/)
 - [Glossary](learn/resources/GLOSSARY.md)
 - [External Resources](learn/resources/EXTERNAL_RESOURCES.md)
+
+### Open Source and Portfolio Building
+
+Open source work matters because it shows more than finished code. A good public project demonstrates how you structure work, explain decisions, write tests, document setup, and respond to feedback.
+
+For learners and job seekers, that makes open source one of the clearest portfolio signals you can produce. Even a small project can be valuable if it is well-scoped, easy to run, and maintained with clear docs and contributor expectations.
+
+If you want to learn how to plan an open source project, find collaborators, and make your work more contribution-friendly, start with the [Open Source Projects Guide](learn/guides/OPEN_SOURCE_PROJECTS_GUIDE.md).
 
 ---
 
@@ -176,4 +186,8 @@ References:
 
 ## License
 
-MIT - see [LICENSE](LICENSE). Copyright (c) 2026 ShamShamsw / Jacob Haseman.
+Source code in this repository is licensed under the Student Interview Prep Source-Available Non-Commercial Attribution License 1.0. See [LICENSE](LICENSE).
+
+Non-code content such as guides, walkthroughs, and written learning materials is licensed under CC BY-NC-SA 4.0. See [CONTENT_LICENSE.md](CONTENT_LICENSE.md).
+
+Future versions of the repository may be released under different license terms at the sole discretion of the copyright holder(s). Versions already released remain governed by the license that applied when those versions were made available.

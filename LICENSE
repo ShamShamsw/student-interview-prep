@@ -1,21 +1,80 @@
-MIT License
+Student Interview Prep Source-Available Non-Commercial Attribution License 1.0
 
 Copyright (c) 2026 ShamShamsw / Jacob Haseman
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license applies to the software code in this repository, including scripts,
+applications, libraries, tests, automation, and other runnable code, unless a
+different license notice is included in a specific file or directory.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Permission Grant
 
-THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+Subject to the terms of this license, you are permitted to:
+
+- use, copy, run, and modify the Software for personal, educational, research,
+	and other non-commercial purposes;
+- share the Software, with or without modifications, for non-commercial
+	purposes; and
+- create original works that build on the Software for non-commercial purposes.
+
+2. Attribution Requirement
+
+If you share the Software or any substantial portion of it, whether modified or
+unmodified, you must:
+
+- retain this license text and all existing copyright notices;
+- provide clear attribution to the original copyright holders; and
+- state whether you changed the Software.
+
+3. Non-Commercial Restriction
+
+You may not, without prior written permission from the copyright holder(s):
+
+- sell the Software or copies of it;
+- sublicense the Software for a fee;
+- use the Software as part of a paid product, paid service, or commercial
+	offering; or
+- use the Software in a way primarily intended for commercial advantage or
+	private monetary compensation.
+
+4. No Trademark or Endorsement Rights
+
+This license does not grant any right to use the names, branding, logos, or
+trademarks of the copyright holder(s), except as reasonably necessary for
+accurate attribution.
+
+5. Future Versions and License Changes
+
+The copyright holder(s) may release future versions of this repository, or any
+part of it, under different license terms at their sole discretion.
+
+Any copy, fork, release, or version already received under this license remains
+governed by the license terms that applied at the time that version was made
+available.
+
+6. Contributions
+
+Unless explicitly agreed otherwise in writing, any contribution submitted to
+this repository is provided under the repository's applicable license terms at
+the time of submission, and the contributor grants the copyright holder(s) the
+right to use, distribute, modify, and relicense that contribution as part of
+this repository or future versions of it.
+
+7. Termination
+
+Your rights under this license terminate automatically if you violate its
+terms. If you stop the violation, destroy or cease using infringing copies, and
+obtain written permission from the copyright holder(s), your rights may be
+reinstated.
+
+8. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+9. Limitation of Liability
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER(S) OR CONTRIBUTORS BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.

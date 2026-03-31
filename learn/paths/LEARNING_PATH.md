@@ -7,6 +7,7 @@ Companion tracker: [LEARNING_PATH_CHECKLIST.md](../paths/LEARNING_PATH_CHECKLIST
 
 Beginner resources:
 - [BEGINNER_START_HERE.md](../guides/BEGINNER_START_HERE.md)
+- [OPEN_SOURCE_PROJECTS_GUIDE.md](../guides/OPEN_SOURCE_PROJECTS_GUIDE.md)
 - [WEEKLY_CONFIDENCE_CHECK.md](../checklists/WEEKLY_CONFIDENCE_CHECK.md)
 - [GLOSSARY.md](../resources/GLOSSARY.md)
 - [EXTERNAL_RESOURCES.md](../resources/EXTERNAL_RESOURCES.md)
@@ -51,10 +52,12 @@ Problems:
 Project milestone:
 - Finish `sample-to-do-app/starter/app.py`.
 - Compare against final implementation.
+- Read `OPEN_SOURCE_PROJECTS_GUIDE.md` and write down one project idea, one target audience, and one first contribution-friendly task.
 
 Checkpoint:
 - You can choose the right sliding-window template quickly.
 - Starter TODO app is complete.
+- You can explain what makes a project contributor-friendly.
 
 ### Week 3 — Intervals and binary search patterns
 
@@ -154,6 +157,7 @@ This is the same progression with more spacing, review, and recovery room.
 ### Weeks 3-4
 - Sliding window + two pointers + binary search: problems 11-22
 - Complete `study-session-tracker` starter
+- Read `OPEN_SOURCE_PROJECTS_GUIDE.md` and outline one small public project or contribution idea
 
 ### Weeks 5-6
 - Design/data structures/intervals: problems 23-35
@@ -178,6 +182,7 @@ This is the same progression with more spacing, review, and recovery room.
 - Completed problems:
 - Problems I could not solve without hints:
 - Project milestone completed:
+- Open source note or idea from this week:
 - Tests run and results:
 - Biggest blocker:
 - What changed in my process this week:
