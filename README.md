@@ -27,14 +27,24 @@ See the [Quick Start Guide](docs/QUICKSTART.md) for manual setup, Docker, and tr
 Start here if you're unsure which tech career to pursue:
 
 - **[Career Paths Guide](learn/guides/CAREER_PATHS.md)** — comprehensive overview of 10+ tech careers with day-to-day work, skills needed, salary ranges, and how to get started
-- **[Data Science Guide](learn/guides/DATA_SCIENCE_GUIDE.md)** — deep dive into the data science career track
+- **[Data Science Guide](learn/guides/DATA_SCIENCE_GUIDE.md)** — deep dive into the data science career track with a quick-start path and interview-readiness checklist
 - **[IDE Setup Guide](learn/guides/IDE_SETUP_GUIDE.md)** — setting up your development environment
+
+### Language Tracks
+
+Use the language-specific guides for setup, workflows, and contribution standards:
+
+- **[Languages Overview](languages/README.md)** — entry point for all language tracks
+- **[Python Track](languages/python/README.md)** — primary track: problems, beginner projects, mini-projects, and capstones
+- **[JavaScript Track](languages/javascript/README.md)** — interview problems and test-driven solution workflow
+- **[SQL Track](languages/sql/README.md)** — SQL interview practice from basic queries to window functions
 
 ### Coding Problems (35+)
 
 Problems available in both Python ([`languages/python/problems/`](languages/python/problems/)) and JavaScript ([`languages/javascript/`](languages/javascript/)) with matching solutions and tests.
 
 | Topic | Problems | Difficulty |
+|-------|----------|------------|
 | Arrays & Hashing | 01–10 | Easy–Medium |
 | Sliding Window | 11–14 | Medium–Hard |
 | Two Pointers | 15–18 | Easy–Medium |
@@ -80,13 +90,14 @@ Quick-build exercises in [`languages/python/mini-projects/`](languages/python/mi
 
 ### SQL Problems
 
-10 SQL interview problems in [`languages/sql/`](languages/sql/) covering queries from basic SELECTs to window functions and self-joins.
+14 SQL interview problems in [`languages/sql/`](languages/sql/) covering queries from basic SELECTs to window functions and self-joins.
 
 ### Learning Resources
 
 Guides, cheatsheets, and study plans in [`learn/`](learn/):
 
 **Study Plans & Guidance:**
+- [Learning Resources Index](learn/README.md) — full guide, path, and cheatsheet index
 - [Career Paths Guide](learn/guides/CAREER_PATHS.md) — choose your tech career track with confidence
 - [Beginner Start Here](learn/guides/BEGINNER_START_HERE.md) — 2-week daily plan for newcomers
 - [Learning Path](learn/paths/LEARNING_PATH.md) — 8-week and 12-week structured tracks
@@ -94,10 +105,12 @@ Guides, cheatsheets, and study plans in [`learn/`](learn/):
 - [System Design Basics](learn/guides/SYSTEM_DESIGN_BASICS.md) — architecture fundamentals
 
 **Cheatsheets:**
-- [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md) — complexity & pattern reference
-- [Data Science Cheatsheet](learn/cheatsheets/DATA_SCIENCE_CHEATSHEET.md) — pandas, NumPy, machine learning
-- [SQL Analytics Cheatsheet](learn/cheatsheets/SQL_ANALYTICS_CHEATSHEET.md) — window functions, CTEs, optimization
-- [Excel Formulas Cheatsheet](learn/cheatsheets/EXCEL_FORMULAS_CHEATSHEET.md) — VLOOKUP, pivot tables, data analysis
+- [Python Cheatsheet](learn/cheatsheets/PYTHON_CHEATSHEET.md) — complexity, pattern quick refs, and notecard summaries
+- [Data Science Cheatsheet](learn/cheatsheets/DATA_SCIENCE_CHEATSHEET.md) — pandas, NumPy, ML quick refs, and notecard summaries
+- [SQL Analytics Cheatsheet](learn/cheatsheets/SQL_ANALYTICS_CHEATSHEET.md) — window functions, CTEs, optimization quick refs, and notecard summaries
+- [Excel Formulas Cheatsheet](learn/cheatsheets/EXCEL_FORMULAS_CHEATSHEET.md) — formula quick refs and notecard summaries for analysis workflows
+
+All cheatsheets now include a standardized `Notecard Summary` format (`Card`, `Prompt`, `Answer`) for fast spaced-repetition review.
 
 **Interview Questions by Career Track:**
 - [Behavioral Interview Questions](learn/interview-questions/01-behavioral.md) — STAR method, culture fit
@@ -175,6 +188,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines and [CODE_OF_CONDUCT.md](C
 
 ## Further Reading
 
+- [Languages Overview](languages/README.md) — Python, JavaScript, and SQL track guides
 - [Quick Start Guide](docs/QUICKSTART.md) — setup, common tasks, troubleshooting
 - [Commands Reference](docs/COMMANDS_REFERENCE.md) — every command in one place
 - [Repository Structure](docs/REPOSITORY_STRUCTURE.md) — full directory map

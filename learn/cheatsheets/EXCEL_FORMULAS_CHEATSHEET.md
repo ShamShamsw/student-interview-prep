@@ -18,6 +18,8 @@
 10. [Financial Functions](#financial-functions)
 11. [Common Patterns & Combos](#common-patterns--combos)
 12. [Power Query M Language Basics](#power-query-m-language-basics)
+13. [Interview Quick Reference](#interview-quick-reference)
+14. [Notecard Summary](#notecard-summary)
 
 ---
 
@@ -392,3 +394,44 @@ Table.NestedJoin(
     "CustomerDetails", JoinKind.LeftOuter
 )
 ```
+
+---
+
+## Interview Quick Reference
+
+### Formula Family -> Use Case
+
+| Need | Formula Family |
+|---|---|
+| Lookup key to return value | `XLOOKUP`, `INDEX` + `MATCH` |
+| Conditional counting/sum/avg | `COUNTIFS`, `SUMIFS`, `AVERAGEIFS` |
+| Dynamic filtered output | `FILTER`, `SORT`, `UNIQUE` |
+| Robust error handling | `IFERROR`, `IFNA` |
+| Date arithmetic | `EOMONTH`, `EDATE`, `NETWORKDAYS` |
+| Text cleanup/parse | `TRIM`, `SUBSTITUTE`, `TEXTJOIN`, `LEFT/RIGHT/MID` |
+
+### Formula Hygiene Checklist
+
+- Use absolute references for fixed ranges (`$A$2:$A$100`)
+- Prefer `XLOOKUP` over `VLOOKUP` for maintainability
+- Avoid deeply nested `IF`; use `IFS` or helper columns
+- Wrap risky lookups with `IFERROR`
+
+---
+
+## Notecard Summary
+
+Use this same card format across all cheatsheets:
+
+- `Prompt` is the front of the card.
+- `Answer` is the back of the card.
+- Review in 2 passes: quick recall, then explanation out loud.
+
+| Card | Prompt | Answer |
+|---|---|---|
+| 1 | Why is `XLOOKUP` preferred? | It supports left/right lookups, has built-in not-found fallback, and is less fragile than column-index lookups. |
+| 2 | What is the `SUMIFS` template? | `=SUMIFS(sum_range, criteria_range1, criteria1, criteria_range2, criteria2, ...)`. |
+| 3 | Why are dynamic arrays important? | `FILTER`/`UNIQUE`/`SORT` spill results automatically and reduce helper-column complexity. |
+| 4 | Why do copied formulas break? | Absolute/relative references are mis-anchored; fix with the correct `$` usage. |
+| 5 | Fast spreadsheet analysis flow? | Clean data -> helper columns -> aggregate (`SUMIFS`/pivot) -> validate totals -> present insights. |
+| 6 | Most reliable error guard in formulas? | Wrap risky lookups/calculations with `IFERROR` (or `IFNA` when only #N/A should be handled). |

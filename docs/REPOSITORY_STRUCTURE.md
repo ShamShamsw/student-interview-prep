@@ -6,6 +6,7 @@ Overview of how the project is organized and where to find things.
 student-interview-prep/
 │
 ├── languages/                         # All coding content
+│   ├── README.md                      # Language tracks overview
 │   ├── python/
 │   │   ├── problems/                  # 35+ coding problems
 │   │   │   ├── 01-two-sum.md          # Problem descriptions (.md)
@@ -13,14 +14,21 @@ student-interview-prep/
 │   │   │   ├── 35-coin-change.md
 │   │   │   ├── solutions/             # Solution files (.py)
 │   │   │   └── tests/                 # Test files + harness
+│   │   ├── beginner-projects/         # Guided beginner builds (numbered folders)
+│   │   ├── mini-projects/             # Short implementation projects
 │   │   └── projects/                  # Practical projects
+│   │       ├── README.md
 │   │       ├── sample-to-do-app/
 │   │       ├── study-session-tracker/
+│   │       ├── data-science-capstone/
 │   │       ├── interview-patterns-api/
 │   │       └── interview-prep-capstone/
-│   └── javascript/
+│   ├── javascript/
 │       ├── solutions/                 # JS solutions (2 available)
 │       └── tests/                     # Jest test files
+│   └── sql/
+│       ├── README.md
+│       └── problems/                  # SQL interview problems
 │
 ├── learn/                             # Learning materials
 │   ├── guides/                        # Step-by-step guides
@@ -38,7 +46,9 @@ student-interview-prep/
 │   │   ├── 04-backend.md
 │   │   ├── 05-fullstack.md
 │   │   ├── 06-advanced.md
-│   │   └── 07-interview-preparation-guide.md
+│   │   ├── 07-interview-preparation-guide.md
+│   │   ├── 08-data-science.md
+│   │   └── 09-data-engineering.md
 │   ├── paths/                         # Structured learning tracks
 │   │   ├── LEARNING_PATH.md           # 8-week & 12-week plans
 │   │   ├── LEARNING_PATH_CHECKLIST.md # Progress checklist
@@ -72,7 +82,7 @@ student-interview-prep/
 │   └── Dockerfile
 │
 ├── .github/                           # GitHub configuration
-│   ├── workflows/                     # CI/CD (6 workflows)
+│   ├── workflows/                     # CI/CD workflows
 │   ├── ISSUE_TEMPLATE/                # Issue templates (4)
 │   ├── PULL_REQUEST_TEMPLATE.md
 │   ├── scripts/                       # CI helper scripts
@@ -107,6 +117,12 @@ student-interview-prep/
 - Browse: [languages/python/problems/](../languages/python/problems/)
 - Solutions: [languages/python/problems/solutions/](../languages/python/problems/solutions/)
 - Test: `pytest languages/python/problems/tests/test_01_two_sum.py`
+
+**Choose a language track:**
+- Overview: [languages/README.md](../languages/README.md)
+- Python: [languages/python/README.md](../languages/python/README.md)
+- JavaScript: [languages/javascript/README.md](../languages/javascript/README.md)
+- SQL: [languages/sql/README.md](../languages/sql/README.md)
 
 **Build projects:**
 - All projects: [languages/python/projects/](../languages/python/projects/)

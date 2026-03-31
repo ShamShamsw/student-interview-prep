@@ -21,6 +21,8 @@
 13. [Analytics Patterns](#analytics-patterns)
 14. [Performance & Indexing Notes](#performance--indexing-notes)
 15. [Dialect Differences](#dialect-differences)
+16. [Interview Quick Reference](#interview-quick-reference)
+17. [Notecard Summary](#notecard-summary)
 
 ---
 
@@ -695,3 +697,45 @@ EXPLAIN SELECT ...;
 | Full outer join | ✓ | ✗ (simulate) | ✗ (simulate) | ✓ | ✓ |
 | Window functions | ✓ | ✓ (v8+) | ✓ (v3.25+) | ✓ | ✓ |
 | Recursive CTEs | ✓ | ✓ (v8+) | ✓ | ✓ | ✓ |
+
+---
+
+## Interview Quick Reference
+
+### Problem Signal -> SQL Pattern
+
+| Signal | Pattern |
+|---|---|
+| "Top N per group" | `ROW_NUMBER()`/`DENSE_RANK()` in CTE, then filter |
+| "Previous/next row" | `LAG()` / `LEAD()` |
+| "Running total" | `SUM(...) OVER (ORDER BY ...)` |
+| "Retention/cohort" | CTEs + period offset + group by cohort |
+| "Deduplicate keep latest" | `ROW_NUMBER() OVER (PARTITION BY key ORDER BY updated_at DESC)` |
+| "No match in other table" | `LEFT JOIN ... WHERE right.id IS NULL` |
+
+### Query Review Checklist
+
+- Filters in `WHERE`, grouped filters in `HAVING`
+- `NULL` comparisons use `IS NULL` / `IS NOT NULL`
+- Avoid `SELECT *` in interview final answer
+- Validate duplicate explosion after joins
+- Add `ORDER BY` for deterministic output
+
+---
+
+## Notecard Summary
+
+Use this same card format across all cheatsheets:
+
+- `Prompt` is the front of the card.
+- `Answer` is the back of the card.
+- Review in 2 passes: quick recall, then explanation out loud.
+
+| Card | Prompt | Answer |
+|---|---|---|
+| 1 | What is SQL execution order? | `FROM` -> `WHERE` -> `GROUP BY` -> `HAVING` -> `SELECT` -> `ORDER BY` -> `LIMIT`. |
+| 2 | `WHERE` vs `HAVING`? | `WHERE` filters rows before grouping; `HAVING` filters grouped results after aggregation. |
+| 3 | `ROW_NUMBER` vs `RANK` vs `DENSE_RANK`? | `ROW_NUMBER` is unique, `RANK` has tie gaps, `DENSE_RANK` has no tie gaps. |
+| 4 | Safe percentage formula? | Use `metric / NULLIF(denominator, 0)` to avoid divide-by-zero errors. |
+| 5 | How do I find non-matching rows? | Use anti-join pattern: `LEFT JOIN` then `WHERE right_key IS NULL`. |
+| 6 | First performance improvements? | Select fewer columns, index filter/join keys, and rewrite correlated subqueries when possible. |

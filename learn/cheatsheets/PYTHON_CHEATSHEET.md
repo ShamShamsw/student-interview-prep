@@ -46,6 +46,8 @@
 38. [Type Hints](#type-hints)
 39. [Common Interview Gotchas](#common-interview-gotchas)
 40. [Complexity Reference Table](#complexity-reference-table)
+41. [Interview Quick Reference](#interview-quick-reference)
+42. [Notecard Summary](#notecard-summary)
 
 ---
 
@@ -3089,3 +3091,56 @@ def modify(lst):
 ---
 
 > **Remember:** In interviews, always clarify constraints first, think aloud, and start with brute force before optimizing. Test your code with edge cases: empty input, single element, duplicates, negative numbers, and very large inputs.
+
+---
+
+## Interview Quick Reference
+
+### Problem Type -> First Pattern To Try
+
+| Signal | First Pattern |
+|---|---|
+| Pair/triplet in array | Hash map, then two pointers (if sorted) |
+| Contiguous subarray/substring | Sliding window |
+| Sorted input + target search | Binary search or bisect |
+| Top-k / frequent items | Heap or Counter + bucket ideas |
+| Parentheses / undo behavior | Stack |
+| Connected components | DFS/BFS |
+| Best path with weights >= 0 | Dijkstra |
+| "Choose / skip" optimization | Dynamic programming |
+
+### Fast Complexity Targets
+
+- Array/hash/string scans: target O(n)
+- Comparison sorting tasks: target O(n log n)
+- Tree/graph traversals: target O(V + E)
+- Avoid accidental O(n^2) nested scans when a hash map can help
+
+### Edge Case Checklist
+
+- Empty input
+- Single element
+- Duplicates
+- Negative values and zero
+- Already sorted / reverse sorted
+- Very large input size
+
+---
+
+## Notecard Summary
+
+Use this same card format across all cheatsheets:
+
+- `Prompt` is the front of the card.
+- `Answer` is the back of the card.
+- Review in 2 passes: quick recall, then explanation out loud.
+
+| Card | Prompt | Answer |
+|---|---|---|
+| 1 | When do I use a hash map? | Use it when you need O(1) membership/count/first-seen index lookups while scanning once. |
+| 2 | Fixed vs variable sliding window? | Fixed window when size `k` is given; variable window when a validity condition must be maintained. |
+| 3 | Best use case for two pointers? | Sorted arrays/strings, pair constraints, partitioning, and palindrome checks. |
+| 4 | What is the binary-search invariant? | Maintain that the answer remains in `[l, r]` and shrink using a monotonic condition. |
+| 5 | DFS or BFS? | DFS for recursion/backtracking structure; BFS for shortest path in unweighted graphs/level traversal. |
+| 6 | What is a DP state? | The smallest information needed to describe a subproblem and define transitions. |
+| 7 | Safe interview coding flow? | Clarify constraints -> brute force -> optimize -> code -> edge-case test -> complexity summary. |

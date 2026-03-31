@@ -1,103 +1,84 @@
 # JavaScript Interview Prep
 
-Welcome to the JavaScript section! This contains coding problems implemented in JavaScript, perfect for:
-- **Frontend developers** preparing for technical interviews
-- **Full-stack engineers** who prefer JavaScript
-- **Node.js developers** practicing algorithms
-- Anyone learning algorithms in JavaScript
+This track contains JavaScript interview problem solutions with Jest tests.
 
-## Current Status
+It is best for:
+- Frontend engineers preparing for coding interviews
+- Full-stack developers who want JavaScript-first practice
+- Node.js learners building algorithm fluency
 
-> **This section is a work in progress.** We have 2 of 35 problems ported from the Python section so far. Contributions welcome — see [CONTRIBUTING.md](../../CONTRIBUTING.md) for how to add more solutions and tests.
+## Current Coverage
+
+This track is currently partial.
 
 | Problem | Solution | Tests |
 |---------|----------|-------|
-| 01 — Two Sum | ✅ | ✅ |
-| 15 — Valid Palindrome | ✅ | ✅ |
-| 02–14, 16–35 | ❌ Not yet ported | ❌ |
+| 01-two-sum | Yes | Yes |
+| 15-valid-palindrome | Yes | Yes |
+| Remaining problems | Not yet ported | Not yet ported |
 
-## 🚀 Quick Start
+To help port additional problems, see [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
-### Prerequisites
-- Node.js 16+ installed
-- npm or yarn
+## Quick Start
 
-### Setup
+Prerequisites:
+- Node.js 16+
+- npm
+
+From [languages/javascript](./):
 
 ```bash
-# Install dependencies
 npm install
-
-# Run tests
 npm test
+```
 
-# Run specific test
+Useful commands:
+
+```bash
+# Run one test file
 npm test -- 01-two-sum
 
-# Run with coverage
+# Coverage
 npm run test:coverage
-```
 
-## 📁 Structure
-
-```
-languages/javascript/
-├── README.md (this file)
-├── package.json
-├── jest.config.js
-├── .eslintrc.js
-├── solutions/
-│   ├── 01-two-sum.js
-│   └── 15-valid-palindrome.js
-└── tests/
-    ├── 01-two-sum.test.js
-    └── 15-valid-palindrome.test.js
-```
-
-## 💻 Coding Style
-
-We follow the **Airbnb JavaScript Style Guide** with ESLint:
-
-```bash
-# Check code style
+# Lint and auto-fix
 npm run lint
-
-# Auto-fix issues
 npm run lint:fix
 ```
 
-## 🧪 Testing
+## Folder Structure
 
-Tests are written using **Jest**:
-
-```javascript
-// Example test structure
-describe('Problem: Two Sum', () => {
-  test('should return correct indices', () => {
-    expect(twoSum([2, 7, 11, 15], 9)).toEqual([0, 1]);
-  });
-});
+```text
+languages/javascript/
+  solutions/    # Problem implementations (NN-problem-name.js)
+  tests/        # Jest tests (NN-problem-name.test.js)
+  package.json  # Scripts and dependencies
 ```
 
-## 🎯 Tips for JavaScript Solutions
+## Workflow For Adding A Problem
 
-1. **Use modern ES6+ features**: Arrow functions, destructuring, spread operator
-2. **Prefer `const` and `let`** over `var`
-3. **Use built-in methods**: `map()`, `filter()`, `reduce()`
-4. **Handle edge cases**: `null`, `undefined`, empty arrays
-5. **Write clean code**: Meaningful variable names, comments for complex logic
+1. Create a solution file in `solutions/` named `NN-problem-name.js`.
+2. Export a single function matching the problem requirement.
+3. Create a matching Jest file in `tests/` named `NN-problem-name.test.js`.
+4. Add at least 5 test cases:
+   - Normal case
+   - Edge case
+   - Duplicate/value-collision case (if relevant)
+   - Empty/minimum input case
+   - Large input or stress-style case
+5. Add JSDoc for time and space complexity.
+6. Run `npm test` and `npm run lint` before opening a PR.
 
-## 🤝 Contributing
+## Solution Quality Checklist
 
-Want to add more JavaScript solutions? We'd love the help! Each contribution needs:
-1. A solution file in `solutions/` following the naming pattern (`NN-problem-name.js`)
-2. A test file in `tests/` with at least 5 test cases (`NN-problem-name.test.js`)
-3. JSDoc comments with time/space complexity
+- Uses `const`/`let` (no `var`)
+- Handles invalid/empty input safely
+- Avoids mutation unless required
+- Includes clear variable names and concise logic
+- Complexity is documented and accurate
 
-See the existing solutions for examples, and [CONTRIBUTING.md](../../CONTRIBUTING.md) for full guidelines.
+## Reference
 
-## 🔗 Resources
-
-- [MDN JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [JavaScript.info](https://javascript.info/)
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)

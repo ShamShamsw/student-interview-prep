@@ -1,4 +1,3 @@
-```markdown
 # Beginner Start Here
 
 If you are new to IT, open source, and coding projects, use this file first.
@@ -69,6 +68,12 @@ Before you dive into problems, read [CAREER_PATHS.md](CAREER_PATHS.md) for a pla
 - Use the [Interview Questions](../interview-questions/README.md) collection for categorized interview practice.
 - Practice answering 2 questions out loud after each coding session.
 
+## Quick companion resources
+
+- [Python Cheatsheet](../cheatsheets/PYTHON_CHEATSHEET.md) for syntax and pattern quick references.
+- [FAQ](FAQ.md) for common setup and workflow issues.
+- [IDE Setup Guide](IDE_SETUP_GUIDE.md) to configure formatting and test discovery.
+
 ## Beginner rules (anti-overwhelm)
 
 - One active goal per session.
@@ -83,5 +88,3 @@ Use [../paths/LEARNING_PATH.md](../paths/LEARNING_PATH.md) section **"Stuck? Tro
 ## Next after week 2
 
 Move into the 12-week track milestones in [../paths/LEARNING_PATH.md](../paths/LEARNING_PATH.md).
-
-```

@@ -127,6 +127,12 @@ black .
 
 ## 📚 Learning Path
 
+### Choose Your Language Track
+1. [Languages Overview](../languages/README.md)
+2. [Python Track](../languages/python/README.md) (recommended first)
+3. [JavaScript Track](../languages/javascript/README.md)
+4. [SQL Track](../languages/sql/README.md)
+
 ### For Beginners
 1. Read the [Beginner's Guide](../learn/guides/BEGINNER_START_HERE.md)
 2. Follow the [Learning Path](../learn/paths/LEARNING_PATH.md)

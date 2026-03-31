@@ -1,4 +1,3 @@
-```markdown
 # Interview Questions
 
 > **This file has been replaced by a full categorized question bank.**
@@ -13,4 +12,7 @@
 > - Fullstack
 > - Advanced / System Design
 
-```
+Quick links:
+
+- [Question Bank Index](../interview-questions/README.md)
+- [Mock Interview Guide](MOCK_INTERVIEW_GUIDE.md)

@@ -2,6 +2,30 @@
 
 Not sure which direction to go? This guide breaks down the most common software / data careers so you can make an informed choice before investing months of study time.
 
+## Who this guide is for
+
+- Students and career-switchers deciding their first technical path
+- Early-career professionals comparing role expectations
+- Anyone who wants role-specific interview prep direction
+
+## Quick start (10 minutes)
+
+1. Skim the "Good fit if you..." bullets for each role.
+2. Pick your top 2 roles (not just 1).
+3. Open each role's "Getting started in this repo" links.
+4. Follow one track for 2 weeks before re-evaluating.
+
+### Fast role selection matrix
+
+| If you enjoy... | Start with... |
+|---|---|
+| Building visible UI and interactions | Frontend |
+| APIs, databases, and backend logic | Backend |
+| End-to-end product ownership | Fullstack |
+| Statistics, analysis, and model insights | Data Science |
+| Pipelines, warehouses, and data reliability | Data Engineering |
+| Infrastructure, deployment, and automation | DevOps / Cloud |
+
 ---
 
 ## How to use this guide
@@ -1272,3 +1296,11 @@ These habits apply throughout your career, not just during job searching:
 2. Open the matching interview questions file to see what skills are expected
 3. Follow the [Learning Path](../paths/LEARNING_PATH.md) for your track
 4. Build one project from the [mini-projects](../../languages/python/mini-projects/) or [projects](../../languages/python/projects/) directories
+
+## If You Are Still Unsure
+
+Run this tie-breaker:
+
+1. Choose one role with highest interest and one role with highest salary potential.
+2. Spend one week doing beginner tasks from each role.
+3. Keep the role where your energy is higher after the work session, not before it.

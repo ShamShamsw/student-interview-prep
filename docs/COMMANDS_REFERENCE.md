@@ -75,6 +75,31 @@ pytest --benchmark-only --benchmark-json=benchmark.json
 pytest --benchmark-compare
 ```
 
+### JavaScript Tests
+
+```powershell
+# From languages\javascript
+npm install
+npm test
+
+# Run one problem test
+npm test -- 01-two-sum
+
+# Coverage and lint
+npm run test:coverage
+npm run lint
+```
+
+### SQL Practice (Quick Checks)
+
+```powershell
+# Verify SQLite is available via Python
+python -c "import sqlite3; print('SQLite available')"
+
+# If PostgreSQL is installed
+psql -U postgres
+```
+
 ---
 
 ## 🎨 Code Formatting & Linting

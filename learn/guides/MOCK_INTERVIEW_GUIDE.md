@@ -1,4 +1,3 @@
-````markdown
 # Mock Interview Guide
 
 Practice realistic interview sessions to build confidence and identify gaps before real interviews.
@@ -176,4 +175,8 @@ Log every session in your [../paths/LEARNING_PATH_CHECKLIST.md](../paths/LEARNIN
 4. Practice that specific skill in your next 3 study sessions
 5. Run another mock and measure improvement
 
-````
+## Quick Prep References
+
+- [Interview Question Bank](../interview-questions/README.md)
+- [Python Cheatsheet](../cheatsheets/PYTHON_CHEATSHEET.md)
+- [Weekly Confidence Check](../checklists/WEEKLY_CONFIDENCE_CHECK.md)

@@ -26,6 +26,8 @@
 18. [scikit-learn Quick Reference](#scikit-learn-quick-reference)
 19. [Common Interview Patterns](#common-interview-patterns)
 20. [Complexity & Performance Notes](#complexity--performance-notes)
+21. [Interview Quick Reference](#interview-quick-reference)
+22. [Notecard Summary](#notecard-summary)
 
 ---
 
@@ -747,3 +749,52 @@ df["department"] = df["department"].astype("category")
 df.to_parquet("data.parquet", index=False)
 df = pd.read_parquet("data.parquet")
 ```
+
+---
+
+## Interview Quick Reference
+
+### pandas Actions You Should Recall Instantly
+
+| Task | Fast Command |
+|---|---|
+| Filter rows | `df.loc[mask]` or `df.query("...")` |
+| Group and aggregate | `df.groupby(keys).agg(...)` |
+| Join two datasets | `left.merge(right, on="key", how="left")` |
+| Pivot summary | `pd.pivot_table(...)` |
+| Handle missing values | `df.fillna(...)`, `df.dropna(...)` |
+| Sort rows | `df.sort_values(cols)` |
+| Compute per-group metric | `groupby(...).transform(...)` |
+
+### Model Evaluation Quick Map
+
+- Regression: MAE, RMSE, R^2
+- Classification: accuracy, precision, recall, F1, ROC-AUC
+- Split first, then preprocess to avoid leakage
+
+### Data Quality Checklist
+
+- Missing values audited
+- Duplicate rows checked
+- Datatypes validated
+- Outliers reviewed
+- Train/test leakage prevented
+
+---
+
+## Notecard Summary
+
+Use this same card format across all cheatsheets:
+
+- `Prompt` is the front of the card.
+- `Answer` is the back of the card.
+- Review in 2 passes: quick recall, then explanation out loud.
+
+| Card | Prompt | Answer |
+|---|---|---|
+| 1 | When do I use `transform` instead of `agg`? | `agg` reduces rows; `transform` keeps the original row count for per-row group-derived features. |
+| 2 | Most common `merge` joins? | `left` keeps all left rows, `inner` keeps matched rows only, `outer` keeps all rows from both sides. |
+| 3 | Biggest modeling pitfall? | Data leakage: never fit scalers/encoders on full data before split; fit on train, transform train/test. |
+| 4 | First decision for nulls? | Decide drop vs impute by impact, then use median/mode/domain-aware logic and document assumptions. |
+| 5 | Best metric for imbalanced classification? | Prefer precision, recall, F1, or PR-AUC instead of raw accuracy. |
+| 6 | Strong interview explanation structure? | Problem -> data quality -> method -> metric result -> business meaning -> limitations/next step. |

@@ -2,6 +2,19 @@
 
 > Concise reference notes on statistical foundations, machine learning theory, and the data science process. Designed for interview preparation and concept review.
 
+## Who this guide is for
+
+- Data-science interview candidates (intern to mid-level)
+- Analysts transitioning into predictive modeling
+- Engineers who need a theory refresher before practical work
+
+## Quick start (30-minute path)
+
+1. Read `The Data Science Process` and `Model Evaluation Metrics` first.
+2. Skim `Common Traps & Mistakes` to avoid interview pitfalls.
+3. Jump to `Recommended Libraries & Tools` for execution setup.
+4. Use [../cheatsheets/DATA_SCIENCE_CHEATSHEET.md](../cheatsheets/DATA_SCIENCE_CHEATSHEET.md) for implementation syntax.
+
 ---
 
 ## Table of Contents
@@ -18,6 +31,8 @@
 10. [Data Cleaning Workflow](#data-cleaning-workflow)
 11. [Common Traps & Mistakes](#common-traps--mistakes)
 12. [Recommended Libraries & Tools](#recommended-libraries--tools)
+13. [Interview Readiness Checklist](#interview-readiness-checklist)
+14. [Next Steps In This Repo](#next-steps-in-this-repo)
 
 ---
 
@@ -398,3 +413,21 @@ X_test_s  = scaler.transform(X_test)        # apply transformation to test
 | `ydata-profiling` | Automated EDA reports | `pip install ydata-profiling` |
 | `openpyxl` | Read/write Excel files | `pip install openpyxl` |
 | `polars` | Fast alternative to pandas | `pip install polars` |
+
+---
+
+## Interview Readiness Checklist
+
+- I can explain bias-variance tradeoff in under 60 seconds.
+- I can justify metric choice for both balanced and imbalanced data.
+- I can describe leakage and how to prevent it in a pipeline.
+- I can explain at least one tree model and one linear model tradeoff.
+- I can map a business goal to a measurable model objective.
+
+## Next Steps In This Repo
+
+1. Practice syntax in [../cheatsheets/DATA_SCIENCE_CHEATSHEET.md](../cheatsheets/DATA_SCIENCE_CHEATSHEET.md).
+2. Solve role-specific questions in [../interview-questions/08-data-science.md](../interview-questions/08-data-science.md).
+3. Build one project from:
+      - [../../languages/python/mini-projects/07-exploratory-data-analysis/README.md](../../languages/python/mini-projects/07-exploratory-data-analysis/README.md)
+      - [../../languages/python/projects/data-science-capstone/README.md](../../languages/python/projects/data-science-capstone/README.md)

@@ -2,14 +2,14 @@
 
 Structured query language practice for technical interviews — from basic SELECTs to advanced window functions and query optimization.
 
-## Why SQL Matters in Interviews
+## Why This Track Matters
 
 SQL appears in backend, data engineering, fullstack, and even some frontend interviews. Employers test it because:
 - Every production application stores data — you'll interact with databases constantly
 - SQL skills reveal how you think about data relationships and efficiency
 - Many "algorithmic" problems have elegant SQL solutions
 
-## Current Problems
+## Problem Set
 
 | # | Problem | Difficulty | Topics |
 |---|---------|------------|--------|
@@ -28,25 +28,34 @@ SQL appears in backend, data engineering, fullstack, and even some frontend inte
 | 13 | [Running Total & Percentile](problems/13-running-total-percentile.md) | Medium | SUM OVER, NTILE, PERCENT_RANK |
 | 14 | [Funnel Conversion Rates](problems/14-funnel-conversion.md) | Medium | Conditional aggregation, CASE WHEN |
 
-## How to Practice
+## Quick Start
 
-You can practice these problems using any of these tools:
+Pick one environment and run each problem query there.
 
-1. **SQLite** (simplest — comes with Python):
-   ```bash
-   python -c "import sqlite3; print('SQLite is available')"
-   sqlite3 practice.db < setup.sql
-   ```
+Option 1: SQLite (fastest local setup)
 
-2. **PostgreSQL** (recommended for interview realism):
-   ```bash
-   psql -U postgres -f setup.sql
-   ```
+```bash
+python -c "import sqlite3; print('SQLite available')"
+```
 
-3. **Online playgrounds**:
-   - [DB Fiddle](https://www.db-fiddle.com/)
-   - [SQLite Online](https://sqliteonline.com/)
-   - [LeetCode Database Problems](https://leetcode.com/problemset/database/)
+Option 2: PostgreSQL (closest to common interview environments)
+
+```bash
+psql -U postgres
+```
+
+Option 3: Online playground
+- [DB Fiddle](https://www.db-fiddle.com/)
+- [SQLite Online](https://sqliteonline.com/)
+- [LeetCode Database Problems](https://leetcode.com/problemset/database/)
+
+## Practice Workflow
+
+1. Read one problem from `problems/`.
+2. Write your query without checking the solution.
+3. Validate output shape first (column names, row count, ordering).
+4. Optimize readability with CTEs and clear aliases.
+5. Compare against the provided solution and note differences.
 
 ## Key SQL Concepts for Interviews
 
@@ -71,7 +80,7 @@ You can practice these problems using any of these tools:
 - `EXPLAIN` / query plans
 - Indexing strategies
 
-## Contributing
+## Contribution Checklist
 
 See [CONTRIBUTING.md](../../CONTRIBUTING.md). Each SQL problem should include:
 1. Problem description and sample data

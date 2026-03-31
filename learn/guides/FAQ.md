@@ -1,4 +1,3 @@
-````markdown
 # Frequently Asked Questions (FAQ)
 
 Quick answers to common questions about using this repository.
@@ -7,7 +6,7 @@ Quick answers to common questions about using this repository.
 
 ### Q: I'm completely new to coding. Where do I start?
 
-Start with [../guides/BEGINNER_START_HERE.md](BEGINNER_START_HERE.md). Follow the Week 1 daily plan exactly. Don't skip ahead or try to do multiple things at once.
+Start with [BEGINNER_START_HERE.md](BEGINNER_START_HERE.md). Follow the Week 1 daily plan exactly. Do not skip ahead or try to do multiple things at once.
 
 ### Q: What programming language should I learn first?
 
@@ -31,6 +30,16 @@ python --version
 
 See [../guides/IDE_SETUP_GUIDE.md](../guides/IDE_SETUP_GUIDE.md) for detailed setup instructions.
 
+### Q: Where are interview questions organized by role?
+
+Use [../interview-questions/README.md](../interview-questions/README.md). It links behavioral, frontend, backend, fullstack, data science, and data engineering sets.
+
+### Q: Where can I do quick revision before interviews?
+
+Use the cheatsheets in [../cheatsheets/](../cheatsheets/). Each one includes:
+- `Interview Quick Reference`
+- `Notecard Summary` (standardized `Card` / `Prompt` / `Answer` format)
+
 ---
 
 ## Contributing
@@ -52,5 +61,3 @@ See [../guides/IDE_SETUP_GUIDE.md](../guides/IDE_SETUP_GUIDE.md) for detailed se
 - [Open a question issue](https://github.com/ShamShamsw/student-interview-prep/issues/new?template=question.yml)
 
 Happy learning! 🚀
-
-````

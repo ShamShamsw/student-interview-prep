@@ -1,4 +1,3 @@
-````markdown
 # IDE Setup Guide
 
 Get your development environment configured for the best learning experience.
@@ -57,4 +56,43 @@ Create or edit your settings (`Ctrl+,` or File → Preferences → Settings):
 
 ---
 
-````
+## Verify Your Setup
+
+From the repository root, run:
+
+```powershell
+python --version
+python scripts/verify_setup.py
+pytest languages/python/problems/tests/test_core_algorithms.py
+```
+
+If these pass, your editor and environment are ready.
+
+---
+
+## Optional Extensions
+
+- `ms-toolsai.jupyter` for notebook workflows.
+- `eamodio.gitlens` for Git history and blame context.
+- `charliermarsh.ruff` for fast Python linting integration.
+
+---
+
+## Common IDE Issues
+
+### Tests not discovered
+
+- Ensure `python.testing.pytestEnabled` is `true`.
+- Reload VS Code after selecting the Python interpreter.
+- Run `Python: Discover Tests` from the command palette.
+
+### Wrong interpreter selected
+
+- Open command palette -> `Python: Select Interpreter`.
+- Pick your project environment (e.g., `.venv`).
+
+### Formatting not running on save
+
+- Confirm `editor.formatOnSave` is enabled.
+- Ensure Black is installed in the active environment.
+- Run manual check: `black --check .`

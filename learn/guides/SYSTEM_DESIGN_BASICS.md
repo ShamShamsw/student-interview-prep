@@ -1,4 +1,3 @@
-````markdown
 # System Design Basics (Beginner-Friendly)
 
 Learn the fundamentals of designing scalable systems — essential for many technical interviews.
@@ -42,7 +41,8 @@ System design is about architecting software systems to meet specific requiremen
    - Pick 2-3 components to discuss in detail
    - Explain API contracts, data models, algorithms
 
-4. **Bottlenecks and scaling (10 min)**n+   - "What breaks first when traffic increases?"
+4. **Bottlenecks and scaling (10 min)**
+   - "What breaks first when traffic increases?"
    - Propose solutions: caching, load balancing, replication
 
 ---
@@ -328,5 +328,3 @@ Practice thinking through these designs. Don't worry about getting them perfect 
 - [Grokking System Design](https://www.designgurus.io/course/grokking-the-system-design-interview) — structured interview prep course
 - [Designing Data-Intensive Applications](https://dataintensive.net/) — the definitive book on distributed systems
 - [High Scalability Blog](http://highscalability.com/) — real-world architecture case studies
-
-````
