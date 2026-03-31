@@ -14,6 +14,21 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  docs-checks:
+    name: Docs · Consistency Checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run docs consistency checks
+        run: python .github/scripts/check_docs_consistency.py
+
   lint:
     name: Lint & Format
     runs-on: ubuntu-latest
@@ -104,6 +119,50 @@ jobs:
         with:
           files: ./coverage.xml
           fail_ci_if_error: false
+
+  test-scripts:
+    name: Scripts · Python 3.11
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+
+      - name: Run script tests
+        run: pytest -q -ra --no-cov tests/scripts/
+
+  mypy:
+    name: Type Check · Mypy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+
+      - name: Install mypy
+        run: |
+          python -m pip install --upgrade pip
+          pip install mypy
+
+      - name: Run mypy on automation scripts
+        run: mypy --ignore-missing-imports scripts .github/scripts
 
   test-api-project:
     name: API Project · Python ${{ matrix.python-version }}

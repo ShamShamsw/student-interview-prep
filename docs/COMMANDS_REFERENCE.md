@@ -13,7 +13,7 @@ Quick reference for all common development commands. Copy and paste as needed!
 # Or manual setup
 pip install -r requirements-dev.txt
 pre-commit install
-python scripts\verify_setup.py
+python scripts/verify_setup.py
 ```
 
 ---
@@ -26,11 +26,14 @@ python scripts\verify_setup.py
 # Run all tests
 pytest
 
+# Run script utility tests (CI-aligned)
+pytest --no-cov tests/scripts
+
 # Run tests in a specific directory
-pytest languages\python\problems\tests
+pytest languages/python/problems/tests
 
 # Run a specific test file
-pytest languages\python\problems\tests\test_01_two_sum.py
+pytest languages/python/problems/tests/test_01_two_sum.py
 
 # Run tests matching a pattern
 pytest -k "two_sum"
@@ -56,10 +59,10 @@ pytest --cov=languages --cov-report=term
 
 # Generate HTML coverage report
 pytest --cov=languages --cov-report=html
-# Open: htmlcov\index.html
+# Open: htmlcov/index.html
 
 # Generate coverage for specific module
-pytest --cov=languages\python\problems --cov-report=term-missing
+pytest --cov=languages/python/problems --cov-report=term-missing
 ```
 
 ### Benchmarks
@@ -78,7 +81,7 @@ pytest --benchmark-compare
 ### JavaScript Tests
 
 ```powershell
-# From languages\javascript
+# From languages/javascript
 npm install
 npm test
 
@@ -114,7 +117,7 @@ black --check .
 black .
 
 # Format specific file
-black languages\python\problems\solutions\01-two-sum.py
+black languages/python/problems/solutions/01-two-sum.py
 
 # Show what would be formatted (dry run)
 black --diff .
@@ -130,7 +133,7 @@ ruff check .
 ruff check . --fix
 
 # Check specific file
-ruff check languages\python\problems\solutions\01-two-sum.py
+ruff check languages/python/problems/solutions/01-two-sum.py
 
 # Show all violations (even passed)
 ruff check . --verbose
@@ -143,7 +146,7 @@ ruff check . --verbose
 flake8 .
 
 # Lint specific directory
-flake8 languages\python\problems
+flake8 languages/python/problems
 
 # Show statistics
 flake8 . --statistics --count
@@ -155,14 +158,21 @@ flake8 . --max-line-length=100
 ### MyPy (Type Checker)
 
 ```powershell
-# Type check all files
-mypy .
+# Type check automation scripts (matches CI)
+mypy --ignore-missing-imports scripts .github/scripts
 
 # Type check specific module
-mypy languages\python\problems
+mypy languages/python/problems
 
 # Strict mode
-mypy --strict languages\python\problems\solutions
+mypy --strict languages/python/problems/solutions
+```
+
+### Documentation Consistency
+
+```powershell
+# Validate markdown links and docs/REPOSITORY_STRUCTURE.md tree references
+python .github/scripts/check_docs_consistency.py
 ```
 
 ---
@@ -225,7 +235,7 @@ docker compose exec dev bash
 pytest
 black .
 ruff check .
-python languages\python\problems\solutions\01-two-sum.py
+python languages/python/problems/solutions/01-two-sum.py
 ```
 
 ### Container Management
@@ -253,8 +263,8 @@ docker stats
 pip install -r requirements-dev.txt
 
 # Install project dependencies
-pip install -r languages\python\projects\interview-patterns-api\requirements.txt
-pip install -r languages\python\projects\interview-prep-capstone\requirements.txt
+pip install -r languages/python/projects/interview-patterns-api/requirements.txt
+pip install -r languages/python/projects/interview-prep-capstone/requirements.txt
 
 # Update pip itself
 python -m pip install --upgrade pip
@@ -287,7 +297,7 @@ Get-ChildItem -Path . -Filter *.py -Recurse
 Select-String -Path .\**\*.py -Pattern "def two_sum"
 
 # Count lines of code
-(Get-Content .\languages\python\problems\solutions\*.py | Measure-Object -Line).Lines
+(Get-Content ./languages/python/problems/solutions/*.py | Measure-Object -Line).Lines
 ```
 
 ---
@@ -341,7 +351,7 @@ Remove-Item -Path dist -Recurse -Force -ErrorAction SilentlyContinue
 Get-ChildItem -Path . -Filter "*.egg-info" -Recurse | Remove-Item -Recurse -Force
 
 # Complete cleanup (all of the above)
-.\scripts\clean.ps1  # If you create this helper script
+./scripts/clean.ps1  # If you create this helper script
 ```
 
 ---
@@ -350,7 +360,7 @@ Get-ChildItem -Path . -Filter "*.egg-info" -Recurse | Remove-Item -Recurse -Forc
 
 ```powershell
 # Verify setup
-python scripts\verify_setup.py
+python scripts/verify_setup.py
 
 # Check Python version
 python --version
@@ -362,7 +372,7 @@ Get-Command python | Format-List *
 python
 
 # Run a Python file
-python languages\python\problems\solutions\01-two-sum.py
+python languages/python/problems/solutions/01-two-sum.py
 
 # Launch IPython (enhanced REPL)
 ipython

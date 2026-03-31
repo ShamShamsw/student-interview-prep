@@ -77,6 +77,19 @@ ruff check . --fix
 flake8 .
 ```
 
+### Run CI-Aligned Local Checks
+
+```powershell
+# Script utility tests
+pytest --no-cov tests/scripts/
+
+# Type checks for automation scripts
+mypy --ignore-missing-imports scripts .github/scripts
+
+# Documentation consistency checks
+python .github/scripts/check_docs_consistency.py
+```
+
 ### Work on Problems
 
 ```powershell

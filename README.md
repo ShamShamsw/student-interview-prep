@@ -173,10 +173,22 @@ pytest                              # Run all tests
 pytest --cov=./ --cov-report=html   # Coverage report
 ruff check .                        # Lint
 black .                             # Format
+mypy --ignore-missing-imports scripts .github/scripts  # Type checks for automation scripts
+pytest --no-cov tests/scripts/      # Script utility tests
+python .github/scripts/check_docs_consistency.py  # Docs links + repository structure checks
 python scripts/verify_setup.py      # Verify environment
 ```
 
 Pre-commit hooks auto-format and lint on every commit. See [Commands Reference](docs/COMMANDS_REFERENCE.md) for the full list and [Infrastructure Setup](docs/INFRASTRUCTURE_SETUP.md) for Docker and CI details.
+
+### CI Quality Gates
+
+The CI pipeline runs multiple quality gates on pull requests and pushes:
+
+- **Docs checks**: validates internal markdown links and repository structure references
+- **Linting**: Black, Flake8, Ruff
+- **Type checks**: mypy on `scripts/` and `.github/scripts/`
+- **Tests**: Python problem tests, script utility tests, JavaScript tests, API project tests, capstone tests
 
 ---
 

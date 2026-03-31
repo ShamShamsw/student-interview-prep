@@ -104,9 +104,19 @@ Run `make help` to see all available commands:
 The repository has several CI workflows:
 
 ### New Unified CI Workflow (`.github/workflows/ci.yml`)
+- **Docs checks**: validates internal markdown links and repository structure references
 - **Lint**: Runs Black, Flake8, and Ruff checks
-- **Test**: Runs problem tests, API project tests, and capstone tests on Python 3.10, 3.11, and 3.12
+- **Type checks**: runs mypy for `scripts/` and `.github/scripts/`
+- **Test**: Runs problem tests, script utility tests, API project tests, and capstone tests on Python 3.10, 3.11, and 3.12
 - **Coverage**: Uploads coverage to Codecov
+
+Local equivalents:
+
+```bash
+python .github/scripts/check_docs_consistency.py
+mypy --ignore-missing-imports scripts .github/scripts
+pytest --no-cov tests/scripts/
+```
 
 ### Other Workflows
 - `yaml-lint.yml` - YAML file validation
@@ -145,7 +155,11 @@ ruff check .
 
 ### MyPy (Type Checker)
 ```bash
-mypy .
+# CI-aligned type checks for automation scripts
+mypy --ignore-missing-imports scripts .github/scripts
+
+# Optional broader checks
+mypy languages/python/problems
 ```
 
 ## Coverage Reports

@@ -32,9 +32,13 @@ student-interview-prep/
 │
 ├── learn/                             # Learning materials
 │   ├── guides/                        # Step-by-step guides
+│   │   ├── ABOUT_THE_CREATOR.md       # Repository author background
 │   │   ├── BEGINNER_START_HERE.md     # 2-week beginner plan
+│   │   ├── CAREER_PATHS.md            # Career-track comparison guide
+│   │   ├── DATA_SCIENCE_GUIDE.md      # DS concepts, workflow, and interview prep
 │   │   ├── FAQ.md                     # Common questions
 │   │   ├── IDE_SETUP_GUIDE.md         # Editor configuration
+│   │   ├── INTERVIEW_QUESTIONS.md     # Interview question strategy guide
 │   │   ├── MOCK_INTERVIEW_GUIDE.md    # Interview practice
 │   │   └── SYSTEM_DESIGN_BASICS.md    # Architecture intro
 │   ├── interview-questions/           # Categorized interview questions
@@ -54,7 +58,10 @@ student-interview-prep/
 │   │   ├── LEARNING_PATH_CHECKLIST.md # Progress checklist
 │   │   └── ROADMAP.md                 # Project roadmap
 │   ├── cheatsheets/
-│   │   └── PYTHON_CHEATSHEET.md       # Patterns & complexity
+│   │   ├── PYTHON_CHEATSHEET.md       # Patterns & complexity
+│   │   ├── DATA_SCIENCE_CHEATSHEET.md # pandas, ML, and interview quick refs
+│   │   ├── SQL_ANALYTICS_CHEATSHEET.md # SQL analytics quick refs
+│   │   └── EXCEL_FORMULAS_CHEATSHEET.md # Excel quick refs for analyst prep
 │   ├── checklists/
 │   │   └── WEEKLY_CONFIDENCE_CHECK.md # Self-assessment
 │   └── resources/
@@ -77,6 +84,9 @@ student-interview-prep/
 │   ├── COMMANDS_REFERENCE.md          # Complete command reference
 │   ├── INFRASTRUCTURE_SETUP.md        # Dev environment details
 │   └── REPOSITORY_STRUCTURE.md        # This file
+│
+├── tests/                             # Repository-level tests
+│   └── scripts/                       # Utility and docs-checker test coverage
 │
 ├── docker/                            # Docker configuration
 │   └── Dockerfile
