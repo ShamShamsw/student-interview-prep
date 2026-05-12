@@ -1,19 +1,26 @@
-tech/news sources
-Ars Technica — in-depth tech analysis, usually solid for context and nuance.
-IEEE Spectrum — excellent for engineering-oriented coverage and emerging tech.
-MIT Technology Review — good for future-looking but still educational coverage.
-Wired (Tech section) — broad coverage, more editorial, but useful for trend awareness.
-The Verge (Tech section) — accessible coverage of product and platform trends.
-TechCrunch — useful for startup/product/news momentum, though more industry-news oriented.
-Developer / engineering-focused
-Stack Overflow Blog — good for developer trends, surveys, and practical observations.
-GitHub Blog — useful for open source, tooling, and developer ecosystem changes.
-ACM Queue — deep engineering content for architecture, systems, and software practice.
-Microsoft Research Blog — strong for technical research and applied innovation.
-Google AI Blog — useful for AI trends and research explanations.
-Standards / primary sources
-W3C — great for web standards and what may become important in the platform ecosystem.
-IETF RFCs / IETF Blog — ideal when you want to reference how internet protocols are evolving.
-Education / learning resources
-Khan Academy Computing — beginner-friendly and educational.
-Coursera / edX — good for structured learning and vendor-neutral background material.
+# Tech News Sources
+
+A curated list of high-quality sources for staying informed about technology, engineering, and emerging trends.
+
+## Tech News and Analysis
+- **Ars Technica** — In-depth tech analysis with strong context and nuance.
+- **IEEE Spectrum** — Excellent for engineering-focused coverage and emerging technologies.
+- **MIT Technology Review** — Thoughtful coverage of future-facing technology topics.
+- **Wired (Tech section)** — Broad tech coverage with an editorial perspective, useful for trend awareness.
+- **The Verge (Tech section)** — Accessible coverage of consumer tech, platforms, and industry trends.
+- **TechCrunch** — Useful for startup, product, and industry news.
+
+## Developer and Engineering-Focused Sources
+- **Stack Overflow Blog** — Insights into developer trends, surveys, and practical observations.
+- **GitHub Blog** — Updates on open source, tooling, and the developer ecosystem.
+- **ACM Queue** — Deep technical content on architecture, systems, and software practice.
+- **Microsoft Research Blog** — Research-driven articles on applied innovation and computing.
+- **Google AI Blog** — Coverage of AI research, trends, and explanations.
+
+## Standards and Primary Sources
+- **W3C** — Web standards and platform-related developments.
+- **IETF RFCs / IETF Blog** — Protocol evolution and internet standards.
+
+## Education and Learning Resources
+- **Khan Academy Computing** — Beginner-friendly learning resources.
+- **Coursera / edX** — Structured, vendor-neutral courses and background material.
