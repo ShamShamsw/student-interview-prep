@@ -24,3 +24,47 @@ A curated list of high-quality sources for staying informed about technology, en
 ## Education and Learning Resources
 - **Khan Academy Computing** — Beginner-friendly learning resources.
 - **Coursera / edX** — Structured, vendor-neutral courses and background material.
+
+## Additional Links
+
+| Source | Link |
+| --- | --- |
+| Ars Technica | https://arstechnica.com/ |
+| IEEE Spectrum | https://spectrum.ieee.org/ |
+| MIT Technology Review | https://www.technologyreview.com/ |
+| Wired | https://www.wired.com/category/business/ |
+| The Verge | https://www.theverge.com/tech |
+| TechCrunch | https://techcrunch.com/ |
+| Stack Overflow Blog | https://stackoverflow.blog/ |
+| GitHub Blog | https://github.blog/ |
+| ACM Queue | https://queue.acm.org/ |
+| Microsoft Research Blog | https://www.microsoft.com/en-us/research/blog/ |
+| Google AI Blog | https://ai.googleblog.com/ |
+| W3C | https://www.w3.org/ |
+| IETF RFCs | https://www.rfc-editor.org/ |
+| IETF Blog | https://www.ietf.org/blog/ |
+| Khan Academy Computing | https://www.khanacademy.org/computing |
+| Coursera | https://www.coursera.org/ |
+| edX | https://www.edx.org/ |
+
+## Writing Unbiased Responses and Good Questions
+
+When writing responses, aim to be fair, clear, and evidence-based. A good unbiased response:
+- Separates facts from opinions.
+- Acknowledges uncertainty when information is incomplete.
+- Presents multiple viewpoints when they are relevant.
+- Uses neutral, respectful language.
+- Avoids exaggeration, loaded wording, and assumptions.
+
+A good question is:
+- Specific and easy to understand.
+- Focused on one topic or outcome.
+- Clear about context, constraints, or goals.
+- Open enough to allow thoughtful answers when needed.
+
+A good response should:
+- Directly answer the question.
+- Be concise but complete.
+- Stay on topic.
+- Use examples or evidence when helpful.
+- Clarify ambiguous points instead of guessing.
